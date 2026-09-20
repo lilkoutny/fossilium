@@ -1,0 +1,37 @@
+name: Paläo-News aktualisieren
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # jeden Tag um 5:00 UTC (7:00 deutscher Sommerzeit)
+  workflow_dispatch:        # erlaubt manuellen Start über den "Actions"-Tab
+
+permissions:
+  contents: write
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests feedparser
+
+      - name: News holen und zusammenfassen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python hole_news.py
+
+      - name: news.json einchecken
+        run: |
+          git config user.name "fossilium-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet || git commit -m "Paläo-News vom $(date -u +%Y-%m-%d)"
+          git push
