@@ -1,19 +1,19 @@
 {
-  "stand": "2026-09-09",
   "meldungen": [
     {
-      "titel": "Beispielmeldung: So sehen deine News aus",
-      "zusammenfassung": "Dies ist ein Platzhalter. Sobald die GitHub-Action läuft, wird diese Datei jeden Morgen automatisch mit 3–4 frischen, KI-zusammengefassten Paläo-News überschrieben.",
-      "quelle": "Fossilium",
-      "url": "https://www.sciencedaily.com/news/fossils_ruins/dinosaurs/",
-      "datum": "2026-09-09"
+      "titel": "T. rex war warmblütig wie der Mensch",
+      "zusammenfassung": "Chemische Analysen von fossilisierten T. rex-Zähnen zeigen, dass der Dinosaurier eine Körpertemperatur von etwa 36 Grad Celsius hatte – fast identisch mit der menschlichen Körpertemperatur. Dies belegt direkt, dass der Raubsaurier warmblütig war, was erklärt, wie er aktiv bleiben und in kalten Umgebungen wie Alaska überleben konnte.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
+      "datum": "2026-09-19"
     },
     {
-      "titel": "Zweite Beispielmeldung",
-      "zusammenfassung": "Jede Meldung besteht aus Datum, Titel, einer kurzen Zusammenfassung in eigenen Worten und einem Link zur Originalquelle.",
-      "quelle": "Fossilium",
-      "url": "https://phys.org/biology-news/paleontology-fossils/",
-      "datum": "2026-09-09"
+      "titel": "Diplodocus erstmals außerhalb Nordamerikas gefunden",
+      "zusammenfassung": "In Spanien wurde das Fossil eines 150 Millionen Jahre alten Diplodocus entdeckt – der erste Fund dieser Gattung außerhalb Nordamerikas. Der 25 Meter lange Sauropode war so gut erhalten, dass Forscher charakteristische Merkmale in seinen Schwanzwirbeln dem bekannten Genus zuordnen konnten. Der Fund deutet darauf hin, dass Dinosaurier während des Oberjura zwischen den Kontinenten wanderten, möglicherweise über zeitweilige Landverbindungen.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
+      "datum": "2026-09-18"
     }
-  ]
+  ],
+  "stand": "2026-09-20"
 }
