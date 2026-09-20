@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fossilium – Das Lexikon der Dinosaurier</title>
+<!--
+  ============================================================
+  FOSSILIUM – Anleitung
+  ============================================================
+  1) DEINE BLENDER-BILDER EINFÜGEN:
+     Lege neben dieser HTML-Datei einen Ordner "bilder" an.
+     Speichere deine Renders z.B. als bilder/tyrannosaurus.png
+     Der Dateiname steht bei jedem Dino unten im Datenblock
+     (Feld "bild"). Solange kein Bild existiert, zeigt die
+     Seite automatisch einen Platzhalter an.
+
+  2) NEUEN DINO HINZUFÜGEN:
+     Scrolle zum Block "const DINOS = [" und kopiere einen
+     Eintrag. Passe Name, Fakten, Text und Koordinaten an.
+     lat/lon = Fundort → der Marker erscheint automatisch
+     auf der Weltkarte.
+  ============================================================
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --nacht:#151F1A;        /* Ausstellungssaal: dunkles Fichtengruen */
+    --vitrine:#1D2A23;      /* Paneele und Vitrinen */
+    --vitrine-hell:#27362D; /* Spot-Licht in der Vitrine */
+    --bein:#EAE3D2;         /* Text: Elfenbein */
+    --bein-blass:#A79E8B;
+    --messing:#C6A66C;      /* Messing der Rahmen und Plaketten */
+    --messing-tief:#8C7443;
+    --linie:rgba(198,166,108,.35);
+    --trias:#C87F52;
+    --jura:#8FAE7E;
+    --kreide:#8AA7C4;
+    --link:#D9C08C;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--nacht);
+    color:var(--bein);
+    font-family:"Jost",sans-serif;
+    font-size:17px;
+    line-height:1.65;
+  }
+  h1,h2,h3,.slab{font-family:"Cormorant Garamond",serif}
+  a{color:var(--link)}
+  img{max-width:100%;display:block}
+  button{font:inherit;cursor:pointer}
+
+  /* ---------- Kopf ---------- */
+  header{
+    border-bottom:1px solid var(--linie);
+    padding:26px 24px 20px;
+    display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 26px;
+    max-width:1200px;margin:0 auto;
+  }
+  .logo{font-family:"Cormorant Garamond",serif;font-size:40px;font-weight:600;letter-spacing:2px;cursor:pointer;line-height:1}
+  .logo span{color:var(--messing)}
+  .untertitel{color:var(--bein-blass);font-size:15px;letter-spacing:.4px}
+  header nav{margin-left:auto;display:flex;gap:22px}
+  header nav a{text-decoration:none;font-weight:400;font-size:16px;letter-spacing:.6px;color:var(--bein)}
+  header nav a:hover{color:var(--messing)}
+
+  main{max-width:1200px;margin:0 auto;padding:0 24px 90px}
+
+  /* ---------- Karte (Hero) ---------- */
+  .karte-kopf{padding:52px 0 24px}
+  .karte-kopf h1{font-size:clamp(32px,5vw,52px);font-weight:600;max-width:24ch;line-height:1.12}
+  .karte-kopf p{max-width:62ch;margin-top:12px;color:var(--bein-blass)}
+  .karten-rahmen{
+    border:1px solid var(--messing-tief);
+    outline:1px solid var(--linie);
+    outline-offset:5px;
+    background:var(--vitrine);
+    position:relative;
+    margin:6px;
+  }
+  .karten-rahmen svg{display:block;width:100%;height:auto}
+  .land{fill:#37463C;stroke:#54654F;stroke-width:1}
+  .gitter{stroke:rgba(234,227,210,.10);stroke-width:.6;stroke-dasharray:2 6}
+  .marker{cursor:pointer}
+  .marker circle.punkt{stroke:var(--nacht);stroke-width:2;transition:r .15s ease}
+  .marker:hover circle.punkt,.marker:focus circle.punkt{r:9}
+  .marker text{
+    font-family:"Jost",sans-serif;font-size:13px;font-weight:500;letter-spacing:.4px;
+    fill:var(--bein);paint-order:stroke;stroke:var(--nacht);stroke-width:3px;
+    pointer-events:none;opacity:0;transition:opacity .15s ease;
+  }
+  .marker:hover text,.marker:focus text{opacity:1}
+  .legende{
+    display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;
+    padding:14px 18px;border-top:1px solid var(--linie);font-size:15px;color:var(--bein-blass);
+  }
+  .legende .chip{display:flex;align-items:center;gap:9px}
+  .chip i{width:12px;height:12px;border-radius:50%;display:inline-block;border:1px solid var(--nacht);box-shadow:0 0 0 1px var(--messing-tief)}
+  .legende .hinweis{margin-left:auto;font-style:italic}
+
+  /* ---------- Dinodex ---------- */
+  .lexikon-kopf{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:64px 0 26px;border-bottom:1px solid var(--linie);padding-bottom:16px}
+  .lexikon-kopf h2{font-size:34px;font-weight:600;letter-spacing:.5px}
+  .werkzeuge{margin-left:auto;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .werkzeuge input{
+    font:inherit;padding:9px 14px;border:1px solid var(--messing-tief);
+    background:transparent;min-width:220px;color:var(--bein);
+  }
+  .werkzeuge input::placeholder{color:var(--bein-blass)}
+  .werkzeuge input:focus{outline:2px solid var(--messing);outline-offset:1px}
+  .filter{display:flex;gap:6px;flex-wrap:wrap}
+  .filter button{
+    border:1px solid var(--messing-tief);background:transparent;padding:7px 14px;
+    font-weight:400;font-size:14px;letter-spacing:.5px;color:var(--bein);
+    transition:border-color .15s ease;
+  }
+  .filter button:hover{border-color:var(--messing)}
+  .filter button[aria-pressed="true"]{background:var(--messing);border-color:var(--messing);color:var(--nacht);font-weight:500}
+  .filter button:focus-visible{outline:2px solid var(--messing);outline-offset:2px}
+
+  .raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
+  .karte-dino{
+    background:var(--vitrine);border:1px solid var(--messing-tief);
+    text-align:left;padding:0;display:flex;flex-direction:column;color:var(--bein);
+    transition:border-color .15s ease;
+  }
+  .karte-dino:hover{border-color:var(--messing)}
+  .karte-dino:hover .karte-name{color:var(--messing)}
+  .karte-dino:focus-visible{outline:2px solid var(--messing);outline-offset:3px}
+  .karte-dino .balken{height:3px}
+  .bild-box{aspect-ratio:4/3;background:radial-gradient(circle at 50% 32%,var(--vitrine-hell) 0%,var(--vitrine) 80%);border-bottom:1px solid var(--messing-tief);overflow:hidden;position:relative}
+  .bild-box img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
+  .platzhalter{
+    position:absolute;inset:0;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:8px;padding:12px;text-align:center;
+    color:var(--bein-blass);font-size:13px;
+  }
+  .platzhalter svg{width:60px;height:60px;opacity:.4}
+  .karte-text{padding:16px 18px 18px}
+  .karte-name{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:600;transition:color .15s ease}
+  .karte-meta{font-size:14px;color:var(--bein-blass);margin-top:3px;letter-spacing:.3px}
+  .leer{padding:40px 0;color:var(--bein-blass);font-style:italic}
+
+  /* ---------- Aus der Forschung ---------- */
+  .news-kopf{display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;margin:64px 0 24px;border-bottom:1px solid var(--linie);padding-bottom:16px}
+  .news-kopf h2{font-size:34px;font-weight:600;letter-spacing:.5px}
+  .news-stand{margin-left:auto;color:var(--bein-blass);font-size:14px;font-style:italic}
+  .news-raster{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+  .news-karte{background:var(--vitrine);border:1px solid var(--messing-tief);padding:20px 22px;display:flex;flex-direction:column;gap:10px}
+  .news-karte time{color:var(--bein-blass);font-size:13px;letter-spacing:.5px}
+  .news-karte h3{font-size:22px;font-weight:600;line-height:1.25}
+  .news-karte p{font-size:15px;flex:1}
+  .news-karte a{font-size:14px;letter-spacing:.3px}
+
+  /* ---------- Artikel ---------- */
+  .artikel{display:none}
+  .artikel.aktiv{display:block}
+  .zurueck{
+    margin:30px 0 0;background:none;border:none;color:var(--link);
+    font-weight:400;letter-spacing:.4px;text-decoration:underline;text-underline-offset:3px;padding:0;
+  }
+  .artikel-kopf{margin:20px 0 6px;border-bottom:1px solid var(--linie);padding-bottom:16px}
+  .artikel-kopf h1{font-size:clamp(34px,4.8vw,50px);font-weight:600}
+  .artikel-kopf .bedeutung{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:19px;color:var(--bein-blass)}
+  .artikel-koerper{display:grid;grid-template-columns:1fr 330px;gap:40px;margin-top:26px}
+  .artikel-text p{margin-bottom:16px;max-width:68ch}
+  .artikel-text h2{font-size:27px;font-weight:600;margin:30px 0 10px;border-bottom:1px solid var(--linie);padding-bottom:6px}
+  .infobox{
+    border:1px solid var(--messing);
+    outline:1px solid var(--linie);outline-offset:4px;
+    background:var(--vitrine);
+    align-self:start;position:sticky;top:20px;margin:5px;
+  }
+  .infobox .balken{height:3px}
+  .infobox .bild-box{aspect-ratio:4/3}
+  .infobox table{width:100%;border-collapse:collapse;font-size:15px}
+  .infobox th,.infobox td{padding:9px 14px;text-align:left;vertical-align:top;border-top:1px solid var(--linie)}
+  .infobox th{width:44%;font-weight:500;color:var(--bein-blass);letter-spacing:.3px}
+  .infobox .titel{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:22px;letter-spacing:1.5px;font-variant:small-caps;padding:12px 14px 6px;color:var(--messing)}
+  .zeit-band{display:inline-block;padding:2px 12px;font-weight:500;font-size:14px;letter-spacing:.5px;color:var(--nacht);border-radius:0}
+
+  footer{border-top:1px solid var(--linie);padding:24px;max-width:1200px;margin:0 auto;color:var(--bein-blass);font-size:14px;letter-spacing:.3px}
+
+  @media (max-width:820px){
+    .artikel-koerper{grid-template-columns:1fr}
+    .infobox{position:static;order:-1}
+    header nav{margin-left:0}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo" onclick="zeigeStart()">Fossil<span>ium</span></div>
+  <div class="untertitel">Das freie Lexikon der Dinosaurier</div>
+  <nav>
+    <a href="#weltkarte" onclick="zeigeStart()">Weltkarte</a>
+    <a href="#forschung" onclick="zeigeStart()">Forschung</a>
+    <a href="#lexikon" onclick="zeigeStart()">Dinodex</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ STARTSEITE ============ -->
+  <div id="start">
+    <section class="karte-kopf" id="weltkarte">
+      <h1>Wo die Dinosaurier gefunden wurden</h1>
+      <p>Jeder Punkt markiert einen bedeutenden Fundort. Die Farbe zeigt das Erdzeitalter, in dem der Dinosaurier lebte. Tippe einen Punkt an, um den Artikel zu öffnen.</p>
+    </section>
+
+    <div class="karten-rahmen">
+      <svg viewBox="0 0 1000 500" role="img" aria-label="Weltkarte mit Dinosaurier-Fundorten">
+        <!-- Gradnetz -->
+        <g class="gitter">
+          <line x1="0" y1="125" x2="1000" y2="125"/>
+          <line x1="0" y1="250" x2="1000" y2="250"/>
+          <line x1="0" y1="375" x2="1000" y2="375"/>
+          <line x1="250" y1="0" x2="250" y2="500"/>
+          <line x1="500" y1="0" x2="500" y2="500"/>
+          <line x1="750" y1="0" x2="750" y2="500"/>
+        </g>
+        <!-- Stilisierte Kontinente (vereinfachte Formen) -->
+        <g>
+          <!-- Nordamerika -->
+          <path class="land" d="M40,95 L95,70 L160,62 L215,70 L255,88 L268,110 L250,128 L262,150 L245,175 L225,200 L210,225 L196,208 L178,190 L150,178 L120,168 L95,150 L70,135 L52,115 Z"/>
+          <!-- Grönland -->
+          <path class="land" d="M320,52 L365,42 L398,55 L388,85 L352,96 L326,80 Z"/>
+          <!-- Südamerika -->
+          <path class="land" d="M268,236 L300,228 L330,242 L342,272 L336,308 L322,345 L306,382 L296,405 L288,378 L280,340 L272,300 L264,264 Z"/>
+          <!-- Europa -->
+          <path class="land" d="M470,120 L500,102 L535,96 L568,102 L586,118 L574,136 L552,148 L524,152 L498,146 L480,134 Z"/>
+          <!-- Afrika -->
+          <path class="land" d="M472,162 L512,152 L556,158 L588,176 L596,210 L586,248 L566,286 L546,316 L530,332 L516,308 L504,272 L490,236 L478,198 Z"/>
+          <!-- Asien -->
+          <path class="land" d="M590,110 L640,86 L700,72 L770,68 L840,78 L890,96 L905,120 L880,142 L845,158 L800,168 L760,180 L735,200 L716,190 L690,176 L655,166 L622,150 L600,132 Z"/>
+          <!-- Indien -->
+          <path class="land" d="M700,182 L726,176 L740,196 L730,222 L714,236 L702,214 Z"/>
+          <!-- Südostasien / Inseln -->
+          <path class="land" d="M770,196 L796,192 L812,208 L800,226 L780,220 Z"/>
+          <!-- Australien -->
+          <path class="land" d="M800,306 L846,296 L888,308 L898,336 L878,358 L840,364 L810,350 L798,328 Z"/>
+        </g>
+        <g id="markerEbene"></g>
+      </svg>
+      <div class="legende">
+        <div class="chip"><i style="background:var(--trias)"></i> Trias (252–201 Mio. Jahre)</div>
+        <div class="chip"><i style="background:var(--jura)"></i> Jura (201–145 Mio. Jahre)</div>
+        <div class="chip"><i style="background:var(--kreide)"></i> Kreide (145–66 Mio. Jahre)</div>
+        <div class="hinweis">Karte stark vereinfacht</div>
+      </div>
+    </div>
+
+    <!-- ============ AUS DER FORSCHUNG (automatische News) ============ -->
+    <section id="forschung">
+      <div class="news-kopf">
+        <h2>Aus der Forschung</h2>
+        <span class="news-stand" id="newsStand"></span>
+      </div>
+      <div class="news-raster" id="newsRaster"></div>
+      <p class="leer" id="newsHinweis" hidden>Die täglichen Paläo-News erscheinen hier, sobald die Seite online ist und das News-Skript eingerichtet wurde (siehe ANLEITUNG.md).</p>
+    </section>
+
+    <!-- ============ DINODEX ============ -->
+    <section id="lexikon">
+      <div class="lexikon-kopf">
+        <h2>Dinodex <small id="dexZaehler" style="font-family:Jost,sans-serif;font-size:16px;color:var(--bein-blass);font-weight:400"></small></h2>
+        <div class="werkzeuge">
+          <input id="suche" type="search" placeholder="Dino suchen …" aria-label="Dinosaurier suchen">
+          <div class="filter" id="filterZeit" role="group" aria-label="Nach Zeitalter filtern">
+            <button aria-pressed="true" data-wert="alle">Alle</button>
+            <button aria-pressed="false" data-wert="Trias">Trias</button>
+            <button aria-pressed="false" data-wert="Jura">Jura</button>
+            <button aria-pressed="false" data-wert="Kreide">Kreide</button>
+          </div>
+          <div class="filter" id="filterKost" role="group" aria-label="Nach Ernährung filtern">
+            <button aria-pressed="true" data-wert="alle">Beide</button>
+            <button aria-pressed="false" data-wert="Fleischfresser">Fleisch</button>
+            <button aria-pressed="false" data-wert="Pflanzenfresser">Pflanzen</button>
+          </div>
+        </div>
+      </div>
+      <div class="raster" id="raster"></div>
+      <p class="leer" id="leer" hidden>Kein Dinosaurier gefunden. Andere Suche versuchen?</p>
+    </section>
+  </div>
+
+  <!-- ============ ARTIKEL ============ -->
+  <article class="artikel" id="artikel"></article>
+</main>
+
+<footer>
+  Fossilium · Alle 3D-Renderings selbst erstellt in Blender · Fakten nach bestem Wissen zusammengestellt
+</footer>
+
+<script>
+/* ============================================================
+   DATEN – hier neue Dinos hinzufügen!
+   bild: Pfad zu deinem Blender-Render (z.B. "bilder/trex.png")
+   lat/lon: Fundort-Koordinaten für die Weltkarte
+   ============================================================ */
+const DINOS = [
+  {
+    id:"tyrannosaurus", name:"Tyrannosaurus rex", bedeutung:"„Königsechse der Tyrannen“",
+    zeit:"Kreide", jahre:"vor 68–66 Mio. Jahren", kost:"Fleischfresser",
+    laenge:"bis 12,5 m", gewicht:"ca. 8 t", fundort:"Hell Creek, Montana (USA)",
+    lat:47, lon:-107, bild:"bilder/tyrannosaurus.png",
+    text:[
+      "Der Tyrannosaurus rex war einer der größten landlebenden Raubtiere aller Zeiten. Mit seinem massigen Schädel und bananengroßen Zähnen konnte er eine der stärksten Beißkräfte entwickeln, die je bei einem Landtier gemessen wurde – genug, um Knochen zu zermalmen.",
+      "Trotz seiner winzigen Arme war der T. rex kein plumper Riese: Analysen seiner Beinknochen deuten darauf hin, dass er sich zügig fortbewegen konnte. Ob er aktiv jagte oder auch Aas fraß, wird bis heute diskutiert – vermutlich tat er beides.",
+      "Die meisten Funde stammen aus der Hell-Creek-Formation im Westen Nordamerikas. Das berühmteste Skelett trägt den Spitznamen „Sue“ und ist zu über 90 Prozent erhalten."
+    ]
+  },
+  {
+    id:"triceratops", name:"Triceratops", bedeutung:"„Dreihorngesicht“",
+    zeit:"Kreide", jahre:"vor 68–66 Mio. Jahren", kost:"Pflanzenfresser",
+    laenge:"bis 9 m", gewicht:"ca. 6–8 t", fundort:"Montana / Wyoming (USA)",
+    lat:45, lon:-104, bild:"bilder/triceratops.png",
+    text:[
+      "Der Triceratops ist an seinen drei Hörnern und dem großen Nackenschild sofort zu erkennen. Die beiden Brauenhörner konnten über einen Meter lang werden und dienten vermutlich der Verteidigung und dem Imponieren gegenüber Artgenossen.",
+      "Mit seinem papageienartigen Schnabel schnitt er zähe Pflanzen ab, die er mit Batterien aus hunderten Zähnen zerkleinerte. Abgenutzte Zähne wurden ständig durch neue ersetzt.",
+      "Triceratops lebte zur selben Zeit und in derselben Region wie der Tyrannosaurus rex – an manchen Fossilien wurden sogar verheilte Bissspuren gefunden, die auf Kämpfe zwischen beiden hindeuten."
+    ]
+  },
+  {
+    id:"stegosaurus", name:"Stegosaurus", bedeutung:"„Dachechse“",
+    zeit:"Jura", jahre:"vor 155–150 Mio. Jahren", kost:"Pflanzenfresser",
+    laenge:"bis 9 m", gewicht:"ca. 3–4 t", fundort:"Morrison-Formation, Colorado (USA)",
+    lat:39, lon:-105, bild:"bilder/stegosaurus.png",
+    text:[
+      "Der Stegosaurus trug zwei Reihen großer Knochenplatten auf dem Rücken. Wozu sie dienten, ist nicht abschließend geklärt – wahrscheinlich halfen sie beim Erkennen von Artgenossen und vielleicht bei der Regulierung der Körpertemperatur.",
+      "Seine eigentliche Waffe saß am Schwanzende: vier lange Stacheln, die sogenannte Thagomizer. Fossile Verletzungen an Raubsauriern zeigen, dass er sie wirkungsvoll einsetzte.",
+      "Im Verhältnis zum Körper hatte der Stegosaurus ein sehr kleines Gehirn – etwa so groß wie eine Walnuss. Dennoch war er als Art über Millionen Jahre erfolgreich."
+    ]
+  },
+  {
+    id:"brachiosaurus", name:"Brachiosaurus", bedeutung:"„Armechse“",
+    zeit:"Jura", jahre:"vor 154–150 Mio. Jahren", kost:"Pflanzenfresser",
+    laenge:"bis 22 m", gewicht:"ca. 30–45 t", fundort:"Colorado (USA)",
+    lat:39, lon:-108.7, bild:"bilder/brachiosaurus.png",
+    text:[
+      "Anders als die meisten Dinosaurier hatte der Brachiosaurus längere Vorder- als Hinterbeine – daher sein Name. Sein Hals ragte dadurch steil nach oben, ähnlich wie bei einer Giraffe, nur in gewaltigem Maßstab.",
+      "Mit einer Kopfhöhe von über zwölf Metern konnte er Baumkronen erreichen, an die kein anderer Pflanzenfresser seiner Zeit herankam. Täglich muss er hunderte Kilogramm Pflanzenmaterial gefressen haben.",
+      "Sein naher Verwandter Giraffatitan aus Tansania wurde lange als Brachiosaurus-Art geführt; sein Skelett im Berliner Naturkundemuseum gehört zu den höchsten aufgestellten Dinosaurierskeletten der Welt."
+    ]
+  },
+  {
+    id:"diplodocus", name:"Diplodocus", bedeutung:"„Doppelbalken“",
+    zeit:"Jura", jahre:"vor 154–152 Mio. Jahren", kost:"Pflanzenfresser",
+    laenge:"bis 27 m", gewicht:"ca. 12–15 t", fundort:"Wyoming (USA)",
+    lat:42, lon:-106, bild:"bilder/diplodocus.png",
+    text:[
+      "Der Diplodocus gehört zu den längsten vollständig bekannten Dinosauriern. Der größte Teil seiner Länge entfiel auf den peitschenartigen Schwanz und den langen, waagerecht getragenen Hals.",
+      "Seine stiftförmigen Zähne saßen nur vorn im Maul – ideal, um Blätter und Farne wie mit einem Kamm abzustreifen. Gekaut hat er kaum; Magensteine halfen vermutlich bei der Verdauung.",
+      "Manche Forschende vermuten, dass er seinen Schwanz mit Überschallgeschwindigkeit knallen lassen konnte – als Warnsignal oder zur Verteidigung."
+    ]
+  },
+  {
+    id:"velociraptor", name:"Velociraptor", bedeutung:"„Schneller Räuber“",
+    zeit:"Kreide", jahre:"vor 75–71 Mio. Jahren", kost:"Fleischfresser",
+    laenge:"ca. 2 m", gewicht:"ca. 15–20 kg", fundort:"Wüste Gobi (Mongolei)",
+    lat:44, lon:103, bild:"bilder/velociraptor.png",
+    text:[
+      "Der echte Velociraptor war deutlich kleiner als sein Film-Doppelgänger – etwa so groß wie ein Truthahn – und trug nach heutigem Wissen ein Federkleid. An seinen Armknochen wurden Ansatzstellen für Federkiele gefunden.",
+      "Seine berühmteste Waffe war die sichelförmige Kralle an der zweiten Zehe, die er beim Laufen angehoben hielt. Vermutlich nutzte er sie, um Beute festzuhalten und zu verletzen.",
+      "Ein spektakuläres Fossil aus der Mongolei zeigt einen Velociraptor im Kampf mit einem Protoceratops – beide wurden mitten im Gefecht von einer Sanddüne begraben und so für die Ewigkeit erhalten."
+    ]
+  },
+  {
+    id:"spinosaurus", name:"Spinosaurus", bedeutung:"„Dornenechse“",
+    zeit:"Kreide", jahre:"vor 99–93 Mio. Jahren", kost:"Fleischfresser",
+    laenge:"bis 15 m", gewicht:"ca. 7 t", fundort:"Kem-Kem-Region (Marokko)",
+    lat:31, lon:-4, bild:"bilder/spinosaurus.png",
+    text:[
+      "Der Spinosaurus war wahrscheinlich länger als der Tyrannosaurus rex und trug ein bis zu 1,8 Meter hohes Rückensegel aus verlängerten Wirbelfortsätzen. Wozu es diente, ist umstritten – Schaustück, Wärmeregulator oder beides.",
+      "Vieles an seinem Körperbau deutet auf ein Leben am und im Wasser hin: ein langes, krokodilartiges Maul, kegelförmige Zähne für glitschige Beute und dichte Knochen, wie man sie von tauchenden Tieren kennt. Er gilt als der erste bekannte weitgehend wasserlebende Dinosaurier.",
+      "Das Originalskelett wurde 1944 bei einem Bombenangriff auf München zerstört – erst neue Funde in Marokko ab 2014 haben unser Bild dieses ungewöhnlichen Räubers grundlegend verändert."
+    ]
+  },
+  {
+    id:"plateosaurus", name:"Plateosaurus", bedeutung:"„Breitwegechse“",
+    zeit:"Trias", jahre:"vor 214–204 Mio. Jahren", kost:"Pflanzenfresser",
+    laenge:"bis 8 m", gewicht:"ca. 4 t", fundort:"Trossingen (Deutschland)",
+    lat:48.1, lon:8.6, bild:"bilder/plateosaurus.png",
+    text:[
+      "Der Plateosaurus ist der berühmteste Dinosaurier Deutschlands. In Trossingen und Halberstadt wurden dutzende Skelette gefunden – so viele, dass man von regelrechten „Plateosaurus-Friedhöfen“ spricht, vermutlich Tiere, die in Schlammfallen steckenblieben.",
+      "Er lief auf zwei Beinen und konnte mit seinem langen Hals sowohl Bodenpflanzen als auch höhere Vegetation erreichen. Damit war er ein früher Vorläufer der späteren Riesen wie Brachiosaurus und Diplodocus.",
+      "Bemerkenswert ist seine flexible Wachstumsweise: Je nach Lebensbedingungen wurden manche Tiere bereits mit fünf Metern ausgewachsen, andere erst mit acht."
+    ]
+  },
+  {
+    id:"herrerasaurus", name:"Herrerasaurus", bedeutung:"„Herreras Echse“",
+    zeit:"Trias", jahre:"vor 231 Mio. Jahren", kost:"Fleischfresser",
+    laenge:"bis 6 m", gewicht:"ca. 350 kg", fundort:"Ischigualasto (Argentinien)",
+    lat:-30.1, lon:-67.9, bild:"bilder/herrerasaurus.png",
+    text:[
+      "Der Herrerasaurus gehört zu den ältesten bekannten Dinosauriern überhaupt. Er lebte in der späten Trias, als Dinosaurier noch eine kleine Randgruppe unter den Landwirbeltieren waren.",
+      "Als schneller, zweibeiniger Jäger mit kräftigen Greifhänden und einem beweglichen Unterkiefergelenk zeigt er bereits viele Merkmale der späteren Raubdinosaurier.",
+      "Benannt ist er nach Victorino Herrera, einem argentinischen Ziegenhirten, der die ersten Knochen im Ischigualasto-Tal entdeckte – einer Fundstätte, die heute UNESCO-Welterbe ist."
+    ]
+  },
+  {
+    id:"carnotaurus", name:"Carnotaurus", bedeutung:"„Fleischfressender Stier“",
+    zeit:"Kreide", jahre:"vor 71–69 Mio. Jahren", kost:"Fleischfresser",
+    laenge:"ca. 8 m", gewicht:"ca. 1,5 t", fundort:"Chubut, Patagonien (Argentinien)",
+    lat:-43.5, lon:-68, bild:"bilder/carnotaurus.png",
+    text:[
+      "Der Carnotaurus verdankt seinen Namen den beiden kräftigen Hörnern über den Augen – einzigartig unter den Raubdinosauriern. Vermutlich setzte er sie bei Rangkämpfen mit Artgenossen ein.",
+      "Seine Arme waren noch stärker zurückgebildet als beim T. rex und praktisch funktionslos. Dafür machten ihn seine langen, kräftigen Beine zu einem der schnellsten großen Raubsaurier.",
+      "Vom Carnotaurus wurden großflächige Hautabdrücke gefunden: Sie zeigen eine schuppige Haut mit Reihen größerer Knochenhöcker – einer der besten Belege dafür, wie die Haut großer Raubdinosaurier aussah."
+    ]
+  }
+];
+
+/* ============================================================
+   Ab hier: Logik der Seite (musst du nicht anpassen)
+   ============================================================ */
+const FARBEN = {Trias:"var(--trias)", Jura:"var(--jura)", Kreide:"var(--kreide)"};
+const HEXFARBEN = {Trias:"#C87F52", Jura:"#8FAE7E", Kreide:"#8AA7C4"};
+
+const platzhalterSVG = `
+  <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M10 46 C10 30 22 16 38 16 C48 16 54 22 54 29 C54 34 50 36 46 36 L40 36 L42 46 L36 46 L33 38 L27 38 L29 46 L23 46 L20 36 C14 36 10 40 10 46 Z"/>
+    <circle cx="44" cy="24" r="1.6" fill="currentColor"/>
+  </svg>`;
+
+function bildHTML(d){
+  return `<div class="bild-box">
+    <img src="${d.bild}" alt="Blender-Render: ${d.name}"
+         onerror="this.remove()">
+    <div class="platzhalter">${platzhalterSVG}<span>Dein Blender-Render:<br><code>${d.bild}</code></span></div>
+  </div>`;
+}
+
+/* ---------- Weltkarte ---------- */
+function baueKarte(){
+  const ebene = document.getElementById("markerEbene");
+  ebene.innerHTML = DINOS.map(d=>{
+    const x = ((d.lon+180)/360*1000).toFixed(1);
+    const y = ((90-d.lat)/180*500).toFixed(1);
+    const rechts = x > 820;
+    return `<g class="marker" tabindex="0" role="button"
+              aria-label="${d.name}, Fundort ${d.fundort}"
+              onclick="zeigeArtikel('${d.id}')"
+              onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();zeigeArtikel('${d.id}')}">
+        <circle class="punkt" cx="${x}" cy="${y}" r="6.5" fill="${HEXFARBEN[d.zeit]}"/>
+        <text x="${rechts ? x-12 : +x+12}" y="${+y+4}" text-anchor="${rechts?"end":"start"}">${d.name}</text>
+      </g>`;
+  }).join("");
+}
+
+/* ---------- Lexikon-Raster ---------- */
+let filterZeit = "alle", filterKost = "alle";
+
+function baueRaster(){
+  const suchwort = document.getElementById("suche").value.trim().toLowerCase();
+  const treffer = DINOS.filter(d =>
+    (filterZeit==="alle" || d.zeit===filterZeit) &&
+    (filterKost==="alle" || d.kost===filterKost) &&
+    (d.name.toLowerCase().includes(suchwort) || d.fundort.toLowerCase().includes(suchwort))
+  );
+  document.getElementById("raster").innerHTML = treffer.map(d=>`
+    <button class="karte-dino" onclick="zeigeArtikel('${d.id}')" aria-label="Artikel öffnen: ${d.name}">
+      <span class="balken" style="background:${FARBEN[d.zeit]}"></span>
+      ${bildHTML(d)}
+      <span class="karte-text">
+        <span class="karte-name">${d.name}</span><br>
+        <span class="karte-meta">${d.zeit} · ${d.kost} · ${d.laenge}</span>
+      </span>
+    </button>`).join("");
+  document.getElementById("leer").hidden = treffer.length > 0;
+  document.getElementById("dexZaehler").textContent = `· ${treffer.length} von ${DINOS.length} Dinos`;
+}
+
+function filterKnopf(gruppe, setzer){
+  const box = document.getElementById(gruppe);
+  box.addEventListener("click", e=>{
+    const b = e.target.closest("button"); if(!b) return;
+    box.querySelectorAll("button").forEach(k=>k.setAttribute("aria-pressed","false"));
+    b.setAttribute("aria-pressed","true");
+    setzer(b.dataset.wert);
+    baueRaster();
+  });
+}
+
+/* ---------- Artikelansicht ---------- */
+function zeigeArtikel(id){
+  const d = DINOS.find(x=>x.id===id); if(!d) return;
+  const art = document.getElementById("artikel");
+  art.innerHTML = `
+    <button class="zurueck" onclick="zeigeStart()">‹ Zurück zur Übersicht</button>
+    <div class="artikel-kopf">
+      <h1>${d.name}</h1>
+      <p class="bedeutung">${d.bedeutung} · <span class="zeit-band" style="background:${FARBEN[d.zeit]}">${d.zeit}</span></p>
+    </div>
+    <div class="artikel-koerper">
+      <div class="artikel-text">
+        ${d.text.map(a=>`<p>${a}</p>`).join("")}
+        <h2>Fundgeschichte</h2>
+        <p>Die wichtigsten Fossilien dieser Art stammen aus: ${d.fundort}. Auf der <a href="#weltkarte" onclick="zeigeStart()">Weltkarte</a> ist der Fundort farblich nach Zeitalter markiert.</p>
+      </div>
+      <aside class="infobox" aria-label="Steckbrief ${d.name}">
+        <span class="balken" style="background:${FARBEN[d.zeit]};display:block"></span>
+        ${bildHTML(d)}
+        <div class="titel">Steckbrief</div>
+        <table>
+          <tr><th>Zeitalter</th><td>${d.zeit}<br><small>${d.jahre}</small></td></tr>
+          <tr><th>Ernährung</th><td>${d.kost}</td></tr>
+          <tr><th>Länge</th><td>${d.laenge}</td></tr>
+          <tr><th>Gewicht</th><td>${d.gewicht}</td></tr>
+          <tr><th>Fundort</th><td>${d.fundort}</td></tr>
+          <tr><th>Namensbedeutung</th><td>${d.bedeutung}</td></tr>
+        </table>
+      </aside>
+    </div>`;
+  document.getElementById("start").style.display = "none";
+  art.classList.add("aktiv");
+  document.title = d.name + " – Fossilium";
+  window.scrollTo({top:0, behavior:"auto"});
+}
+
+function zeigeStart(){
+  document.getElementById("artikel").classList.remove("aktiv");
+  document.getElementById("start").style.display = "block";
+  document.title = "Fossilium – Das Lexikon der Dinosaurier";
+}
+
+/* ---------- Start ---------- */
+baueKarte();
+baueRaster();
+document.getElementById("suche").addEventListener("input", baueRaster);
+filterKnopf("filterZeit", w=>filterZeit=w);
+filterKnopf("filterKost", w=>filterKost=w);
+
+/* ---------- News laden (news.json wird taeglich vom Skript erneuert) ---------- */
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+async function ladeNews(){
+  try{
+    const antwort = await fetch("news.json", {cache:"no-store"});
+    if(!antwort.ok) throw new Error("keine news.json");
+    const daten = await antwort.json();
+    if(!daten.meldungen || !daten.meldungen.length) throw new Error("leer");
+    document.getElementById("newsRaster").innerHTML = daten.meldungen.map(m => `
+      <article class="news-karte">
+        <time datetime="${esc(m.datum)}">${new Date(m.datum).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"})}</time>
+        <h3>${esc(m.titel)}</h3>
+        <p>${esc(m.zusammenfassung)}</p>
+        <a href="${esc(m.url)}" target="_blank" rel="noopener">Originalartikel bei ${esc(m.quelle)}</a>
+      </article>`).join("");
+    if(daten.stand){
+      document.getElementById("newsStand").textContent =
+        "Stand: " + new Date(daten.stand).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"});
+    }
+  }catch(e){
+    document.getElementById("newsHinweis").hidden = false;
+  }
+}
+ladeNews();
+</script>
+</body>
+</html>

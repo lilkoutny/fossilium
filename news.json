@@ -1,0 +1,19 @@
+{
+  "stand": "2026-09-09",
+  "meldungen": [
+    {
+      "titel": "Beispielmeldung: So sehen deine News aus",
+      "zusammenfassung": "Dies ist ein Platzhalter. Sobald die GitHub-Action läuft, wird diese Datei jeden Morgen automatisch mit 3–4 frischen, KI-zusammengefassten Paläo-News überschrieben.",
+      "quelle": "Fossilium",
+      "url": "https://www.sciencedaily.com/news/fossils_ruins/dinosaurs/",
+      "datum": "2026-09-09"
+    },
+    {
+      "titel": "Zweite Beispielmeldung",
+      "zusammenfassung": "Jede Meldung besteht aus Datum, Titel, einer kurzen Zusammenfassung in eigenen Worten und einem Link zur Originalquelle.",
+      "quelle": "Fossilium",
+      "url": "https://phys.org/biology-news/paleontology-fossils/",
+      "datum": "2026-09-09"
+    }
+  ]
+}
