@@ -1,26 +1,19 @@
 {
   "meldungen": [
     {
-      "titel": "Geheilte Rippenfraktur offenbart 66 Millionen Jahre alte Blutgefäße",
-      "zusammenfassung": "Eine gebrochene Rippe des T. rex namens Scotty, dem größten bekannten Exemplar dieser Art, enthält ein außergewöhnlich erhaltenes Netzwerk von Blutgefäßen aus der Heilungsphase des Dinosauriers. Wissenschaftler nutzten Neutronen- und Röntgenstrahlen-Bildgebung, um die 66 Millionen Jahre alte Knochenstruktur zu untersuchen, ohne sie zu beschädigen.",
+      "titel": "Heilungsspuren in Tyrannosaurus rex Rippe enthüllt",
+      "zusammenfassung": "Wissenschaftler haben in einer gebrochenen Rippe von Scotty, dem größten bekannten T. rex Skelett, ein verstei­nertes Blutgefäßnetzwerk entdeckt, das während der Heilung des Dinosauriers vor 66 Millionen Jahren entstand. Mit Hilfe von Neutronen- und Röntgenstrahlung konnte die innere Struktur des Knochens untersucht werden, ohne ihn zu beschädigen.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
       "datum": "2026-09-22"
     },
     {
-      "titel": "Antarktische Pflanzen entwickeln gegensätzliche Überlebensstrategien unter Wärmestress",
-      "zusammenfassung": "Wissenschaftler untersuchten die beiden einzigen einheimischen Blütenpflanzen der Antarktis, die Antarktische Haargras und die Antarktische Perlwurz, in einem siebenjährigen Wärmekammer-Experiment. Die Studie offenbarte, dass die beiden Arten unterschiedliche Strategien zur Anpassung an langfristige Erwärmung entwickelt haben.",
+      "titel": "Eingeschlepptes Vieh verdrängte Madagaskars große Pflanzenfresser",
+      "zusammenfassung": "Analysen alter Knochen von Rind, Schaf und Ziege deuten darauf hin, dass die schnelle Ausbreitung dieser Haustiere auf Madagaskar vor etwa 1.200 Jahren mit Waldverlust und dem Rückgang großer einheimischer Herbivoren zusammenfiel. Die Ergebnisse zeigen die Auswirkungen der Einführung von Nutztieren auf die ursprüngliche Fauna der Insel.",
       "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-09-antarctic-reveal-opposing-strategies-surviving.html",
-      "datum": "2026-09-22"
-    },
-    {
-      "titel": "Genbearbeitete Sojabohne mit 90% Ölsäureanteil entwickelt",
-      "zusammenfassung": "Forscher der Sejong University haben mit CRISPR/Cas9-Gentechnik eine Sojabohnensorte mit bis zu 90,2% Ölsäure erzeugt. Die neue Sorte zeichnet sich durch verbesserte Oxidationsstabilität, reduzierten Fettgehalt und erhöhte Fettsäuren im Samen aus.",
-      "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-09-gene-soybean-oleic-acid.html",
-      "datum": "2026-09-22"
+      "url": "https://phys.org/news/2026-09-ancient-madagascar-large-native-herbivores.html",
+      "datum": "2026-09-25"
     }
   ],
-  "stand": "2026-09-24"
+  "stand": "2026-09-25"
 }
