@@ -1,19 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "Heilungsspuren in Tyrannosaurus rex Rippe enthüllt",
-      "zusammenfassung": "Wissenschaftler haben in einer gebrochenen Rippe von Scotty, dem größten bekannten T. rex Skelett, ein verstei­nertes Blutgefäßnetzwerk entdeckt, das während der Heilung des Dinosauriers vor 66 Millionen Jahren entstand. Mit Hilfe von Neutronen- und Röntgenstrahlung konnte die innere Struktur des Knochens untersucht werden, ohne ihn zu beschädigen.",
+      "titel": "Heilungsspuren in Scotty's Rippe enthüllt",
+      "zusammenfassung": "Die gebrochene Rippe des größten bekannten T. rex-Skeletts Scotty zeigt ein fossilisiertes Blutgefäßnetzwerk aus der Heilungsphase des Dinosauriers. Mithilfe von Neutronen- und Röntgenbildgebung konnten Wissenschaftler die 66 Millionen Jahre alten Knochen untersuchen, ohne sie zu beschädigen, und seltene Details konservierter Strukturen offenbaren.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
       "datum": "2026-09-22"
     },
     {
-      "titel": "Eingeschlepptes Vieh verdrängte Madagaskars große Pflanzenfresser",
-      "zusammenfassung": "Analysen alter Knochen von Rind, Schaf und Ziege deuten darauf hin, dass die schnelle Ausbreitung dieser Haustiere auf Madagaskar vor etwa 1.200 Jahren mit Waldverlust und dem Rückgang großer einheimischer Herbivoren zusammenfiel. Die Ergebnisse zeigen die Auswirkungen der Einführung von Nutztieren auf die ursprüngliche Fauna der Insel.",
+      "titel": "Wurzelverletzungen erzeugen Druckwellen im Pflanzensystem",
+      "zusammenfassung": "Wenn Pflanzenwurzeln verletzt werden, entsteht ein Druckabfall, der schnell Druckwellen durch das gesamte Wurzelsystem aussendet. Nachbarwurzeln erkennen diese Veränderungen durch spezielle Drucksensoren und erzeugen daraufhin elektrische und Kalzium-Signale.",
       "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-09-ancient-madagascar-large-native-herbivores.html",
-      "datum": "2026-09-25"
+      "url": "https://phys.org/news/2026-09-root-injuries-unleash-pressure-distances.html",
+      "datum": "2026-09-22"
+    },
+    {
+      "titel": "Einzelne Aminosäure entscheidend für Stabilität von Mitochondrien-Proteinen",
+      "zusammenfassung": "Die Entfernung nur einer einzigen Aminosäure bestimmt, ob neue Proteine stabile Komplexe in Mitochondrien bilden. Ein Enzym führt diesen präzisen Schnitt am Anfang von Mitochondrien-Proteinen durch, und ohne ihn verlieren zahlreiche Protein-Komplexe ihre Stabilität.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-09-mitochondrial-protein-complexes-amino-acid.html",
+      "datum": "2026-09-22"
     }
   ],
-  "stand": "2026-09-25"
+  "stand": "2026-09-26"
 }
