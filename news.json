@@ -1,26 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "Uralte Eukaryoten zeigen Sauerstoff als Schlüssel zur Entstehung komplexen Lebens",
-      "zusammenfassung": "Wissenschaftler haben in australischen Gesteinen über 12.000 Fossilien von frühen Eukaryoten aus der Zeit vor 1,7 Milliarden Jahren entdeckt. Diese komplexen Zellen lebten nur in sauerstoffhaltigen Umgebungen wie Küstenschlamm oder offener See, während in sauerstofffreien Bereichen nur einfachere Mikroben vorkamen. Die Funde unterstützen die Theorie, dass Sauerstoff eine entscheidende Rolle bei der Entstehung komplexen Lebens spielte.",
+      "titel": "Mongolischer Fund löst 40 Jahre altes Säugetier-Rätsel",
+      "zusammenfassung": "Ein gut erhaltenes Fossil aus der Gobi-Wüste in der Mongolei hat geklärt, dass Zhelestiden nicht die frühen Verwandten moderner Plazentatiere waren, wie ihre Zähne vermuten ließen. Das kaninchenähnliche Tier Tamirkhan balcarceli gehörte stattdessen zu einer separaten Linie kleiner Kreide-Säugetiere.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925093204.htm",
+      "datum": "2026-09-25"
+    },
+    {
+      "titel": "Uralte Proteine zeigen Wirksamkeit gegen antibiotikaresistente Bakterien",
+      "zusammenfassung": "Wissenschaftler haben antimikrobielle Peptide aus Säugetieren, die vor Millionen von Jahren lebten, wiederhergestellt und festgestellt, dass einige wirksamer gegen resistente Bakterien sind als moderne menschliche Versionen. Diese evolutionären Relikte könnten neue Ansätze für die Entwicklung von Behandlungen liefern, während Antibiotikaresistenzen zunehmen.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925093155.htm",
+      "datum": "2026-09-25"
+    },
+    {
+      "titel": "1,7 Milliarden Jahre alte Fossilien zeigen Rolle von Sauerstoff für komplexes Leben",
+      "zusammenfassung": "Wissenschaftler entdeckten in australischen Gesteinen über 12.000 Fossilien von einigen der ältesten bekannten Eukaryoten der Erde. Diese frühen komplexen Zellen lebten nur in sauerstoffhaltigen Umgebungen von Küstensümpfen bis zum offenen Meer, während sauerstofffreie Gebiete nur einfachere Mikroben enthielten.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
       "datum": "2026-09-25"
-    },
-    {
-      "titel": "Duftanalyse eröffnet neue Wege zur Überwachung der Bodengesundheit",
-      "zusammenfassung": "Der Geruch von Bodenproben kann Aufschluss über die darin lebenden Pilze und Bakterien geben, die für die Bodengesundheit entscheidend sind. Ökologin Rosa Boone hat gezeigt, dass Bodengerüche im Labor analysiert werden können, um die Mikrobengemeinschaften zu untersuchen. Ihre Forschung deutet darauf hin, dass eine elektronische Nase entwickelt werden könnte, um Bodenlebensgemeinschaften direkt anhand ihres Geruchs zu analysieren.",
-      "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-09-soil-health.html",
-      "datum": "2026-09-25"
-    },
-    {
-      "titel": "Fische auf Korallenriffen beherbergen spezialisierte chemosynthetische Bakterien",
-      "zusammenfassung": "Forscher haben DNA-Analysen durchgeführt und dabei entdeckt, dass Kiemen von Korallenrifffischen eine komplexe und spezialisierte Mikrobengemeinschaft mit chemosynthetischen Bakterien beherbergen. Dies ist die erste dokumentierte Entdeckung solcher Bakterien bei Fischen, während sie bisher nur bei wirbellosen Meerestieren wie Würmern und Muscheln bekannt waren. Die Mikrobenbesiedlung könnte eine wichtige Rolle für Fischstoffwechsel, Immunität und Gesundheit spielen.",
-      "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-09-dna-reveals-chemosynthesis-genes-bacteria.html",
-      "datum": "2026-09-25"
     }
   ],
-  "stand": "2026-09-28"
+  "stand": "2026-09-29"
 }
