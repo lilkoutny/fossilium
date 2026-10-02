@@ -1,33 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "Uralte Meeresreptil mit erhaltenen Organen entdeckt",
-      "zusammenfassung": "Wissenschaftler haben ein 245 Millionen Jahre altes Fossil des Meeresreptils Austronaga minuta gefunden, das außergewöhnlich detailliert erhalten ist – einschließlich Magen, Leber und Darm. Die Entdeckung zeigt, dass das Tier trotz eines einfachen Verdauungssystems perfekt an das Schwimmen angepasst war.",
+      "titel": "Fossilien mit erhaltenen Organen geben Einblick in frühe Meeresreptilien",
+      "zusammenfassung": "Ein 245 Millionen Jahre altes Fossil des Meeresreptils Austronaga minuta bewahrt außergewöhnliche Details wie Magen, Leber und Darm. Die Entdeckung zeigt, dass das Tier trotz eines überraschend einfachen Verdauungssystems hervorragend zum Schwimmen angepasst war.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
       "datum": "2026-09-27"
     },
     {
-      "titel": "Mongolisches Fossil löst 40 Jahre altes Rätsel",
-      "zusammenfassung": "Ein wohlerhaltenes Fossil aus der Gobi-Wüste in der Mongolei hat ein paläontologisches Rätsel gelöst: Das kaninchen-ähnliche Tier Tamirkhan balcarceli gehörte nicht zu den frühen Vorfahren der modernen Plazentatiere, obwohl seine Zähne das lange vermuten ließen. Stattdessen bildete es einen eigenen Stammbaum unter den kleineren Säugetieren der Kreidezeit.",
-      "quelle": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093204.htm",
-      "datum": "2026-09-25"
-    },
-    {
-      "titel": "Fledermäuse entstanden vor 65 Millionen Jahren in Europa",
-      "zusammenfassung": "Eine umfangreiche Studie von Fossilien und Genom-Daten deutet darauf hin, dass Fledermäuse vor etwa 65 bis 60 Millionen Jahren in Europa entstanden und sich danach weltweit ausbreiteten. Die Forschung zeigt, dass Flugfähigkeit und Echoortung bereits am Anfang der Fledermaus-Evolution vorhanden waren, was erklären könnte, warum sie zu einer der erfolgreichsten Säugetiergruppen wurden.",
+      "titel": "Fledermäuse könnten vor 65 Millionen Jahren in Europa entstanden sein",
+      "zusammenfassung": "Eine umfangreiche genetische und paläontologische Studie deutet darauf hin, dass Fledermäuse vor etwa 65 bis 60 Millionen Jahren in Europa entstanden und sich dann weltweit ausbreiteten. Flugfähigkeit und Echoortung entwickelten sich demnach früh in der Fledermausevolution und trugen maßgeblich zu ihrem Erfolg bei.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260929053531.htm",
       "datum": "2026-09-29"
     },
     {
-      "titel": "Uralte Proteine könnten gegen resistente Bakterien helfen",
-      "zusammenfassung": "Wissenschaftler haben antimikrobielle Peptide aus Säugetieren rekonstruiert, die vor Millionen von Jahren lebten, und stellten fest, dass einige davon wirksamer gegen antibiotikaresistente Bakterien sind als moderne menschliche Versionen. Diese evolutionären Überbleibsel könnten neue Ansätze für die Entwicklung von Behandlungen bieten, während Antibiotikaresistenz zunehmend zum Problem wird.",
-      "quelle": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093155.htm",
-      "datum": "2026-09-25"
+      "titel": "Forscher entdecken fünf neue Süßwassermuschel-Arten in den USA",
+      "zusammenfassung": "Ein neues Forschungspapier beschreibt fünf bislang unbekannte Süßwassermuschel-Arten im südlichen Teil der USA. Die wissenschaftliche Dokumentation dieser Arten soll als Grundlage für den Schutz der am stärksten bedrohten Tiergruppe Nordamerikas dienen.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-species-freshwater-mussels-southern-uncovered.html",
+      "datum": "2026-10-02"
     }
   ],
-  "stand": "2026-10-01"
+  "stand": "2026-10-02"
 }
