@@ -1,26 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "Fossilien mit erhaltenen Organen geben Einblick in frühe Meeresreptilien",
-      "zusammenfassung": "Ein 245 Millionen Jahre altes Fossil des Meeresreptils Austronaga minuta bewahrt außergewöhnliche Details wie Magen, Leber und Darm. Die Entdeckung zeigt, dass das Tier trotz eines überraschend einfachen Verdauungssystems hervorragend zum Schwimmen angepasst war.",
-      "quelle": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
-      "datum": "2026-09-27"
-    },
-    {
       "titel": "Fledermäuse könnten vor 65 Millionen Jahren in Europa entstanden sein",
-      "zusammenfassung": "Eine umfangreiche genetische und paläontologische Studie deutet darauf hin, dass Fledermäuse vor etwa 65 bis 60 Millionen Jahren in Europa entstanden und sich dann weltweit ausbreiteten. Flugfähigkeit und Echoortung entwickelten sich demnach früh in der Fledermausevolution und trugen maßgeblich zu ihrem Erfolg bei.",
+      "zusammenfassung": "Eine umfangreiche Genom- und Fossilienstudie deutet darauf hin, dass Fledermäuse vor etwa 65 bis 60 Millionen Jahren in Europa entstanden und sich dann weltweit ausbreiteten. Die Ergebnisse zeigen, dass Flugfähigkeit und Echolokation schon früh in der Fledermaus-Evolution entwickelt wurden, was möglicherweise erklärt, warum Fledermäuse zu einer der erfolgreichsten Säugetiergruppen der Erde wurden.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260929053531.htm",
       "datum": "2026-09-29"
     },
     {
-      "titel": "Forscher entdecken fünf neue Süßwassermuschel-Arten in den USA",
-      "zusammenfassung": "Ein neues Forschungspapier beschreibt fünf bislang unbekannte Süßwassermuschel-Arten im südlichen Teil der USA. Die wissenschaftliche Dokumentation dieser Arten soll als Grundlage für den Schutz der am stärksten bedrohten Tiergruppe Nordamerikas dienen.",
+      "titel": "Tiere könnten Millionen Jahre früher entstanden sein als Fossilien zeigen",
+      "zusammenfassung": "Eine neue Studie der University of Oxford legt nahe, dass sich die frühesten Tiere Hunderte von Millionen Jahren vor ihren ersten erkennbaren Fossilien entwickelt haben könnten. Den Forschungen zufolge könnten Tiere bereits tief in der Neoproterozoikum-Ära entstanden sein, sogar vor einigen der extremsten Eiszeiten der Erdgeschichte.",
       "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-10-species-freshwater-mussels-southern-uncovered.html",
-      "datum": "2026-10-02"
+      "url": "https://phys.org/news/2026-10-animals-evolved-vastly-earlier-fossil.html",
+      "datum": "2026-10-03"
+    },
+    {
+      "titel": "Künstliche Intelligenz hilft bei der Suche nach Plastik-abbauenden Enzymen",
+      "zusammenfassung": "Wissenschaftler der Murdoch University kombinieren Machine-Learning-Technologie mit Biochemie, um Enzyme zu identifizieren, die Kunststoffe und andere Schadstoffe abbauen können. Die Forscher nutzen dabei Millionen von Enzym-Informationen aus internationalen Datenbanken.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-millions-years-evolution-ai-pollution.html",
+      "datum": "2026-10-03"
     }
   ],
-  "stand": "2026-10-02"
+  "stand": "2026-10-03"
 }
