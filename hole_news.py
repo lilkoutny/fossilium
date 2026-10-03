@@ -25,9 +25,11 @@ FEEDS = [
     ("ScienceDaily", "https://www.sciencedaily.com/rss/fossils_ruins/dinosaurs.xml"),
     ("ScienceDaily", "https://www.sciencedaily.com/rss/fossils_ruins/paleontology.xml"),
     ("Phys.org", "https://phys.org/rss-feed/biology-news/paleontology-fossils/"),
+    ("scinexx", "http://feeds.feedburner.com/scinexx"),
+    ("Spektrum der Wissenschaft", "https://www.spektrum.de/alias/rss/spektrum-de-rss-feed/996406"),
 ]
 MAX_ALTER_TAGE = 3      # nur Meldungen der letzten X Tage
-MAX_KANDIDATEN = 12     # so viele Artikel bekommt die KI maximal zu sehen
+MAX_KANDIDATEN = 20     # so viele Artikel bekommt die KI maximal zu sehen
 MODELL = "claude-haiku-4-5"  # günstigstes Modell, reicht fürs Zusammenfassen
 AUSGABE = "news.json"
 
