@@ -33,9 +33,30 @@ MAX_KANDIDATEN = 20     # so viele Artikel bekommt die KI maximal zu sehen
 MODELL = "claude-haiku-4-5"  # günstigstes Modell, reicht fürs Zusammenfassen
 AUSGABE = "news.json"
 
+# scinexx und Spektrum liefern nur allgemeine Wissenschafts-Feeds (keine
+# eigenen Paläo-Feeds) – deshalb werden ihre Einträge hier nach Stichwort
+# gefiltert, damit keine fachfremden Themen (Physik, Medizin, Technik, ...)
+# ins Dino-Lexikon rutschen.
+PALAEO_STICHWORTE = (
+    "dino", "saurier", "fossil", "paläontolog", "palaeontolog",
+    "urzeit", "kreidezeit", "jurazeit", "jura-zeit", "trias",
+    "versteinert", "prähistorisch", "praehistorisch", "ausgrabung",
+    "jurassic", "cretaceous", "triassic", "prehistoric", "paleontolog",
+)
+FEEDS_OHNE_FILTER = {"ScienceDaily", "Phys.org"}  # schon themenspezifisch
+
+
+def ist_palaeo_relevant(quelle, titel, text):
+    """scinexx/Spektrum sind Breitband-Feeds – hier auf Dino/Fossil-Themen
+    eingrenzen. Die bereits paläo-spezifischen Feeds laufen ungefiltert durch."""
+    if quelle in FEEDS_OHNE_FILTER:
+        return True
+    haystack = f"{titel} {text}".lower()
+    return any(wort in haystack for wort in PALAEO_STICHWORTE)
+
 
 def hole_kandidaten():
-    """Sammelt frische Einträge aus allen Feeds."""
+    """Sammelt frische, paläo-relevante Einträge aus allen Feeds."""
     jetzt = time.time()
     kandidaten = []
     for quelle, url in FEEDS:
@@ -50,7 +71,7 @@ def hole_kandidaten():
             titel = e.get("title", "").strip()
             link = e.get("link", "").strip()
             text = e.get("summary", "").strip()
-            if titel and link:
+            if titel and link and ist_palaeo_relevant(quelle, titel, text):
                 kandidaten.append({
                     "quelle": quelle, "titel": titel,
                     "url": link, "text": text[:800],
@@ -68,9 +89,15 @@ def fasse_zusammen(kandidaten):
     """Schickt die Kandidaten an die Claude API und erhält 3–4 News als JSON."""
     heute = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     auftrag = f"""Du bist Redakteur der Website "Fossilium", einem deutschen
-Dinosaurier-Lexikon. Unten findest du aktuelle Meldungen aus der Paläontologie.
+Dinosaurier-Lexikon. Unten findest du aktuelle Meldungen aus verschiedenen
+Wissenschafts-Feeds – einige Quellen sind thematisch breit, es kann also
+fachfremdes Material (z.B. Physik, Medizin, Technik, moderne Biologie ohne
+Fossilbezug) dabei sein.
 
-Wähle die 3 bis 4 interessantesten aus und fasse jede auf Deutsch zusammen.
+Wähle NUR Meldungen aus, die wirklich mit Dinosauriern, Fossilien oder
+Paläontologie zu tun haben, und fasse davon die 3 bis 4 interessantesten
+auf Deutsch zusammen. Gibt es weniger als 3 passende Meldungen, nimm nur
+die, die tatsächlich passen – lieber weniger als thematisch falsche.
 Regeln:
 - Nur Fakten verwenden, die in den Meldungen stehen. Nichts erfinden oder ergänzen.
 - Zusammenfassung: 2 bis 3 Sätze, allgemeinverständlich, sachlich, eigener Wortlaut.
