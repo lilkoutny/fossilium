@@ -1,19 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "97 Millionen Jahre alte Fossilien zeigen früheste magnetische Navigation bei Tieren",
-      "zusammenfassung": "Forscher haben 97 Millionen Jahre alte Fossilien entdeckt, die möglicherweise den ältesten Beleg für die Nutzung des Erdmagnetfelds durch Tiere darstellen. Die rätselhaften magnetischen Strukturen könnten einem unbekannten Meereslebewesen ermöglicht haben, über tausende Kilometer mit beeindruckender Präzision zu navigieren.",
-      "quelle": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260930020329.htm",
-      "datum": "2026-09-30"
+      "titel": "Neue fossile Insektenart aus der Dinosaurierzeit in Bernstein entdeckt",
+      "zusammenfassung": "Forscher haben in einem 99 Millionen Jahre alten Bernstein eine bislang unbekannte Insektenart identifiziert, die während der Dinosaurierzeit in Baumharz eingeschlossen wurde. Die neue Art erhielt den Namen Cretodorus noonoo und ermöglicht Einblicke in die Fauna der Kreidezeit.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-rare-insect-discovery-reveals-species.html",
+      "datum": "2026-10-06"
     },
     {
-      "titel": "Tiere könnten Hunderte Millionen Jahre älter sein als Fossilien vermuten lassen",
-      "zusammenfassung": "Eine neue Studie der Universität Oxford deutet darauf hin, dass die frühesten Tiere bereits Hunderte Millionen Jahre vor ihren ersten eindeutigen Fossilien entstanden sein könnten. Die Forschungsergebnisse legen nahe, dass Tiere bereits während des Neoproterozoikums, möglicherweise sogar vor extremen Eiszeiten, entstanden sind.",
+      "titel": "Neuer säbelzahniger Raubtier aus Argentinien überrascht mit längerer Überlebensdauer",
+      "zusammenfassung": "Paläontologen haben in Argentinien Fossilienfragmente eines großen Raubtieres aus dem späten Pliozän oder frühen Pleistozän entdeckt, das einer Gruppe säbelzahniger Beuteltierrelative angehört, die eigentlich schon früher ausgestorben sein sollte. Der Fund widerlegt bisherige Annahmen über das Aussterben dieser Tiergruppe.",
       "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-10-animals-evolved-vastly-earlier-fossil.html",
-      "datum": "2026-10-01"
+      "url": "https://phys.org/news/2026-10-saber-toothed-predator-argentina-lineage.html",
+      "datum": "2026-10-06"
+    },
+    {
+      "titel": "DNA-Analyse enthüllt ausgestorbene Rinderart aus dem Sibirischen Eiszeitalter",
+      "zusammenfassung": "DNA-Untersuchungen alter Knochen haben eine bislang unbekannte ausgestorbene Rinderart offenbart, die während der letzten Eiszeit in Südsiberia lebte. Diese Art war mit modernen Yaks verwandt, folgte aber einen separaten evolutionären Weg über Hunderttausende von Jahren.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-extinct-bovine-species-siberia-reveals.html",
+      "datum": "2026-10-06"
     }
   ],
-  "stand": "2026-10-05"
+  "stand": "2026-10-06"
 }
