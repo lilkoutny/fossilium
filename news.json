@@ -1,12 +1,19 @@
 {
   "meldungen": [
     {
-      "titel": "Homo erectus in Südafrika früher nachgewiesen als gedacht",
-      "zusammenfassung": "Forscher haben in der Drimolen Cave in Südafrika 18 Fossilien von Frühmenschen entdeckt, darunter ein Schädelfragment von Homo erectus, das etwa 2 Millionen Jahre alt ist. Dies deutet darauf hin, dass die Art rund 200.000 Jahre früher in Südafrika auftrat als bislang angenommen. Die Funde zeigen auch, dass sich Paranthropus robustus parallel zu Homo erectus entwickelte und durch Klimaveränderungen zu immer größeren Zähnen und stärkeren Kaumuskeln evolvierte.",
-      "quelle": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
-      "datum": "2026-10-07"
+      "titel": "Jurassic-Fossil enthüllt evolutionäre Ursprünge des Säugetierstillens",
+      "zusammenfassung": "Forscher haben anhand eines Jurassic-Fossils neue Erkenntnisse über die Evolution des Säugetierstillens gewonnen. Die Studie zeigt, dass die anatomischen Strukturen, die für das Stillen notwendig sind, bereits vor etwa 165 Millionen Jahren entstanden – lange vor dem Erscheinen moderner Säugetiere.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html",
+      "datum": "2026-10-08"
+    },
+    {
+      "titel": "Zimbabwes Dinosaurier unterschieden sich von denen Südafrikas",
+      "zusammenfassung": "Paläontologen haben in Zimbabwe neue Dinosaurier-Arten entdeckt, die sich von südafrikanischen Arten unterscheiden. Die Funde deuten darauf hin, dass die verschiedenen Habitate Afrikas zu einer großen Vielfalt in der prähistorischen Fauna führten.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+      "datum": "2026-10-08"
     }
   ],
-  "stand": "2026-10-11"
+  "stand": "2026-10-12"
 }
