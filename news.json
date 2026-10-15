@@ -1,19 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "Erstes Megaraptor-Fossil in Europa auf der Isle of Wight entdeckt",
-      "zusammenfassung": "Forscher haben auf der Isle of Wight ein neues Dinosaurier-Fossil gefunden, das zu einer Gruppe agiler, zweibeiniger Raubtiere namens Megaraptoren gehört. Das Tier war etwa so groß wie ein großer Tiger und stellt den ersten Fund dieser Gruppe in Europa dar.",
-      "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+      "titel": "Vergessenes Fossil enthüllt gefährlichen Dinosaurier mit Riesenkrallen",
+      "zusammenfassung": "Ein 120 Millionen Jahre altes Fossil, das fast ein Jahrhundert lang in einem Museum lagerte, offenbart einen neuen, tigergroßen Raubdino mit gewaltigen Krallen. Der Fund liefert den ersten Nachweis von Megaraptoren in Europa und hilft zu erklären, wie diese mysteriösen Dinosaurier später zu gigantischen Jägern wurden.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
       "datum": "2026-10-14"
     },
     {
-      "titel": "Jura-Säugetier-Fossil gibt Hinweise auf Evolution der Säugetier-Fähigkeiten",
-      "zusammenfassung": "Ein 165 Millionen Jahre altes Fossil zeigt das winzige Raubtier Megacauda sungei, das trotz seiner Größe von nur 50 Zentimetern ein bedeutender Räuber in der Jura war. Die fortgeschrittene Anatomie des Tieres deutet auf einen frühen Schritt in der Entwicklung der Fähigkeit zum Säugen hin, ein wichtiger Punkt in der Säugetier-Evolution.",
+      "titel": "Neue Dinosaurierart aus Afrika offenbart verlorene prähistorische Welt",
+      "zusammenfassung": "Ein neu identifizierter 210 Millionen Jahre alter Dinosaurier aus Simbabwe hilft Wissenschaftlern, ein überraschend eigenes prähistorisches Ökosystem zu enthüllen. Die Entdeckung deutet darauf hin, dass antike Klimaunterschiede Dinosaurierpopulationen in Südafrika voneinander isoliert haben könnten, was zu einzigartigen Arten führte.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
+      "datum": "2026-10-12"
+    },
+    {
+      "titel": "Winziger Jura-Raubdino wirft Licht auf Evolution des Säugetiergehirns",
+      "zusammenfassung": "Ein 165 Millionen Jahre altes Fossil offenbart einen außergewöhnlichen Jura-Raubdino, der helfen könnte zu erklären, wie Säugetiere einen wichtigen evolutionären Vorteil entwickelten. Das nur 50 Zentimeter lange Tier Megacauda sungei hatte spezialisierte Zähne und eine fortgeschrittene Schluckmuskulatur, die auf frühe Schritte zur Fähigkeit des Säugens hindeutet.",
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
-      "datum": "2026-10-14"
+      "datum": "2026-10-12"
     }
   ],
-  "stand": "2026-10-14"
+  "stand": "2026-10-15"
 }
