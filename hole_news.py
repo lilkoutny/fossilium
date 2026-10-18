@@ -146,6 +146,23 @@ def main():
         return
 
     daten = fasse_zusammen(kandidaten)
+    if not isinstance(daten, dict) or not isinstance(daten.get("meldungen"), list):
+        sys.exit("Fehler: Die Zusammenfassung enthielt keine gültige Meldungsliste; news.json bleibt unverändert.")
+    meldungen = daten["meldungen"]
+    if not meldungen:
+        warnung = "Keine passenden Meldungen in der Zusammenfassung (0 ausgewählt) – news.json bleibt unverändert."
+        print(f"::warning::{warnung}")
+        return
+    erforderliche_felder = ("titel", "zusammenfassung", "quelle", "url", "datum")
+    quellen_nach_url = {k.get("url"): k.get("quelle") for k in kandidaten if k.get("url")}
+    if any(
+        not isinstance(meldung, dict)
+        or any(not isinstance(meldung.get(feld), str) or not meldung[feld].strip() for feld in erforderliche_felder)
+        or meldung.get("url") not in quellen_nach_url
+        or meldung.get("quelle") != quellen_nach_url.get(meldung.get("url"))
+        for meldung in meldungen
+    ):
+        sys.exit("Fehler: Mindestens eine Meldung ist unvollständig oder nicht durch einen RSS-Kandidaten belegt; news.json bleibt unverändert.")
     daten["stand"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     with open(AUSGABE, "w", encoding="utf-8") as f:

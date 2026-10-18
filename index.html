@@ -265,7 +265,7 @@
         <span class="news-stand" id="newsStand"></span>
       </div>
       <div class="news-raster" id="newsRaster"></div>
-      <p class="leer" id="newsHinweis" hidden>Die täglichen Paläo-News erscheinen hier, sobald die Seite online ist und das News-Skript eingerichtet wurde (siehe ANLEITUNG.md).</p>
+      <p class="leer" id="newsHinweis" hidden></p>
     </section>
 
     <!-- ============ DINODEX ============ -->
@@ -498,11 +498,21 @@ filterKnopf("filterKost", w=>filterKost=w);
 /* ---------- News laden (news.json wird taeglich vom Skript erneuert) ---------- */
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 async function ladeNews(){
+  const hinweis = document.getElementById("newsHinweis");
   try{
     const antwort = await fetch("news.json", {cache:"no-store"});
-    if(!antwort.ok) throw new Error("keine news.json");
+    if(!antwort.ok) throw new Error("news.json nicht erreichbar");
     const daten = await antwort.json();
-    if(!daten.meldungen || !daten.meldungen.length) throw new Error("leer");
+    if(!Array.isArray(daten.meldungen)) throw new Error("ungültige Meldungsliste");
+    if(daten.stand){
+      document.getElementById("newsStand").textContent =
+        "Stand: " + new Date(daten.stand).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"});
+    }
+    if(!daten.meldungen.length){
+      hinweis.textContent = "Für den aktuellen Stand liegen keine passenden Paläo-Meldungen vor. Die News werden täglich aktualisiert.";
+      hinweis.hidden = false;
+      return;
+    }
     document.getElementById("newsRaster").innerHTML = daten.meldungen.map(m => `
       <article class="news-karte">
         <time datetime="${esc(m.datum)}">${new Date(m.datum).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"})}</time>
@@ -510,12 +520,10 @@ async function ladeNews(){
         <p>${esc(m.zusammenfassung)}</p>
         <a href="${esc(m.url)}" target="_blank" rel="noopener">Originalartikel bei ${esc(m.quelle)}</a>
       </article>`).join("");
-    if(daten.stand){
-      document.getElementById("newsStand").textContent =
-        "Stand: " + new Date(daten.stand).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"});
-    }
+    hinweis.hidden = true;
   }catch(e){
-    document.getElementById("newsHinweis").hidden = false;
+    hinweis.textContent = "Die Paläo-News sind gerade nicht erreichbar. Bitte später erneut versuchen.";
+    hinweis.hidden = false;
   }
 }
 ladeNews();
