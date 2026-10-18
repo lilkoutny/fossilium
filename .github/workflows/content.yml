@@ -1,0 +1,63 @@
+name: Fossilium Content-Produktion
+
+on:
+  workflow_run:
+    workflows: ["Paläo-News aktualisieren"]
+    types: [completed]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["content_pipeline/**", ".github/workflows/content.yml"]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: fossil-content-production
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'requests>=2.32,<3'
+      - name: Datenfluss prüfen
+        run: python -m unittest discover -s content_pipeline/tests -v
+      - uses: actions/cache/restore@v4
+        with:
+          path: .content-state
+          key: content-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: content-state-
+      - name: Neue News recherchieren und Skript vorbereiten
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PIPELINE_ALLOW_PAID_CALLS: ${{ vars.FOSSILIUM_CONTENT_API_ENABLED || '0' }}
+          PIPELINE_MAX_CALLS_PER_DAY: '4'
+          PIPELINE_MAX_OUTPUT_TOKENS: '2000'
+        run: |
+          mkdir -p .content-state
+          python content_pipeline/production.py --news-json news.json --db .content-state/state.sqlite --output content-status.json --max-jobs 1 --retry
+      - name: Zustand für nächsten Durchlauf erhalten
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .content-state
+          key: content-state-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Lesbaren Produktionsstatus veröffentlichen
+        run: |
+          git config user.name fossil-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-status.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Fossilium content production status"
+          git pull --rebase origin main
+          git push origin HEAD:main

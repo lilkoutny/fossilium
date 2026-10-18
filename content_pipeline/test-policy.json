@@ -1,0 +1,10 @@
+{
+  "test_budget_eur": 20,
+  "budget_scope": "research_voice_video_total",
+  "paid_automation_enabled": false,
+  "require_cost_check_before_generation": true,
+  "automatic_social_posting": false,
+  "target_language": "de",
+  "target_format": "9:16",
+  "target_duration_seconds": [60, 90]
+}
