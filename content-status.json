@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated": "2026-10-18T08:46:59.011925+00:00",
+  "mode": "research_script",
+  "automatic_video": false,
+  "jobs": [
+    {
+      "id": "991e1d4b5a41def235a60eb902d6e65a",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "title": "Vergessenes Fossil enthüllt gefährlichen Raubdino mit Riesenkrallen",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-10-18T08:46:59.010580+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    }
+  ]
+}
