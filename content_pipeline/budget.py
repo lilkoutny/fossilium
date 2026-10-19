@@ -48,6 +48,24 @@ def balance(db):
     limit = int(db.execute("SELECT value FROM budget_config WHERE key='limit_micro_eur'").fetchone()[0])
     used = _usage(db)
     return dict(limit_micro_eur=limit,used_micro_eur=used,remaining_micro_eur=max(0,limit-used))
+
+def set_limit(db,amount_micro_eur,note):
+    """Explicit audited limit update, bounded by the separately saved policy."""
+    if type(amount_micro_eur) is not int or amount_micro_eur<=0 or not isinstance(note,str) or not note.strip():
+        raise ValueError('budget_change_requires_amount_and_note')
+    allowed=Decimal(str(policy()['test_budget_eur']))*1_000_000
+    if amount_micro_eur>allowed: raise ValueError('budget_change_exceeds_saved_policy')
+    ensure(db)
+    db.execute('CREATE TABLE IF NOT EXISTS budget_limit_changes(old_micro_eur INTEGER,new_micro_eur INTEGER,note TEXT,changed TEXT)')
+    db.commit();db.execute('BEGIN IMMEDIATE')
+    try:
+        if amount_micro_eur<_usage(db): raise ValueError('budget_change_below_existing_usage')
+        old=int(db.execute("SELECT value FROM budget_config WHERE key='limit_micro_eur'").fetchone()[0])
+        db.execute("UPDATE budget_config SET value=? WHERE key='limit_micro_eur'",(str(amount_micro_eur),))
+        db.execute('INSERT INTO budget_limit_changes VALUES(?,?,?,?)',(old,amount_micro_eur,note[:500],_now()))
+        db.commit()
+    except Exception:
+        db.rollback();raise
 def estimate_micro_eur(input_bytes,output_tokens,*,search=False,overhead_bytes=4096):
     # Byte-per-token upper allowance. Server-search may repeat input processing:
     # for two searches reserve THREE full 200K contexts on the pinned model.

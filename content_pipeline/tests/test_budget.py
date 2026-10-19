@@ -49,4 +49,19 @@ class BudgetTests(unittest.TestCase):
         finally:
             fresh.close()
 
+    def test_explicit_limit_update_preserves_spending(self):
+        budget.reserve(self.db,'paid','video',2_000_000)
+        budget.settle(self.db,'paid','committed',1_000_000)
+        budget.set_limit(self.db,25_000_000,'Confirmed first-test buffer')
+        self.assertEqual(budget.balance(self.db)['used_micro_eur'],1_000_000)
+        self.assertEqual(budget.balance(self.db)['limit_micro_eur'],25_000_000)
+        self.assertEqual(self.db.execute('SELECT count(*) FROM budget_limit_changes').fetchone()[0],1)
+
+    def test_limit_update_cannot_exceed_policy_or_erase_spending(self):
+        with self.assertRaisesRegex(ValueError,'exceeds_saved_policy'):
+            budget.set_limit(self.db,30_000_000,'Not authorized')
+        budget.reserve(self.db,'held','voice',2_000_000)
+        with self.assertRaisesRegex(ValueError,'below_existing_usage'):
+            budget.set_limit(self.db,1_000_000,'Too low')
+
 if __name__=='__main__': unittest.main()

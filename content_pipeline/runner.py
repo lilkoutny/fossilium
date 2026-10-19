@@ -3,6 +3,7 @@ import argparse
 import json
 import os
 import time
+from decimal import Decimal
 from pathlib import Path
 from . import budget, media, production, runway, render
 
@@ -68,9 +69,20 @@ def main():
     p.add_argument('--news-json')
     p.add_argument('--execute',action='store_true',help='Run one authorized paid test, subject to the persisted overall budget')
     p.add_argument('--watch',action='store_true',help='Poll pending tasks; never resubmit them')
+    p.add_argument('--set-budget-limit-eur',type=Decimal,help='Explicit update within the saved policy; never resets expenses')
+    p.add_argument('--budget-note',default='',help='Reason for an authorized budget-limit update')
     args=p.parse_args()
     try:
-        result=run(args.db,args.news_json,args.execute,args.watch)
+        if args.set_budget_limit_eur is not None:
+            amount=args.set_budget_limit_eur*1_000_000
+            if not amount.is_finite() or amount!=int(amount): raise ValueError('invalid_budget_amount')
+            db=production.database(str(Path(args.db) if args.db else state_dir()/'production.sqlite'))
+            try:
+                budget.set_limit(db,int(amount),args.budget_note)
+                result={'mode':'budget_updated','budget':budget.balance(db)}
+            finally: db.close()
+        else:
+            result=run(args.db,args.news_json,args.execute,args.watch)
     except (runway.RunwayBlocked,render.RenderBlocked,production.Blocked,RuntimeError,ValueError) as exc:
         result={'mode':'blocked','reason':str(exc)}
     except Exception:

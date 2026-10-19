@@ -10,6 +10,8 @@ Der Nutzer hat die frühere Anbieterpause aufgehoben. Ziel sind ungefähr **20 E
 
 Die Umrechnung von 1 USD in eine Budgetreserve von 1,20 EUR ist eine konservative Rechengröße inklusive Puffer, kein behaupteter Wechselkurs. Die Preisprüfung ist auf 30 Tage begrenzt. Bei unbekannten Preisen oder unerwarteten höheren Anbieterkosten hält die Strecke an. Eine bestehende Datenbank übernimmt eine spätere Erhöhung in der Policy nicht stillschweigend; Ausgaben dürfen nicht durch Löschen der Zustandsdaten zurückgesetzt werden.
 
+Eine ausdrücklich freigegebene spätere Erhöhung lässt sich über `python -m content_pipeline.runner --set-budget-limit-eur BETRAG --budget-note "Grund der Freigabe"` übernehmen, nachdem der autorisierte Rahmen in `test-policy.json` gespeichert wurde. Der Aufruf startet keine Produktion, protokolliert die Änderung und erhält alle bisherigen Kosten. Er lehnt Beträge über der gespeicherten Policy ab.
+
 `test-policy.json` erlaubt einen manuell gestarteten Test. Unbeaufsichtigte bezahlte Tagesläufe bleiben bis zum erfolgreichen Gesamttest aus. Automatisches Social-Posting ist nicht beauftragt.
 
 ## Start unter Windows
