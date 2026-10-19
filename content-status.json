@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18T08:46:59.011925+00:00",
+  "updated": "2026-10-19T05:24:01.460345+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
@@ -11,7 +11,20 @@
       "state": "blocked",
       "stage": "research",
       "reason": "api_not_enabled",
-      "updated": "2026-10-18T08:46:59.010580+00:00",
+      "updated": "2026-10-19T05:24:01.458787+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "1f76fbf7ae1ab2acc6683acaabd3e619",
+      "url": "https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html",
+      "title": "Älteste Spuren irdischen Lebens in Gefahr",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-10-19T05:24:00.580056+00:00",
       "sources": [],
       "score": null,
       "script": null,
