@@ -29,7 +29,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install 'requests>=2.32,<3'
+      - run: pip install -r requirements.txt
       - name: Datenfluss prüfen
         run: python -m unittest discover -s content_pipeline/tests -v
       - uses: actions/cache/restore@v4
@@ -43,6 +43,7 @@ jobs:
           PIPELINE_ALLOW_PAID_CALLS: ${{ vars.FOSSILIUM_CONTENT_API_ENABLED || '0' }}
           PIPELINE_MAX_CALLS_PER_DAY: '4'
           PIPELINE_MAX_OUTPUT_TOKENS: '2000'
+          PIPELINE_UNATTENDED: '1'
         run: |
           mkdir -p .content-state
           python content_pipeline/production.py --news-json news.json --db .content-state/state.sqlite --output content-status.json --max-jobs 1 --retry

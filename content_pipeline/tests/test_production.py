@@ -8,6 +8,7 @@ SOURCE='Researchers identify a previously unrecognized fossil from the museum co
 URL='https://www.nhm.ac.uk/discover/fossil-discovery.html'
 def script():
     return {'title':'Ein Fossil im Museum','scenes':[{'seconds':12,'narration':'Dieses Fossil lag lange im Museum und wird nun erneut untersucht. Die Forschenden vergleichen seine Merkmale jetzt besonders sorgfältig mit verwandten Tieren.','source_url':URL,'excerpt':SOURCE[:78],'visual':'Museumsgrafik','caption':'Fossil im Museum'} for _ in range(5)]}
+@patch.dict(os.environ,{'GITHUB_ACTIONS':'false','PIPELINE_UNATTENDED':'0'})
 class ProductionTests(unittest.TestCase):
     def setUp(self): self.temp=tempfile.TemporaryDirectory(); self.db=p.database(str(Path(self.temp.name)/'state.sqlite')); self.jid=p.ingest(self.db,'https://www.sciencedaily.com/releases/test.htm','Test')
     def tearDown(self): self.db.close(); self.temp.cleanup()
@@ -20,6 +21,15 @@ class ProductionTests(unittest.TestCase):
     def test_disabled_paid_requests_never_hit_network(self):
         with patch.dict(os.environ,{'PIPELINE_ALLOW_PAID_CALLS':'0'}),patch.object(p.requests,'post') as post:
             with self.assertRaises(p.Blocked): p.model(self.db,p.load(self.db,self.jid),'test',{})
+            post.assert_not_called()
+    def test_unknown_model_price_blocks_before_network(self):
+        with patch.dict(os.environ,{'PIPELINE_ALLOW_PAID_CALLS':'1','ANTHROPIC_API_KEY':'test','ANTHROPIC_MODEL':'unknown'}),patch.object(p.requests,'post') as post:
+            with self.assertRaisesRegex(p.Blocked,'unknown_model_price'): p.model(self.db,p.load(self.db,self.jid),'test',{})
+            post.assert_not_called()
+    def test_unattended_paid_work_is_blocked(self):
+        with patch.dict(os.environ,{'PIPELINE_ALLOW_PAID_CALLS':'1','ANTHROPIC_API_KEY':'test','GITHUB_ACTIONS':'true'}),patch.object(p.requests,'post') as post:
+            with self.assertRaisesRegex(p.Blocked,'paid_automation_not_enabled'):
+                p.model(self.db,p.load(self.db,self.jid),'test',{})
             post.assert_not_called()
     def test_daily_reservation_survives_provider_failure(self):
         with patch.dict(os.environ,{'PIPELINE_ALLOW_PAID_CALLS':'1','ANTHROPIC_API_KEY':'test','PIPELINE_MAX_CALLS_PER_DAY':'1'}),patch.object(p.requests,'post',side_effect=RuntimeError('timeout')) as post:

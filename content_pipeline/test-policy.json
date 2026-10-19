@@ -1,6 +1,11 @@
 {
-  "test_budget_eur": 20,
+  "budget_target_eur": 20,
+  "test_budget_eur": 25,
+  "budget_interpretation": "20 EUR target with a modest buffer; hard stop at 25 EUR for the complete first test, including all providers and retries. Further increases require a new user decision.",
   "budget_scope": "research_voice_video_total",
+  "authorization_date": "2026-10-19",
+  "provider_selection_resumed": true,
+  "paid_test_authorized": true,
   "paid_automation_enabled": false,
   "require_cost_check_before_generation": true,
   "automatic_social_posting": false,

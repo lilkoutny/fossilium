@@ -1,0 +1,7 @@
+.deps/
+.venv/
+__pycache__/
+*.sqlite*
+.content-state/
+content_pipeline/output/
+.codex-remote-attachments/
