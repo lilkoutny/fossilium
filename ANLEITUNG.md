@@ -6,6 +6,7 @@
 |---|---|
 | `index.html` | Deine komplette Website (Karte, Dinodex, News-Bereich) |
 | `news.json` | Die aktuellen News – wird täglich automatisch überschrieben |
+| `news-archiv.json` | Alle bisher veröffentlichten Meldungen; neue Einträge werden dauerhaft ergänzt |
 | `hole_news.py` | Skript: holt RSS-Meldungen, fasst sie per Claude API zusammen |
 | `.github/workflows/news.yml` | GitHub-Action: führt das Skript jeden Morgen aus |
 | `bilder/` | Hier kommen deine Blender-Renders rein |
@@ -36,6 +37,8 @@
 3. Name: `ANTHROPIC_API_KEY` – Wert: dein Schlüssel → **Add secret**.
 
 ## Schritt 4: News-Automatik testen
+
+Auf der Startseite erscheinen die vier neuesten verfügbaren Meldungen. Der Button **Alle Meldungen anzeigen** öffnet das vollständige Archiv, nach Datum absteigend sortiert. Bereits angezeigte Beiträge bleiben im Archiv, auch wenn der tägliche Feed später andere Themen liefert. Die vorhandene Versionshistorie wurde als Ausgangsbestand übernommen; `scripts/build-news-archive.py` kann diesen Bestand aus der Git-Historie reproduzieren.
 
 1. Im Repository auf den Tab **Actions** klicken.
 2. Links "Paläo-News aktualisieren" wählen → **Run workflow**.

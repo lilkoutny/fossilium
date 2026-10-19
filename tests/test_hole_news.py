@@ -25,6 +25,7 @@ class NewsOutputTests(unittest.TestCase):
         self.module = load_script()
         self.tempdir = tempfile.TemporaryDirectory()
         self.output = Path(self.tempdir.name) / "news.json"
+        self.archive = Path(self.tempdir.name) / "news-archiv.json"
         self.previous = (
             '{"meldungen":[{"titel":"Vorhandener Artikel",'
             '"zusammenfassung":"Vorhandene Zusammenfassung.","quelle":"Testquelle",'
@@ -33,6 +34,8 @@ class NewsOutputTests(unittest.TestCase):
         self.output.write_text(self.previous, encoding="utf-8")
         self.output_patch = patch.object(self.module, "AUSGABE", str(self.output))
         self.output_patch.start()
+        self.archive_patch = patch.object(self.module, "ARCHIV", str(self.archive))
+        self.archive_patch.start()
         self.env_patch = patch.dict("os.environ", {"ANTHROPIC_API_KEY": "test-key"})
         self.env_patch.start()
         self.candidate = {
@@ -42,6 +45,7 @@ class NewsOutputTests(unittest.TestCase):
     def tearDown(self):
         self.env_patch.stop()
         self.output_patch.stop()
+        self.archive_patch.stop()
         self.tempdir.cleanup()
 
     def test_no_candidates_preserves_previous_news(self):
@@ -90,6 +94,33 @@ class NewsOutputTests(unittest.TestCase):
              patch.object(self.module, "fasse_zusammen", return_value=summary):
             self.module.main()
         self.assertEqual(__import__("json").loads(self.output.read_text(encoding="utf-8"))["meldungen"], summary["meldungen"])
+
+    def test_success_archives_previous_and_new_feed(self):
+        summary = {"meldungen": [{"titel": "Neu", "zusammenfassung": "S", "quelle": "Testquelle",
+            "url": "https://example.org/story", "datum": "2026-10-18"}]}
+        with patch.object(self.module, "hole_kandidaten", return_value=[self.candidate]), patch.object(self.module, "fasse_zusammen", return_value=summary):
+            self.module.main()
+        archive = __import__("json").loads(self.archive.read_text(encoding="utf-8"))
+        self.assertEqual({x["url"] for x in archive["meldungen"]}, {"https://example.org/old", "https://example.org/story"})
+
+    def test_api_failure_archives_old_and_leaves_feed(self):
+        with patch.object(self.module, "hole_kandidaten", return_value=[self.candidate]), patch.object(self.module, "fasse_zusammen", side_effect=RuntimeError("api")):
+            with self.assertRaisesRegex(RuntimeError, "api"):
+                self.module.main()
+        self.assertEqual(self.output.read_text(encoding="utf-8"), self.previous)
+        archive = __import__("json").loads(self.archive.read_text(encoding="utf-8"))
+        self.assertEqual(archive["meldungen"][0]["url"], "https://example.org/old")
+
+    def test_invalid_date_is_rejected(self):
+        self.assertFalse(self.module._valid_news([{**self.candidate, "zusammenfassung": "S", "datum": "2026-02-31"}]))
+
+    def test_corrupt_archive_is_not_replaced(self):
+        original = '{"meldungen":"invalid"}'
+        self.archive.write_text(original, encoding="utf-8")
+        with self.assertRaises(SystemExit):
+            self.module.sichere_archiv()
+        self.assertEqual(self.archive.read_text(encoding="utf-8"), original)
+        self.assertEqual(self.output.read_text(encoding="utf-8"), self.previous)
 
 
 if __name__ == "__main__":

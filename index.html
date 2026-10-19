@@ -41,6 +41,7 @@
     --link:#D9C08C;
   }
   *{box-sizing:border-box;margin:0;padding:0}
+  [hidden]{display:none!important}
   html{scroll-behavior:smooth}
   body{
     background:var(--nacht);
@@ -155,6 +156,25 @@
   .news-karte h3{font-size:22px;font-weight:600;line-height:1.25}
   .news-karte p{font-size:15px;flex:1}
   .news-karte a{font-size:14px;letter-spacing:.3px}
+  .news-aktionen{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px;margin-top:24px}
+  .news-archiv-knopf{border:1px solid var(--messing);background:transparent;color:var(--bein);padding:10px 18px}
+  .news-archiv-knopf:hover{background:var(--vitrine-hell)}
+  .news-archiv-knopf:focus-visible{outline:2px solid var(--messing);outline-offset:3px}
+  .news-zaehler,.news-archiv-hinweis{color:var(--bein-blass);font-size:14px}
+  .news-archiv{margin-top:34px;border-top:1px solid var(--linie);padding-top:22px;scroll-margin-top:24px}
+  .news-archiv h3{font-size:30px;font-weight:600}
+  .news-archiv-liste{list-style:none;margin-top:18px}
+  .news-archiv-liste li{display:grid;grid-template-columns:145px minmax(0,1fr);gap:12px 22px;padding:20px 0;border-top:1px solid var(--linie)}
+  .news-archiv-liste time{font-size:14px;color:var(--bein-blass)}
+  .news-archiv-liste h4{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:600;line-height:1.25}
+  .news-archiv-liste p{font-size:15px;margin-top:8px;max-width:80ch}
+  .news-archiv-liste .news-quelle{display:block;margin-top:8px;color:var(--bein-blass);font-size:13px}
+  .news-karte,.news-archiv-liste li{overflow-wrap:anywhere}
+  @media(max-width:560px){
+    .news-raster{grid-template-columns:1fr}
+    .news-archiv-liste li{grid-template-columns:1fr;gap:6px}
+    .news-stand{margin-left:0;width:100%}
+  }
 
   /* ---------- Artikel ---------- */
   .artikel{display:none}
@@ -266,6 +286,15 @@
       </div>
       <div class="news-raster" id="newsRaster"></div>
       <p class="leer" id="newsHinweis" hidden></p>
+      <div class="news-aktionen" id="newsAktionen" hidden>
+        <button type="button" class="news-archiv-knopf" id="newsArchivKnopf" aria-expanded="false" aria-controls="newsArchiv">Alle Meldungen anzeigen</button>
+        <span class="news-zaehler" id="newsZaehler"></span>
+      </div>
+      <section class="news-archiv" id="newsArchiv" aria-labelledby="newsArchivTitel" hidden>
+        <h3 id="newsArchivTitel">Alle bisherigen Meldungen</h3>
+        <p class="news-archiv-hinweis" id="newsArchivHinweis">Nach Datum sortiert – die neuesten zuerst.</p>
+        <ol class="news-archiv-liste" id="newsArchivListe"></ol>
+      </section>
     </section>
 
     <!-- ============ DINODEX ============ -->
@@ -495,31 +524,86 @@ document.getElementById("suche").addEventListener("input", baueRaster);
 filterKnopf("filterZeit", w=>filterZeit=w);
 filterKnopf("filterKost", w=>filterKost=w);
 
-/* ---------- News laden (news.json wird taeglich vom Skript erneuert) ---------- */
+/* ---------- Vier aktuelle Meldungen und dauerhaftes Nachrichtenarchiv ---------- */
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+function newsDatum(iso){
+  if(typeof iso!=="string" || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return "";
+  const date = new Date(iso+"T12:00:00Z");
+  return Number.isFinite(date.getTime()) && date.toISOString().slice(0,10)===iso ? iso : "";
+}
+function newsDatumText(iso){
+  return iso ? new Date(iso+"T12:00:00Z").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric",timeZone:"UTC"}) : "Datum nicht angegeben";
+}
+function newsAdresse(value){
+  try{
+    const url = new URL(value);
+    if(!["https:","http:"].includes(url.protocol) || url.username || url.password) return "";
+    url.hash="";
+    url.pathname=url.pathname.replace(/\/+$/,"") || "/";
+    [...url.searchParams.keys()].forEach(k=>{if(/^(utm_|fbclid$|gclid$|mc_cid$|mc_eid$)/i.test(k)) url.searchParams.delete(k)});
+    return url.href;
+  }catch{return ""}
+}
+function sammleNews(archiv,aktuell){
+  const alle = new Map();
+  [archiv,aktuell].forEach(daten=>{
+    (Array.isArray(daten?.meldungen) ? daten.meldungen : []).forEach(m=>{
+      if(!m || typeof m.titel!=="string" || !m.titel.trim() || typeof m.zusammenfassung!=="string") return;
+      const url=newsAdresse(m.url);if(!url) return;
+      const alt=alle.get(url);
+      alle.set(url,{titel:m.titel.trim(),zusammenfassung:m.zusammenfassung,
+        quelle:typeof m.quelle==="string" ? m.quelle : new URL(url).hostname,url,
+        datum:alt?.datum || newsDatum(m.datum)});
+    });
+  });
+  return [...alle.values()].sort((a,b)=>b.datum.localeCompare(a.datum)||a.titel.localeCompare(b.titel,"de"));
+}
+function zeichneNews(alle,archivVerfuegbar){
+  const vorschau=alle.slice(0,4);
+  document.getElementById("newsRaster").innerHTML=vorschau.map(m=>`
+    <article class="news-karte">
+      <time datetime="${esc(m.datum)}">${newsDatumText(m.datum)}</time>
+      <h3>${esc(m.titel)}</h3><p>${esc(m.zusammenfassung)}</p>
+      <a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">Originalartikel bei ${esc(m.quelle)}</a>
+    </article>`).join("");
+  document.getElementById("newsArchivListe").innerHTML=alle.map(m=>`
+    <li><time datetime="${esc(m.datum)}">${newsDatumText(m.datum)}</time>
+      <div><h4><a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${esc(m.titel)}</a></h4>
+        <p>${esc(m.zusammenfassung)}</p><span class="news-quelle">${esc(m.quelle)}</span></div>
+    </li>`).join("");
+  document.getElementById("newsAktionen").hidden=!alle.length;
+  document.getElementById("newsZaehler").textContent=alle.length<3
+    ? `Bisher ${alle.length} ${alle.length===1 ? "Meldung" : "Meldungen"} verfügbar.`
+    : `${vorschau.length} aktuelle · ${alle.length} insgesamt`;
+  document.getElementById("newsArchivHinweis").textContent=archivVerfuegbar
+    ? "Nach Datum sortiert – die neuesten zuerst."
+    : "Das vollständige Archiv ist gerade nicht erreichbar. Hier siehst du die verfügbaren Meldungen.";
+}
+document.getElementById("newsArchivKnopf").addEventListener("click",()=>{
+  const knopf=document.getElementById("newsArchivKnopf"),archiv=document.getElementById("newsArchiv");
+  const offen=knopf.getAttribute("aria-expanded")!=="true";
+  knopf.setAttribute("aria-expanded",String(offen));archiv.hidden=!offen;
+  knopf.textContent=offen ? "Liste wieder schließen" : "Alle Meldungen anzeigen";
+});
 async function ladeNews(){
   const hinweis = document.getElementById("newsHinweis");
   try{
-    const antwort = await fetch("news.json", {cache:"no-store"});
-    if(!antwort.ok) throw new Error("news.json nicht erreichbar");
-    const daten = await antwort.json();
-    if(!Array.isArray(daten.meldungen)) throw new Error("ungültige Meldungsliste");
-    if(daten.stand){
-      document.getElementById("newsStand").textContent =
-        "Stand: " + new Date(daten.stand).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"});
-    }
-    if(!daten.meldungen.length){
+    const lesen=async url=>{
+      const antwort=await fetch(url,{cache:"no-store"});if(!antwort.ok) throw new Error("News nicht erreichbar");
+      const daten=await antwort.json();if(!Array.isArray(daten.meldungen)) throw new Error("Ungültige Meldungsliste");return daten;
+    };
+    const [aktuell,archiv]=await Promise.allSettled([lesen("news.json"),lesen("news-archiv.json")]);
+    const daten=aktuell.status==="fulfilled" ? aktuell.value : null;
+    const bestand=archiv.status==="fulfilled" ? archiv.value : null;
+    if(!daten && !bestand) throw new Error("News nicht erreichbar");
+    const alle=sammleNews(bestand,daten),stand=newsDatum(daten?.stand)||newsDatum(bestand?.stand);
+    document.getElementById("newsStand").textContent=stand ? "Stand: "+newsDatumText(stand) : "";
+    zeichneNews(alle,Boolean(bestand));
+    if(!alle.length){
       hinweis.textContent = "Für den aktuellen Stand liegen keine passenden Paläo-Meldungen vor. Die News werden täglich aktualisiert.";
       hinweis.hidden = false;
       return;
     }
-    document.getElementById("newsRaster").innerHTML = daten.meldungen.map(m => `
-      <article class="news-karte">
-        <time datetime="${esc(m.datum)}">${new Date(m.datum).toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"})}</time>
-        <h3>${esc(m.titel)}</h3>
-        <p>${esc(m.zusammenfassung)}</p>
-        <a href="${esc(m.url)}" target="_blank" rel="noopener">Originalartikel bei ${esc(m.quelle)}</a>
-      </article>`).join("");
     hinweis.hidden = true;
   }catch(e){
     hinweis.textContent = "Die Paläo-News sind gerade nicht erreichbar. Bitte später erneut versuchen.";
