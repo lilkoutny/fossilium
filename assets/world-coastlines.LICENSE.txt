@@ -1,0 +1,10 @@
+Source dataset: Natural Earth, ne_110m_land.geojson (Natural Earth Vector repository)
+Source URL: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson
+Retrieved: 2026-10-19
+Source features projected: 127; source ring coordinates projected: 5143
+Generated SVG SHA-256: C05762744F095749DFB52E325C2BFF841CE32235791B45E59D66753C57C077FB
+Official terms: https://www.naturalearthdata.com/about/terms-of-use/
+
+The SVG is a deterministic local projection of the source GeoJSON into the
+page's equirectangular 1000 x 500 coordinate system. The source terms govern
+use and attribution; this file does not add a new licence claim.

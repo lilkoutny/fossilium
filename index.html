@@ -75,33 +75,62 @@
   .karte-kopf{padding:52px 0 24px}
   .karte-kopf h1{font-size:clamp(32px,5vw,52px);font-weight:600;max-width:24ch;line-height:1.12}
   .karte-kopf p{max-width:62ch;margin-top:12px;color:var(--bein-blass)}
+
   .karten-rahmen{
-    border:1px solid var(--messing-tief);
-    outline:1px solid var(--linie);
-    outline-offset:5px;
-    background:var(--vitrine);
-    position:relative;
-    margin:6px;
+    display:grid;grid-template-columns:minmax(0,1fr)280px;
+    border:1px solid var(--messing-tief);background:var(--vitrine);
+    box-shadow:0 18px 55px rgba(0,0,0,.16);margin:6px 0;overflow:hidden;
   }
-  .karten-rahmen svg{display:block;width:100%;height:auto}
-  .land{fill:#37463C;stroke:#54654F;stroke-width:1}
-  .gitter{stroke:rgba(234,227,210,.10);stroke-width:.6;stroke-dasharray:2 6}
-  .marker{cursor:pointer}
-  .marker circle.punkt{stroke:var(--nacht);stroke-width:2;transition:r .15s ease}
-  .marker:hover circle.punkt,.marker:focus circle.punkt{r:9}
-  .marker text{
-    font-family:"Jost",sans-serif;font-size:13px;font-weight:500;letter-spacing:.4px;
-    fill:var(--bein);paint-order:stroke;stroke:var(--nacht);stroke-width:3px;
-    pointer-events:none;opacity:0;transition:opacity .15s ease;
-  }
+  .karten-bild{position:relative;min-width:0;display:flex;flex-direction:column;justify-content:center;background:#172920}
+  .karten-meta{display:flex;justify-content:space-between;gap:16px;padding:20px 24px 0;color:var(--messing);font-size:11px;font-weight:500;letter-spacing:1.7px;text-transform:uppercase}
+  .karten-rahmen svg{display:block;width:100%;height:auto;min-height:280px}
+  .map-land{fill:#425841;stroke:#859273;stroke-width:.8;stroke-linejoin:round}
+  .gitter{stroke:rgba(234,227,210,.09);stroke-width:.65;fill:none}
+  .gitter .aequator{stroke:rgba(198,166,108,.24);stroke-dasharray:4 6}
+  .karten-koordinaten{font-family:"Jost",sans-serif;font-size:10px;letter-spacing:1px;fill:#8d9c8b}
+  .marker{cursor:pointer;outline:none}
+  .marker .marker-halo{fill:currentColor;opacity:.16}
+  .marker .punkt{fill:currentColor;stroke:#172920;stroke-width:2.5;transition:r .15s ease}
+  .marker .marker-kern{fill:#f7edce;pointer-events:none}
+  .marker:hover .punkt,.marker:focus .punkt{r:10}
+  .marker:hover .marker-halo,.marker:focus .marker-halo{opacity:.32}
+  .marker text{font-family:"Jost",sans-serif;font-size:13px;font-weight:500;fill:var(--bein);paint-order:stroke;stroke:#14221a;stroke-width:4;pointer-events:none;opacity:0;transition:opacity .15s ease}
   .marker:hover text,.marker:focus text{opacity:1}
-  .legende{
-    display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;
-    padding:14px 18px;border-top:1px solid var(--linie);font-size:15px;color:var(--bein-blass);
+  .karten-fuss{display:flex;justify-content:space-between;gap:16px;padding:0 24px 18px;color:#a2ac98;font-size:11px}
+  .karten-kompass{font-family:"Cormorant Garamond",serif;font-size:18px;fill:var(--messing)}
+  .fundorte-panel{border-left:1px solid var(--linie);padding:22px 18px;background:linear-gradient(150deg,#26372b,var(--vitrine))}
+  .fundorte-panel h2{font-size:27px;font-weight:500}
+  .fundorte-panel>p{font-size:12px;color:var(--bein-blass);margin:2px 0 14px}
+  .fundort-liste{list-style:none;display:grid;gap:3px}
+  .fundort-knopf{width:100%;display:grid;grid-template-columns:8px minmax(0,1fr)12px;align-items:center;gap:10px;padding:11px 6px;text-align:left;border:0;border-bottom:1px solid rgba(198,166,108,.14);background:transparent;color:var(--bein);min-height:58px}
+  .fundort-knopf:hover,.fundort-knopf:focus-visible{background:rgba(198,166,108,.08)}
+  .fundort-knopf:focus-visible{outline:1px solid var(--messing);outline-offset:1px}
+  .fundort-punkt{width:6px;height:6px;border-radius:50%;background:var(--fundort-farbe)}
+  .fundort-name{display:block;font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:600;line-height:1.1}
+  .fundort-ort{display:block;color:var(--bein-blass);font-size:11px;margin-top:4px;line-height:1.35}
+  .fundort-pfeil{font-size:18px;color:var(--messing)}
+  .legende{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;padding:14px 24px;border-top:1px solid var(--linie);font-size:13px;color:var(--bein-blass)}
+  .legende .chip{display:flex;align-items:center;gap:8px}
+  .chip i{width:9px;height:9px;border-radius:50%;display:inline-block;border:1px solid var(--nacht);box-shadow:0 0 0 1px var(--messing-tief)}
+  .legende .hinweis{margin-left:auto;font-size:11px}
+  @media(max-width:960px){
+    .karten-rahmen{grid-template-columns:1fr}
+    .fundorte-panel{border-left:0;border-top:1px solid var(--linie);padding:20px}
+    .fundort-liste{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 16px}
+    .fundort-name{font-size:19px}
   }
-  .legende .chip{display:flex;align-items:center;gap:9px}
-  .chip i{width:12px;height:12px;border-radius:50%;display:inline-block;border:1px solid var(--nacht);box-shadow:0 0 0 1px var(--messing-tief)}
-  .legende .hinweis{margin-left:auto;font-style:italic}
+  @media(max-width:560px){
+    .karten-rahmen svg{min-height:0}
+    .karten-meta{padding:16px 14px 6px;font-size:9px;letter-spacing:1.1px}
+    .karten-fuss{padding:0 14px 14px;font-size:10px}
+    .fundorte-panel{padding:18px 14px}
+    .fundort-liste{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 12px}
+    .fundort-knopf{padding:10px 2px;gap:7px}
+    .fundort-name{font-size:18px}
+    .fundort-ort{font-size:10px}
+    .legende{padding:14px;gap:10px 18px}
+    .legende .hinweis{width:100%;margin-left:0}
+  }
 
   /* ---------- Dinodex ---------- */
   .lexikon-kopf{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:64px 0 26px;border-bottom:1px solid var(--linie);padding-bottom:16px}
@@ -233,48 +262,50 @@
   <div id="start">
     <section class="karte-kopf" id="weltkarte">
       <h1>Wo die Dinosaurier gefunden wurden</h1>
-      <p>Jeder Punkt markiert einen bedeutenden Fundort. Die Farbe zeigt das Erdzeitalter, in dem der Dinosaurier lebte. Tippe einen Punkt an, um den Artikel zu öffnen.</p>
+      <p>Von Montana bis Liaoning: Entdecke die Orte hinter den Fossilien. Wähle einen Fundpunkt oder einen Namen und erfahre mehr über seine Geschichte.</p>
     </section>
 
+
     <div class="karten-rahmen">
-      <svg viewBox="0 0 1000 500" role="img" aria-label="Weltkarte mit Dinosaurier-Fundorten">
-        <!-- Gradnetz -->
-        <g class="gitter">
-          <line x1="0" y1="125" x2="1000" y2="125"/>
-          <line x1="0" y1="250" x2="1000" y2="250"/>
-          <line x1="0" y1="375" x2="1000" y2="375"/>
-          <line x1="250" y1="0" x2="250" y2="500"/>
-          <line x1="500" y1="0" x2="500" y2="500"/>
-          <line x1="750" y1="0" x2="750" y2="500"/>
-        </g>
-        <!-- Stilisierte Kontinente (vereinfachte Formen) -->
-        <g>
-          <!-- Nordamerika -->
-          <path class="land" d="M40,95 L95,70 L160,62 L215,70 L255,88 L268,110 L250,128 L262,150 L245,175 L225,200 L210,225 L196,208 L178,190 L150,178 L120,168 L95,150 L70,135 L52,115 Z"/>
-          <!-- Grönland -->
-          <path class="land" d="M320,52 L365,42 L398,55 L388,85 L352,96 L326,80 Z"/>
-          <!-- Südamerika -->
-          <path class="land" d="M268,236 L300,228 L330,242 L342,272 L336,308 L322,345 L306,382 L296,405 L288,378 L280,340 L272,300 L264,264 Z"/>
-          <!-- Europa -->
-          <path class="land" d="M470,120 L500,102 L535,96 L568,102 L586,118 L574,136 L552,148 L524,152 L498,146 L480,134 Z"/>
-          <!-- Afrika -->
-          <path class="land" d="M472,162 L512,152 L556,158 L588,176 L596,210 L586,248 L566,286 L546,316 L530,332 L516,308 L504,272 L490,236 L478,198 Z"/>
-          <!-- Asien -->
-          <path class="land" d="M590,110 L640,86 L700,72 L770,68 L840,78 L890,96 L905,120 L880,142 L845,158 L800,168 L760,180 L735,200 L716,190 L690,176 L655,166 L622,150 L600,132 Z"/>
-          <!-- Indien -->
-          <path class="land" d="M700,182 L726,176 L740,196 L730,222 L714,236 L702,214 Z"/>
-          <!-- Südostasien / Inseln -->
-          <path class="land" d="M770,196 L796,192 L812,208 L800,226 L780,220 Z"/>
-          <!-- Australien -->
-          <path class="land" d="M800,306 L846,296 L888,308 L898,336 L878,358 L840,364 L810,350 L798,328 Z"/>
-        </g>
-        <g id="markerEbene"></g>
-      </svg>
-      <div class="legende">
-        <div class="chip"><i style="background:var(--trias)"></i> Trias (252–201 Mio. Jahre)</div>
-        <div class="chip"><i style="background:var(--jura)"></i> Jura (201–145 Mio. Jahre)</div>
-        <div class="chip"><i style="background:var(--kreide)"></i> Kreide (145–66 Mio. Jahre)</div>
-        <div class="hinweis">Karte stark vereinfacht</div>
+      <div class="karten-bild">
+        <div class="karten-meta"><span>Atlas der Fundorte</span><span id="fundortZaehler">6 Entdeckungen</span></div>
+        <svg id="fundortKarte" viewBox="0 35 1000 390" role="group" aria-labelledby="kartenTitel kartenBeschreibung">
+          <title id="kartenTitel">Die Fundorte der Dinosaurier</title>
+          <desc id="kartenBeschreibung">Weltkarte mit sechs auswählbaren Fundorten. Die Namen neben der Karte öffnen dieselben Artikel.</desc>
+          <defs>
+            <radialGradient id="kartenMeer" cx="45%" cy="38%" r="70%">
+              <stop offset="0" stop-color="#213c2d"/><stop offset="1" stop-color="#172920"/>
+            </radialGradient>
+          </defs>
+          <rect x="0" y="0" width="1000" height="500" fill="url(#kartenMeer)"/>
+          <g class="gitter" aria-hidden="true">
+            <path d="M0 83.33H1000 M0 166.67H1000 M0 333.33H1000 M0 416.67H1000"/>
+            <path d="M166.67 0V500 M333.33 0V500 M500 0V500 M666.67 0V500 M833.33 0V500"/>
+            <path class="aequator" d="M0 250H1000"/>
+          </g>
+          <use class="map-land" href="assets/world-coastlines.svg#landmasses" aria-hidden="true"/>
+          <g class="karten-koordinaten" aria-hidden="true">
+            <text x="12" y="78">60° N</text><text x="12" y="245">0°</text><text x="12" y="410">60° S</text>
+          </g>
+          <g class="karten-kompass" transform="translate(935 85)" aria-hidden="true">
+            <path d="M0 -18L-5 3L0 0L5 3Z" fill="#c6a66c" opacity=".8"/>
+            <path d="M0 18L-5 -3L0 0L5 -3Z" fill="#c6a66c" opacity=".3"/>
+            <text x="0" y="-26" text-anchor="middle">N</text>
+          </g>
+          <g id="markerEbene"></g>
+        </svg>
+        <div class="karten-fuss"><span>Eine Reise durch Millionen Jahre</span><span>Heutige Lage der Fundorte</span></div>
+      </div>
+      <aside class="fundorte-panel" aria-labelledby="fundorteTitel">
+        <h2 id="fundorteTitel">Fundorte entdecken</h2>
+        <p>Wähle eine Geschichte.</p>
+        <ul class="fundort-liste" id="fundortListe"></ul>
+      </aside>
+      <div class="legende" aria-label="Erdzeitalter">
+        <div class="chip"><i style="background:var(--trias)"></i> Trias</div>
+        <div class="chip"><i style="background:var(--jura)"></i> Jura</div>
+        <div class="chip"><i style="background:var(--kreide)"></i> Kreide</div>
+        <span class="hinweis">Kartendaten: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a></span>
       </div>
     </div>
 
@@ -425,20 +456,33 @@ function bildHTML(d){
 }
 
 /* ---------- Weltkarte ---------- */
+
 function baueKarte(){
-  const ebene = document.getElementById("markerEbene");
-  ebene.innerHTML = DINOS.map(d=>{
-    const x = ((d.lon+180)/360*1000).toFixed(1);
-    const y = ((90-d.lat)/180*500).toFixed(1);
-    const rechts = x > 820;
-    return `<g class="marker" tabindex="0" role="button"
-              aria-label="${d.name}, Fundort ${d.fundort}"
-              onclick="zeigeArtikel('${d.id}')"
-              onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();zeigeArtikel('${d.id}')}">
-        <circle class="punkt" cx="${x}" cy="${y}" r="6.5" fill="${HEXFARBEN[d.zeit]}"/>
-        <text x="${rechts ? x-12 : +x+12}" y="${+y+4}" text-anchor="${rechts?"end":"start"}">${d.name}</text>
-      </g>`;
+  const ebene=document.getElementById("markerEbene");
+  ebene.innerHTML=DINOS.map(d=>{
+    const x=((d.lon+180)/360*1000).toFixed(2), y=((90-d.lat)/180*500).toFixed(2);
+    const rechts=Number(x)>780;
+    return `<g class="marker" tabindex="0" role="button" data-dino="${d.id}" style="color:${HEXFARBEN[d.zeit]}"
+      aria-label="${d.name}, ${d.zeit}, Fundort ${d.fundort}">
+      <title>${d.name} · ${d.fundort}</title>
+      <circle cx="${x}" cy="${y}" r="16" fill="transparent"/>
+      <circle class="marker-halo" cx="${x}" cy="${y}" r="14"/>
+      <circle class="punkt" cx="${x}" cy="${y}" r="7"/>
+      <circle class="marker-kern" cx="${x}" cy="${y}" r="2"/>
+      <text x="${rechts ? Number(x)-20 : Number(x)+20}" y="${Number(y)+4}" text-anchor="${rechts?'end':'start'}">${d.name}</text>
+    </g>`;
   }).join("");
+  ebene.querySelectorAll(".marker").forEach(marker=>{
+    marker.addEventListener("click",()=>zeigeArtikel(marker.dataset.dino));
+    marker.addEventListener("keydown",event=>{
+      if(event.key==="Enter" || event.key===" "){event.preventDefault();zeigeArtikel(marker.dataset.dino)}
+    });
+  });
+  document.getElementById("fundortListe").innerHTML=DINOS.map(d=>`<li><button class="fundort-knopf" type="button" data-dino="${d.id}" style="--fundort-farbe:${HEXFARBEN[d.zeit]}" aria-label="Artikel öffnen: ${d.name}, ${d.fundort}">
+    <span class="fundort-punkt" aria-hidden="true"></span><span><span class="fundort-name">${d.name}</span><span class="fundort-ort">${d.fundort}</span></span><span class="fundort-pfeil" aria-hidden="true">›</span>
+  </button></li>`).join("");
+  document.querySelectorAll(".fundort-knopf").forEach(button=>button.addEventListener("click",()=>zeigeArtikel(button.dataset.dino)));
+  document.getElementById("fundortZaehler").textContent=DINOS.length+" Entdeckungen";
 }
 
 /* ---------- Lexikon-Raster ---------- */
