@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),http=require('node:http'),fs=require('node:fs'),path=require('node:path');
 const {chromium}=require('playwright');
-const root=path.resolve(__dirname,'..'),out=path.join(root,'.content-state','map-qa');
+const root=path.resolve(__dirname,'..'),out=path.join(root,'.content-state',process.env.FOSSILIUM_MAP_QA_URL?'map-qa-live':'map-qa');
 fs.mkdirSync(out,{recursive:true});
 const server=http.createServer((req,res)=>{
   const u=new URL(req.url,'http://localhost'),file=path.resolve(root,'.'+(u.pathname==='/'?'/index.html':u.pathname));
@@ -18,7 +18,8 @@ const server=http.createServer((req,res)=>{
     for(const [width,height,name] of [[1440,1000,'desktop'],[390,844,'mobile']]){
       const page=await browser.newPage({viewport:{width,height}});
       const errors=[];page.on('pageerror',err=>errors.push(err.message));
-      await page.goto('http://127.0.0.1:'+server.address().port+'/#weltkarte',{waitUntil:'networkidle'});
+      const base=process.env.FOSSILIUM_MAP_QA_URL || 'http://127.0.0.1:'+server.address().port+'/';
+      await page.goto(base+'#weltkarte',{waitUntil:'networkidle'});
       await page.locator('#fundortKarte').waitFor();
       assert.equal(await page.locator('#markerEbene .marker').count(),6);
       assert.equal(await page.locator('.fundort-knopf').count(),6);
