@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-10-19T17:06:39.031871+00:00",
+  "updated": "2026-10-20T09:46:36.490228+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "991e1d4b5a41def235a60eb902d6e65a",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "title": "Vergessenes Fossil enthüllt gefährlichen Raubdino mit Riesenkrallen",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-10-20T09:46:36.489239+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "df9b298c3da00d9677497c574ecf30fa",
+      "url": "https://phys.org/news/2026-10-oldest-animals-earth-common-wormlike.html",
+      "title": "Älteste Tiere der Erde teilen gemeinsamen wurmartigen Vorfahren",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-10-20T09:46:35.612784+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "1f76fbf7ae1ab2acc6683acaabd3e619",
       "url": "https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html",
@@ -12,19 +38,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-10-19T17:06:39.030250+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "991e1d4b5a41def235a60eb902d6e65a",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
-      "title": "Vergessenes Fossil enthüllt gefährlichen Raubdino mit Riesenkrallen",
-      "state": "blocked",
-      "stage": "research",
-      "reason": "api_not_enabled",
-      "updated": "2026-10-19T05:24:01.458787+00:00",
       "sources": [],
       "score": null,
       "script": null,
