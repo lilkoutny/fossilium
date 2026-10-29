@@ -101,7 +101,7 @@
   .fundorte-panel{border-left:1px solid var(--linie);padding:22px 18px;background:linear-gradient(150deg,#26372b,var(--vitrine))}
   .fundorte-panel h2{font-size:27px;font-weight:500}
   .fundorte-panel>p{font-size:12px;color:var(--bein-blass);margin:2px 0 14px}
-  .fundort-liste{list-style:none;display:grid;gap:3px}
+  .fundort-liste{list-style:none;display:grid;gap:3px;max-height:440px;overflow-y:auto;scrollbar-color:var(--messing-tief) transparent}
   .fundort-knopf{width:100%;display:grid;grid-template-columns:8px minmax(0,1fr)12px;align-items:center;gap:10px;padding:11px 6px;text-align:left;border:0;border-bottom:1px solid rgba(198,166,108,.14);background:transparent;color:var(--bein);min-height:58px}
   .fundort-knopf:hover,.fundort-knopf:focus-visible{background:rgba(198,166,108,.08)}
   .fundort-knopf:focus-visible{outline:1px solid var(--messing);outline-offset:1px}
@@ -116,7 +116,7 @@
   @media(max-width:960px){
     .karten-rahmen{grid-template-columns:1fr}
     .fundorte-panel{border-left:0;border-top:1px solid var(--linie);padding:20px}
-    .fundort-liste{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 16px}
+    .fundort-liste{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 16px;max-height:none;overflow:visible}
     .fundort-name{font-size:19px}
   }
   @media(max-width:560px){
@@ -163,20 +163,36 @@
   .karte-dino:focus-visible{outline:2px solid var(--messing);outline-offset:3px}
   .karte-dino .balken{height:3px}
   .bild-box{aspect-ratio:4/3;background:radial-gradient(circle at 50% 32%,var(--vitrine-hell) 0%,var(--vitrine) 80%);border-bottom:1px solid var(--messing-tief);overflow:hidden;position:relative}
-  .bild-box img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
+  .bild-box img{width:100%;height:100%;object-fit:contain;position:relative;z-index:1;padding:10px;box-sizing:border-box}
+  .bild-oeffner{display:block;width:100%;height:100%;padding:0;border:0;background:transparent;color:inherit;cursor:zoom-in}
+  .bild-oeffner:focus-visible{outline:2px solid var(--messing);outline-offset:-3px}
   .platzhalter{
     position:absolute;inset:0;display:flex;flex-direction:column;
     align-items:center;justify-content:center;gap:8px;padding:12px;text-align:center;
     color:var(--bein-blass);font-size:13px;
   }
   .platzhalter svg{width:60px;height:60px;opacity:.4}
-  .karte-text{padding:16px 18px 18px}
+  .karte-text{display:block;padding:16px 18px 18px;text-decoration:none;color:var(--bein)}
+  .karte-text:focus-visible{outline:2px solid var(--messing);outline-offset:-3px}
+  .bild-oeffner .platzhalter{display:none}
+  .bild-oeffner.bild-fehlt .platzhalter{display:flex}
   .karte-name{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:600;transition:color .15s ease}
   .karte-meta{font-size:14px;color:var(--bein-blass);margin-top:3px;letter-spacing:.3px}
   .leer{padding:40px 0;color:var(--bein-blass);font-style:italic}
+  .lightbox{position:fixed;inset:0;z-index:20;display:grid;place-items:center;padding:24px;background:rgba(8,18,13,.92)}
+  .lightbox[hidden]{display:none}
+  .lightbox-inner{position:relative;width:min(100%,1100px);max-height:92vh;padding-top:44px;text-align:center}
+  .lightbox img{display:block;max-width:100%;max-height:calc(90vh - 96px);width:auto;height:auto;object-fit:contain;margin:auto}
+  .lightbox-caption{margin-top:10px;color:var(--bein);font-size:14px}
+  .lightbox-close{position:absolute;right:0;top:0;border:1px solid var(--messing);background:var(--nacht);color:var(--bein);font-size:24px;line-height:1;min-height:40px;min-width:40px;padding:5px 11px;cursor:pointer}
+  .lightbox-close:focus-visible{outline:2px solid var(--messing);outline-offset:2px}
+  body.lightbox-offen{overflow:hidden}
 
   /* ---------- Aus der Forschung ---------- */
   .news-kopf{display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;margin:64px 0 24px;border-bottom:1px solid var(--linie);padding-bottom:16px}
+  .news-publikation{display:block;width:fit-content;margin:16px 0 10px;padding:8px 14px;border:1px solid var(--messing);color:var(--bein);text-decoration:none;font-size:15px}
+  .news-publikation:hover,.news-publikation:focus-visible{background:var(--messing);color:var(--nacht)}
+  .news-karte h3 a{text-decoration:none;color:inherit}
   .news-kopf h2{font-size:34px;font-weight:600;letter-spacing:.5px}
   .news-stand{margin-left:auto;color:var(--bein-blass);font-size:14px;font-style:italic}
   .news-raster{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
@@ -262,7 +278,7 @@
   <div id="start">
     <section class="karte-kopf" id="weltkarte">
       <h1>Wo die Dinosaurier gefunden wurden</h1>
-      <p>Von Montana bis Liaoning: Entdecke die Orte hinter den Fossilien. Wähle einen Fundpunkt oder einen Namen und erfahre mehr über seine Geschichte.</p>
+      <p>Von Montana bis Liaoning: Entdecke die schematischen Fundregionen hinter den Fossilien. Wähle einen Fundpunkt oder einen Namen und erfahre mehr über seine Geschichte.</p>
     </section>
 
 
@@ -294,7 +310,7 @@
           </g>
           <g id="markerEbene"></g>
         </svg>
-        <div class="karten-fuss"><span>Eine Reise durch Millionen Jahre</span><span>Heutige Lage der Fundorte</span></div>
+        <div class="karten-fuss"><span>Heutige Kontinente · Fundregionen schematisch</span><span>Nahe Punkte zur Auswahl versetzt</span></div>
       </div>
       <aside class="fundorte-panel" aria-labelledby="fundorteTitel">
         <h2 id="fundorteTitel">Fundorte entdecken</h2>
@@ -341,9 +357,10 @@
             <button aria-pressed="false" data-wert="Kreide">Kreide</button>
           </div>
           <div class="filter" id="filterKost" role="group" aria-label="Nach Ernährung filtern">
-            <button aria-pressed="true" data-wert="alle">Beide</button>
+            <button aria-pressed="true" data-wert="alle">Alle</button>
             <button aria-pressed="false" data-wert="Fleischfresser">Fleisch</button>
             <button aria-pressed="false" data-wert="Pflanzenfresser">Pflanzen</button>
+            <button aria-pressed="false" data-wert="Allesfresser">Allesfresser</button>
           </div>
         </div>
       </div>
@@ -356,8 +373,12 @@
   <article class="artikel" id="artikel"></article>
 </main>
 
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lightboxTitel">
+  <div class="lightbox-inner"><button class="lightbox-close" id="lightboxSchliessen" type="button" aria-label="Großansicht schließen">×</button>
+  <img id="lightboxBild" alt=""><div class="lightbox-caption" id="lightboxTitel"></div></div>
+</div>
 <footer>
-  Fossilium · Alle 3D-Renderings selbst erstellt in Blender · Fakten nach bestem Wissen zusammengestellt
+  Fossilium · Künstlerische Rekonstruktionen · Fakten nach bestem Wissen zusammengestellt
 </footer>
 
 <script>
@@ -432,7 +453,10 @@ const DINOS = [
       "Sein Körper war mit bis zu 20 Zentimeter langen, fadenartigen Federn bedeckt – vermutlich eher zur Wärmedämmung als zum Fliegen, da auch seine nächsten Verwandten flugunfähig waren. Auf der Schnauze trug er zudem eine wellenartige Knochenleiste, die wohl der Zurschaustellung diente.",
       "Drei nahezu vollständige Skelette wurden in der Yixian-Formation in der chinesischen Provinz Liaoning geborgen – einer Fundstätte, die für ihre außergewöhnlich gut erhaltenen gefiederten Dinosaurier und Urvögel berühmt ist."
     ]
-  }
+  },
+  {id:"majungasaurus",name:"Majungasaurus crenatissimus",bedeutung:"„Echse aus Mahajanga“",zeit:"Kreide",jahre:"Maastrichtium (etwa 72–66 Mio. Jahre)",kost:"Fleischfresser",laenge:"etwa 6–7 m",gewicht:"nicht sicher bestimmt",fundort:"Mahajanga-Becken / Maevarano-Formation, Nordwest-Madagaskar (schematische Fundregion)",lat:-16,lon:46,bild:"bilder/majungasaurus.png",quellen:[['Krause et al. (2007)','https://people.ohio.edu/oconnorp/PDFs/Krause%20etal_2007_Majungasaurus_Intro.pdf'],['Sampson & Witmer (2007)','https://people.ohio.edu/witmerl/Downloads/2007_Sampson_%26_Witmer_Majungasaurus_skull.pdf']],text:["Majungasaurus war ein Abelisaurier. Fossilien einschließlich Schädeln und ergänzenden Teilskeletten ergeben ein vergleichsweise umfassendes Skelettbild.","Der robuste, skulpturierte Schädel trug einen niedrigen mittigen Stirnfortsatz; eine hohe Hornspitze ist daraus nicht gesichert.","Die Maevarano-Formation entstand in einer stark saisonalen Flussauenlandschaft. Hautfarben und Weichteile des Bildes sind Rekonstruktion."]},
+  {id:"deinocheirus",name:"Deinocheirus mirificus",bedeutung:"„Schreckliche Hand“",zeit:"Kreide",jahre:"vor etwa 70 Mio. Jahren",kost:"Allesfresser",laenge:"ca. 11 m",gewicht:"ca. 6,4 t (Schätzung)",fundort:"Nemegt-Formation, südliche Gobi, Mongolei (schematische Fundregion)",lat:43.5,lon:101,bild:"bilder/deinocheirus.png",quellen:[['Lee et al. (2014), Nature','https://doi.org/10.1038/nature13874']],text:["1965 waren zunächst fast nur 2,4 m lange Vordergliedmaßen bekannt; 2006 und 2009 folgten weitere Skelette.","Deinocheirus hatte eine breite Schnauze, hohe Rückenwirbelfortsätze und relativ kurze Hinterbeine – kein spezialisierter Schnellläufer.","Fischreste und mehr als 1000 Magensteine stützen die Interpretation als Allesfresser feuchter Lebensräume. Federkleid und Farbgebung im Bild sind künstlerisch."]},
+  {id:"therizinosaurus",name:"Therizinosaurus cheloniformis",bedeutung:"„Sichel-Echse“",zeit:"Kreide",jahre:"vor rund 70 Mio. Jahren",kost:"Pflanzenfresser",laenge:"rund 10 m (Schätzung)",gewicht:"nicht sicher bestimmt",fundort:"Nemegt-Region, Mongolei (schematische Fundregion)",lat:43.5,lon:101.8,bild:"bilder/therizinosaurus.png",quellen:[['Natural History Museum: Therizinosaurus','https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html']],text:["Therizinosaurus war ein großer zweibeiniger Theropode mit drei Fingern und extrem verlängerten Handklauen.","Die knöchernen Klauen waren etwa 50 cm lang. Funktionen wie Heranziehen von Vegetation oder Imponieren sind Hypothesen, nicht bewiesene Waffen.","Bekannt sind nur Arm-, Bein- und Rippenmaterial; Körperform und Federkleid sind aus Verwandtschaft rekonstruiert. Das Bild zeigt daher kein vollständig fossil belegtes Äußeres."]}
 ];
 
 /* ============================================================
@@ -448,23 +472,29 @@ const platzhalterSVG = `
   </svg>`;
 
 function bildHTML(d){
-  return `<div class="bild-box">
-    <img src="${d.bild}" alt="Blender-Render: ${d.name}"
-         onerror="this.remove()">
-    <div class="platzhalter">${platzhalterSVG}<span>Dein Blender-Render:<br><code>${d.bild}</code></span></div>
+  return `<div class="bild-box"><button class="bild-oeffner" type="button" data-bild="${d.bild}" data-bild-name="${d.name}" aria-label="Großansicht öffnen: ${d.name}">
+    <img src="${d.bild}" alt="Künstlerische Rekonstruktion: ${d.name}"
+         onerror="this.parentNode.classList.add('bild-fehlt');this.remove()">
+    <div class="platzhalter">${platzhalterSVG}<span>Bild nicht verfügbar:<br><code>${d.bild}</code></span></div></button>
   </div>`;
 }
+let lightboxFokus = null;
+function oeffneBild(src,name){const box=document.getElementById("lightbox");lightboxFokus=document.activeElement;document.getElementById("lightboxBild").src=src;document.getElementById("lightboxBild").alt="Künstlerische Rekonstruktion: "+name;document.getElementById("lightboxTitel").textContent=name;box.hidden=false;document.body.classList.add("lightbox-offen");document.getElementById("lightboxSchliessen").focus();}
+function schliesseBild(){document.getElementById("lightbox").hidden=true;document.body.classList.remove("lightbox-offen");if(lightboxFokus&&lightboxFokus.focus)lightboxFokus.focus();}
 
 /* ---------- Weltkarte ---------- */
 
 function baueKarte(){
   const ebene=document.getElementById("markerEbene");
   ebene.innerHTML=DINOS.map(d=>{
-    const x=((d.lon+180)/360*1000).toFixed(2), y=((90-d.lat)/180*500).toFixed(2);
+    const basisX=(d.lon+180)/360*1000,basisY=(90-d.lat)/180*500;
+    const versetzt=d.id==="therizinosaurus";
+    const x=(basisX+(versetzt?26:0)).toFixed(2), y=(basisY+(versetzt?24:0)).toFixed(2);
     const rechts=Number(x)>780;
     return `<g class="marker" tabindex="0" role="button" data-dino="${d.id}" style="color:${HEXFARBEN[d.zeit]}"
       aria-label="${d.name}, ${d.zeit}, Fundort ${d.fundort}">
       <title>${d.name} · ${d.fundort}</title>
+      ${versetzt?`<path d="M${basisX} ${basisY}L${x} ${y}" stroke="currentColor" stroke-width="1" opacity=".5" pointer-events="none"/>`:""}
       <circle cx="${x}" cy="${y}" r="16" fill="transparent"/>
       <circle class="marker-halo" cx="${x}" cy="${y}" r="14"/>
       <circle class="punkt" cx="${x}" cy="${y}" r="7"/>
@@ -496,14 +526,14 @@ function baueRaster(){
     (d.name.toLowerCase().includes(suchwort) || d.fundort.toLowerCase().includes(suchwort))
   );
   document.getElementById("raster").innerHTML = treffer.map(d=>`
-    <button class="karte-dino" onclick="zeigeArtikel('${d.id}')" aria-label="Artikel öffnen: ${d.name}">
+    <article class="karte-dino">
       <span class="balken" style="background:${FARBEN[d.zeit]}"></span>
       ${bildHTML(d)}
-      <span class="karte-text">
+      <a class="karte-text" href="#artikel" onclick="zeigeArtikel('${d.id}');return false;">
         <span class="karte-name">${d.name}</span><br>
         <span class="karte-meta">${d.zeit} · ${d.kost} · ${d.laenge}</span>
-      </span>
-    </button>`).join("");
+      </a>
+    </article>`).join("");
   document.getElementById("leer").hidden = treffer.length > 0;
   document.getElementById("dexZaehler").textContent = `· ${treffer.length} von ${DINOS.length} Dinos`;
 }
@@ -534,6 +564,7 @@ function zeigeArtikel(id){
         ${d.text.map(a=>`<p>${a}</p>`).join("")}
         <h2>Fundgeschichte</h2>
         <p>Die wichtigsten Fossilien dieser Art stammen aus: ${d.fundort}. Auf der <a href="#weltkarte" onclick="zeigeStart()">Weltkarte</a> ist der Fundort farblich nach Zeitalter markiert.</p>
+        ${d.quellen?`<h2>Quellen</h2><ul class="artikel-quellen">${d.quellen.map(q=>`<li><a href="${q[1]}" target="_blank" rel="noopener noreferrer">${q[0]}</a></li>`).join("")}</ul>`:""}
       </div>
       <aside class="infobox" aria-label="Steckbrief ${d.name}">
         <span class="balken" style="background:${FARBEN[d.zeit]};display:block"></span>
@@ -564,6 +595,11 @@ function zeigeStart(){
 /* ---------- Start ---------- */
 baueKarte();
 baueRaster();
+document.getElementById("raster").addEventListener("click",e=>{const b=e.target.closest(".bild-oeffner");if(b){e.preventDefault();oeffneBild(b.dataset.bild,b.dataset.bildName)}});
+document.getElementById("artikel").addEventListener("click",e=>{const b=e.target.closest(".bild-oeffner");if(b){e.preventDefault();oeffneBild(b.dataset.bild,b.dataset.bildName)}});
+document.getElementById("lightboxSchliessen").addEventListener("click",schliesseBild);
+document.getElementById("lightbox").addEventListener("click",e=>{if(e.target.id==="lightbox")schliesseBild()});
+document.addEventListener("keydown",e=>{const box=document.getElementById("lightbox");if(box.hidden)return;if(e.key==="Escape"){schliesseBild();return}if(e.key==="Tab"){e.preventDefault();document.getElementById("lightboxSchliessen").focus()}});
 document.getElementById("suche").addEventListener("input", baueRaster);
 filterKnopf("filterZeit", w=>filterZeit=w);
 filterKnopf("filterKost", w=>filterKost=w);
@@ -602,18 +638,32 @@ function sammleNews(archiv,aktuell){
   });
   return [...alle.values()].sort((a,b)=>b.datum.localeCompare(a.datum)||a.titel.localeCompare(b.titel,"de"));
 }
+let publikationen = new Map();
+function publikationsLink(m){
+  const pfad=publikationen.get(m.url);
+  return pfad ? `<a class="news-publikation" href="${esc(pfad)}">Zur Publikation</a>` : "";
+}
+function lesePublikationen(daten){
+  const seiten=new Map();
+  for(const a of (Array.isArray(daten?.artikel)?daten.artikel:[])){
+    const url=newsAdresse(a.original_url);
+    if(url && typeof a.pfad==="string" && /^\/publikationen\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(a.pfad)) seiten.set(url,a.pfad);
+  }
+  return seiten;
+}
 function zeichneNews(alle,archivVerfuegbar){
   const vorschau=alle.slice(0,4);
   document.getElementById("newsRaster").innerHTML=vorschau.map(m=>`
     <article class="news-karte">
       <time datetime="${esc(m.datum)}">${newsDatumText(m.datum)}</time>
-      <h3>${esc(m.titel)}</h3><p>${esc(m.zusammenfassung)}</p>
+      <h3>${publikationen.has(m.url)?`<a href="${esc(publikationen.get(m.url))}">${esc(m.titel)}</a>`:esc(m.titel)}</h3><p>${esc(m.zusammenfassung)}</p>
+      ${publikationsLink(m)}
       <a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">Originalartikel bei ${esc(m.quelle)}</a>
     </article>`).join("");
   document.getElementById("newsArchivListe").innerHTML=alle.map(m=>`
     <li><time datetime="${esc(m.datum)}">${newsDatumText(m.datum)}</time>
-      <div><h4><a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${esc(m.titel)}</a></h4>
-        <p>${esc(m.zusammenfassung)}</p><span class="news-quelle">${esc(m.quelle)}</span></div>
+      <div><h4>${esc(m.titel)}</h4>
+        <p>${esc(m.zusammenfassung)}</p>${publikationsLink(m)}<a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">Originalartikel bei ${esc(m.quelle)}</a></div>
     </li>`).join("");
   document.getElementById("newsAktionen").hidden=!alle.length;
   document.getElementById("newsZaehler").textContent=alle.length<3
@@ -636,7 +686,8 @@ async function ladeNews(){
       const antwort=await fetch(url,{cache:"no-store"});if(!antwort.ok) throw new Error("News nicht erreichbar");
       const daten=await antwort.json();if(!Array.isArray(daten.meldungen)) throw new Error("Ungültige Meldungsliste");return daten;
     };
-    const [aktuell,archiv]=await Promise.allSettled([lesen("news.json"),lesen("news-archiv.json")]);
+    const [aktuell,archiv,seiten]=await Promise.allSettled([lesen("news.json"),lesen("news-archiv.json"),fetch("publikationen/index.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Publikationsliste nicht erreichbar");return r.json()})]);
+    publikationen=lesePublikationen(seiten.status==="fulfilled" ? seiten.value : null);
     const daten=aktuell.status==="fulfilled" ? aktuell.value : null;
     const bestand=archiv.status==="fulfilled" ? archiv.value : null;
     if(!daten && !bestand) throw new Error("News nicht erreichbar");

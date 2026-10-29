@@ -1,0 +1,20 @@
+name: Fossilium Website prüfen
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "bilder/**", "news*.json", "publikationen/**", "tests/**", ".github/workflows/site-checks.yml"]
+  pull_request:
+    paths: ["index.html", "bilder/**", "news*.json", "publikationen/**", "tests/**", ".github/workflows/site-checks.yml"]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests feedparser
+      - run: python -m unittest tests.test_publications tests.test_hole_news tests.test_news_archive
+      - run: python publikationen/render.py --check

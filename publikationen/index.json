@@ -1,0 +1,24 @@
+{
+  "artikel": [
+    {
+      "original_url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
+      "pfad": "/publikationen/longipteryx-ohne-schwanzfedern/",
+      "titel": "Ein Urvogel ohne Federfächer: Was Longipteryx über frühes Fliegen verrät"
+    },
+    {
+      "original_url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
+      "pfad": "/publikationen/paludohadros-englands-feuchtgebiete/",
+      "titel": "Paludohadros: Eine neue Dinosaurierart aus einer alten Tongrube"
+    },
+    {
+      "original_url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
+      "pfad": "/publikationen/gerrothorax-amphibie-im-meer/",
+      "titel": "Eine Amphibie im Meer: Der ungewöhnliche Lebensraum von Gerrothorax maritimus"
+    },
+    {
+      "original_url": "https://phys.org/news/2026-10-year-mystery-identity-extinct-giant.html",
+      "pfad": "/publikationen/riesenkranich-dna-raetsel/",
+      "titel": "Der Riesenkranich, der wohl keine eigene Art war"
+    }
+  ]
+}
