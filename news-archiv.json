@@ -1,6 +1,14 @@
 {
-  "stand": "2026-10-20",
+  "stand": "2026-10-29",
   "meldungen": [
+    {
+      "titel": "150 Jahre altes Rätsel um ausgestorbenen Riesenkranich gelöst",
+      "zusammenfassung": "Wissenschaftler der Bournemouth University haben die Identität eines ausgestorbenen Riesenkranichs geklärt, der vor über 20.000 Jahren in Europa lebte. Die Lösung dieses 150 Jahre alten Rätsels wurde in der Fachzeitschrift Royal Society Open Science veröffentlicht.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-year-mystery-identity-extinct-giant.html",
+      "datum": "2026-10-29",
+      "erstmals_angezeigt": "2026-10-29"
+    },
     {
       "titel": "Älteste Tiere der Erde teilen gemeinsamen wurmartigen Vorfahren",
       "zusammenfassung": "Forscher der Universität St Andrews haben die erste umfassende phylogenomische Analyse aller fünf existierenden Brachiopoden-Ordnungen durchgeführt. Die Studie zeigt, dass diese wichtige Gruppe von marinen wirbellosen Tieren einen gemeinsamen wurmartigen Vorfahren besitzt und trägt damit wesentlich zu unserem Verständnis der Evolution bei.",
