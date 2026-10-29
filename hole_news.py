@@ -26,7 +26,7 @@ import requests
 FEEDS = [
     ("ScienceDaily", "https://www.sciencedaily.com/rss/fossils_ruins/dinosaurs.xml"),
     ("ScienceDaily", "https://www.sciencedaily.com/rss/fossils_ruins/paleontology.xml"),
-    ("Phys.org", "https://phys.org/rss-feed/biology-news/paleontology-fossils/"),
+    ("Phys.org", "https://phys.org/rss-feed/biology-news/paleontology/"),
     ("scinexx", "http://feeds.feedburner.com/scinexx"),
     ("Spektrum der Wissenschaft", "https://www.spektrum.de/alias/rss/spektrum-de-rss-feed/996406"),
 ]
