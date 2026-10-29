@@ -1,0 +1,19 @@
+name: News-Tests
+on:
+  pull_request:
+    paths: ["hole_news.py", "tests/test_hole_news.py", "tests/test_news_archive.py", ".github/workflows/news.yml", ".github/workflows/news-tests.yml"]
+  push:
+    branches: [main]
+    paths: ["hole_news.py", "tests/test_hole_news.py", "tests/test_news_archive.py", ".github/workflows/news.yml", ".github/workflows/news-tests.yml"]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests feedparser
+      - run: python -m unittest tests.test_hole_news tests.test_news_archive

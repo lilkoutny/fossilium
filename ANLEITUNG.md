@@ -7,7 +7,7 @@
 | `index.html` | Deine komplette Website (Karte, Dinodex, News-Bereich) |
 | `news.json` | Die aktuellen News – wird täglich automatisch überschrieben |
 | `news-archiv.json` | Alle bisher veröffentlichten Meldungen; neue Einträge werden dauerhaft ergänzt |
-| `hole_news.py` | Skript: holt RSS-Meldungen, fasst sie per Claude API zusammen |
+| `hole_news.py` | Skript: holt RSS-Meldungen, fasst sie per OpenAI Responses API zusammen |
 | `.github/workflows/news.yml` | GitHub-Action: führt das Skript jeden Morgen aus |
 | `bilder/` | Hier kommen deine Blender-Renders rein |
 
@@ -27,14 +27,14 @@
 3. Nach 1–2 Minuten ist die Seite erreichbar unter:
    `https://DEINNAME.github.io/fossilium/`
 
-## Schritt 3: Claude-API-Schlüssel hinterlegen
+## Schritt 3: OpenAI-API-Schlüssel hinterlegen
 
-1. Konto anlegen auf https://platform.claude.com und einen API-Schlüssel
-   erstellen (kleines Guthaben aufladen; das Skript nutzt das günstigste
-   Modell – die Kosten liegen bei wenigen Cent pro Monat).
+1. Konto und API-Schlüssel auf https://platform.openai.com/api-keys
+   einrichten. Das verwendete Modell und Limits können sich ändern; aktuelle
+   Preise stehen ausschließlich in der offiziellen OpenAI-Dokumentation.
 2. Im GitHub-Repository: **Settings → Secrets and variables → Actions →
    New repository secret**.
-3. Name: `ANTHROPIC_API_KEY` – Wert: dein Schlüssel → **Add secret**.
+3. Name: `OPENAI_API_KEY` – Wert: dein Schlüssel → **Add secret**. Siehe auch https://github.com/lilkoutny/fossilium/settings/secrets/actions und https://platform.openai.com/api-keys.
 
 ## Schritt 4: News-Automatik testen
 
@@ -58,7 +58,8 @@ Weltkarte und Dinodex-Eintrag entstehen automatisch.
 - **News-Bereich zeigt nur den Hinweistext:** Lokal per Doppelklick geöffnet
   kann die Seite `news.json` nicht laden – online (GitHub Pages) klappt es.
 - **Action schlägt fehl mit Key-Fehler:** Secret-Name muss exakt
-  `ANTHROPIC_API_KEY` lauten.
+  `OPENAI_API_KEY` lauten. Bei HTTP 401/403 Schlüssel und Projektberechtigungen
+  prüfen; bei HTTP 429 Anfragelimits beziehungsweise API-Kontingent prüfen.
 - **Keine neuen Meldungen:** An ruhigen Tagen liefern die Feeds wenig –
   das Skript lässt die alten News dann einfach stehen.
 - **Quellen ändern:** Liste `FEEDS` oben in `hole_news.py` – dort kannst du

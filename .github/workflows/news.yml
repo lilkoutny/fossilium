@@ -25,7 +25,8 @@ jobs:
 
       - name: News holen und zusammenfassen
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_NEWS_MODEL: gpt-5.4-mini-2026-03-17
         run: python hole_news.py
 
       - name: news.json einchecken
