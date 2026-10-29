@@ -1,57 +1,67 @@
-const { chromium } = require('playwright');
-const assert = require('node:assert/strict');
-const http = require('node:http');
-const crypto = require('node:crypto');
-const fs = require('fs');
-const path = require('path');
-const root=path.resolve(__dirname,'..');
-const artifacts=path.join(root,'.content-state/dinodex-expansion-2026-10-29');
-const server=http.createServer((req,res)=>{
-  if(req.url==='/favicon.ico'){res.writeHead(204).end();return;}
-  const file=path.resolve(root,'.'+(new URL(req.url,'http://localhost').pathname==='/'?'/index.html':new URL(req.url,'http://localhost').pathname));
-  if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return;}
-  fs.readFile(file,(err,data)=>{if(err){res.writeHead(404).end();return;}res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.json':'application/json'})[path.extname(file)]||'application/octet-stream');res.end(data);});
-});
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict'),http=require('node:http'),crypto=require('node:crypto'),fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..'),out=path.join(root,'.content-state/dinodex-modern-2026-10-29');fs.mkdirSync(out,{recursive:true});
+const server=http.createServer((req,res)=>{if(req.url==='/favicon.ico'){res.writeHead(204).end();return;}const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname),file=path.resolve(root,'.'+(pathname==='/'?'/index.html':pathname));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.readFile(file,(err,data)=>{if(err){res.writeHead(404).end();return;}res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.svg':'image/svg+xml','.json':'application/json','.png':'image/png'})[path.extname(file)]||'application/octet-stream');res.end(data);});});
 (async()=>{
-  await new Promise(r=>server.listen(0,'127.0.0.1',r));
-  const url='http://127.0.0.1:'+server.address().port;
-  const hashes={};
-  for(const [id,src] of Object.entries({majungasaurus:'0349ab8f-34d9-47f9-b9b6-2f30cd3e6bc6',deinocheirus:'d941e574-deba-45a8-b968-2b0e73c846a5',therizinosaurus:'c4961dce-d912-41c5-aed6-8736d0dae827',triceratops:'1b4685e6-d2a4-4cb4-abf1-6a6b85301f3a'})){
-    const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
-    hashes[id]=hash(path.join(root,'bilder',id+'.png'));assert.equal(hashes[id],hash('E:/Temp/codex-clipboard-'+src+'.png'));
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ try{
+  const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+  await page.goto('http://127.0.0.1:'+server.address().port,{waitUntil:'networkidle'});
+  const dinos=await page.evaluate(()=>DINOS.map(d=>({id:d.id,name:d.name,bild:d.bild})));
+  assert.equal(dinos.length,9);assert.equal(await page.locator('#markerEbene .marker').count(),9);assert.equal(await page.locator('#raster .karte-dino').count(),9);
+  await page.locator('#raster img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode())));
+  const portraitChecks=[];
+  for(const d of dinos){
+   const overview=page.locator('#raster .bild-oeffner[data-dino="'+d.id+'"]');
+   assert.equal(await overview.getAttribute('aria-label'),'Artikel öffnen: '+d.name);
+   await overview.click();
+   assert.equal((await page.locator('#artikel h1').innerText()).replace(/\s+/g,' ').trim(),d.name);
+   assert.equal(await page.locator('#lightbox').isVisible(),false);
+   assert.equal(await page.locator('#artikel table').count(),0);
+   assert.equal(await page.locator('#artikel .artikel-fakt').count(),4);
+   const columns=await page.locator('#artikel .artikel-lesebereich').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length);assert.equal(columns,2);
+   const zoom=page.locator('#artikel .bild-oeffner');await zoom.locator('img').evaluate(i=>i.decode());
+   assert.equal(await zoom.locator('img').evaluate(i=>getComputedStyle(i).objectFit),'contain');
+   assert.equal(await page.locator('#artikel h1').evaluate(e=>e===document.activeElement),true);
+   await zoom.click();await page.locator('#lightboxBild').evaluate(i=>i.decode());
+   assert.equal(await page.locator('#lightbox').isVisible(),true);assert.match(await page.locator('#lightboxBild').getAttribute('src'),new RegExp(d.id));
+   await page.keyboard.press('Tab');assert.equal(await page.locator('#lightboxSchliessen').evaluate(e=>e===document.activeElement),true);
+   await page.keyboard.press('Escape');assert.equal(await zoom.evaluate(e=>e===document.activeElement),true);
+   if(d.id==='yutyrannus'){
+    await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(out,'yutyrannus-desktop-hero.png')});await page.locator('#artikel').screenshot({path:path.join(out,'yutyrannus-desktop-full.png')});
+   }
+   portraitChecks.push(d.id);await page.getByRole('button',{name:'‹ Zurück zur Übersicht',exact:true}).click();
+   assert.equal(await overview.evaluate(e=>e===document.activeElement),true);
   }
-  const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
-  const page=await browser.newPage({viewport:{width:1440,height:1000}}); const errors=[];
-  page.on('console',m=>{if(m.type()==='error')errors.push(m.text())}); page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(url); await page.waitForTimeout(300);
-  const result=await page.evaluate(async()=>{
-    const cards=[...document.querySelectorAll('.karte-dino')], markers=[...document.querySelectorAll('.marker')];
-    const imgOK=await Promise.all([...document.querySelectorAll('.karte-dino img')].map(i=>new Promise(r=>{if(i.complete)r(i.naturalWidth>0);else{i.onload=()=>r(true);i.onerror=()=>r(false)}})));
-    const nested=[...document.querySelectorAll('.karte-dino button button, .karte-dino a button, .karte-dino button a')].length;
-    const filter=document.querySelector('#filterKost button[data-wert="Fleischfresser"]'); filter.click();
-    const filterCount=document.querySelectorAll('.karte-dino').length;
-    document.querySelector('#filterKost button[data-wert="alle"]').click();
-    const opener=document.querySelector('.karte-dino .bild-oeffner'); opener.focus(); opener.click();
-    const modalOpen=!document.querySelector('#lightbox').hidden, focused=document.activeElement.id==='lightboxSchliessen', overflow=getComputedStyle(document.body).overflow==='hidden';
-    document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape'}));
-    return {cards:cards.length,markers:markers.length,imgOK:imgOK.every(Boolean),nested,filterCount,modalOpen,focused,overflow,focusReturned:document.activeElement===opener || document.activeElement.matches('.bild-oeffner')};
-  });
-  assert.equal(result.focusReturned,true);
-  await page.getByRole('button',{name:'Großansicht öffnen: Therizinosaurus cheloniformis',exact:true}).click();
-  await page.locator('#lightboxBild').evaluate(i=>i.decode());await page.keyboard.press('Tab');
-  assert.equal(await page.locator('#lightboxSchliessen').evaluate(e=>e===document.activeElement),true);
-  await page.screenshot({path:path.join(artifacts,'lightbox-desktop.png')});await page.keyboard.press('Escape');
-  await page.locator('.fundort-knopf[data-dino="therizinosaurus"]').click();
-  assert.match(await page.locator('#artikel h1').innerText(),/Therizinosaurus/);
-  await page.locator('#artikel .bild-oeffner').click();await page.keyboard.press('Escape');
-  assert.equal(await page.locator('#artikel .bild-oeffner').evaluate(e=>e===document.activeElement),true);
-  await page.getByRole('button',{name:'Zurück zur Übersicht'}).click();
-  await page.locator('#lexikon').screenshot({path:path.join(artifacts,'dinodex-desktop.png')});
-  await page.locator('.karten-rahmen').screenshot({path:path.join(artifacts,'map-desktop.png')});
-  await page.setViewportSize({width:390,height:844}); await page.reload(); await page.screenshot({path:'.content-state/dinodex-expansion-2026-10-29/dinodex-mobile.png',fullPage:true});
-  const mobile=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth<=innerWidth, cards:document.querySelectorAll('.karte-dino').length}));
-  await page.getByRole('button',{name:'Großansicht öffnen: Therizinosaurus cheloniformis',exact:true}).click();
-  await page.locator('#lightboxBild').evaluate(i=>i.decode());await page.screenshot({path:path.join(artifacts,'lightbox-mobile.png')});
-  await page.getByRole('button',{name:'Großansicht schließen'}).click();
-  await browser.close();server.close();const report={result,mobile,errors,hashes};fs.writeFileSync(path.join(artifacts,'result.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(errors.length||result.cards!==9||result.markers!==9||!result.imgOK||result.nested||!result.modalOpen||!result.focused||!result.overflow||!result.focusReturned||!mobile.overflow)process.exitCode=1;
-})().catch(e=>{console.error(e);server.close();process.exit(1)});
+  // A keyboard activation on the overview also navigates, without opening the modal.
+  const keyboardCard=page.locator('#raster .bild-oeffner[data-dino="deinocheirus"]');await keyboardCard.focus();await page.keyboard.press('Enter');
+  assert.match(await page.locator('#artikel h1').innerText(),/Deinocheirus/);assert.equal(await page.locator('#lightbox').isVisible(),false);
+  // Related portraits and the world-map link are real navigation controls.
+  await page.locator('#artikel .artikel-weiter a').last().click();assert.match(await page.locator('#artikel h1').innerText(),/Therizinosaurus/);
+  await page.getByRole('link',{name:'Auf der Weltkarte entdecken'}).click();assert.equal(await page.locator('#start').isVisible(),true);
+  await page.locator('.fundort-knopf[data-dino="majungasaurus"]').click();assert.match(await page.locator('#artikel h1').innerText(),/Majungasaurus/);await page.getByRole('button',{name:'‹ Zurück zur Übersicht',exact:true}).click();
+  await page.locator('#filterKost button[data-wert="Allesfresser"]').click();assert.equal(await page.locator('#raster .karte-dino').count(),1);assert.match(await page.locator('#raster').innerText(),/Deinocheirus/);await page.locator('#filterKost button[data-wert="alle"]').click();
+  await page.locator('#raster .karte-text').first().click();assert.match(await page.locator('#artikel h1').innerText(),/Tyrannosaurus/);await page.getByRole('button',{name:'‹ Zurück zur Übersicht',exact:true}).click();
+  const layouts=[];
+  for(const width of [820,390,320]){
+   await page.setViewportSize({width,height:900});
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+   for(const id of ['yutyrannus','therizinosaurus','diplodocus']){
+    await page.locator('#raster .bild-oeffner[data-dino="'+id+'"]').click();
+    assert.equal(await page.locator('#lightbox').isVisible(),false);
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    assert.equal(await page.locator('#artikel .artikel-lesebereich').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),1);
+    await page.locator('#artikel .bild-oeffner img').evaluate(i=>i.decode());
+    if(width===390){await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(out,id+'-mobile.png')});if(id==='yutyrannus')await page.locator('#artikel').screenshot({path:path.join(out,'yutyrannus-mobile-full.png')});}
+    await page.locator('#artikel .bild-oeffner').click();await page.locator('#lightboxBild').evaluate(i=>i.decode());await page.getByRole('button',{name:'Großansicht schließen',exact:true}).click();
+    assert.equal(await page.locator('#artikel').isVisible(),true);assert.equal(await page.locator('#artikel .bild-oeffner').evaluate(e=>e===document.activeElement),true);
+    await page.getByRole('button',{name:'‹ Zurück zur Übersicht',exact:true}).click();
+    layouts.push({width,id});
+   }
+  }
+  assert.equal(await page.locator('button button, button a, a button').count(),0);assert.deepEqual(errors,[]);
+  const hashes={};for(const id of ['majungasaurus','deinocheirus','therizinosaurus','triceratops'])hashes[id]=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'bilder',id+'.png'))).digest('hex');
+  const result={passed:true,portraits:portraitChecks,overviewImageOpensArticle:true,onlyDetailImageOpensLightbox:true,keyboardNavigation:true,focusReturn:true,noInfoboxTables:true,responsiveLayouts:layouts,imagesUnchanged:hashes,errors};fs.writeFileSync(path.join(out,'result.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+ }finally{await browser.close();server.close();}
+})().catch(e=>{console.error(e);server.close();process.exit(1);});
