@@ -3,6 +3,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const root=path.resolve(__dirname,'..'),out=path.join(root,'.content-state/publication-expansion-2026-10-29');
 fs.mkdirSync(out,{recursive:true});
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'publikationen/index.json'),'utf8'));
+const articles=JSON.parse(fs.readFileSync(path.join(root,'publikationen/artikel.json'),'utf8')).artikel;
 const server=http.createServer((req,res)=>{
   if(req.url==='/favicon.ico'){res.writeHead(204).end();return;}
   let pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(pathname.endsWith('/'))pathname+='index.html';
@@ -26,16 +27,26 @@ const server=http.createServer((req,res)=>{
    assert.equal(await page.locator('h1').innerText(),a.titel);
    assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://fossilium.org'+a.pfad);
    assert.ok(await page.locator('.quellen a').count()>=3);
+   const data=articles.find(x=>'/publikationen/'+x.slug+'/'===a.pfad);
+   const refs=data.abschnitte.flatMap(s=>s.absatz.flatMap(p=>[...p.matchAll(/\[\[(S[1-9][0-9]*)\]\]/g)].map(m=>m[1])));
+   assert.equal(await page.locator('.quellenverweis').count(),refs.length);
+   assert.equal(await page.locator('article > section:not(.quellen) small').count(),0);
+   const actual=await page.locator('.quellenverweis').evaluateAll(links=>links.map(l=>({text:l.textContent,target:l.getAttribute('href'),exists:!!document.querySelector(l.getAttribute('href')),previous:l.previousSibling?.textContent||''})));
+   actual.forEach((r,i)=>{assert.equal(r.text,'['+(data.quellen.findIndex(q=>q.id===refs[i])+1)+']');assert.equal(r.target,'#quelle-'+refs[i]);assert.equal(r.exists,true);assert.match(r.previous,/[.!?]$/u);});
+   assert.doesNotMatch(await page.locator('article > section:not(.quellen)').allTextContents().then(a=>a.join(' ')),/\[\[S\d+\]\]|\bS[12]\b|Quellen:/);
    await page.locator('figure img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode())));
    if(a.pfad.includes('longipteryx')){
     assert.equal(await page.locator('figure img').count(),1);
     assert.equal(await page.locator('figure a[href="https://creativecommons.org/licenses/by/4.0/"]').count(),1);
     await page.screenshot({path:path.join(out,'article-desktop.png'),fullPage:true});
+    await page.locator('#abschnitt-1').screenshot({path:path.join(out,'inline-desktop.png')});
    }
    await page.setViewportSize({width:390,height:844});
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-   if(a.pfad.includes('longipteryx'))await page.screenshot({path:path.join(out,'article-mobile.png'),fullPage:true});
+   if(a.pfad.includes('longipteryx')){await page.screenshot({path:path.join(out,'article-mobile.png'),fullPage:true});await page.locator('#abschnitt-1').screenshot({path:path.join(out,'inline-mobile.png')});}
    checks.push(a.pfad);await page.setViewportSize({width:1440,height:1000});
+   await page.locator('.quellenverweis').first().click();
+   assert.ok(page.url().includes('#quelle-'));
   }
   // Static articles remain readable without JavaScript.
   const plain=await browser.newContext({javaScriptEnabled:false});const staticPage=await plain.newPage();

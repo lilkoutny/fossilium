@@ -8,7 +8,7 @@ Statische, eigenständige deutsche Langartikel mit stabilen URLs. Die Startseite
 2. Tatsächlich gelesenen Umfang dokumentieren: Volltext, Abstract oder Institutsmitteilung. Keine nicht gelesene Studie als geprüft ausgeben.
 3. Eigenständigen deutschen Artikel schreiben. Befund, wissenschaftliche Interpretation und redaktionelle Einordnung unterscheiden. Hintergrundinformationen benötigen eigene Belege.
 4. Nur Bilder mit belegbarer Nutzungserlaubnis übernehmen. Urheber, Lizenz, Originalquelle und eventuelle Änderungen direkt am Bild nennen. Originalfossilien nicht durch KI nachzeichnen.
-5. Artikel in `artikel.json` ergänzen und Quellen pro Abschnitt zuweisen. Die `datei` eines Bildes liegt relativ zu diesem Verzeichnis unter `assets/`.
+5. Artikel in `artikel.json` ergänzen und Quellen unmittelbar hinter den belegten Sätzen als `[[S1]]`, `[[S2]]` usw. einfügen. Der Renderer zeigt anklickbare `[1]`-/`[2]`-Verweise; die Nummerierung folgt der Reihenfolge im Quellenverzeichnis. Keine Quellenblöcke nach Abschnitten. Die `datei` eines Bildes liegt relativ zu diesem Verzeichnis unter `assets/`.
 6. `python publikationen/render.py` erstellt HTML und Manifest; `python publikationen/render.py --check` prüft den gespeicherten Stand ohne Änderungen.
 7. Quellen und tatsächliche Desktop-/Mobilansicht prüfen, anschließend die zusammengehörigen Daten, Bilder, HTML-Dateien und das Manifest veröffentlichen.
 

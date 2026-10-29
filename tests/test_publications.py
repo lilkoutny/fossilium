@@ -50,5 +50,14 @@ class PublicationsTest(unittest.TestCase):
         self.assertNotIn('<script>',html)
         self.assertIn('&lt;script&gt;',html)
 
+    def test_inline_reference_numbering_and_repeat(self):
+        a=copy.deepcopy(self.data['artikel'][0]); a['quellen']=list(reversed(a['quellen'])); a['abschnitte'][0]['absatz']=['Satz.[[S1]] Weiter.[[S2]]']
+        out=renderer.render(a); self.assertIn('Satz.<a class="quellenverweis" href="#quelle-S1" aria-label="Quelle 2">[2]</a> Weiter.<a class="quellenverweis" href="#quelle-S2" aria-label="Quelle 1">[1]</a>',out)
+        self.assertNotIn('>S1<',out); self.assertNotIn('>S2<',out)
+
+    def test_inline_reference_rejects_unknown_and_escapes_markup(self):
+        a=copy.deepcopy(self.data['artikel'][0]); a['abschnitte'][0]['absatz']=['<b>roh</b> [[S999]]']
+        with self.assertRaises(ValueError): renderer.validate({'artikel':[a]})
+        a['abschnitte'][0]['absatz']=['<b>roh</b> [[S1]]']; renderer.validate({'artikel':[a]}); self.assertIn('&lt;b&gt;roh&lt;/b&gt;',renderer.render(a))
 
 if __name__ == '__main__': unittest.main()
