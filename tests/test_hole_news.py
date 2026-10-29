@@ -258,6 +258,15 @@ class NewsOutputTests(unittest.TestCase):
             configured.fasse_zusammen([])
         self.assertEqual(post.call_args.kwargs["json"]["model"], "configured-news-model")
 
+    def test_oversized_candidate_is_rejected_before_paid_request(self):
+        candidate = {**self.candidate, "titel": "x" * 50000}
+        with patch.object(self.module, "hole_kandidaten", return_value=[candidate]), \
+             patch.object(self.module.requests, "post", create=True) as post:
+            with self.assertRaisesRegex(RuntimeError, "Eingabegröße"):
+                self.module.main()
+            post.assert_not_called()
+        self.assertEqual(self.output.read_text(encoding="utf-8"), self.previous)
+
 
 if __name__ == "__main__":
     unittest.main()
