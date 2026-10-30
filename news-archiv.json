@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-29",
+  "stand": "2026-10-30",
   "meldungen": [
     {
       "titel": "Alte DNA klärt das Rätsel um Europas vermeintlichen Riesenkranich",
@@ -32,6 +32,22 @@
       "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
       "datum": "2026-10-29",
       "erstmals_angezeigt": "2026-10-29"
+    },
+    {
+      "titel": "Sensationeller Verkauf: Miniatur-T.-rex-Fossil für 47 Millionen Dollar versteigert",
+      "zusammenfassung": "Ein Dinosaurierfossil, das einem winzigen T. rex ähnelt, wurde für den Rekordpreis von 47 Millionen Dollar verkauft und zählt nun zu den teuersten Fossilien der Welt.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
+      "datum": "2026-10-28",
+      "erstmals_angezeigt": "2026-10-28"
+    },
+    {
+      "titel": "Urzeitliche Fische aus Alberta enthüllen Dinosaurier-Zeitalter in Nordamerika",
+      "zusammenfassung": "Seltene und vollständig erhaltene Fossilien alter Fische aus Alberta zeigen, welche Süßwasserfische am Ende der Dinosaurierzeit in Nordamerika lebten und wie sie sich zu modernen Arten entwickelten. Die Funde helfen, Lücken in unserem Wissen über die Evolutionsgeschichte dieser Organismen zu schließen.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-ancient-alberta-fish-fossils-reveal.html",
+      "datum": "2026-10-28",
+      "erstmals_angezeigt": "2026-10-28"
     },
     {
       "titel": "Älteste Tiere der Erde teilen gemeinsamen wurmartigen Vorfahren",
