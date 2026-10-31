@@ -1,6 +1,22 @@
 {
-  "stand": "2026-10-30",
+  "stand": "2026-10-31",
   "meldungen": [
+    {
+      "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
+      "zusammenfassung": "Ein außergewöhnlich vielfältiges Fossilökosystem in Zentralkolumbien bewahrt eine seltene Überlagerung zwischen Überlebenden älterer Jura-Gruppen und neueren Kreide-Linien. Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben darin ein neues Muster großflächiger evolutionärer Übergänge erkannt, das ohne Massenaussterben abgelaufen ist.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+      "datum": "2026-10-31",
+      "erstmals_angezeigt": "2026-10-31"
+    },
+    {
+      "titel": "Wie Krokodile den Dinosaurier-Asteroiden überlebten",
+      "zusammenfassung": "Wissenschaftler haben möglicherweise gelöst, warum Krokodile das Asteroiden-Ereignis vor 66 Millionen Jahren überlebten, das die Dinosaurier auslöschte. Eine Analyse von Fossilien und antiken Klimadaten deutet darauf hin, dass ihre Vorliebe für warme Umgebungen sie in tropische Rückzugsgebiete führte, die auch nach dem katastrophalen Einschlag bewohnbar blieben.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+      "datum": "2026-10-30",
+      "erstmals_angezeigt": "2026-10-30"
+    },
     {
       "titel": "Alte DNA klärt das Rätsel um Europas vermeintlichen Riesenkranich",
       "zusammenfassung": "Ein Team der Bournemouth University ordnet große historische Kranichfunde mithilfe alter DNA der heute noch lebenden Art Grus grus zu. Der vermeintlich ausgestorbene Grus primigenia wäre demnach keine eigenständige Art. Warum die Tiere früher größer waren, bleibt offen.",
