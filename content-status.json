@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-10-31T10:42:01.110572+00:00",
+  "updated": "2026-11-01T11:37:59.320727+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "4725ddb5bfdf45cdc0d339336dd09a88",
+      "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
+      "title": "Marine Amphibie aus dem Meer vor 237 Millionen Jahren",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-01T11:37:59.318841+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "a24c79c990baf892ac09b02d90a27906",
+      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+      "title": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-01T11:37:59.256153+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "dac9a8f10d90cd4c9a47f848c4be58c5",
       "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
@@ -90,19 +116,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-10-29T13:49:12.348480+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "4725ddb5bfdf45cdc0d339336dd09a88",
-      "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
-      "title": "Marine Amphibie aus dem Meer vor 237 Millionen Jahren",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-10-29T13:49:12.285716+00:00",
       "sources": [],
       "score": null,
       "script": null,
