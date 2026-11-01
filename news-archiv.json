@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-31",
+  "stand": "2026-11-01",
   "meldungen": [
     {
       "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
@@ -248,6 +248,14 @@
       "url": "https://phys.org/news/2026-10-species-freshwater-mussels-southern-uncovered.html",
       "datum": "2026-10-02",
       "erstmals_angezeigt": "2026-10-02"
+    },
+    {
+      "titel": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
+      "zusammenfassung": "Paläontologen haben eine neue Dinosaurierart entdeckt, die sich auf ein ungewöhnliches Nahrungsangebot spezialisiert hatte: Früchte. Der kleine Oviraptorosaur namens Infernogallus jamesis besaß spezialisierte Kaumuskeln zum Zerquetschen von weicher Nahrung und ist damit der erste bekannte Dinosaurier, der gezielt Früchte aß.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+      "datum": "2026-10-01",
+      "erstmals_angezeigt": "2026-10-01"
     },
     {
       "titel": "Älteste bekannte magnetische Navigation bei Meerestieren entdeckt",
