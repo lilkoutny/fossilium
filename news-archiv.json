@@ -1,11 +1,19 @@
 {
-  "stand": "2026-11-01",
+  "stand": "2026-11-02",
   "meldungen": [
     {
       "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
       "zusammenfassung": "Ein außergewöhnlich vielfältiges Fossilökosystem in Zentralkolumbien bewahrt eine seltene Überlagerung zwischen Überlebenden älterer Jura-Gruppen und neueren Kreide-Linien. Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben darin ein neues Muster großflächiger evolutionärer Übergänge erkannt, das ohne Massenaussterben abgelaufen ist.",
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+      "datum": "2026-10-31",
+      "erstmals_angezeigt": "2026-10-31"
+    },
+    {
+      "titel": "17 Millionen Jahre alter Affenfossil in Ägypten gefunden",
+      "zusammenfassung": "Ein in Ägypten entdecktes 17 bis 18 Millionen Jahre altes Affenfossil stellt bisherige Theorien zur Menschheitsentstehung in Frage. Wissenschaftler vermuten nun, dass Nordafrika und der Nahe Osten statt Ostafrika die Wiege der modernen Affenenevolution gewesen sein könnten.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
       "datum": "2026-10-31",
       "erstmals_angezeigt": "2026-10-31"
     },
