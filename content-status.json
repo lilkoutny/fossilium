@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-01T11:37:59.320727+00:00",
+  "updated": "2026-11-02T13:01:12.296342+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "d1380627f2efa2397cf0fc77f1fd070f",
+      "url": "https://phys.org/news/2026-10-year-mystery-identity-extinct-giant.html",
+      "title": "150 Jahre altes Rätsel um ausgestorbenen Riesenkranich gelöst",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-02T13:01:12.294263+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "4155c9fb03177fbf9982510034401a1c",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
+      "title": "17 Millionen Jahre alter Affenfossil in Ägypten gefunden",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-02T13:01:12.139666+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "4725ddb5bfdf45cdc0d339336dd09a88",
       "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
@@ -103,19 +129,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-10-30T11:08:50.328645+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "d1380627f2efa2397cf0fc77f1fd070f",
-      "url": "https://phys.org/news/2026-10-year-mystery-identity-extinct-giant.html",
-      "title": "150 Jahre altes Rätsel um ausgestorbenen Riesenkranich gelöst",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-10-29T13:49:12.348480+00:00",
       "sources": [],
       "score": null,
       "script": null,
