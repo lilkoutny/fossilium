@@ -11,7 +11,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
@@ -20,37 +20,48 @@
         "reason": "Paja-Biota: Plesiosaurier und marine Krokodilverwandte sind zentraler Bestandteil des untersuchten Ökosystems; Originalmeldung geprüft."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Artikellänge/Gliederung unzureichend",
+      "error": "article:ValueError:Artikellänge/Gliederung unzureichend: 321 Wörter, 5 Abschnitte",
       "draft": {
         "relevant": true,
         "category": "marine_reptile",
-        "reason": "Die Quelle behandelt zentral ein fossiles Meeresökosystem der Frühen Kreide mit marinen Reptilien als Schlüsselfossilien. Langhals-Plesiosauren und marine Krokodilvervandte bilden die Kernfauna und sind Gegenstand einer paläontologischen Studie zur evolutionären Transition. Dies entspricht der Policy für Meeresreptilien mit direktem wissenschaftlichen Fokus.",
+        "reason": "Die Quelle behandelt zentral ausgestorbene Meeresreptilien (Plesiosaurier und marine Krokodile) aus der Frühen Kreide Kolumbiens als Kernthema eines Fossilökosystems. Dies entspricht der Policy für marine Reptilien.",
         "article": {
-          "titel": "Die Paja-Formation: Ein Fenster in die Evolution der Meeresreptilien der Frühen Kreide",
-          "untertitel": "Kolumbiens Fossillagerstätte zeigt außergewöhnliche Vielfalt und ökologische Komplexität einer kreidezeitlichen Meeresgemeinschaft",
+          "titel": "Die Paja-Formation: Ein Fenster in die Meeresökosysteme der Frühen Kreide",
+          "untertitel": "Kolumbiens außergewöhnliche Fossillagerstätte zeigt komplexe marine Gemeinschaften mit Riesensauriern und innovativen Ökologien",
           "abschnitte": [
             {
               "titel": "Das Ökosystem der Paja-Formation",
               "absatz": [
-                "Die Paja-Formation in der Nähe von Villa de Leyva in Zentralkolumbien bewahrt eines der außergewöhnlichsten marinen Fossilökosysteme der Erdgeschichte.[[S1]] Das System dokumentiert die Fauna der Frühen Kreide und enthält eine bemerkenswerte Konzentration großer mariner Reptilien, darunter langhalsige Plesiosauren und fossile Verwandte moderner Krokodile.[[S1]] Diese Tiere besiedelten ein komplexes Ökosystem, das von einer reichen Fauna von Schildkröten, Haien und Krebstieren ergänzt wurde.[[S1]] Die Gesamtzusammensetzung dieser Artengemeinschaft, bekannt als Paja-Biota, wird als eine der ökologisch komplexesten marinen Gemeinschaften betrachtet, die sich je entwickelt haben.[[S1]]"
+                "Die Paja-Formation nahe Villa de Leyva in Zentralkolumbien bewahrt eine ungewöhnlich vielfältige Fossilgemeinschaft aus der Frühen Kreide[[S1]]. Das Gestein dokumentiert marine Lebensgemeinschaften, die sowohl ausgestorbene Meeresreptilien als auch andere wirbellose und wirbeltiereOrgani sationen vereinigen[[S1]]. Diese Lagerstätte wird von Forschern der McGill University und des Centro de Investigaciones Paleontológicas systematisch untersucht.",
+                "Die beschriebene Fauna umfasst riesige langzähnige Plesiosaurier, marine Verwandte von Krokodilen, Schildkröten, Haie und Krebstiere[[S1]]. Diese Zusammensetzung wird als \"Paja Biota\" bezeichnet und stellt nach bisherigen Analysen eine der ökologisch komplexesten marinen Gemeinschaften dar, die bislang aus dem Fossilbestand bekannt ist[[S1]]."
               ]
             },
             {
-              "titel": "Umweltbedingungen und das Konzept der \"Biotic Inflection\"",
+              "titel": "Struktur und Nahrungsnetz der antiken Gemeinschaft",
               "absatz": [
-                "Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben in der Paja-Formation ein neues Muster evolutionärer Übergänge identifiziert, das sie als \"Biotic Inflection\" bezeichnen.[[S1]] Dieses Konzept beschreibt eine zeitliche Phase, in der viele Evolutionslinien am Rande des Aussterbens mit neu entstehenden Gruppen koexistierten, die sich später diversifizierten.[[S1]] Die Forscher vermuten, dass die extreme Biodiversität und die biologische Transition in dieser Formation durch ein seltenes Zusammentreffen von Umweltfaktoren begünstigt wurden.[[S1]] Zu diesen Faktoren zählten Treibhausbedingungen, hohe Meeresspiegel, nährstoffreiche Küstengewässer und neue Meeresverbindungen zwischen dem östlichen Pazifik und dem frühen Atlantik durch die Region des heutigen Kolumbien.[[S1]] Diese Bedingungen ähneln nach Ansicht der Forscher vielen der Faktoren, die heute Biodiversität fördern."
+                "Forschende unter Leitung von Hans Larsson identifizierten in der Paja Biota ein außergewöhnlich komplexes Nahrungsnetz, das sich durch eine hohe Vielfalt von Spitzenprädatoren auszeichnet[[S1]]. Die Rekonstruktion dieser ökologischen Beziehungen offenbarte Muster, die in dieser Ausprägung selten in fossilisierten Ökosystemen dokumentiert sind.",
+                "Die Untersuchung zeigt, dass langzähnige Plesiosaurier und marine Krokodile-Verwandte wesentliche Komponenten dieses Nahrungsnetzes bildeten[[S1]]. Ihre Präsenz ist eng mit der Diversität kleinerer Organismen verknüpft, die das System stabilisierten."
               ]
             },
             {
-              "titel": "Nahrungsnetzwerk und ökologische Komplexität",
+              "titel": "Das Konzept der \"biotic inflection\"",
               "absatz": [
-                "Ein Merkmal der Paja-Biota war ihr außergewöhnlich komplexes Nahrungsnetzwerk mit hoher Diversität von Spitzenprädatoren.[[S1]] In einer früheren Studie hatten die Forscher bereits das Nahrungsnetzwerk dieser marinen Gemeinschaft modelliert und festgestellt, dass es zu den komplexesten zählte, die sich jemals entwickelt haben.[[S1]] Die dominanten marinen Reptilien, besonders die großen Plesiosauren, nahmen in diesem Ökosystem Positionen als Apex-Rauber ein.[[S1]] Diese hohe trophische Komplexität deutet auf ein stabiles und in sich differenziertes System hin, in dem sich spezialisierte Rollen über mehrere trophische Ebenen ausbildeten."
+                "Cortés und Larsson schlagen das Konzept einer \"biotic inflection\" vor – eine Periode, in der viele evolutionäre Linien am Rande des Aussterbens mit neu entstehenden Gruppen koexistierten[[S1]]. Die Paja-Formation wird als Beispiel für diesen Prozess interpretiert, bei dem ältere Jura-Linien mit neueren Kreide-Linien räumlich überlagert sind[[S1]].",
+                "Dieses Modell unterscheidet sich von klassischen Szenarien großflächiger Evolutionsübergänge darin, dass kein Massenaussterben das Muster prägt[[S1]]. Stattdessen wird eine graduellere, koexistente Transformation vorgeschlagen."
               ]
             },
             {
-              "titel": "Forschungsfortschritt und offene Fragen",
+              "titel": "Umweltbedingungen und ihre Rolle",
               "absatz": [
-                "Die Studie wurde in der Zeitschrift Frontiers in Ecology and Evolution veröffentlicht.[[S1]] Um das Konzept der Biotic Inflection zu validieren und deren globale Verbreitung zu untersuchen, sind nach Aussage der Forscher weitere Untersuchungen notwendig.[[S1]] Erforderlich sind zusätzliche Fossilproben, präzisere Altersbestimmungen und Vergleiche mit Fossillagerstätten an anderen Orten der Welt.[[S1]] Die Forschergruppe kündigte an, untersuchen zu wollen, wie verbreitet dieses Muster der Biodiversitätsveränderung in der Erdgeschichte war und wann ähnliche Ereignisse möglicherweise an anderen Lokalitäten auftraten.[[S1]] Die Paja-Formation bleibt damit ein zentraler Untersuchungsgegenstand für das Verständnis evolutionärer Übergänge in marinen Systemen der Mesozoikums."
+                "Die Forscher vertreten die Interpretation, dass eine seltene Konvergenz von Umweltfaktoren die beobachtete extreme Biodiversität förderte[[S1]]. Dazu zählen Gewächshaustemperaturen, hohe Meeresspiegel, nährstoffreiche Küstengewässer und neue marine Verbindungen zwischen dem östlichen Pazifik und einem frühen Atlantik durch das heutige Kolumbien[[S1]].",
+                "Diese Faktoren werden von den Autoren mit modernen Biodiversitätstreibern verglichen[[S1]]. Ob diese Parallele tragfähig ist, erfordert weitere Forschung."
+              ]
+            },
+            {
+              "titel": "Publikation und offene Fragen",
+              "absatz": [
+                "Die Ergebnisse wurden in der Zeitschrift Frontiers in Ecology and Evolution unter der Federführung von Dirley Cortés veröffentlicht[[S1]]. Die Forschungsgruppe um Larsson betont, dass das identifizierte Muster ein neues Modell globaler Biodiversitätsveränderungen darstellen könnte[[S1]].",
+                "]},{"
               ]
             }
           ]
@@ -74,7 +85,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
@@ -95,7 +106,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-28",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -116,7 +127,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -137,7 +148,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -158,7 +169,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-12",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -179,7 +190,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-09",
       "decision": {
         "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -200,7 +211,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -221,7 +232,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -242,7 +253,7 @@
         "news_datum": "2026-10-31"
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-10-01",
       "decision": {
         "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -263,7 +274,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-09-27",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -284,7 +295,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-09-25",
       "decision": {
         "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -305,7 +316,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-09-23",
       "decision": {
         "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -326,7 +337,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-09-22",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -347,7 +358,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-09-19",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -368,7 +379,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-09-18",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
@@ -869,7 +880,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
