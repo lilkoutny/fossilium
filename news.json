@@ -1,26 +1,26 @@
 {
   "meldungen": [
     {
-      "titel": "Fruchtfresser unter den Dinosauriern entdeckt",
-      "zusammenfassung": "Paläontologen haben eine neue Dinosaurierart namens Infernogallus jamesi identifiziert, einen kleinen Oviraptorosauren aus der Kreidezeit. Diese Art war das erste bekannte Dinosaurier-Genus, das sich spezialisiert auf die Nahrung von Blütenfrüchten ernährte und verfügte über spezialisierte Kaumuskeln zum Zermalmen weicher Nahrung.",
+      "titel": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
+      "zusammenfassung": "Forscher haben erstmals unwiderlegbare Hinweise auf fossilisierte rote Blutkörperchen und Kollagen-Aminosäuren in Dinosaurierknochen gefunden. Diese Entdeckung verändert unser Verständnis davon, wie lange Biomoleküle in Fossilien über geologische Zeiträume hinweg erhalten bleiben können.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+      "datum": "2026-10-31"
+    },
+    {
+      "titel": "Neue Dinosaurierart war spezialisierter Fruchtfresser",
+      "zusammenfassung": "Paläontologen haben eine neue Dinosaurierart namens Infernogallus jamesi entdeckt, einen kleinen Oviraptorosauren aus der Kreidezeit, der sich auf das Fressen von Früchten spezialisiert hatte. Mit seinen Kaumuskeln zum Zermalmen weicher Nahrung ist er der erste bekannte Dinosaurier, der gezielt Früchte aß.",
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
       "datum": "2026-10-31"
     },
     {
-      "titel": "Fossile Übergänge zwischen Jura und Kreide ohne Massenaussterben",
-      "zusammenfassung": "Ein vielfältiges Fossilökosystem in Kolumbien zeigt eine seltene Überlagerung von älteren Jura-Gruppen und neueren Kreide-Linien. Die Forschung deutet auf ein großflächiges evolutionäres Übergangsmuster hin, das ohne Massenaussterben stattgefunden hat.",
+      "titel": "400.000 Jahre alte Termitennester in Südafrika fosssilisiert",
+      "zusammenfassung": "Forscher der Universität Kapstadt haben eine Serie von etwa 400.000 Jahre alten, versteinerten Nestern einer ausgestorbenen Termitenartenentdeckt und benannt diese nach der südafrikanischen Stadt Calitzdorp. Die Fossilien helfen dabei, lokale Gemeinschaften mit dem Fossilienreichtum ihrer Region zu verbinden.",
       "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
-      "datum": "2026-10-31"
-    },
-    {
-      "titel": "17 Millionen Jahre alter Affenfossil in Ägypten gefunden",
-      "zusammenfassung": "Ein in Ägypten entdecktes 17 bis 18 Millionen Jahre altes Affenfossil stellt bisherige Theorien zur Menschheitsentstehung in Frage. Wissenschaftler vermuten nun, dass Nordafrika und der Nahe Osten statt Ostafrika die Wiege der modernen Affenenevolution gewesen sein könnten.",
-      "quelle": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
-      "datum": "2026-10-31"
+      "url": "https://phys.org/news/2026-11-year-fossilized-termite-karoo-town.html",
+      "datum": "2026-11-03"
     }
   ],
-  "stand": "2026-11-02"
+  "stand": "2026-11-03"
 }
