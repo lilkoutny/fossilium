@@ -297,6 +297,39 @@
     *{transition:none!important}
     html{scroll-behavior:auto}
   }
+
+  /* ---------- Fossilium Entdecker-System ---------- */
+  :root{
+    --nacht:#16374a;--vitrine:#fffaf1;--vitrine-hell:#e7f0ec;--bein:#173242;
+    --bein-blass:#5d6b6e;--messing:#bf583b;--messing-tief:#8f3f2d;
+    --linie:rgba(22,55,74,.18);--trias:#bf583b;--jura:#4f8a7b;--kreide:#397ca2;--link:#23647c;
+  }
+  body{background:#f5f0e7;color:var(--bein)}
+  header{max-width:1240px;border-bottom:1px solid var(--linie);padding-top:22px}
+  .logo span{color:var(--messing)} .untertitel{color:var(--bein-blass)}
+  header nav a{color:var(--bein)} header nav a:hover{color:var(--messing)}
+  main{max-width:1240px}
+  .entdecker-hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);gap:42px;align-items:center;margin:28px 0 72px;padding:clamp(28px,5vw,72px);background:linear-gradient(135deg,#e7f0ec 0%,#f5f0e7 58%);border-radius:28px;overflow:hidden}
+  .entdecker-kicker,.bereichskennung{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--messing)}
+  .entdecker-hero h1{font-family:Jost,sans-serif;font-size:clamp(44px,7vw,82px);line-height:.98;letter-spacing:-.055em;margin:12px 0 18px;color:var(--nacht)}
+  .entdecker-hero p{max-width:46ch;font-size:clamp(17px,2vw,21px);color:#405a61}
+  .entdecker-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.entdecker-cta{display:inline-flex;align-items:center;min-height:46px;padding:10px 18px;border-radius:999px;background:var(--nacht);color:#fffaf1;text-decoration:none;font-weight:600}.entdecker-cta.alt{background:transparent;color:var(--nacht);border:1px solid var(--nacht)}.entdecker-cta:hover{background:var(--messing);border-color:var(--messing);color:white}
+  .entdecker-buehne{position:relative;min-height:360px;display:grid;place-items:center;background:#16374a;border-radius:22px;padding:20px;box-shadow:18px 22px 0 rgba(191,88,59,.16)}
+  .entdecker-buehne img{width:100%;height:100%;max-height:430px;object-fit:contain}.entdecker-label{position:absolute;left:18px;bottom:16px;padding:8px 13px;background:#fffaf1;color:var(--nacht);border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.04em}
+  .karte-kopf{padding:0 0 24px}.karte-kopf h1{color:var(--nacht)}.karte-kopf p{color:var(--bein-blass)}
+  .karten-rahmen{border:0;border-radius:24px;background:var(--nacht);box-shadow:0 20px 50px rgba(22,55,74,.16)}.karten-bild{background:#16374a}.fundorte-panel{background:#fffaf1;border-left:1px solid var(--linie)}.fundorte-panel h2,.fundort-knopf{color:var(--bein)}.fundorte-panel>p,.fundort-ort{color:var(--bein-blass)}.karten-meta{color:#a8d0c2}.karten-fuss{color:#a8c4c5}.legende{color:#b5c8c8}.map-land{fill:#4f8a7b;stroke:#9fc5b5}.gitter{stroke:rgba(245,240,231,.16)}.gitter .aequator{stroke:rgba(191,88,59,.6)}
+  #forschung{margin:72px 0;padding:clamp(26px,4vw,54px);background:var(--nacht);border-radius:28px;color:#fffaf1}.news-kopf{margin:0 0 28px;border-bottom-color:rgba(255,250,241,.22)}.news-kopf h2{font-family:Jost,sans-serif;font-size:clamp(32px,4vw,48px)}.news-stand,.news-zaehler,.news-archiv-hinweis{color:#b8d0d0}.news-raster{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.news-karte{background:#fffaf1;border:0;border-radius:16px;padding:24px;color:var(--bein)}.news-karte:nth-child(3){background:#e7f0ec}.news-karte time{color:var(--bein-blass)}.news-karte h3{color:var(--nacht);font-family:Jost,sans-serif}.news-karte a{color:var(--link)}.news-publikation{border-color:var(--messing);color:var(--messing)}.news-publikation:hover,.news-publikation:focus-visible{background:var(--messing);color:white}.news-archiv{border-top-color:rgba(255,250,241,.22);background:#fffaf1;color:var(--bein);padding:26px;border-radius:18px}.news-archiv h3{color:var(--nacht)}.news-archiv-liste li{border-top-color:var(--linie)}.news-archiv-liste time,.news-archiv-liste .news-quelle{color:var(--bein-blass)}.news-archiv-knopf{border-color:#b8d0d0;color:#fffaf1;border-radius:999px}.news-archiv-knopf:hover{background:#28556a}
+  #lexikon{padding:12px 0 44px}.lexikon-kopf{margin:0 0 26px;border-bottom-color:var(--linie)}.lexikon-kopf h2{font-family:Jost,sans-serif;color:var(--nacht);font-size:clamp(32px,4vw,48px)}.werkzeuge input{border-color:var(--linie);background:white;color:var(--bein)}.filter button{border-color:var(--linie);border-radius:999px;color:var(--bein);background:#fffaf1}.filter button[aria-pressed="true"]{background:var(--nacht);border-color:var(--nacht);color:#fffaf1}.raster{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.karte-dino{background:#fffaf1;border:0;border-radius:18px;overflow:hidden;color:var(--bein);box-shadow:0 8px 24px rgba(22,55,74,.08)}.karte-dino:hover{transform:translateY(-2px);border-color:transparent}.bild-box{background:#16374a;border:0}.karte-name{font-family:Jost,sans-serif;color:var(--nacht);font-weight:700}.karte-meta{color:var(--bein-blass)}.karte-text{color:var(--bein)}.karte-dino .balken{background:var(--fundort-farbe,var(--messing))}.lightbox-close{background:var(--nacht);border-color:#fffaf1}
+  @media(max-width:820px){.entdecker-hero{grid-template-columns:1fr;gap:28px}.raster{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:560px){.entdecker-hero{margin:14px 0 48px;padding:26px 20px;border-radius:20px}.entdecker-buehne{min-height:270px}.news-raster{grid-template-columns:1fr}.raster{grid-template-columns:1fr}}
+  /* Contrast and interaction corrections */
+  .karte-kopf h2{font-size:clamp(32px,5vw,52px);font-weight:600;max-width:24ch;line-height:1.12;color:var(--nacht)}
+  .lightbox-close{background:#16374a;color:#fffaf1}.lightbox-caption{color:#fffaf1}.artikel-zoomhinweis{color:#c7c7bc}
+  .news-archiv .news-archiv-hinweis{color:#5d6b6e}.legende a{color:#c7e2eb}.marker text{fill:#fffaf1}.karten-koordinaten{fill:#b8d0d0}
+  .news-karte:nth-child(2){background:#efe0c8}.news-karte:nth-child(4){background:#dfeaf1}
+  .karte-dino:hover{transform:none}
+  .entdecker-kicker{color:#9f442f}.news-karte time{color:#4a5b61}.news-archiv .news-publikation{color:#a54832}.news-archiv .news-publikation:hover,.news-archiv .news-publikation:focus-visible{color:#fff}.zeit-band{color:#000}
+  @media (prefers-reduced-motion:reduce){.karte-dino:hover{transform:none}}
 </style>
 </head>
 <body>
@@ -314,8 +347,12 @@
 <main>
   <!-- ============ STARTSEITE ============ -->
   <div id="start">
+    <section class="entdecker-hero" aria-labelledby="entdeckerTitel">
+      <div><div class="entdecker-kicker">Fossilium · Feldnotizen</div><h1 id="entdeckerTitel">Urzeit.<br>Ganz nah.</h1><p>Dinosaurier, Fundorte und neue Forschung – verständlich erzählt und direkt auf der Karte entdeckt.</p><div class="entdecker-ctas"><a class="entdecker-cta" href="#lexikon">Dinodex öffnen</a><a class="entdecker-cta alt" href="#forschung">Forschung lesen</a></div></div>
+      <a class="entdecker-buehne" href="#artikel" onclick="zeigeArtikel('triceratops');return false" aria-label="Triceratops-Porträt öffnen"><img src="bilder/triceratops.png" alt="Triceratops in Seitenansicht"><span class="entdecker-label">Triceratops · Kreidezeit</span></a>
+    </section>
     <section class="karte-kopf" id="weltkarte">
-      <h1>Wo die Dinosaurier gefunden wurden</h1>
+      <h2>Wo die Dinosaurier gefunden wurden</h2>
       <p>Von Montana bis Liaoning: Entdecke die schematischen Fundregionen hinter den Fossilien. Wähle einen Fundpunkt oder einen Namen und erfahre mehr über seine Geschichte.</p>
     </section>
 
@@ -328,7 +365,7 @@
           <desc id="kartenBeschreibung">Weltkarte mit sechs auswählbaren Fundorten. Die Namen neben der Karte öffnen dieselben Artikel.</desc>
           <defs>
             <radialGradient id="kartenMeer" cx="45%" cy="38%" r="70%">
-              <stop offset="0" stop-color="#213c2d"/><stop offset="1" stop-color="#172920"/>
+              <stop offset="0" stop-color="#24556b"/><stop offset="1" stop-color="#16374a"/>
             </radialGradient>
           </defs>
           <rect x="0" y="0" width="1000" height="500" fill="url(#kartenMeer)"/>
