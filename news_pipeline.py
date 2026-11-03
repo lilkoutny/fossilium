@@ -137,6 +137,7 @@ def fetch_source(candidate):
 
 def parse_article_text(text):
     """Parse prose locally; long prose must not be constrained by JSON grammar."""
+    text = re.sub(r"(\*{1,2})([^\n*]+)\1", r"\2", text)
     lines = text.strip().splitlines()
     if not lines or not lines[0].startswith("# ") or "```" in text:
         raise ValueError("Artikelüberschrift/Format fehlt")
@@ -180,12 +181,14 @@ def build_article(response, candidate, source, today):
     slug = re.sub(r"[^a-z0-9]+", "-", raw["titel"].lower()).strip("-")[:65].rstrip("-") or "forschung"
     slug += "-" + hashlib.sha256(candidate["url"].encode()).hexdigest()[:10]
     # Only prose comes from the model; links, dates and source provenance are bound here.
-    article = {"slug": slug, "titel": raw.get("titel"), "untertitel": raw.get("untertitel"), "abschnitte": raw.get("abschnitte"), "datum": today,
+    lead = raw.get("untertitel")
+    if isinstance(lead, str): lead = lead.replace("[[S1]]", "").strip()
+    article = {"slug": slug, "titel": raw.get("titel"), "untertitel": lead, "abschnitte": raw.get("abschnitte"), "datum": today,
         "news_datum": source.get("date") or "Nicht angegeben", "study_datum": "Nicht unabhängig geprüft", "lesestand": source["umfang"],
         "original_quelle": candidate["quelle"], "original_url": candidate["url"], "quellen": [{k: source[k] for k in ("id", "url", "titel", "umfang")}], "bilder": []}
     publication.validate({"artikel": [article]})
     for section in article["abschnitte"]:
-        section["absatz"] = [re.sub(r"\s+(?=\[\[S1\]\])", "", re.sub(r"\[\[S1\]\]([.!?])", r"\1[[S1]]", p)) for p in section["absatz"]]
+        section["absatz"] = [re.sub(r"\s+([.,;!?])", r"\1", re.sub(r"\s+(?=\[\[S1\]\])", "", re.sub(r"\[\[S1\]\]([.!?])", r"\1[[S1]]", p))) for p in section["absatz"]]
     paragraphs = [p for s in article["abschnitte"] for p in s["absatz"]]
     # The lead is part of the article, not navigation or source boilerplate.
     words = len(article["untertitel"].split()) + sum(len(re.sub(r"\[\[S1\]\]", "", p).split()) for p in paragraphs)

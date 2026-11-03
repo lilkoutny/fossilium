@@ -14,7 +14,6 @@ import os
 import re
 import sys
 import time
-from pathlib import Path
 from datetime import datetime, timezone
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -33,7 +32,6 @@ FEEDS = [
     ("Spektrum der Wissenschaft", "https://www.spektrum.de/alias/rss/spektrum-de-rss-feed/996406"),
 ]
 MAX_ALTER_TAGE = 3      # nur Meldungen der letzten X Tage
-MODELL = "claude-haiku-4-5"  # günstigstes Modell, reicht fürs Zusammenfassen
 AUSGABE = "news.json"
 ARCHIV = "news-archiv.json"
 

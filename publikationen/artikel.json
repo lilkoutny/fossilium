@@ -328,7 +328,7 @@
     {
       "slug": "fossile-meeresvielfalt-in-kolumbien-bergang-ohne-massensterben-28bdc12b7f",
       "titel": "Fossile Meeresvielfalt in Kolumbien: Übergang ohne Massensterben",
-      "untertitel": "Paläontologen haben in der kolumbianischen Paja-Formation ein fossiles Meeresökosystem untersucht, das eine ungewöhnlich hohe Artenvielfalt aufweist. Die Befunde deuten auf einen neuartigen Modus großskaliger Evolutionsübergänge hin, der ohne Massenaussterbeereignisse auskommt. Das Konzept dafür nennen die Forschenden eine „biotische Inflexion\".",
+      "untertitel": "Paläontologen haben in der kolumbianischen Paja-Formation ein fossiles Meeresökosystem untersucht, das eine ungewöhnlich hohe Artenvielfalt aufweist. Die Befunde deuten auf einen neuartigen Modus großskaliger Evolutionsübergänge hin, der ohne Massenaussterbeereignisse auskommt. Das Konzept dafür nennen die Forschenden eine „biotische Inflexion“.",
       "abschnitte": [
         {
           "titel": "Die Paja-Formation als Forschungsgrundlage",
@@ -385,50 +385,53 @@
     },
     {
       "slug": "fossilisierte-blutzellen-in-einem-115-millionen-jahre-alten-dinos-ffef91e2d3",
-      "titel": "Fossilisierte Blutzellen in einem 115 Millionen Jahre alten Dinosaurierknochen nachgewiesen",
-      "untertitel": "Ein internationales Forschungsteam hat erstmals chemisch eindeutige Belege für erhaltene rote Blutzellen und Hämoglobin-Derivate in einem Dinosaurierknochen erbracht. Die Entdeckung stammt aus Überresten des Theropoden Aratasaurus museunacionali aus dem Nordwesten Brasiliens und wurde in den Proceedings of the National Academy of Sciences veröffentlicht.",
+      "titel": "Blutbezogene Molekülspuren in 115 Millionen Jahre altem Dinosaurierknochen",
+      "untertitel": "Ein Forschungsteam berichtet Häm-Spuren in mineralisierten Strukturen eines Aratasaurus-Fossils aus dem Nordosten Brasiliens. Die Kombination chemischer und mikroskopischer Befunde stützt nach Einschätzung des Teams die Deutung als erhaltene Reste roter Blutzellen.",
       "abschnitte": [
         {
           "titel": "Herkunft des Fossils und beteiligte Institutionen",
           "absatz": [
-            "Die untersuchten Extremitätenknochen gehören zu Aratasaurus museunacionali, einem etwa 115 Millionen Jahre alten Theropoden .[[S1]] Das Forschungsteam wurde von der Curtin University geleitet und umfasste Wissenschaftlerinnen und Wissenschaftler der Curtin School of Earth and Planetary Sciences, der Japan Agency for Marine-Earth Science and Technology, des Brasilianischen Nationalmuseums, der Regional University of Cariri sowie der Johns Hopkins University .[[S1]]"
+            "Die untersuchten Extremitätenknochen gehören zu Aratasaurus museunacionali, einem etwa 115 Millionen Jahre alten Theropoden.[[S1]] Das Forschungsteam wurde von der Curtin University geleitet und umfasste Wissenschaftlerinnen und Wissenschaftler der Curtin School of Earth and Planetary Sciences, der Japan Agency for Marine-Earth Science and Technology, des Brasilianischen Nationalmuseums, der Regional University of Cariri sowie der Johns Hopkins University.[[S1]]",
+            "Die Curtin University verortet den Fund im Nordosten Brasiliens.[[S3]] Die abweichende Angabe „Nordwesten“ in der von Phys.org verbreiteten Meldung wird hier deshalb korrigiert."
           ]
         },
         {
-          "titel": "Chemischer Nachweis von Hämoglobin-Molekülen",
+          "titel": "Was die chemischen Analysen zeigen",
           "absatz": [
-            "Frühere Studien hatten mögliche Strukturen roter Blutzellen in Fossilien beschrieben, ohne diese jedoch chemisch zu belegen .[[S1]] Die neue Untersuchung erbrachte nach Angaben der Forschenden erstmals den chemischen Nachweis von Häm-Molekülen – der sauerstoffbindenden Komponente des Hämoglobins – innerhalb der fossilisierten Zellen .[[S1]] Daneben wurden auch Aminosäuren des Kollagens identifiziert .[[S1]]"
+            "Laut Studienzusammenfassung wurden im Knochenextrakt Häm B und durch Fossilisierungsprozesse veränderte Hämverbindungen identifiziert.[[S2]] Die umgebende Matrix zeigte dagegen überwiegend Porphyrinsignaturen aus Chlorophyll und Bakteriochlorophyll.[[S2]] Diesen Unterschied wertet das Team als Hinweis auf eine Herkunft der Knochenmoleküle aus dem Tier selbst.[[S2]]",
+            "Raman-Spektroskopie und Transmissionselektronenmikroskopie lieferten ergänzende räumliche Befunde: Häm-bezogene Signale sowie die Elemente Eisen, Stickstoff und Kohlenstoff waren mit ellipsoidalen Mikrostrukturen verbunden.[[S2]] Die Forschenden interpretieren diese Strukturen als mineralisierte rote Blutzellen.[[S2]] Entscheidend ist damit die Verbindung zwischen chemischen Signalen und ihrem Fundort im Knochen, nicht allein eine zellähnliche Form.[[S2]]"
           ]
         },
         {
           "titel": "Erhaltungsbedingungen und Mineralisierung",
           "absatz": [
-            "Die roten Blutzellen lagen in Gefäßkanälen der Knochen und waren mit Hausmannit mineralisiert .[[S1]] Das Forschungsteam geht davon aus, dass diese Mineralisierung wie eine natürliche Zeitkapsel wirkte und die zellulären Strukturen sowie biomolekulare Bestandteile über geologische Zeiträume stabilisierte .[[S1]] Als weiteren begünstigenden Faktor nennt das Team eine rasche Einbettung des Tieres nach dem Tod in einem sauerstoffarmen, mikrobiell aktiven Milieu .[[S1]]"
+            "Die als rote Blutzellen interpretierten Strukturen lagen in Gefäßkanälen der Knochen und waren mit Hausmannit mineralisiert.[[S3]] Das Forschungsteam geht davon aus, dass diese Mineralisierung wie eine natürliche Zeitkapsel wirkte und die zellulären Strukturen sowie biomolekulare Bestandteile über geologische Zeiträume stabilisierte.[[S3]] Als weiteren begünstigenden Faktor nennt das Team eine rasche Einbettung des Tieres nach dem Tod in einem sauerstoffarmen, mikrobiell aktiven Milieu.[[S3]]"
           ]
         },
         {
           "titel": "Bedeutung für die molekulare Paläontologie",
           "absatz": [
-            "Das Ergebnis stellt nach Einschätzung der Forschenden bisherige Annahmen in Frage, wonach bestimmte Biomoleküle wie Hämoglobin geologische Tiefenzeiten nicht überstehen können .[[S1]] Kliti Grice, Gründungsdirektorin des WA-Organic and Isotope Geochemistry Centre der Curtin University und Hauptautorin der Studie, bezeichnete die Entdeckung als bedeutenden Meilenstein, der neue Möglichkeiten für die Erforschung evolutionärer Fragen auf molekularer Ebene eröffne .[[S1]]"
+            "Das Ergebnis stellt nach Einschätzung der Forschenden bisherige Annahmen in Frage, wonach bestimmte Biomoleküle wie Hämoglobin geologische Tiefenzeiten nicht überstehen können.[[S1]] Kliti Grice, Gründungsdirektorin des WA-Organic and Isotope Geochemistry Centre der Curtin University und Hauptautorin der Studie, bezeichnete die Entdeckung als bedeutenden Meilenstein, der neue Möglichkeiten für die Erforschung evolutionärer Fragen auf molekularer Ebene eröffne.[[S1]]"
           ]
         },
         {
           "titel": "Bezug zur Astrobiologie",
           "absatz": [
-            "Martin Van Kranendonk, Leitung der School of Earth and Planetary Sciences an der Curtin University, verwies auf mögliche Relevanz der Befunde für die Astrobiologie .[[S1]] Die Erkenntnisse darüber, wie Molekülstrukturen unter widrigen Bedingungen über lange Zeiträume erhalten bleiben können, könnten demnach auch für die Suche nach urzeitlichem Leben außerhalb der Erde von Bedeutung sein .[[S1]]"
+            "Martin Van Kranendonk, Leitung der School of Earth and Planetary Sciences an der Curtin University, verwies auf mögliche Relevanz der Befunde für die Astrobiologie.[[S1]] Die Erkenntnisse darüber, wie Molekülstrukturen unter widrigen Bedingungen über lange Zeiträume erhalten bleiben können, könnten demnach auch für die Suche nach urzeitlichem Leben außerhalb der Erde von Bedeutung sein.[[S1]]"
           ]
         },
         {
-          "titel": "Einordnung und Grenzen",
+          "titel": "Was aus dem Befund folgt – und was offen bleibt",
           "absatz": [
-            "Die vorliegenden Informationen beruhen auf einer Pressemitteilung der Curtin University; die zugrundeliegende Studie wurde im Volltext nicht geprüft .[[S1]] Aussagen über Physiologie oder Verhalten des Tieres, die über den chemischen Befund hinausgehen, lassen sich auf dieser Grundlage nicht belegen .[[S1]]"
+            "Der Studienabstract weist ausdrücklich darauf hin, dass der Nachweis ursprünglicher Biomoleküle in Fossilien wegen möglicher Verunreinigungen umstritten ist.[[S2]] Die vorgestellte Kombination verschiedener Analysen soll diese alternative Erklärung weniger wahrscheinlich machen.[[S2]] Die Ergebnisse sind deshalb als begründete wissenschaftliche Interpretation zu lesen; die Formulierung eines „unwiderlegbaren“ Nachweises wäre für diese Einordnung zu stark.",
+            "Die berichteten Untersuchungen betreffen molekulare Spuren und mineralisierte Mikrostrukturen.[[S2]] Daraus folgt weder ein Nachweis von Dinosaurier-DNA noch die Erhaltung lebender Blutzellen. Für Aussagen über die Physiologie des Tieres eröffnet der Befund nach Einschätzung der Beteiligten neue Forschungsfragen, beantwortet sie aber noch nicht vollständig.[[S3]]"
           ]
         }
       ],
       "datum": "2026-11-03",
       "news_datum": "2026-11-02",
-      "study_datum": "Nicht unabhängig geprüft",
-      "lesestand": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft",
+      "study_datum": "2026-11-02",
+      "lesestand": "PNAS: Abstract und Significance gelesen; Studienvolltext nicht zugänglich. Curtin-Mitteilung und Phys.org-Meldung gelesen. Geografische Angabe nach Curtin korrigiert.",
       "original_quelle": "Phys.org",
       "original_url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
       "quellen": [
@@ -437,6 +440,18 @@
           "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
           "titel": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
           "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2614248123",
+          "titel": "Grice et al. (2026): Heme signatures in mineralized red blood cells within vascular canals of a 115-million-year-old dinosaur bone",
+          "umfang": "Abstract und Significance gelesen; Volltext nicht zugänglich"
+        },
+        {
+          "id": "S3",
+          "url": "https://www.curtin.edu.au/news/media-release/dinosaur-blood-oldest-discovery-rewrites-what-fossils-can-reveal-about-the-past/",
+          "titel": "Curtin University (3. November 2026): Dinosaur blood – oldest discovery rewrites what fossils can reveal about the past",
+          "umfang": "Mitteilung der beteiligten Forschungsinstitution gelesen"
         }
       ],
       "bilder": [],
@@ -444,43 +459,43 @@
     },
     {
       "slug": "nanotyrannus-skelett-jodi-f-r-47-millionen-dollar-versteigert-68b90cd4d1",
-      "titel": "Nanotyrannus-Skelett „Jodi\" für 47 Millionen Dollar versteigert",
+      "titel": "Nanotyrannus-Skelett „Jodi“ für 47 Millionen Dollar versteigert",
       "untertitel": "Ein seltenes Skelett des Dinosauriers Nanotyrannus erzielte bei einer Auktion in New York einen Preis, der die ursprünglichen Schätzungen um ein Vielfaches übertraf. Das Fossil, das bislang nur in drei bekannten Exemplaren existiert, wechselte für 47,3 Millionen US-Dollar den Besitzer.",
       "abschnitte": [
         {
           "titel": "Auktion und Ergebnis",
           "absatz": [
-            "Am 27. Oktober 2026 versteigerte das Auktionshaus Sotheby's das Skelett mit dem Spitznamen „Jodi\" in New York .[[S1]] Sotheby's hatte den Erlös vorab auf sechs bis neun Millionen US-Dollar geschätzt – tatsächlich erzielt wurden 47,3 Millionen Dollar .[[S1]] Sechs Bietende konkurrierten während der etwa zwölf Minuten dauernden Live-Auktion online und telefonisch; die Person, die den Zuschlag erhielt, blieb anonym .[[S1]]"
+            "Am 27. Oktober 2026 versteigerte das Auktionshaus Sotheby's das Skelett mit dem Spitznamen „Jodi“ in New York.[[S1]] Sotheby's hatte den Erlös vorab auf sechs bis neun Millionen US-Dollar geschätzt – tatsächlich erzielt wurden 47,3 Millionen Dollar.[[S1]] Sechs Bietende konkurrierten während der etwa zwölf Minuten dauernden Live-Auktion online und telefonisch; die Person, die den Zuschlag erhielt, blieb anonym.[[S1]]"
           ]
         },
         {
           "titel": "Einordnung in den Auktionsmarkt",
           "absatz": [
-            "Mit diesem Preis ist „Jodi\" das zweitteuerste jemals versteigerte Dinosaurierskelett .[[S1]] Den Rekord hält derzeit ein T.-rex-Fossil namens „Gus\", das im Sommer 2026 ebenfalls bei Sotheby's für 50,1 Millionen Dollar verkauft wurde .[[S1]]"
+            "Mit diesem Preis ist „Jodi“ das zweitteuerste jemals versteigerte Dinosaurierskelett.[[S1]] Den Rekord hält derzeit ein T.-rex-Fossil namens „Gus\", das im Sommer 2026 ebenfalls bei Sotheby's für 50,1 Millionen Dollar verkauft wurde.[[S1]]"
           ]
         },
         {
           "titel": "Das Tier und seine Besonderheiten",
           "absatz": [
-            "Nanotyrannus lebte vor etwa 67 Millionen Jahren in der Kreidezeit und koexistierte mit dem Tyrannosaurus rex .[[S1]] Er erreichte etwa die Hälfte der Länge eines ausgewachsenen T. rex und unterschied sich anatomisch durch verhältnismäßig längere Vordergliedmaßen, größere Handkrallen sowie schlankere, klingenartige Zähne .[[S1]] Das Skelett „Jodi\" steht 2,9 Meter hoch, erstreckt sich über knapp 6 Meter Länge und gilt als zu rund 70 Prozent vollständig erhalten .[[S1]]"
+            "Nanotyrannus lebte vor etwa 67 Millionen Jahren in der Kreidezeit und koexistierte mit dem Tyrannosaurus rex.[[S1]] Er erreichte etwa die Hälfte der Länge eines ausgewachsenen T. rex und unterschied sich anatomisch durch verhältnismäßig längere Vordergliedmaßen, größere Handkrallen sowie schlankere, klingenartige Zähne.[[S1]] Das Skelett „Jodi“ steht 2,9 Meter hoch, erstreckt sich über knapp 6 Meter Länge und gilt als zu rund 70 Prozent vollständig erhalten.[[S1]]"
           ]
         },
         {
           "titel": "Wissenschaftlicher Status",
           "absatz": [
-            "Über Jahrzehnte war unter Forschenden umstritten, ob Nanotyrannus eine eigenständige Gattung darstellt oder lediglich ein Jungtier von T. rex ist .[[S1]] Eine im Jahr zuvor veröffentlichte Studie kam laut dem Medienbericht zu dem Schluss, dass es sich um eine eigenständige Dinosauriergattung handelt – die zugrundeliegende Studie selbst wurde im Rahmen dieser Meldung nicht im Volltext geprüft .[[S1]]"
+            "Über Jahrzehnte war unter Forschenden umstritten, ob Nanotyrannus eine eigenständige Gattung darstellt oder lediglich ein Jungtier von T. rex ist.[[S1]] Eine im Jahr zuvor veröffentlichte Studie kam laut dem Medienbericht zu dem Schluss, dass es sich um eine eigenständige Dinosauriergattung handelt – die zugrundeliegende Studie selbst wurde im Rahmen dieser Meldung nicht im Volltext geprüft.[[S1]]"
           ]
         },
         {
           "titel": "Entdeckung und Ausgrabung",
           "absatz": [
-            "Jodi Pierson, eine Rancherin aus Montana, entdeckte das Fossil 2019 auf ihrem Grundstück, nach der die Skelett-Namensgebung erfolgte .[[S1]] Die Ausgrabungsarbeiten eines Teams professioneller Fossiliensucher wurden in der Discovery-Channel-Dokumentationsreihe „Dino Hunters\" im Jahr 2020 festgehalten .[[S1]]"
+            "Jodi Pierson, eine Rancherin aus Montana, entdeckte das Fossil 2019 auf ihrem Grundstück, nach der die Skelett-Namensgebung erfolgte.[[S1]] Die Ausgrabungsarbeiten eines Teams professioneller Fossiliensucher wurden in der Discovery-Channel-Dokumentationsreihe „Dino Hunters\" im Jahr 2020 festgehalten.[[S1]]"
           ]
         },
         {
           "titel": "Kritik aus der Wissenschaft",
           "absatz": [
-            "Mehrere Wissenschaftlerinnen und Wissenschaftler äußerten Bedenken gegenüber privaten Verkäufen dieser Art .[[S1]] Ihr Argument: Bedeutsame Fossilien sollten in Museen oder anderen öffentlichen Einrichtungen verbleiben, damit sie sowohl für die Forschung zugänglich als auch für die Allgemeinheit sichtbar bleiben .[[S1]] Ob und in welchem Rahmen „Jodi\" künftig öffentlich oder wissenschaftlich zugänglich sein wird, geht aus der Meldung nicht hervor."
+            "Mehrere Wissenschaftlerinnen und Wissenschaftler äußerten Bedenken gegenüber privaten Verkäufen dieser Art.[[S1]] Ihr Argument: Bedeutsame Fossilien sollten in Museen oder anderen öffentlichen Einrichtungen verbleiben, damit sie sowohl für die Forschung zugänglich als auch für die Allgemeinheit sichtbar bleiben.[[S1]] Ob und in welchem Rahmen „Jodi“ künftig öffentlich oder wissenschaftlich zugänglich sein wird, geht aus der Meldung nicht hervor."
           ]
         }
       ],
@@ -504,42 +519,42 @@
     {
       "slug": "invictibellatrix-amberina-erstes-europ-isches-megaraptor-fossil-a-63b222534b",
       "titel": "Invictibellatrix amberina: Erstes europäisches Megaraptor-Fossil auf der Isle of Wight identifiziert",
-      "untertitel": "Auf der Isle of Wight wurde ein rund 120 Millionen Jahre altes Dinosaurierfossil als bislang erster europäischer Vertreter der Megaraptorier bestimmt. Die neue Art trägt den Namen Invictibellatrix amberina und wurde von einem Team unter Leitung des University College London beschrieben. Die Entdeckung liefert erstmals fossile Belege für eine postulierende Wanderungsroute dieser Tiergruppe durch Europa.",
+      "untertitel": "Auf der Isle of Wight wurde ein rund 120 Millionen Jahre altes Dinosaurierfossil als bislang erster europäischer Vertreter der Megaraptorier bestimmt. Die neue Art trägt den Namen Invictibellatrix amberina und wurde von einem Team unter Leitung des University College London beschrieben. Die Entdeckung liefert erstmals fossile Belege für eine postulierte Wanderungsroute dieser Tiergruppe durch Europa.",
       "abschnitte": [
         {
           "titel": "Ein übersehenes Museumsstück",
           "absatz": [
-            "Das Fossil besteht aus einem Fragment des hinteren Schädelbereichs und gelangte bereits 1924 in die Sammlung des Natural History Museum in London .[[S1]] Dort blieb es knapp hundert Jahre lang unbearbeitet, bis es im Rahmen der jetzt veröffentlichten Studie näher untersucht wurde .[[S1]] Ursprünglich hatte der Amateurpaläontologe Reginald Walter Tooley den Fund am Fuß einer Steilküste an der Südwestküste der Isle of Wight gemacht; er gehörte zu mehr als tausend Stücken, die das Museum nach Tooleys Tod erwarb .[[S1]]"
+            "Das Fossil besteht aus einem Fragment des hinteren Schädelbereichs und gelangte bereits 1924 in die Sammlung des Natural History Museum in London.[[S1]] Dort blieb es knapp hundert Jahre lang unbearbeitet, bis es im Rahmen der jetzt veröffentlichten Studie näher untersucht wurde.[[S1]] Ursprünglich hatte der Amateurpaläontologe Reginald Walter Tooley den Fund am Fuß einer Steilküste an der Südwestküste der Isle of Wight gemacht; er gehörte zu mehr als tausend Stücken, die das Museum nach Tooleys Tod erwarb.[[S1]]"
           ]
         },
         {
           "titel": "Anatomische Merkmale und Artbestimmung",
           "absatz": [
-            "Das Forschungsteam erstellte per CT-Scan ein dreidimensionales Modell des Schädelfragments sowie des darin erhaltenen Hirnraums .[[S1]] Anschließend verglichen die Wissenschaftlerinnen und Wissenschaftler das Stück mit Schädeln von Tyrannosauren, Spinosauriern, Raptoren und anderen zweibeinigen fleischfressenden Dinosauriern .[[S1]] Zwei charakteristische Merkmale fielen dabei besonders auf: eine ovale Öffnung, durch die das Rückenmark ins Gehirn eintrat, sowie ein sanduhrartig geformter Kamm .[[S1]] Computergestützte Algorithmen, die Merkmalsausprägungen im Vergleich zu anderen Arten analysierten, ordneten den Fund konsistent der Gruppe der Megaraptorier zu .[[S1]]"
+            "Das Forschungsteam erstellte per CT-Scan ein dreidimensionales Modell des Schädelfragments sowie des darin erhaltenen Hirnraums.[[S1]] Anschließend verglichen die Wissenschaftlerinnen und Wissenschaftler das Stück mit Schädeln von Tyrannosauren, Spinosauriern, Raptoren und anderen zweibeinigen fleischfressenden Dinosauriern.[[S1]] Zwei charakteristische Merkmale fielen dabei besonders auf: eine ovale Öffnung, durch die das Rückenmark ins Gehirn eintrat, sowie ein sanduhrartig geformter Kamm.[[S1]] Computergestützte Algorithmen, die Merkmalsausprägungen im Vergleich zu anderen Arten analysierten, ordneten den Fund konsistent der Gruppe der Megaraptorier zu.[[S1]]"
           ]
         },
         {
           "titel": "Größe und verwandtschaftliche Einordnung",
           "absatz": [
-            "Megaraptorier galten bislang als die rätselhafteste Gruppe großer fleischfressender Dinosaurier, da nur wenige Fossilien bekannt sind .[[S1]] Sie standen den Tyrannosauren nahe, unterschieden sich aber durch einen schlanken Kopf; ihre langen Arme und stark gekrümmten Klauen bildeten die primären Greifwerkzeuge .[[S1]] Invictibellatrix amberina zählt nach Einschätzung des Teams zu den kleinsten und ältesten bekannten Megaraptoriern .[[S1]] Auf der Grundlage nächster Verwandter rekonstruieren die Autorinnen und Autoren ein Tier von drei bis vier Metern Länge und etwa eineinhalb Metern Schulterhöhe .[[S1]] Die Klauen könnten laut Erstautor Cassius Morrison von der UCL Earth Sciences zehn bis zwanzig Zentimeter lang gewesen sein .[[S1]]"
+            "Megaraptorier galten bislang als die rätselhafteste Gruppe großer fleischfressender Dinosaurier, da nur wenige Fossilien bekannt sind.[[S1]] Sie standen den Tyrannosauren nahe, unterschieden sich aber durch einen schlanken Kopf; ihre langen Arme und stark gekrümmten Klauen bildeten die primären Greifwerkzeuge.[[S1]] Invictibellatrix amberina zählt nach Einschätzung des Teams zu den kleinsten und ältesten bekannten Megaraptoriern.[[S1]] Auf der Grundlage nächster Verwandter rekonstruieren die Autorinnen und Autoren ein Tier von drei bis vier Metern Länge und etwa eineinhalb Metern Schulterhöhe.[[S1]] Die Klauen könnten laut Erstautor Cassius Morrison von der UCL Earth Sciences zehn bis zwanzig Zentimeter lang gewesen sein.[[S1]]"
           ]
         },
         {
           "titel": "Bedeutung für die Ausbreitungsgeschichte der Megaraptorier",
           "absatz": [
-            "Vor dieser Entdeckung fehlten Megaraptorier-Fossilien aus Europa vollständig, was die gängige Hypothese ihrer Wanderung von Asien über Europa nach Gondwana ohne direkten Beleg ließ .[[S1]] Invictibellatrix amberina gilt dem Team nun als erster fossiler Beleg dafür, dass Megaraptorier tatsächlich in Europa präsent waren .[[S1]] Mitautor Charlie Scherer, Doktorand an der UCL Earth Sciences, interpretiert dies dahingehend, dass die Gruppe Gondwana auf diesem Landweg erreichte, anstatt über weiter südlich gelegene Inselketten zu wechseln .[[S1]] Dabei handelt es sich um die Deutung der Forschenden auf Grundlage des bisher bekannten Fossilmaterials; die zugrunde liegende Studie wurde im Volltext nicht geprüft."
+            "Vor dieser Entdeckung fehlten Megaraptorier-Fossilien aus Europa vollständig, was die gängige Hypothese ihrer Wanderung von Asien über Europa nach Gondwana ohne direkten Beleg ließ.[[S1]] Invictibellatrix amberina gilt dem Team nun als erster fossiler Beleg dafür, dass Megaraptorier tatsächlich in Europa präsent waren.[[S1]] Mitautor Charlie Scherer, Doktorand an der UCL Earth Sciences, interpretiert dies dahingehend, dass die Gruppe Gondwana auf diesem Landweg erreichte, anstatt über weiter südlich gelegene Inselketten zu wechseln.[[S1]] Dabei handelt es sich um die Deutung der Forschenden auf Grundlage des bisher bekannten Fossilmaterials; die zugrunde liegende Studie wurde im Volltext nicht geprüft."
           ]
         },
         {
           "titel": "Regionale Verbreitung im Verlauf der Kreidezeit",
           "absatz": [
-            "Mithilfe mathematischer Modellierungen untersuchte das Team, wie sich die weltweite Verbreitung der Megaraptorier im Laufe der Zeit verändert haben könnte .[[S1]] Das Modell stützt sich auf bekannte Fossilien, Stammbäume, Geografie und Klimadaten .[[S1]] Das Ergebnis legt nahe, dass Megaraptorier in der Frühen Kreide global weit verbreitet waren, in der Späten Kreide im nördlichen Kontinent Laurasia jedoch wahrscheinlich ausstarben .[[S1]] In Gondwana hingegen wurden sie zu Spitzenprädatoren und erreichten deutlich größere Körpermaße; Klauen von bis zu 35 Zentimetern Länge sind für spätere Formen belegt .[[S1]] Warum die Gruppe im Norden verschwand, erklärt die Studie laut Pressemeldung nicht; als mögliche Faktoren werden Klimaveränderungen, Umweltwandel oder Konkurrenz durch andere Tyrannosaurier erwähnt .[[S1]]"
+            "Mithilfe mathematischer Modellierungen untersuchte das Team, wie sich die weltweite Verbreitung der Megaraptorier im Laufe der Zeit verändert haben könnte.[[S1]] Das Modell stützt sich auf bekannte Fossilien, Stammbäume, Geografie und Klimadaten.[[S1]] Das Ergebnis legt nahe, dass Megaraptorier in der Frühen Kreide global weit verbreitet waren, in der Späten Kreide im nördlichen Kontinent Laurasia jedoch wahrscheinlich ausstarben.[[S1]] In Gondwana hingegen wurden sie zu Spitzenprädatoren und erreichten deutlich größere Körpermaße; Klauen von bis zu 35 Zentimetern Länge sind für spätere Formen belegt.[[S1]] Warum die Gruppe im Norden verschwand, erklärt die Studie laut Pressemeldung nicht; als mögliche Faktoren werden Klimaveränderungen, Umweltwandel oder Konkurrenz durch andere Tyrannosaurier erwähnt.[[S1]]"
           ]
         },
         {
           "titel": "Potenzial historischer Museumssammlungen",
           "absatz": [
-            "Senior-Autor Paul Barrett vom Natural History Museum betonte, dass trotz mehr als zweihundert Jahren Fossiliensuche auf der Isle of Wight weiterhin neue Dinosaurierarten entdeckt werden, wobei fleischfressende Vertreter bislang besonders selten gefunden wurden .[[S1]] Die Studie verdeutlicht nach Ansicht des Teams den wissenschaftlichen Wert der systematischen Aufarbeitung historischer Museumssammlungen, in denen noch zahlreiche Funde auf Bearbeitung warten .[[S1]] Der Artname Invictibellatrix – übersetzt etwa „unbesiegte Kriegerin\" – soll laut der Publikation symbolisch Stärke für Menschen ausdrücken, die Diskriminierung und Unterdrückung erfahren; Amberina verweist auf den Bernstein im Fundgestein sowie auf einen weiblichen Vornamen .[[S1]]"
+            "Senior-Autor Paul Barrett vom Natural History Museum betonte, dass trotz mehr als zweihundert Jahren Fossiliensuche auf der Isle of Wight weiterhin neue Dinosaurierarten entdeckt werden, wobei fleischfressende Vertreter bislang besonders selten gefunden wurden.[[S1]] Die Studie verdeutlicht nach Ansicht des Teams den wissenschaftlichen Wert der systematischen Aufarbeitung historischer Museumssammlungen, in denen noch zahlreiche Funde auf Bearbeitung warten.[[S1]] Der Artname Invictibellatrix – übersetzt etwa „unbesiegte Kriegerin\" – soll laut der Publikation symbolisch Stärke für Menschen ausdrücken, die Diskriminierung und Unterdrückung erfahren; Amberina verweist auf den Bernstein im Fundgestein sowie auf einen weiblichen Vornamen.[[S1]]"
           ]
         }
       ],
@@ -563,42 +578,42 @@
     {
       "slug": "jahrzehnte-im-museumsdepot-neues-fossil-belegt-europ-ische-megara-991e1d4b5a",
       "titel": "Jahrzehnte im Museumsdepot: Neues Fossil belegt europäische Megaraptoren",
-      "untertitel": "Ein fast ein Jahrhundert lang unbeachtetes Schädelfragment aus dem Naturhistorischen Museum London erweist sich als Überrest einer zuvor unbekannten Dinosaurierart. Die neue Art, *Invictibellatrix amberina*, ist der erste europäische Vertreter der rätselhaften Megaraptoren-Gruppe. Die Entdeckung liefert zugleich einen fehlenden Baustein in der Ausbreitungsgeschichte dieser Raubdinosaurier.",
+      "untertitel": "Ein fast ein Jahrhundert lang unbeachtetes Schädelfragment aus dem Naturhistorischen Museum London erweist sich als Überrest einer zuvor unbekannten Dinosaurierart. Die neue Art, Invictibellatrix amberina, ist der erste europäische Vertreter der rätselhaften Megaraptoren-Gruppe. Die Entdeckung liefert zugleich einen fehlenden Baustein in der Ausbreitungsgeschichte dieser Raubdinosaurier.",
       "abschnitte": [
         {
           "titel": "Ein übersehenes Fossil erwacht zum Leben",
           "absatz": [
-            "Das Schädelfragment wurde ursprünglich vom Amateurpaläontologen Reginald Walter Tooley an der Südwestküste der Isle of Wight gesammelt .[[S1]] Tooley trug im Laufe seines Lebens mehr als 1.000 Fossilfunde zusammen .[[S1]] Nach seinem Tod gelangte die Sammlung ins Naturhistorische Museum London, das das Stück 1924 erwarb .[[S1]] Obwohl das Fragment dort eingelagert blieb, erkannte niemand für fast ein Jahrhundert seinen wissenschaftlichen Wert .[[S1]]"
+            "Das Schädelfragment wurde ursprünglich vom Amateurpaläontologen Reginald Walter Tooley an der Südwestküste der Isle of Wight gesammelt.[[S1]] Tooley trug im Laufe seines Lebens mehr als 1.000 Fossilfunde zusammen.[[S1]] Nach seinem Tod gelangte die Sammlung ins Naturhistorische Museum London, das das Stück 1924 erwarb.[[S1]] Obwohl das Fragment dort eingelagert blieb, erkannte niemand für fast ein Jahrhundert seinen wissenschaftlichen Wert.[[S1]]"
           ]
         },
         {
           "titel": "Identifizierung mit CT-Scans und Algorithmen",
           "absatz": [
-            "Forschende der University College London (UCL) untersuchten das Fossil mit Computertomografie, um einen dreidimensionalen Rekonstruktion des Schädelfragments sowie des Hohlraums herzustellen, der einst das Gehirn beherbergte .[[S1]] Anschließend verglichen sie die Anatomie mit Fossilien verschiedener zweibeiniger Fleischfresser, darunter Tyrannosauriden, Spinosauriden und Raptoren .[[S1]] Zwei besonders auffällige Merkmale halfen bei der Einordnung: eine ovale Öffnung am Übergang von Rückenmark zu Gehirn sowie ein sanduhrförmiger Kamm .[[S1]] Zusätzlich setzten die Forschenden computergestützte Algorithmen ein, die das Tier konsistent innerhalb der Megaraptoren-Gruppe platzierten .[[S1]]"
+            "Forschende der University College London (UCL) untersuchten das Fossil mit Computertomografie, um einen dreidimensionalen Rekonstruktion des Schädelfragments sowie des Hohlraums herzustellen, der einst das Gehirn beherbergte.[[S1]] Anschließend verglichen sie die Anatomie mit Fossilien verschiedener zweibeiniger Fleischfresser, darunter Tyrannosauriden, Spinosauriden und Raptoren.[[S1]] Zwei besonders auffällige Merkmale halfen bei der Einordnung: eine ovale Öffnung am Übergang von Rückenmark zu Gehirn sowie ein sanduhrförmiger Kamm.[[S1]] Zusätzlich setzten die Forschenden computergestützte Algorithmen ein, die das Tier konsistent innerhalb der Megaraptoren-Gruppe platzierten.[[S1]]"
           ]
         },
         {
           "titel": "Anatomie und Einordnung der neuen Art",
           "absatz": [
-            "Die Studie, veröffentlicht im Fachjournal Royal Society Open Science, benennt das Tier als *Invictibellatrix amberina*, was sich mit „unbezwungene Kriegerin\" übersetzen lässt .[[S1]] Der Artname *amberina* bezieht sich auf den Bernstein in den Gesteinsschichten des Fundorts sowie auf den weiblichen Vornamen Amberina .[[S1]] Laut Angaben von Erstautorin Cassius Morrison (UCL Earth Sciences) war das Tier schätzungsweise drei bis vier Meter lang und knapp anderthalb Meter hoch .[[S1]] Es wäre damit eines der frühesten und kleinsten bekannten Megaraptoren gewesen .[[S1]] Megaraptoren besaßen im Unterschied zu den gewaltigen Tyrannosauriern relativ schmale Schädel, kräftige Arme und große, gebogene Klauen .[[S1]]"
+            "Die Studie, veröffentlicht im Fachjournal Royal Society Open Science, benennt das Tier als Invictibellatrix amberina, was sich mit „unbezwungene Kriegerin\" übersetzen lässt.[[S1]] Der Artname amberina bezieht sich auf den Bernstein in den Gesteinsschichten des Fundorts sowie auf den weiblichen Vornamen Amberina.[[S1]] Laut Angaben von Erstautorin Cassius Morrison (UCL Earth Sciences) war das Tier schätzungsweise drei bis vier Meter lang und knapp anderthalb Meter hoch.[[S1]] Es wäre damit eines der frühesten und kleinsten bekannten Megaraptoren gewesen.[[S1]] Megaraptoren besaßen im Unterschied zu den gewaltigen Tyrannosauriern relativ schmale Schädel, kräftige Arme und große, gebogene Klauen.[[S1]]"
           ]
         },
         {
           "titel": "Europäisches Bindeglied in der Ausbreitungsgeschichte",
           "absatz": [
-            "Bis zu diesem Fund fehlte Europa als Zwischenstation in der angenommenen Ausbreitungsroute der Megaraptoren von Asien über Europa nach Gondwana, dem südlichen Superkontinent .[[S1]] *Invictibellatrix* liefert nun nach Angaben der Forschenden den ersten Beleg dafür, dass diese Gruppe auch in Europa vertreten war .[[S1]] Doktorand Charlie Scherer (UCL Earth Sciences) wird in der Meldung damit zitiert, dass die neue Art erstmals nachweist, dass Megaraptoren Europa erreichten und von dort aus nach Gondwana gelangten, statt eine südlichere Route über Inseln zu nehmen .[[S1]]"
+            "Bis zu diesem Fund fehlte Europa als Zwischenstation in der angenommenen Ausbreitungsroute der Megaraptoren von Asien über Europa nach Gondwana, dem südlichen Superkontinent.[[S1]] Invictibellatrix liefert nun nach Angaben der Forschenden den ersten Beleg dafür, dass diese Gruppe auch in Europa vertreten war.[[S1]] Doktorand Charlie Scherer (UCL Earth Sciences) wird in der Meldung damit zitiert, dass die neue Art erstmals nachweist, dass Megaraptoren Europa erreichten und von dort aus nach Gondwana gelangten, statt eine südlichere Route über Inseln zu nehmen.[[S1]]"
           ]
         },
         {
           "titel": "Globale Verbreitung und spätes Schicksal",
           "absatz": [
-            "Mathematische Modelle, die das Fossilienregister mit evolutionären Verwandtschaftsverhältnissen, antiker Geografie und Klimadaten verbanden, deuten darauf hin, dass Megaraptoren in der frühen Kreidezeit weit verbreitet waren .[[S1]] In der späten Kreidezeit scheinen sie aus dem nördlichen Superkontinent Laurasia, dem heutigen Europa und Asien, verschwunden zu sein .[[S1]] Auf Gondwana hingegen entwickelten sich einige Vertreter zu enormen Raubtieren; *Maip macrothorax* aus dem heutigen Argentinien soll neun bis zehn Meter lang gewesen und so schwer wie ein Elefant gewesen sein, mit Klauen von bis zu 35 Zentimetern Länge .[[S1]] Warum die Megaraptoren in den nördlichen Regionen verschwanden, bleibt laut den Forschenden offen; diskutiert werden Klimaveränderungen, Umweltbedingungen und Konkurrenz durch Tyrannosauriden .[[S1]]"
+            "Mathematische Modelle, die das Fossilienregister mit evolutionären Verwandtschaftsverhältnissen, antiker Geografie und Klimadaten verbanden, deuten darauf hin, dass Megaraptoren in der frühen Kreidezeit weit verbreitet waren.[[S1]] In der späten Kreidezeit scheinen sie aus dem nördlichen Superkontinent Laurasia, dem heutigen Europa und Asien, verschwunden zu sein.[[S1]] Auf Gondwana hingegen entwickelten sich einige Vertreter zu enormen Raubtieren; Maip macrothorax aus dem heutigen Argentinien soll neun bis zehn Meter lang gewesen und so schwer wie ein Elefant gewesen sein, mit Klauen von bis zu 35 Zentimetern Länge.[[S1]] Warum die Megaraptoren in den nördlichen Regionen verschwanden, bleibt laut den Forschenden offen; diskutiert werden Klimaveränderungen, Umweltbedingungen und Konkurrenz durch Tyrannosauriden.[[S1]]"
           ]
         },
         {
           "titel": "Bedeutung historischer Museumssammlungen",
           "absatz": [
-            "Der Fund zeigt exemplarisch, dass bedeutende wissenschaftliche Entdeckungen mitunter bereits in Museumsdepots lagern, ohne erkannt worden zu sein .[[S1]] Seniorautor Paul Barrett vom Naturhistorischen Museum betont in der Meldung den außerordentlichen Wert der Arbeit mit historischen Sammlungen .[[S1]] Die Studie wurde von der Palaeontographical Society, der Royal Society und UKRI gefördert .[[S1]]"
+            "Der Fund zeigt exemplarisch, dass bedeutende wissenschaftliche Entdeckungen mitunter bereits in Museumsdepots lagern, ohne erkannt worden zu sein.[[S1]] Seniorautor Paul Barrett vom Naturhistorischen Museum betont in der Meldung den außerordentlichen Wert der Arbeit mit historischen Sammlungen.[[S1]] Die Studie wurde von der Palaeontographical Society, der Royal Society und UKRI gefördert.[[S1]]"
           ]
         }
       ],
@@ -622,7 +637,7 @@
     {
       "slug": "musango-matusadonaensis-neue-dinosaurierart-aus-simbabwe-beleucht-dc17afb5d1",
       "titel": "Musango matusadonaensis: Neue Dinosaurierart aus Simbabwe beleuchtet frühe Evolution",
-      "untertitel": "Eine neu beschriebene Dinosaurierart aus dem südlichen Afrika zeigt, dass die fossile Fauna Simbabwes eigenständiger ist als bislang angenommen. Der Fund stammt aus dem späten Trias und ergänzt das Bild einer prähistorischen Welt, die sich von den bekannteren südafrikanischen Fundstätten deutlich unterscheidet.",
+      "untertitel": "Eine neu beschriebene Dinosaurierart aus dem südlichen Afrika zeigt, dass die fossile Fauna Simbabwes eigenständiger ist als bislang angenommen. Der Fund stammt aus der späten Trias und ergänzt das Bild einer prähistorischen Welt, die sich von den bekannteren südafrikanischen Fundstätten deutlich unterscheidet.",
       "abschnitte": [
         {
           "titel": "Fundgeschichte und geografischer Rahmen",
@@ -680,37 +695,37 @@
     },
     {
       "slug": "kleiner-raubdinosaurier-fra-offenbar-an-einem-apex-r-uber-oder-ei-a87d49d658",
-      "titel": "Kleiner Raubdinosaurier fraß offenbar an einem Apex-Räuber – oder ein Kannibalismus-Fall erschüttert das Bild der Urzeit",
-      "untertitel": "Eine neue Studie aus Kanada legt nahe, dass ein kleiner Dromaeosauride an einem deutlich größeren Tyrannosaurer fraß – ein bislang einzigartiger Befund für das Kreide-Ökosystem Albertas. Als Alternativerklärung käme Kannibalismus durch ein junges Albertosaurus-Tier infrage. Beide Szenarien verändern das Verständnis kreide­zeitlicher Nahrungsnetze erheblich.",
+      "titel": "Fraßspuren an Albertosaurus: Hinweise auf einen kleineren Aasfresser",
+      "untertitel": "Zahnspuren an einem Albertosaurus-Kiefer könnten von einem kleinen Dromaeosauriden stammen, der an dem größeren Tier fraß. Ein junges Albertosaurus-Tier kommt als alternative Erklärung infrage. Die Untersuchung gibt Einblick in das kreidezeitliche Nahrungsnetz Albertas.",
       "abschnitte": [
         {
           "titel": "Fund und Ausgangslage",
           "absatz": [
-            "Die Fossilien wurden 2022 von einer Privatperson in der Nähe von Drumheller in Alberta entdeckt und gemeldet .[[S1]] Es handelt sich um verstreute Schädelbruchstücke eines Albertosaurus, die anschließend vom Royal Tyrrell Museum geborgen und präpariert wurden .[[S1]] Techniker des Museums stellten dabei Strukturen fest, die sie als Zahnspuren deuteten, und leiteten die Fragmente zur weiteren Untersuchung an die University of Alberta weiter .[[S1]]"
+            "Die Fossilien wurden 2022 von einer Privatperson in der Nähe von Drumheller in Alberta entdeckt und gemeldet.[[S1]] Es handelt sich um verstreute Schädelbruchstücke eines Albertosaurus, die anschließend vom Royal Tyrrell Museum geborgen und präpariert wurden.[[S1]] Techniker des Museums stellten dabei Strukturen fest, die sie als Zahnspuren deuteten, und leiteten die Fragmente zur weiteren Untersuchung an die University of Alberta weiter.[[S1]]"
           ]
         },
         {
           "titel": "Das Tier und sein geologischer Kontext",
           "absatz": [
-            "Albertosaurus – zu Deutsch etwa „Alberta-Echse\" – war während der Späten Kreidezeit, vor rund 73 bis 67 Millionen Jahren, der Apex-Räuber im Gebiet des heutigen Alberta .[[S1]] Das beschriebene Exemplar war nach Einschätzung der Forschenden etwa acht Jahre alt, somit noch halbwüchsig, rund sechs Meter lang und wog schätzungsweise 530 Kilogramm .[[S1]] Die Todesursache ist unbekannt .[[S1]]"
+            "Albertosaurus – zu Deutsch etwa „Alberta-Echse\" – war während der Späten Kreidezeit, vor rund 73 bis 67 Millionen Jahren, der Apex-Räuber im Gebiet des heutigen Alberta.[[S1]] Das beschriebene Exemplar war nach Einschätzung der Forschenden etwa acht Jahre alt, somit noch halbwüchsig, rund sechs Meter lang und wog schätzungsweise 530 Kilogramm.[[S1]] Die Todesursache ist unbekannt.[[S1]]"
           ]
         },
         {
           "titel": "Methodik der Spurenanalyse",
           "absatz": [
-            "Joshua Doyon, Masterstudent der Paläontologie und Erstautor der im Journal of Paleontology veröffentlichten Studie, untersuchte die Zahnspuren auf den Kieferknochen systematisch .[[S1]] Dabei wurden nacheinander mögliche Verursacher ausgeschlossen, bis nur noch wenige Kandidaten übrig blieben .[[S1]] Da an den Knochen keine Heilungsspuren erkennbar sind, schlussfolgern die Forschenden, dass die Spuren um den Todeszeitpunkt oder danach entstanden – also beim Fressen oder Aasverzehr .[[S1]]"
+            "Joshua Doyon, Masterstudent der Paläontologie und Erstautor der im Journal of Paleontology veröffentlichten Studie, untersuchte die Zahnspuren auf den Kieferknochen systematisch.[[S1]] Dabei wurden nacheinander mögliche Verursacher ausgeschlossen, bis nur noch wenige Kandidaten übrig blieben.[[S1]] Da an den Knochen keine Heilungsspuren erkennbar sind, schlussfolgern die Forschenden, dass die Spuren um den Todeszeitpunkt oder danach entstanden – also beim Fressen oder Aasverzehr.[[S1]]"
           ]
         },
         {
           "titel": "Zwei konkurrierende Erklärungen",
           "absatz": [
-            "Die wahrscheinlichere Hypothese lautet, dass ein Dromaeosauride – jene Gruppe kleiner, fleischfressender Dinosaurier, die durch den Film „Jurassic Park\" bekannt wurde – an dem verendeten Tier fraß .[[S1]] Die Studie bezeichnet dies als ersten Beleg für das Fressen oder Aasverzehr eines Raptors an einem Tyrannosaurer .[[S1]] Die zweite, als weniger wahrscheinlich eingestufte Möglichkeit ist, dass ein sehr junges Albertosaurus-Individuum von etwa zwei Metern Körperlänge an dem größeren Tier fraß, was als Kannibalismus zu werten wäre .[[S1]] Der Abstand zwischen den Zahnspuren am Albertosaurus-Kiefer erlaubt eine Zuordnung zu Tieren, die im prähistorischen Alberta-Ökosystem nachgewiesen sind .[[S1]]"
+            "Die wahrscheinlichere Hypothese lautet, dass ein Dromaeosauride – jene Gruppe kleiner, fleischfressender Dinosaurier, die durch den Film „Jurassic Park\" bekannt wurde – an dem verendeten Tier fraß.[[S1]] Die Studie bezeichnet dies als ersten Beleg für Fraß oder Aasverzehr eines Raptors an einem Tyrannosaurer.[[S1]] Die zweite, als weniger wahrscheinlich eingestufte Möglichkeit ist, dass ein sehr junges Albertosaurus-Individuum von etwa zwei Metern Körperlänge an dem größeren Tier fraß, was als Kannibalismus zu werten wäre.[[S1]] Der Abstand zwischen den Zahnspuren am Albertosaurus-Kiefer erlaubt eine Zuordnung zu Tieren, die im prähistorischen Alberta-Ökosystem nachgewiesen sind.[[S1]]"
           ]
         },
         {
           "titel": "Bedeutung für die Paläontologie",
           "absatz": [
-            "Philip Currie, leitende Paläontologin der University of Alberta und Betreuungsperson der Arbeit, wird in der Meldung mit der Einschätzung zitiert, dass ein sehr kleiner Dinosaurier, der einen großen, gefährlichen Tyrannosaurer fraß, bisherige Vorstellungen auf den Kopf stelle .[[S1]] Die Studie erschien 2026 im Journal of Paleontology und markiert zugleich einen frühen Karriereschritt für Doyon, der die Forschung bereits als Bachelorstudent begann .[[S1]]"
+            "Die Meldung zitiert Philip Currie von der University of Alberta mit der Einschätzung, dass ein sehr kleiner Dinosaurier, der einen großen, gefährlichen Tyrannosaurer fraß, bisherige Vorstellungen auf den Kopf stelle.[[S1]] Die Studie erschien 2026 im Journal of Paleontology und markiert zugleich einen frühen Karriereschritt für Doyon, der die Forschung bereits als Bachelorstudent begann.[[S1]]"
           ]
         }
       ],
@@ -739,32 +754,32 @@
         {
           "titel": "Was sind Mosasaurier?",
           "absatz": [
-            "Mosasaurier waren eine Gruppe von Echsen, die sich an das Leben im Meer angepasst hatten und während der Zeit der Dinosaurier die Ozeane bewohnten .[[S1]] Sie sind keine Dinosaurier, sondern gehören zu den Squamata, der Gruppe der Schuppenkriechtiere, zu der heute Eidechsen und Schlangen zählen .[[S1]] Zur breiteren Öffentlichkeit gelangten sie unter anderem durch Auftritte in der Filmreihe „Jurassic World\" und der Dokumentarserie „Prehistoric Planet\" .[[S1]]"
+            "Mosasaurier waren eine Gruppe von Echsen, die sich an das Leben im Meer angepasst hatten und während der Zeit der Dinosaurier die Ozeane bewohnten.[[S1]] Sie sind keine Dinosaurier, sondern gehören zu den Squamata, der Gruppe der Schuppenkriechtiere, zu der heute Eidechsen und Schlangen zählen.[[S1]] Zur breiteren Öffentlichkeit gelangten sie unter anderem durch Auftritte in der Filmreihe „Jurassic World\" und der Dokumentarserie „Prehistoric Planet\".[[S1]]"
           ]
         },
         {
           "titel": "Forschungsfrage und Methode",
           "absatz": [
-            "Ausgangspunkt der Untersuchung war eine auffällige anatomische Besonderheit: Die zwei Hauptlinien der Mosasaurier unterschieden sich in den Proportionen ihrer Schwänze erheblich .[[S1]] Kiersten Formoso, Assistenzprofessor an der Rutgers School of Environmental and Biological Sciences, wollte wissen, ob diese Unterschiede Auswirkungen auf die Geschwindigkeit eines plötzlichen Angriffsstoßes hatten .[[S1]] Frühere Arbeiten hatten sich überwiegend auf das Dauerschwimmen konzentriert, also auf den gleichmäßigen Einsatz des Schwanzes über längere Strecken .[[S1]]",
-            "Das Team modellierte eine Bewegungsform, die es als „Slam-start\" bezeichnet: Das Tier krümmt den Schwanz zur Seite und schlägt ihn dann kraftvoll zurück, wodurch es sich nach vorn abstößt .[[S1]] Für die vier untersuchten Arten – Platecarpus, Tylosaurus, Mosasaurus und Plotosaurus – wurden zunächst vollständige Fossilskelette ausgewertet, um Körpergröße und Schwanzform zu erfassen .[[S1]] Fehlende Muskulatur wurde anhand der Anatomie lebender Eidechsen, darunter Komodowarane, rekonstruiert .[[S1]] Anschließend variierte das Team Annahmen zu Muskelkraft, Schwanzflexibilität und Wasserwiederstand, um die Robustheit der Ergebnisse zu testen .[[S1]]"
+            "Ausgangspunkt der Untersuchung war eine auffällige anatomische Besonderheit: Die zwei Hauptlinien der Mosasaurier unterschieden sich in den Proportionen ihrer Schwänze erheblich.[[S1]] Kiersten Formoso, Assistenzprofessor an der Rutgers School of Environmental and Biological Sciences, wollte wissen, ob diese Unterschiede Auswirkungen auf die Geschwindigkeit eines plötzlichen Angriffsstoßes hatten.[[S1]] Frühere Arbeiten hatten sich überwiegend auf das Dauerschwimmen konzentriert, also auf den gleichmäßigen Einsatz des Schwanzes über längere Strecken.[[S1]]",
+            "Das Team modellierte eine Bewegungsform, die es als „Slam-start\" bezeichnet: Das Tier krümmt den Schwanz zur Seite und schlägt ihn dann kraftvoll zurück, wodurch es sich nach vorn abstößt.[[S1]] Für die vier untersuchten Arten – Platecarpus, Tylosaurus, Mosasaurus und Plotosaurus – wurden zunächst vollständige Fossilskelette ausgewertet, um Körpergröße und Schwanzform zu erfassen.[[S1]] Fehlende Muskulatur wurde anhand der Anatomie lebender Eidechsen, darunter Komodowarane, rekonstruiert.[[S1]] Anschließend variierte das Team Annahmen zu Muskelkraft, Schwanzflexibilität und Wasserwiederstand, um die Robustheit der Ergebnisse zu testen.[[S1]]"
           ]
         },
         {
           "titel": "Unterschiede in der Startgeschwindigkeit",
           "absatz": [
-            "Die Berechnungen zeigen, dass Platecarpus und Tylosaurus im Verhältnis zu ihrer Körpergröße schnellere Startschwünge erreichten als Mosasaurus und Plotosaurus; Platecarpus war unter den vier Arten die schnellste .[[S1]] Den entscheidenden Vorteil brachte ein längerer, flexiblerer Abschnitt des Schwanzes, der ein weiter ausholender Einschwingen vor dem Rückschlag ermöglichte .[[S1]] Wie weit der Schwanz gekrümmt werden konnte, hatte dabei einen deutlich größeren Einfluss auf die modellierten Geschwindigkeiten als alle anderen getesteten Variablen .[[S1]] Für einen besonders großen Tylosaurus schätzt das Modell eine Startgeschwindigkeit von rund 24 Kilometern pro Stunde bei einem einzigen Schwanzschlag, wobei die genauen Werte unsicher bleiben und eine kurze Beschleunigungsphase beschreiben, keine Dauergeschwindigkeit .[[S1]]"
+            "Die Berechnungen zeigen, dass Platecarpus und Tylosaurus im Verhältnis zu ihrer Körpergröße schnellere Startschwünge erreichten als Mosasaurus und Plotosaurus; Platecarpus war unter den vier Arten die schnellste.[[S1]] Den entscheidenden Vorteil brachte ein längerer, flexiblerer Abschnitt des Schwanzes, der ein weiter ausholender Einschwingen vor dem Rückschlag ermöglichte.[[S1]] Wie weit der Schwanz gekrümmt werden konnte, hatte dabei einen deutlich größeren Einfluss auf die modellierten Geschwindigkeiten als alle anderen getesteten Variablen.[[S1]] Für einen besonders großen Tylosaurus schätzt das Modell eine Startgeschwindigkeit von rund 24 Kilometern pro Stunde bei einem einzigen Schwanzschlag, wobei die genauen Werte unsicher bleiben und eine kurze Beschleunigungsphase beschreiben, keine Dauergeschwindigkeit.[[S1]]"
           ]
         },
         {
           "titel": "Hinweise auf unterschiedliche Jagdweisen",
           "absatz": [
-            "Aus diesen biomechanischen Unterschieden leiten die Forschenden Hinweise auf verschiedene ökologische Rollen ab. Platecarpus und Tylosaurus hätten demnach von kurzen, kraftvollen Angriffen profitiert, was auf ein Hinterhaltjagen in flacheren Meeresregionen hindeutet .[[S1]] Mosasaurus und insbesondere Plotosaurus erscheinen dagegen besser für das Verfolgen von Beute im offenen Ozean geeignet, da ihr Schwanz eher für ausdauerndes Schwimmen ausgelegt war .[[S1]] Die Forschenden betonen, dass die Befunde mit anderen Befundlinien übereinstimmen, etwa Studien zu Beißkraft, Zahnabnutzung und der chemischen Zusammensetzung von Fossilien .[[S1]] Interpretationen zu konkretem Jagdverhalten beruhen jedoch auf Modellen und sind mit entsprechender Unsicherheit behaftet."
+            "Aus diesen biomechanischen Unterschieden leiten die Forschenden Hinweise auf verschiedene ökologische Rollen ab. Platecarpus und Tylosaurus hätten demnach von kurzen, kraftvollen Angriffen profitiert, was auf ein Hinterhaltjagen in flacheren Meeresregionen hindeutet.[[S1]] Mosasaurus und insbesondere Plotosaurus erscheinen dagegen besser für das Verfolgen von Beute im offenen Ozean geeignet, da ihr Schwanz eher für ausdauerndes Schwimmen ausgelegt war.[[S1]] Die Forschenden betonen, dass die Befunde mit anderen Befundlinien übereinstimmen, etwa Studien zu Beißkraft, Zahnabnutzung und der chemischen Zusammensetzung von Fossilien.[[S1]] Interpretationen zu konkretem Jagdverhalten beruhen jedoch auf Modellen und sind mit entsprechender Unsicherheit behaftet."
           ]
         },
         {
           "titel": "Einordnung und offene Fragen",
           "absatz": [
-            "Nach Angaben der Forschenden ist dies die erste Studie, die Zahlenwerte zur Startgeschwindigkeit bei einem Meeresreptil aus dem Erdmittelalter liefert .[[S1]] Daneben modellierten sie besonders große Individuen, darunter einen Mosasaurus auf Grundlage eines Fossils aus New Jersey, das im New Jersey State Museum in Trenton aufbewahrt wird .[[S1]] Die verwendeten Werkzeuge werden frei zugänglich gemacht, damit andere Forschende sie auf weitere ausgestorbene Schwimmer anwenden können, auch auf Tiere ohne nahe lebende Verwandte .[[S1]] Grundlage des gesamten Ansatzes ist die Annahme, dass die physikalischen Gesetze des Schwimmens heute wie vor Millionen von Jahren gelten .[[S1]] Die Vollständigkeit der zugrunde liegenden Studie konnte im Rahmen dieser Meldung nicht geprüft werden."
+            "Nach Angaben der Forschenden ist dies die erste Studie, die Zahlenwerte zur Startgeschwindigkeit bei einem Meeresreptil aus dem Erdmittelalter liefert.[[S1]] Daneben modellierten sie besonders große Individuen, darunter einen Mosasaurus auf Grundlage eines Fossils aus New Jersey, das im New Jersey State Museum in Trenton aufbewahrt wird.[[S1]] Die verwendeten Werkzeuge werden frei zugänglich gemacht, damit andere Forschende sie auf weitere ausgestorbene Schwimmer anwenden können, auch auf Tiere ohne nahe lebende Verwandte.[[S1]] Grundlage des gesamten Ansatzes ist die Annahme, dass die physikalischen Gesetze des Schwimmens heute wie vor Millionen von Jahren gelten.[[S1]] Die Vollständigkeit der zugrunde liegenden Studie konnte im Rahmen dieser Meldung nicht geprüft werden."
           ]
         }
       ],
@@ -788,42 +803,42 @@
     {
       "slug": "sauriervielfalt-am-sambesi-simbabwes-fr-he-dinosaurier-waren-kein-352fe91ba5",
       "titel": "Sauriervielfalt am Sambesi: Simbabwes frühe Dinosaurier waren keine südafrikanischen Ableger",
-      "untertitel": "Fossilienfunde am Ufer des Karibasees haben gezeigt, dass die späten Triassic-Dinosaurier Simbabwes eine eigenständige Fauna bildeten, die sich von den bekannteren südafrikanischen Arten deutlich unterschied. Mit der Beschreibung von Musango matusadonaensis ist ein weiteres Kapitel dieser unerwarteten Entdeckung aufgeschlagen worden. Die Gründe für die faunistischen Unterschiede werden noch untersucht.",
+      "untertitel": "Fossilienfunde am Ufer des Karibasees haben gezeigt, dass die Dinosaurier der späten Trias Simbabwes eine eigenständige Fauna bildeten, die sich von den bekannteren südafrikanischen Arten deutlich unterschied. Mit der Beschreibung von Musango matusadonaensis ist ein weiteres Kapitel dieser unerwarteten Entdeckung aufgeschlagen worden. Die Gründe für die faunistischen Unterschiede werden noch untersucht.",
       "abschnitte": [
         {
           "titel": "Afrikas Fossilienkarte und Simbabwes Rolle",
           "absatz": [
-            "Afrika beherbergt bis zu einem Viertel aller Tier- und Pflanzenarten der Erde, was auf vielfältige Lebensräume und tiefe evolutionäre Wurzeln zurückgeführt wird .[[S1]] Die paläontologische Erforschung des Kontinents dauert nahezu zwei Jahrhunderte an, wobei der erste wissenschaftlich beschriebene afrikanische Dinosaurierfund aus den 1850er-Jahren stammte und aus dem Ostkap Südafrikas kam .[[S1]] Simbabwe ist seit 1916 mit gemeldeten Dinosaurierknochen ein Teil dieses Puzzles, trat jedoch lange Zeit hinter bekannteren Fundstätten wie Südafrika, Tansania oder Marokko zurück .[[S1]]"
+            "Afrika beherbergt bis zu einem Viertel aller Tier- und Pflanzenarten der Erde, was auf vielfältige Lebensräume und tiefe evolutionäre Wurzeln zurückgeführt wird.[[S1]] Die paläontologische Erforschung des Kontinents dauert nahezu zwei Jahrhunderte an, wobei der erste wissenschaftlich beschriebene afrikanische Dinosaurierfund aus den 1850er-Jahren stammte und aus dem Ostkap Südafrikas kam.[[S1]] Simbabwe ist seit 1916 mit gemeldeten Dinosaurierknochen ein Teil dieses Puzzles, trat jedoch lange Zeit hinter bekannteren Fundstätten wie Südafrika, Tansania oder Marokko zurück.[[S1]]"
           ]
         },
         {
           "titel": "Von frühen Funden zur internationalen Expedition",
           "absatz": [
-            "Frühe Fossilfunde in Simbabwe fanden in der Wissenschaft zunächst wenig Beachtung. Erst in den 1970er-Jahren rückten sie durch die Arbeit der simbabwischen Paläontologen Geoffrey Bond und Michael Raath stärker ins Bewusstsein der Forschung; beide entdeckten reichhaltiges Material in der Umgebung von Bulawayo und im unteren Sambesi-Tal .[[S1]] Die meisten dieser Funde wurden damals noch bekannten südafrikanischen Arten zugeordnet. Jahrzehnte später hielt der Safaricamp-Manager Steve Edwards die Suche am Karibasee am Leben und machte neue ergiebige Fundstellen ausfindig .[[S1]] Diese Nachricht erreichte schließlich Jonah Choiniere von der University of the Witwatersrand in Johannesburg, der ein internationales Team aus Südafrika, Simbabwe und dem Vereinigten Königreich zusammenstellte .[[S1]]"
+            "Frühe Fossilfunde in Simbabwe fanden in der Wissenschaft zunächst wenig Beachtung. Erst in den 1970er-Jahren rückten sie durch die Arbeit der simbabwischen Paläontologen Geoffrey Bond und Michael Raath stärker ins Bewusstsein der Forschung; beide entdeckten reichhaltiges Material in der Umgebung von Bulawayo und im unteren Sambesi-Tal.[[S1]] Die meisten dieser Funde wurden damals noch bekannten südafrikanischen Arten zugeordnet. Jahrzehnte später hielt der Safaricamp-Manager Steve Edwards die Suche am Karibasee am Leben und machte neue ergiebige Fundstellen ausfindig.[[S1]] Diese Nachricht erreichte schließlich Jonah Choiniere von der University of the Witwatersrand in Johannesburg, der ein internationales Team aus Südafrika, Simbabwe und dem Vereinigten Königreich zusammenstellte.[[S1]]"
           ]
         },
         {
           "titel": "Expeditionen im Matusadona-Nationalpark",
           "absatz": [
-            "Da die Fundstellen tief im Matusadona-Nationalpark lagen, löste das Team das logistische Problem, indem es ein Hausboot auf dem Karibasee als mobiles Hotel und Labor nutzte .[[S1]] In den Jahren 2017 und 2018 wurden zwei Expeditionen durchgeführt, bei denen eine Fülle von Material aus ziegelroten Schlammsteinen und Sandsteinen geborgen wurde .[[S1]] Diese Gesteinsschichten entstanden durch alte Flüsse vor rund 210 Millionen Jahren in der späten Trias; geologische Belege und Pflanzenfossilien deuten auf eine trockene Landschaft mit verstreuten Nadelwaldgruppen und vegetationsbegleiteten Wasserläufen hin .[[S1]]"
+            "Da die Fundstellen tief im Matusadona-Nationalpark lagen, löste das Team das logistische Problem, indem es ein Hausboot auf dem Karibasee als mobiles Hotel und Labor nutzte.[[S1]] In den Jahren 2017 und 2018 wurden zwei Expeditionen durchgeführt, bei denen eine Fülle von Material aus ziegelroten Schlammsteinen und Sandsteinen geborgen wurde.[[S1]] Diese Gesteinsschichten entstanden durch alte Flüsse vor rund 210 Millionen Jahren in der späten Trias; geologische Belege und Pflanzenfossilien deuten auf eine trockene Landschaft mit verstreuten Nadelwaldgruppen und vegetationsbegleiteten Wasserläufen hin.[[S1]]"
           ]
         },
         {
           "titel": "Musango matusadonaensis: Anatomie und Einordnung",
           "absatz": [
-            "Aus diesem Material wurde Musango matusadonaensis als neuer Sauropodomorphe beschrieben – eine Untergruppe der Dinosaurier, aus der später langgestreckte Vierbeiner wie Diplodocus hervorgingen .[[S1]] Das unvollständige Skelett wurde am Ufer des Nyamasango-Flusses nahe der Musango-Insel entdeckt, was in den wissenschaftlichen Namen eingeflossen ist .[[S1]] Die Anatomie zeigt, dass das Tier auf zwei Beinen lief, etwa 4,5 Meter lang war und rund 220 Kilogramm wog; Wachstumsmarken in den Knochen belegen, dass es sich um ein noch nicht ausgewachsenes Individuum handelte .[[S1]] Der Schädel war nicht erhalten, sodass Aussagen zur Ernährung dieses Tieres nicht möglich sind; nahe Verwandte gelten überwiegend als pflanzenfressend .[[S1]]"
+            "Aus diesem Material wurde Musango matusadonaensis als neuer Sauropodomorphe beschrieben – eine Untergruppe der Dinosaurier, aus der später langgestreckte Vierbeiner wie Diplodocus hervorgingen.[[S1]] Das unvollständige Skelett wurde am Ufer des Nyamasango-Flusses nahe der Musango-Insel entdeckt, was in den wissenschaftlichen Namen eingeflossen ist.[[S1]] Die Anatomie zeigt, dass das Tier auf zwei Beinen lief, etwa 4,5 Meter lang war und rund 220 Kilogramm wog; Wachstumsmarken in den Knochen belegen, dass es sich um ein noch nicht ausgewachsenes Individuum handelte.[[S1]] Der Schädel war nicht erhalten, sodass Aussagen zur Ernährung dieses Tieres nicht möglich sind; nahe Verwandte gelten überwiegend als pflanzenfressend.[[S1]]"
           ]
         },
         {
           "titel": "Eine unerwartete Eigenständigkeit",
           "absatz": [
-            "Musango und das bereits 2024 aus denselben Schichten beschriebene Musankwa sind ausschließlich in Simbabwe nachgewiesen und stellen keine nächsten Verwandten der südafrikanischen Dinosaurier dar .[[S1]] Entgegen der ursprünglichen Erwartung, dort südafrikanische Arten zu finden, erwies sich bislang das gesamte geborgene Material als distinct von Faunen anderer Regionen .[[S1]] Auch andere Fossilien, darunter Lungenfische und Phytosaurier, treten an den simbabwischen Fundstellen auf, obwohl sie in Südafrika selten oder ganz abwesend sind .[[S1]] Eine Neubeurteilung der historischen Sammlungen in Bulawayo legt nahe, dass auch ältere Funde häufig nicht den südafrikanischen Arten zugeordnet werden können .[[S1]]"
+            "Musango und das bereits 2024 aus denselben Schichten beschriebene Musankwa sind ausschließlich in Simbabwe nachgewiesen und stellen keine nächsten Verwandten der südafrikanischen Dinosaurier dar.[[S1]] Entgegen der ursprünglichen Erwartung, dort südafrikanische Arten zu finden, erwies sich bislang das gesamte geborgene Material als distinct von Faunen anderer Regionen.[[S1]] Auch andere Fossilien, darunter Lungenfische und Phytosaurier, treten an den simbabwischen Fundstellen auf, obwohl sie in Südafrika selten oder ganz abwesend sind.[[S1]] Eine Neubeurteilung der historischen Sammlungen in Bulawayo legt nahe, dass auch ältere Funde häufig nicht den südafrikanischen Arten zugeordnet werden können.[[S1]]"
           ]
         },
         {
           "titel": "Offene Fragen und weiteres Vorgehen",
           "absatz": [
-            "Als mögliche Erklärung für die faunistischen Unterschiede gilt die geografische und klimatische Lage: Simbabwe lag während der Trias weiter nördlich und näher am Äquator als Südafrika, was andere Lebensbedingungen bedeutet haben könnte – Klima gilt als starker Faktor für die Verbreitung von Tieren .[[S1]] Diese Hypothese ist jedoch noch nicht belegt; das Forschungsteam plant weitere Expeditionen an den Karibasee sowie eine genauere Datierung und Umweltrekonstruktion der fossilführenden Schichten, um einen direkteren Vergleich mit anderen Fundstellen zu ermöglichen .[[S1]] Die Bedeutung der simbabwischen Dinosaurierfunde für das Verständnis der frühen Dinosaurierevolution wird nach Einschätzung der Berichterstattung gerade erst deutlich .[[S1]]"
+            "Als mögliche Erklärung für die faunistischen Unterschiede gilt die geografische und klimatische Lage: Simbabwe lag während der Trias weiter nördlich und näher am Äquator als Südafrika, was andere Lebensbedingungen bedeutet haben könnte – Klima gilt als starker Faktor für die Verbreitung von Tieren.[[S1]] Diese Hypothese ist jedoch noch nicht belegt; das Forschungsteam plant weitere Expeditionen an den Karibasee sowie eine genauere Datierung und Umweltrekonstruktion der fossilführenden Schichten, um einen direkteren Vergleich mit anderen Fundstellen zu ermöglichen.[[S1]] Die Bedeutung der simbabwischen Dinosaurierfunde für das Verständnis der frühen Dinosaurierevolution wird nach Einschätzung der Berichterstattung gerade erst deutlich.[[S1]]"
           ]
         }
       ],
@@ -846,8 +861,8 @@
     },
     {
       "slug": "infernogallus-jamesi-der-fruchtkostfressende-dinosaurier-aus-der-a24c79c990",
-      "titel": "Infernogallus jamesi: Der fruchtkostfressende Dinosaurier aus der Kreidezeit",
-      "untertitel": "Eine neue Dinosaurierart aus der späten Kreidezeit spezialisierte sich offenbar auf das Fressen von Früchten – eine Ernährungsweise, die bislang für kein anderes Mitglied der Dinosaurier bekannt war. Der Fund bereichert das Bild der ökologischen Vielfalt in der Welt von Tyrannosaurus rex und Triceratops.",
+      "titel": "Infernogallus jamesi: Hinweise auf eine Spezialisierung auf Früchte",
+      "untertitel": "Die Schädelanatomie einer neu beschriebenen Dinosaurierart aus der späten Kreidezeit deutet auf eine Spezialisierung auf Früchte hin. Die Forschenden leiten dies aus der rekonstruierten Kaumechanik ab. Der Fund ergänzt das Bild der ökologischen Vielfalt zur Zeit von Tyrannosaurus rex und Triceratops.",
       "abschnitte": [
         {
           "titel": "Entdeckung und Benennung",
@@ -906,42 +921,42 @@
     {
       "slug": "au-ergew-hnlich-erhaltenes-meeresreptil-aus-china-gibt-einblick-i-d7596a6ac5",
       "titel": "Außergewöhnlich erhaltenes Meeresreptil aus China gibt Einblick in ältestes bekanntes Verdauungssystem",
-      "untertitel": "Ein rund 245 Millionen Jahre altes Fossil des langhalsigen Meeresreptils *Austronaga minuta* aus China bewahrt nicht nur das nahezu vollständige Skelett, sondern auch große Teile des Verdauungstrakts. Ein internationales Forschungsteam hat den Fund ausgewertet und die Ergebnisse in der Fachzeitschrift *Science Advances* veröffentlicht. Der Befund gilt laut Meldung als ältestes bekanntes weitgehend vollständiges Verdauungssystem eines Reptils.",
+      "untertitel": "Ein rund 245 Millionen Jahre altes Fossil des langhalsigen Meeresreptils Austronaga minuta aus China bewahrt nicht nur das nahezu vollständige Skelett, sondern auch große Teile des Verdauungstrakts. Ein internationales Forschungsteam hat den Fund ausgewertet und die Ergebnisse in der Fachzeitschrift Science Advances veröffentlicht. Der Befund gilt laut Meldung als ältestes bekanntes weitgehend vollständiges Verdauungssystem eines Reptils.",
       "abschnitte": [
         {
           "titel": "Fund und Forschungsteam",
           "absatz": [
-            "Das Fossil stammt aus China und wurde von Wissenschaftlerinnen und Wissenschaftlern mehrerer Institutionen gemeinsam beschrieben, darunter das Institut für Wirbeltierpaläontologie und Paläoanthropologie in Peking, das National Museums Scotland, das Staatliche Museum für Naturkunde Stuttgart, die Universität Hohenheim, das Field Museum in Chicago sowie die Universität Zürich .[[S1]] Stephan Spiekman, Paläontologe am Staatlichen Museum für Naturkunde Stuttgart und an der Universität Hohenheim, ist als Mitautor an der Studie beteiligt .[[S1]] Das Fossil wird in Peking aufbewahrt .[[S1]]"
+            "Das Fossil stammt aus China und wurde von Wissenschaftlerinnen und Wissenschaftlern mehrerer Institutionen gemeinsam beschrieben, darunter das Institut für Wirbeltierpaläontologie und Paläoanthropologie in Peking, das National Museums Scotland, das Staatliche Museum für Naturkunde Stuttgart, die Universität Hohenheim, das Field Museum in Chicago sowie die Universität Zürich.[[S1]] Stephan Spiekman, Paläontologe am Staatlichen Museum für Naturkunde Stuttgart und an der Universität Hohenheim, ist als Mitautor an der Studie beteiligt.[[S1]] Das Fossil wird in Peking aufbewahrt.[[S1]]"
           ]
         },
         {
           "titel": "Das Tier und seine Körpermerkmale",
           "absatz": [
-            "*Austronaga minuta* lebte während der Mittleren Trias in Meeren, die Teile des heutigen China bedeckten .[[S1]] Das Tier maß nur etwa 60 Zentimeter in der Länge, besaß aber einen auffällig verlängerten Hals und Schwanz .[[S1]] Der lange Schwanz dürfte für den Vortrieb gesorgt haben, während die verlängerten, flossenartigen Vorderbeine der Steuerung und Stabilisierung dienten; die Hinterbeine waren deutlich kleiner und scheinen wenig zum Schwimmen beigetragen zu haben .[[S1]] Trotz einer vergleichbaren Schwimmstrategie war *Austronaga* weder mit Ichthyosauriern noch mit Mosasauriern eng verwandt, sondern gehörte zur Verwandtschaft der landlebenden Archosaurier, zu denen auch Krokodile und Dinosaurier zählen .[[S1]]"
+            "Austronaga minuta lebte während der Mittleren Trias in Meeren, die Teile des heutigen China bedeckten.[[S1]] Das Tier maß nur etwa 60 Zentimeter in der Länge, besaß aber einen auffällig verlängerten Hals und Schwanz.[[S1]] Der lange Schwanz dürfte für den Vortrieb gesorgt haben, während die verlängerten, flossenartigen Vorderbeine der Steuerung und Stabilisierung dienten; die Hinterbeine waren deutlich kleiner und scheinen wenig zum Schwimmen beigetragen zu haben.[[S1]] Trotz einer vergleichbaren Schwimmstrategie war Austronaga weder mit Ichthyosauriern noch mit Mosasauriern eng verwandt, sondern gehörte zur Verwandtschaft der landlebenden Archosaurier, zu denen auch Krokodile und Dinosaurier zählen.[[S1]]"
           ]
         },
         {
           "titel": "Anpassung an das Meeresleben",
           "absatz": [
-            "Die Zugehörigkeit zu den Archosauriern macht den Fund evolutionsgeschichtlich besonders bedeutsam. Bislang galt die Anpassung früher Archosaurier-Verwandter an das Leben im Meer als begrenzt .[[S1]] Der Fund von *Austronaga* zeigt laut Meldung, dass frühe Vertreter dieser Linie bereits komplexe Anpassungen an das Leben im Ozean entwickelt hatten, die mit denen anderer, besser bekannter fossiler Meeresreptilien vergleichbar sind .[[S1]] Die Vorfahren von *Austronaga* lebten noch an Land, sodass die festgestellten Meeresanpassungen innerhalb einer verhältnismäßig kurzen Zeitspanne entstanden sein müssen .[[S1]]"
+            "Die Zugehörigkeit zu den Archosauriern macht den Fund evolutionsgeschichtlich besonders bedeutsam. Bislang galt die Anpassung früher Archosaurier-Verwandter an das Leben im Meer als begrenzt.[[S1]] Der Fund von Austronaga zeigt laut Meldung, dass frühe Vertreter dieser Linie bereits komplexe Anpassungen an das Leben im Ozean entwickelt hatten, die mit denen anderer, besser bekannter fossiler Meeresreptilien vergleichbar sind.[[S1]] Die Vorfahren von Austronaga lebten noch an Land, sodass die festgestellten Meeresanpassungen innerhalb einer verhältnismäßig kurzen Zeitspanne entstanden sein müssen.[[S1]]"
           ]
         },
         {
           "titel": "Das erhaltene Verdauungssystem",
           "absatz": [
-            "Beim Studium einer dunklen Zone zwischen den Rippen des Fossils stellte das Forschungsteam fest, dass es sich um Reste eines weitgehend intakten Verdauungstrakts handelt .[[S1]] Für die Analyse wurden unter anderem UV-Licht-Fotografie und Massenspektrometrie eingesetzt .[[S1]] Dabei ließen sich mehrere Organe identifizieren: ein großer, sackförmiger Magen im vorderen Bereich, eine auffällig rot gefärbte Leber, in der noch Spuren von Hämoglobin nachgewiesen werden konnten, sowie ein langer, einfach gebauter Darmabschnitt, der Dünn- und Dickdarm bildet .[[S1]] Laut Meldung ist dies das älteste bekannte weitgehend vollständige Verdauungssystem bei einem Reptil .[[S1]]"
+            "Beim Studium einer dunklen Zone zwischen den Rippen des Fossils stellte das Forschungsteam fest, dass es sich um Reste eines weitgehend intakten Verdauungstrakts handelt.[[S1]] Für die Analyse wurden unter anderem UV-Licht-Fotografie und Massenspektrometrie eingesetzt.[[S1]] Dabei ließen sich mehrere Organe identifizieren: ein großer, sackförmiger Magen im vorderen Bereich, eine auffällig rot gefärbte Leber, in der noch Spuren von Hämoglobin nachgewiesen werden konnten, sowie ein langer, einfach gebauter Darmabschnitt, der Dünn- und Dickdarm bildet.[[S1]] Laut Meldung ist dies das älteste bekannte weitgehend vollständige Verdauungssystem bei einem Reptil.[[S1]]"
           ]
         },
         {
           "titel": "Vergleich mit anderen Reptilien und evolutionäre Schlussfolgerungen",
           "absatz": [
-            "Obwohl *Austronaga* äußerlich hochgradig auf das Schwimmen spezialisiert war, zeigen die erhaltenen Organe laut Meldung eine verhältnismäßig einfache innere Organisation .[[S1]] Im Unterschied zu heutigen Vögeln und Krokodilen, die einen zweiteiligen Magen besitzen, verfügte *Austronaga* offenbar nur über eine einzige Magenkammer .[[S1]] Daraus schließt das Forschungsteam, dass der Magen der Archosaurier ursprünglich einfach gebaut war und sich der komplexere Bau erst später in der Evolution entwickelte .[[S1]] Zudem ähnelt der vergleichsweise kurze und unkomplizierte Verdauungstrakt demjenigen heutiger fischfressender Reptilien, wenngleich die Meldung keine weitergehenden Aussagen über die tatsächliche Ernährung des Tieres macht .[[S1]]"
+            "Obwohl Austronaga äußerlich hochgradig auf das Schwimmen spezialisiert war, zeigen die erhaltenen Organe laut Meldung eine verhältnismäßig einfache innere Organisation.[[S1]] Im Unterschied zu heutigen Vögeln und Krokodilen, die einen zweiteiligen Magen besitzen, verfügte Austronaga offenbar nur über eine einzige Magenkammer.[[S1]] Daraus schließt das Forschungsteam, dass der Magen der Archosaurier ursprünglich einfach gebaut war und sich der komplexere Bau erst später in der Evolution entwickelte.[[S1]] Zudem ähnelt der vergleichsweise kurze und unkomplizierte Verdauungstrakt demjenigen heutiger fischfressender Reptilien, wenngleich die Meldung keine weitergehenden Aussagen über die tatsächliche Ernährung des Tieres macht.[[S1]]"
           ]
         },
         {
           "titel": "Bedeutung und Ausblick",
           "absatz": [
-            "Der Fund liefert laut Meldung einen ungewöhnlich vollständigen Einblick in die äußere und innere Anatomie eines frühen Meeresreptils .[[S1]] Das Forschungsteam ordnet ihn in eine breitere Untersuchung zur frühen Geschichte moderner Reptilgruppen und zur Vielfalt der Trias-Meere ein .[[S1]] Künftige Entdeckungen könnten weitere Hinweise auf die Evolutionsgeschichte der Meeresreptilien und ihrer landlebenden Verwandten liefern .[[S1]] Die zugrunde liegende Studie wurde für diesen Artikel nicht im Volltext geprüft; die Angaben beruhen auf der ausgewerteten Originalmeldung .[[S1]]"
+            "Der Fund liefert laut Meldung einen ungewöhnlich vollständigen Einblick in die äußere und innere Anatomie eines frühen Meeresreptils.[[S1]] Das Forschungsteam ordnet ihn in eine breitere Untersuchung zur frühen Geschichte moderner Reptilgruppen und zur Vielfalt der Trias-Meere ein.[[S1]] Künftige Entdeckungen könnten weitere Hinweise auf die Evolutionsgeschichte der Meeresreptilien und ihrer landlebenden Verwandten liefern.[[S1]] Die zugrunde liegende Studie wurde für diesen Artikel nicht im Volltext geprüft; die Angaben beruhen auf der ausgewerteten Originalmeldung.[[S1]]"
           ]
         }
       ],
@@ -1028,37 +1043,37 @@
         {
           "titel": "Fund im Bohrkern",
           "absatz": [
-            "Der Paläontologe Dirk Knaust vom norwegischen Energiekonzern Equinor ASA hat über drei Jahrzehnte hinweg mehrere tausend Meter an Bohrkernproben aus Nordsee-Bohrungen analysiert .[[S1]] Die hier untersuchten Fossilien stammen aus dem Umfeld eines geplanten unterseeischen CO₂-Speichers nahe dem Troll-Gas- und Ölfeld, rund 50 Kilometer vor der norwegischen Küste .[[S1]] In diesen Kernen entdeckte Knaust Ansammlungen fossiler Speiballen, sogenannte Regurgitalite, die in der Größe von einer Walnuss bis zu einer Mango reichen .[[S1]] Zudem fanden sich im unmittelbaren Umfeld eine Knochenfragment sowie Koproliten – also fossiler Kot – verschiedener Meerestiere .[[S1]]"
+            "Der Paläontologe Dirk Knaust vom norwegischen Energiekonzern Equinor ASA hat über drei Jahrzehnte hinweg mehrere tausend Meter an Bohrkernproben aus Nordsee-Bohrungen analysiert.[[S1]] Die hier untersuchten Fossilien stammen aus dem Umfeld eines geplanten unterseeischen CO₂-Speichers nahe dem Troll-Gas- und Ölfeld, rund 50 Kilometer vor der norwegischen Küste.[[S1]] In diesen Kernen entdeckte Knaust Ansammlungen fossiler Speiballen, sogenannte Regurgitalite, die in der Größe von einer Walnuss bis zu einer Mango reichen.[[S1]] Zudem fanden sich im unmittelbaren Umfeld eine Knochenfragment sowie Koproliten – also fossiler Kot – verschiedener Meerestiere.[[S1]]"
           ]
         },
         {
           "titel": "Zusammensetzung und Identifikation",
           "absatz": [
-            "Die analysierten Speiballen enthielten Muscheln, Röhrenwurmgehäuse, Crinoiden und Belemniten – allesamt hartschalige oder exoskeletttragende Tiere des Meeresbodens .[[S1]] Der Inhalt deutet auf ein Tier hin, das auf das Fressen solcher hartschaligen Beute spezialisiert war und groß genug war, um Ballen von bis zu zehn Zentimetern Größe auszuwürgen .[[S1]] Um die Urheberschaft zu klären, prüfte Knaust systematisch verschiedene zeitgenössische Tiergruppen: Kopropoden, Fische, Haie und Krokodile schieden aufgrund von Größe, Zusammensetzung oder Nahrungsgewohnheiten aus .[[S1]] Jurassische Haie und Krokodile jagten bevorzugt Fische, im Speiballen fanden sich jedoch keine Fischknochen .[[S1]] Die Vergleiche erfolgten auch mit einem über ein Jahrhundert umfassenden Bestand bereits beschriebener Speiballen-Fossilien aus Europa und Nordamerika .[[S1]]"
+            "Die analysierten Speiballen enthielten Muscheln, Röhrenwurmgehäuse, Crinoiden und Belemniten – allesamt hartschalige oder exoskeletttragende Tiere des Meeresbodens.[[S1]] Der Inhalt deutet auf ein Tier hin, das auf das Fressen solcher hartschaligen Beute spezialisiert war und groß genug war, um Ballen von bis zu zehn Zentimetern Größe auszuwürgen.[[S1]] Um die Urheberschaft zu klären, prüfte Knaust systematisch verschiedene zeitgenössische Tiergruppen: Kopropoden, Fische, Haie und Krokodile schieden aufgrund von Größe, Zusammensetzung oder Nahrungsgewohnheiten aus.[[S1]] Jurassische Haie und Krokodile jagten bevorzugt Fische, im Speiballen fanden sich jedoch keine Fischknochen.[[S1]] Die Vergleiche erfolgten auch mit einem über ein Jahrhundert umfassenden Bestand bereits beschriebener Speiballen-Fossilien aus Europa und Nordamerika.[[S1]]"
           ]
         },
         {
           "titel": "Der Verdacht fällt auf den Plesiosaurier",
           "absatz": [
-            "Nach dem schrittweisen Ausschlussverfahren identifizierte Knaust cryptoclidide Plesiosaurier als wahrscheinlichste Verursacher .[[S1]] Diese Gruppe wurde vier bis acht Meter lang und lebte vom Mittleren Jura bis zur Unteren Kreide, also ungefähr vor 174 bis 100,5 Millionen Jahren .[[S1]] Die Zuordnung stützt sich auf die Übereinstimmung von Größe und Ernährungsprofil mit den fossilisierten Ballen .[[S1]] Frühere anatomische Untersuchungen hatten bereits nahegelegt, dass Plesiosaurier ihren Kopf zum Meeresgrund neigten, um dort Schalentiere aufzulesen, und die Hartteile, da sie diese nicht zerkauen konnten, nach Art von Eulen oder ähnlichen Tieren als Pellets wieder auswarfen .[[S1]] Ob ein einzelner Speiballen, der direkt neben dem Knochenfragment gefunden wurde, ebenfalls vom Plesiosaurier oder möglicherweise von einem Ichthyosaurier stammt, ließ sich nicht abschließend klären .[[S1]]"
+            "Nach dem schrittweisen Ausschlussverfahren identifizierte Knaust cryptoclidide Plesiosaurier als wahrscheinlichste Verursacher.[[S1]] Diese Gruppe wurde vier bis acht Meter lang und lebte vom Mittleren Jura bis zur Unteren Kreide, also ungefähr vor 174 bis 100,5 Millionen Jahren.[[S1]] Die Zuordnung stützt sich auf die Übereinstimmung von Größe und Ernährungsprofil mit den fossilisierten Ballen.[[S1]] Frühere anatomische Untersuchungen hatten bereits nahegelegt, dass Plesiosaurier ihren Kopf zum Meeresgrund neigten, um dort Schalentiere aufzulesen, und die Hartteile, da sie diese nicht zerkauen konnten, nach Art von Eulen oder ähnlichen Tieren als Pellets wieder auswarfen.[[S1]] Ob ein einzelner Speiballen, der direkt neben dem Knochenfragment gefunden wurde, ebenfalls vom Plesiosaurier oder möglicherweise von einem Ichthyosaurier stammt, ließ sich nicht abschließend klären.[[S1]]"
           ]
         },
         {
           "titel": "Ein Flussdelta als Würgeplatz",
           "absatz": [
-            "Besonders aufschlussreich ist die Lage der Funde: Die im Speiballen enthaltenen Muscheln sind auf gleichbleibende Salzgehalte des offenen Meeres angewiesen und konnten im brackigen Wasser eines Flussdeltas nicht gelebt haben .[[S1]] Da ihre Überreste dennoch dort auftauchen, muss sie ein Tier dorthin gebracht haben .[[S1]] Knaust schlussfolgert daraus, dass Plesiosaurier die Schalentiere im tieferen Meerwasser fraßen und anschließend in flachere Deltagewässer schwammen, wo sie die unverdaulichen Reste auswarfen .[[S1]] Vergleiche mit heutigen Pelzrobben und Meeresreptilien legen ein ähnliches Verhalten nahe, wobei Plesiosaurier aufgrund ihrer Körpergröße und -form vermutlich im Wasser blieben, anstatt an Land zu gehen .[[S1]]"
+            "Besonders aufschlussreich ist die Lage der Funde: Die im Speiballen enthaltenen Muscheln sind auf gleichbleibende Salzgehalte des offenen Meeres angewiesen und konnten im brackigen Wasser eines Flussdeltas nicht gelebt haben.[[S1]] Da ihre Überreste dennoch dort auftauchen, muss sie ein Tier dorthin gebracht haben.[[S1]] Knaust schlussfolgert daraus, dass Plesiosaurier die Schalentiere im tieferen Meerwasser fraßen und anschließend in flachere Deltagewässer schwammen, wo sie die unverdaulichen Reste auswarfen.[[S1]] Vergleiche mit heutigen Pelzrobben und Meeresreptilien legen ein ähnliches Verhalten nahe, wobei Plesiosaurier aufgrund ihrer Körpergröße und -form vermutlich im Wasser blieben, anstatt an Land zu gehen.[[S1]]"
           ]
         },
         {
           "titel": "Erhaltung und weitere Funde",
           "absatz": [
-            "Dass diese fragilen Objekte überhaupt fossil erhalten blieben, verdanken sie einer Kombination aus Kompaktheit, Schleimüberzug und rascher Einbettung durch Flusssediment .[[S1]] Einige Ballen wurden zudem in Grabgängen von Krebstieren auf dem Meeresgrund teilweise geschützt .[[S1]] In denselben Bohrkernen dokumentierte Knaust auch Spuren von Dinosauriern – zweibeinigen Räubern und langhalsigen Pflanzenfressern –, deren Fußabdrücke in der Deltaregion erhalten blieben .[[S1]] Diese paläoökologische Konstellation zeigt, dass das Gebiet im Jura Teil desselben schmalen Meeresarms war, dem auch die heutige Jurassic Coast in Südengland angehörte .[[S1]]"
+            "Dass diese fragilen Objekte überhaupt fossil erhalten blieben, verdanken sie einer Kombination aus Kompaktheit, Schleimüberzug und rascher Einbettung durch Flusssediment.[[S1]] Einige Ballen wurden zudem in Grabgängen von Krebstieren auf dem Meeresgrund teilweise geschützt.[[S1]] In denselben Bohrkernen dokumentierte Knaust auch Spuren von Dinosauriern – zweibeinigen Räubern und langhalsigen Pflanzenfressern –, deren Fußabdrücke in der Deltaregion erhalten blieben.[[S1]] Diese paläoökologische Konstellation zeigt, dass das Gebiet im Jura Teil desselben schmalen Meeresarms war, dem auch die heutige Jurassic Coast in Südengland angehörte.[[S1]]"
           ]
         },
         {
           "titel": "Einordnung und Grenzen",
           "absatz": [
-            "Die Studie gilt laut der Nachrichtenmeldung als erste, die Plesiosaurier-Speiballen mit darin enthaltenen Schalentieren identifiziert hat .[[S1]] Die Schlussfolgerungen beruhen auf Ausschlussverfahren, mineralogischen Vergleichen und paläoökologischen Argumenten; die zugrunde liegende Studie konnte im Volltext nicht geprüft werden. Welche genaue Plesiosaurier-Art die Urheberin war und ob dieses Verhalten verbreitet oder selten war, bleibt nach aktuellem Stand offen .[[S1]]"
+            "Die Studie gilt laut der Nachrichtenmeldung als erste, die Plesiosaurier-Speiballen mit darin enthaltenen Schalentieren identifiziert hat.[[S1]] Die Schlussfolgerungen beruhen auf Ausschlussverfahren, mineralogischen Vergleichen und paläoökologischen Argumenten; die zugrunde liegende Studie konnte im Volltext nicht geprüft werden. Welche genaue Plesiosaurier-Art die Urheberin war und ob dieses Verhalten verbreitet oder selten war, bleibt nach aktuellem Stand offen.[[S1]]"
           ]
         }
       ],
@@ -1082,12 +1097,12 @@
     {
       "slug": "geheilte-rippenfraktur-aus-dem-bekanntesten-t-rex-skelett-bewahrt-e74808e109",
       "titel": "Geheilte Rippenfraktur aus dem bekanntesten T.-rex-Skelett bewahrt 66 Millionen Jahre alte Blutgefäße",
-      "untertitel": "Forschende haben in einem fossilen Rippenknochen des Tyrannosaurus rex „Scotty\" ein Netzwerk mineralisierter Blutgefäße nachgewiesen, das sich offenbar zum Zeitpunkt des Todes noch im Heilungsprozess befand. Zur Untersuchung wurden Neutronen- und Röntgenbildgebung kombiniert, ohne das Fossil zu beschädigen. [[S1]]",
+      "untertitel": "Forschende haben in einem fossilen Rippenknochen des Tyrannosaurus rex „Scotty“ ein Netzwerk mineralisierter Blutgefäße nachgewiesen, das sich offenbar zum Zeitpunkt des Todes noch im Heilungsprozess befand. Zur Untersuchung wurden Neutronen- und Röntgenbildgebung kombiniert, ohne das Fossil zu beschädigen.",
       "abschnitte": [
         {
           "titel": "Der Fund und sein Fundort",
           "absatz": [
-            "„Scotty\" gilt als das größte bislang bekannte Tyrannosaurus-rex-Skelett und wurde von Teams des Royal Saskatchewan Museum im Frenchman River Valley in Saskatchewan, Kanada, entdeckt – einem der fossilienreichsten Gebiete Nordamerikas.[[S1]] Die Gesteinsschichten der Region bewahren Zeugnisse des Dinosaurierlebens aus der Zeit kurz vor dem Massenaussterben, das das Zeitalter der nicht-aviären Dinosaurier beendete.[[S1]] Die untersuchte Rippe weist eine Fraktur auf, die beim Tod des Tieres noch nicht vollständig verheilt war.[[S1]]"
+            "„Scotty“ gilt als das größte bislang bekannte Tyrannosaurus-rex-Skelett und wurde von Teams des Royal Saskatchewan Museum im Frenchman River Valley in Saskatchewan, Kanada, entdeckt – einem der fossilienreichsten Gebiete Nordamerikas.[[S1]] Die Gesteinsschichten der Region bewahren Zeugnisse des Dinosaurierlebens aus der Zeit kurz vor dem Massenaussterben, das das Zeitalter der nicht-aviären Dinosaurier beendete.[[S1]] Die untersuchte Rippe weist eine Fraktur auf, die beim Tod des Tieres noch nicht vollständig verheilt war.[[S1]]"
           ]
         },
         {
@@ -1134,37 +1149,37 @@
     },
     {
       "slug": "k-rpertemperatur-von-t-rex-erstmals-direkt-gemessen-968d461a02",
-      "titel": "Körpertemperatur von T. rex erstmals direkt gemessen",
-      "untertitel": "Forschende der UCLA haben eine Methode entwickelt, um die Körpertemperatur ausgestorbener Tiere anhand von fossilem Zahnschmelz zu ermitteln. Angewendet auf Zähne des berühmten Skeletts „Thomas\" ergab sich für Tyrannosaurus rex ein Wert von rund 36 Grad Celsius – ähnlich wie beim Menschen. Die Studie wurde am 16. September in Science Advances veröffentlicht.",
+      "titel": "Isotopenanalyse deutet auf rund 36 Grad Körpertemperatur bei T. rex hin",
+      "untertitel": "Forschende der UCLA haben eine Methode entwickelt, um die Körpertemperatur ausgestorbener Tiere anhand von fossilem Zahnschmelz zu ermitteln. Angewendet auf Zähne des berühmten Skeletts „Thomas“ ergab sich für Tyrannosaurus rex ein Wert von rund 36 Grad Celsius – ähnlich wie beim Menschen. Die Studie wurde am 16. September in Science Advances veröffentlicht.",
       "abschnitte": [
         {
           "titel": "Eine Methode, die ein Jahrzehnt reifte",
           "absatz": [
-            "Forscher am UCLA begannen vor etwa zehn Jahren, ein geochemisches Verfahren zu entwickeln, mit dem sich anhand von Skelettresten unterscheiden lässt, ob ausgestorbene Tiere warm- oder kaltblütig waren .[[S1]] Das ursprüngliche Verfahren erforderte jedoch Materialmengen, die für einmalige Museumsstücke nicht vertretbar gewesen wären .[[S1]] Im Laufe des folgenden Jahrzehnts gelang es dem Team, die benötigte Materialmenge um etwa 90 Prozent zu reduzieren .[[S1]] Dieses technische Hindernis war letztlich der entscheidende Schritt, um überhaupt Zugang zu den fossilen Zähnen von T. rex zu erhalten .[[S1]]"
+            "Forscher am UCLA begannen vor etwa zehn Jahren, ein geochemisches Verfahren zu entwickeln, mit dem sich anhand von Skelettresten unterscheiden lässt, ob ausgestorbene Tiere warm- oder kaltblütig waren.[[S1]] Das ursprüngliche Verfahren erforderte jedoch Materialmengen, die für einmalige Museumsstücke nicht vertretbar gewesen wären.[[S1]] Im Laufe des folgenden Jahrzehnts gelang es dem Team, die benötigte Materialmenge um etwa 90 Prozent zu reduzieren.[[S1]] Dieses technische Hindernis war letztlich der entscheidende Schritt, um überhaupt Zugang zu den fossilen Zähnen von T. rex zu erhalten.[[S1]]"
           ]
         },
         {
           "titel": "Das Prinzip des fossilen Thermometers",
           "absatz": [
-            "Die Methode beruht auf seltenen Isotopenbindungen zwischen Kohlenstoff und Sauerstoff, die sich im Zahnschmelz bilden .[[S1]] Wie häufig solche Bindungen entstehen, hängt teilweise von der Temperatur ab: Bei kälteren Bedingungen bilden sich mehr davon, bei wärmeren weniger .[[S1]] Dieses Verhältnis erlaubt es, die chemische Signatur im fossilen Zahnschmelz als eine Art Paläothermometer zu nutzen .[[S1]] Zahnschmelz eignet sich dabei besonders gut, weil seine großen Kristallstrukturen außerordentlich beständig sind und chemische Veränderungen durch die Umgebung über Jahrmillionen hinweg weitgehend widerstehen – anders als Knochengewebe, das sich im lebenden Körper ständig umbaut .[[S1]]"
+            "Die Methode beruht auf seltenen Isotopenbindungen zwischen Kohlenstoff und Sauerstoff, die sich im Zahnschmelz bilden.[[S1]] Wie häufig solche Bindungen entstehen, hängt teilweise von der Temperatur ab: Bei kälteren Bedingungen bilden sich mehr davon, bei wärmeren weniger.[[S1]] Dieses Verhältnis erlaubt es, die chemische Signatur im fossilen Zahnschmelz als eine Art Paläothermometer zu nutzen.[[S1]] Zahnschmelz eignet sich dabei besonders gut, weil seine großen Kristallstrukturen außerordentlich beständig sind und chemische Veränderungen durch die Umgebung über Jahrmillionen hinweg weitgehend widerstehen – anders als Knochengewebe, das sich im lebenden Körper ständig umbaut.[[S1]]"
           ]
         },
         {
           "titel": "Die Messung an Thomas dem T. rex",
           "absatz": [
-            "Das Natural History Museum of Los Angeles County stellte nach langer Abwägung winzige Proben von zwei Zähnen des Skeletts „Thomas\" zur Verfügung – eines der vollständigsten bekannten T.-rex-Exemplare .[[S1]] Erstautor Randy Flores und Koautor Robert Eagle bohrten mit einem Dentalbohrer kleine Mengen Zahnschmelz heraus, lösten das gewonnene Pulver in Phosphorsäure auf und leiteten das dabei freigesetzte Kohlendioxidgas in ein Massenspektrometer .[[S1]] Durch Verdichten des Gases konnten die Isotopenverhältnisse auch aus sehr kleinen Probenmengen zuverlässig gemessen werden .[[S1]] Das Ergebnis: T. rex hielt eine Körpertemperatur von etwa 36 Grad Celsius aufrecht – deutlich höher als die bei modernen kaltblütigen Reptilien üblichen 28 bis 30 Grad Celsius und merklich niedriger als die 40 bis 43 Grad Celsius vieler Vögel .[[S1]]"
+            "Das Natural History Museum of Los Angeles County stellte nach langer Abwägung winzige Proben von zwei Zähnen des Skeletts „Thomas“ zur Verfügung – eines der vollständigsten bekannten T.-rex-Exemplare.[[S1]] Erstautor Randy Flores und Koautor Robert Eagle bohrten mit einem Dentalbohrer kleine Mengen Zahnschmelz heraus, lösten das gewonnene Pulver in Phosphorsäure auf und leiteten das dabei freigesetzte Kohlendioxidgas in ein Massenspektrometer.[[S1]] Durch Verdichten des Gases konnten die Isotopenverhältnisse auch aus sehr kleinen Probenmengen zuverlässig gemessen werden.[[S1]] Das Ergebnis: T. rex hielt eine Körpertemperatur von etwa 36 Grad Celsius aufrecht – deutlich höher als die bei modernen kaltblütigen Reptilien üblichen 28 bis 30 Grad Celsius und merklich niedriger als die 40 bis 43 Grad Celsius vieler Vögel.[[S1]]"
           ]
         },
         {
           "titel": "Ein Krokodilier als Kontrollmessung",
           "absatz": [
-            "Vom selben Fundort in der Hell-Creek-Formation in Montana stammten auch fossile Überreste eines urzeitlichen Krokodiliers, die das Team ebenfalls analysierte .[[S1]] Für dieses Tier ergab die Methode eine Körpertemperatur von 30 Grad Celsius, also erheblich niedriger als die 36 Grad des T. rex .[[S1]] Hätten geologische Prozesse am Fundort die chemischen Signale beider Tiere gleichartig verändert, wären ähnliche Werte zu erwarten gewesen; die deutlich unterschiedlichen Ergebnisse sprechen dagegen dafür, dass die gemessenen Unterschiede tatsächlich biologischer Natur sind .[[S1]] Diese interne Vergleichsmessung stärkt damit die Verlässlichkeit der Hauptaussage, ohne sie abschließend zu beweisen .[[S1]]"
+            "Vom selben Fundort in der Hell-Creek-Formation in Montana stammten auch fossile Überreste eines urzeitlichen Krokodiliers, die das Team ebenfalls analysierte.[[S1]] Für dieses Tier ergab die Methode eine Körpertemperatur von 30 Grad Celsius, also erheblich niedriger als die 36 Grad des T. rex.[[S1]] Hätten geologische Prozesse am Fundort die chemischen Signale beider Tiere gleichartig verändert, wären ähnliche Werte zu erwarten gewesen; die deutlich unterschiedlichen Ergebnisse sprechen dagegen dafür, dass die gemessenen Unterschiede tatsächlich biologischer Natur sind.[[S1]] Diese interne Vergleichsmessung stärkt damit die Verlässlichkeit der Hauptaussage, ohne sie abschließend zu beweisen.[[S1]]"
           ]
         },
         {
           "titel": "Einordnung in den Evolutionskontext und geografische Verbreitung",
           "absatz": [
-            "Paläontologe Alessandro Chiarenza von der University College London weist darauf hin, dass aus dem Kreide-Alaska bislang keine Fossilien von Eidechsen, Schildkröten oder Krokodilen bekannt sind, während T.-rex-Fossilien dort gefunden wurden .[[S1]] Eine intern geregelte Körpertemperatur könnte erklären, warum Tyrannosauriden auch in Regionen überlebt haben könnten, die kaltblütigen Reptilien Schwierigkeiten bereiteten .[[S1]] Mit Klimamodellen der Vergangenheit rekonstruierte das Team ein mögliches Verbreitungsgebiet, das sich 66 Millionen Jahre vor heute von Mexiko bis nach Alaska erstreckt haben könnte .[[S1]] Ob und wie genau dieser Zusammenhang zutrifft, lässt sich allein auf Basis der Temperaturmessung nicht abschließend klären; die Studie liefert dazu einen empirischen Datenpunkt, keine vollständige Erklärung .[[S1]]"
+            "Paläontologe Alessandro Chiarenza von der University College London weist darauf hin, dass aus dem Kreide-Alaska bislang keine Fossilien von Eidechsen, Schildkröten oder Krokodilen bekannt sind, während T.-rex-Fossilien dort gefunden wurden.[[S1]] Eine intern geregelte Körpertemperatur könnte erklären, warum Tyrannosauriden auch in Regionen überlebt haben könnten, die kaltblütigen Reptilien Schwierigkeiten bereiteten.[[S1]] Mit Klimamodellen der Vergangenheit rekonstruierte das Team ein mögliches Verbreitungsgebiet, das sich 66 Millionen Jahre vor heute von Mexiko bis nach Alaska erstreckt haben könnte.[[S1]] Ob und wie genau dieser Zusammenhang zutrifft, lässt sich allein auf Basis der Temperaturmessung nicht abschließend klären; die Studie liefert dazu einen empirischen Datenpunkt, keine vollständige Erklärung.[[S1]]"
           ]
         }
       ],
@@ -1193,37 +1208,38 @@
         {
           "titel": "Fundort und geborgenes Material",
           "absatz": [
-            "Die Fossilien wurden an der Fundstätte La Tejería bei El Castellar in der Provinz Teruel entdeckt .[[S1]] Ein Team der Fundación Conjunto Paleontológico de Teruel-Dinópolis barg dabei 14 außergewöhnlich gut erhaltene Schwanzwirbel sowie mehrere Chevronknochen .[[S1]] Bis zu diesem Fund war jeder bestätigte Diplodocus-Nachweis auf die Morrison-Formation im Westen der Vereinigten Staaten beschränkt .[[S1]]"
+            "Die Fossilien wurden an der Fundstätte La Tejería bei El Castellar in der Provinz Teruel entdeckt.[[S1]] Ein Team der Fundación Conjunto Paleontológico de Teruel-Dinópolis barg dabei 14 außergewöhnlich gut erhaltene Schwanzwirbel sowie mehrere Chevronknochen.[[S1]] Bis zu diesem Fund war jeder bestätigte Diplodocus-Nachweis auf die Morrison-Formation im Westen der Vereinigten Staaten beschränkt.[[S1]]"
           ]
         },
         {
           "titel": "Anatomische Merkmale und wissenschaftliche Einordnung",
           "absatz": [
-            "Die gute Erhaltung des Exemplars ermöglichte es den Forschenden, mehrere charakteristische anatomische Merkmale zu beschreiben .[[S1]] Dazu gehören große pneumatische Hohlräume in den Wirbeln, tiefe Längsfurchen an der Unterseite der Schwanzknochen, gegabelte Chevronknochen mit markanten medialen Gruben sowie verlängerte Wirbelkörper ohne seitliche Kämme .[[S1]] Neben klassischen anatomischen Vergleichen wandten die Wissenschaftlerinnen und Wissenschaftler phylogenetische Analysemethoden an, darunter maximale Parsimonie und bayesianische Inferenz .[[S1]] Die Ergebnisse verorten das Exemplar eindeutig innerhalb der Gattung Diplodocus und weisen es als nahen Verwandten von Diplodocus hallorum aus .[[S1]]"
+            "Die gute Erhaltung des Exemplars ermöglichte es den Forschenden, mehrere charakteristische anatomische Merkmale zu beschreiben.[[S1]] Dazu gehören große pneumatische Hohlräume in den Wirbeln, tiefe Längsfurchen an der Unterseite der Schwanzknochen, gegabelte Chevronknochen mit markanten medialen Gruben sowie verlängerte Wirbelkörper ohne seitliche Kämme.[[S1]] Neben klassischen anatomischen Vergleichen wandten die Wissenschaftlerinnen und Wissenschaftler phylogenetische Analysemethoden an, darunter maximale Parsimonie und bayesianische Inferenz.[[S1]] Die Ergebnisse verorten das Exemplar eindeutig innerhalb der Gattung Diplodocus und weisen es als nahen Verwandten von Diplodocus hallorum aus.[[S1]]",
+            "Zur Autorengruppe gehören Sergio Sánchez-Fenollosa, Josué García-Cobeña und Alberto Cobos.[[S1]] Sánchez-Fenollosa beschreibt in der Meldung, wie anatomische Vergleiche und mehrere getrennte stammesgeschichtliche Analysen schrittweise zu derselben Zuordnung des spanischen Fossils führten.[[S1]]"
           ]
         },
         {
           "titel": "Kontinentale Verbindungen im späten Jura",
           "absatz": [
-            "Das spanische Tier lebte vor rund 150 Millionen Jahren, gegen Ende der Jurazeit .[[S1]] Sein Vorkommen in Europa wird von den Forschenden als Beleg dafür gewertet, dass Dinosaurier in dieser Epoche zwischen Nordamerika und Europa wechseln konnten .[[S1]] Als möglichen Mechanismus nennt die Nachrichtenmeldung zeitweise Landbrücken, die während regressiver Phasen des Proto-Nordatlantiks entstanden sein könnten, als der Meeresspiegel absank .[[S1]] Der Fund liefert damit Hinweise auf wiederkehrende Perioden, in denen Tiergemeinschaften zwischen den Kontinenten ausgetauscht wurden .[[S1]]"
+            "Das spanische Tier lebte vor rund 150 Millionen Jahren, gegen Ende der Jurazeit.[[S1]] Sein Vorkommen in Europa wird von den Forschenden als Beleg dafür gewertet, dass Dinosaurier in dieser Epoche zwischen Nordamerika und Europa wechseln konnten.[[S1]] Als möglichen Mechanismus nennt die Nachrichtenmeldung zeitweise Landbrücken, die während regressiver Phasen des Proto-Nordatlantiks entstanden sein könnten, als der Meeresspiegel absank.[[S1]] Der Fund liefert damit Hinweise auf wiederkehrende Perioden, in denen Tiergemeinschaften zwischen den Kontinenten ausgetauscht wurden.[[S1]]"
           ]
         },
         {
           "titel": "Größe und Einordnung in die iberische Sauropodenfauna",
           "absatz": [
-            "Das Diplodocus-Exemplar aus El Castellar erreichte nach Angaben der Forschenden eine Körperlänge von rund 25 Metern und war damit vergleichbar groß wie seine nordamerikanischen Verwandten .[[S1]] Es reiht sich damit in eine bereits bemerkenswerte Gruppe riesiger Sauropoden aus dem spanischen Jura ein, zu der unter anderem Turiasaurus und Losillasaurus gehören, die sich in ihren Merkmalen deutlich von Diplodociden unterscheiden .[[S1]] Die Fossilien all dieser Tiere machen Teruel laut der Meldung zu einem Referenzort für das Verständnis dieser außergewöhnlichen Vielfalt .[[S1]]"
+            "Das Diplodocus-Exemplar aus El Castellar erreichte nach Angaben der Forschenden eine Körperlänge von rund 25 Metern und war damit vergleichbar groß wie seine nordamerikanischen Verwandten.[[S1]] Es reiht sich damit in eine bereits bemerkenswerte Gruppe riesiger Sauropoden aus dem spanischen Jura ein, zu der unter anderem Turiasaurus und Losillasaurus gehören, die sich in ihren Merkmalen deutlich von Diplodociden unterscheiden.[[S1]] Die Fossilien all dieser Tiere machen Teruel laut der Meldung zu einem Referenzort für das Verständnis dieser außergewöhnlichen Vielfalt.[[S1]]"
           ]
         },
         {
           "titel": "Ökosystem und Diversität der Region",
           "absatz": [
-            "Die Umgebung des Fundortes hat bereits Reste verschiedener Dinosauriergruppen geliefert, darunter Sauropoden, Theropoden, Stegosaurier und Ornithopoden .[[S1]] Diese Funde zusammengenommen deuten darauf hin, dass die urzeitlichen Küstenumgebungen der Region artenreiche und vielgestaltige Dinosaurier-Ökosysteme beherbergten .[[S1]] Der neue Diplodocus-Nachweis ergänzt dieses Bild und erweitert das bekannte Artenspektrum der Region .[[S1]]"
+            "Die Umgebung des Fundortes hat bereits Reste verschiedener Dinosauriergruppen geliefert, darunter Sauropoden, Theropoden, Stegosaurier und Ornithopoden.[[S1]] Diese Funde zusammengenommen deuten darauf hin, dass die urzeitlichen Küstenumgebungen der Region artenreiche und vielgestaltige Dinosaurier-Ökosysteme beherbergten.[[S1]] Der neue Diplodocus-Nachweis ergänzt dieses Bild und erweitert das bekannte Artenspektrum der Region.[[S1]]"
           ]
         },
         {
           "titel": "Verbleib der Fossilien und Bedeutung für die Forschung",
           "absatz": [
-            "Die Fossilien sind nun im Dinosauriersaal des Museo Aragonés de Paleontología im Dinópolis-Komplex in Teruel ausgestellt, wo sie sowohl der weiteren Forschung als auch der Öffentlichkeit zugänglich sind .[[S1]] Diplodocus gehört zu den bekanntesten Dinosauriern überhaupt: Seit der Erstbeschreibung im Jahr 1878 wurden Abgüsse seines Skeletts in bedeutenden Naturkundemuseen weltweit gezeigt .[[S1]] Die Ergebnisse der Studie wurden im Fachjournal Journal of Vertebrate Paleontology veröffentlicht .[[S1]]"
+            "Die Fossilien sind nun im Dinosauriersaal des Museo Aragonés de Paleontología im Dinópolis-Komplex in Teruel ausgestellt, wo sie sowohl der weiteren Forschung als auch der Öffentlichkeit zugänglich sind.[[S1]] Diplodocus gehört zu den bekanntesten Dinosauriern überhaupt: Seit der Erstbeschreibung im Jahr 1878 wurden Abgüsse seines Skeletts in bedeutenden Naturkundemuseen weltweit gezeigt.[[S1]] Die Ergebnisse der Studie wurden im Fachjournal Journal of Vertebrate Paleontology veröffentlicht.[[S1]]"
           ]
         }
       ],
