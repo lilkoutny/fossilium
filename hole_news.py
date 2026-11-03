@@ -153,7 +153,9 @@ def main():
         sys.exit("Fehler: ANTHROPIC_API_KEY ist nicht gesetzt.")
     candidates = hole_kandidaten()
     print(f"{len(candidates)} frische Meldungen; zusätzlich werden offene Artikel erneut bearbeitet.")
-    return news_pipeline.run(candidates)
+    limit = int(os.environ.get("NEWS_MAX_ARTICLES", "0"))
+    if limit < 0: raise ValueError("NEWS_MAX_ARTICLES muss mindestens 0 sein")
+    return news_pipeline.run(candidates, **({"max_articles": limit} if limit else {}))
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),http=require('node:http');
-const root=path.resolve(__dirname,'..'),out=path.join(root,'.content-state/publication-expansion-2026-10-29');
+const root=path.resolve(__dirname,'..'),out=path.join(root,'.content-state/news-relevance-2026-11-03/publications-ui');
 fs.mkdirSync(out,{recursive:true});
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'publikationen/index.json'),'utf8'));
 const articles=JSON.parse(fs.readFileSync(path.join(root,'publikationen/artikel.json'),'utf8')).artikel;

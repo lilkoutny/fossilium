@@ -3,7 +3,13 @@ name: Paläo-News aktualisieren
 on:
   schedule:
     - cron: "0 5 * * *"   # jeden Tag um 5:00 UTC (7:00 deutscher Sommerzeit)
-  workflow_dispatch:        # erlaubt manuellen Start über den "Actions"-Tab
+  workflow_dispatch:
+    inputs:
+      max_articles:
+        description: "Optionales Limit für einen manuellen Prüflauf; 0 bearbeitet alle"
+        required: false
+        default: "0"
+        type: string
 
 permissions:
   contents: write
@@ -31,7 +37,8 @@ jobs:
       - name: News holen und zusammenfassen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python hole_news.py
+          NEWS_MAX_ARTICLES: ${{ inputs.max_articles || '0' }}
+        run: python -u hole_news.py
 
       - name: Publikationsseiten prüfen
         run: python publikationen/render.py --check

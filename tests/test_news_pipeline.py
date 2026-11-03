@@ -79,4 +79,18 @@ class PipelineIntegration(unittest.TestCase):
         never=Mock(side_effect=AssertionError('unexpected paid or network call'))
         p.run([{**c,'url':c['url']+'/?utm_source=test#x'}],root=self.root,classifier=never,fetcher=never,article_writer=never)
         never.assert_not_called()
+    def test_article_request_uses_enforced_enum_schema(self):
+        c=self.candidates(1)[0]
+        response=Mock()
+        response.json.return_value={'stop_reason':'end_turn','content':[{'type':'text','text':json.dumps(self.writer(c,self.fetch(c)))}]}
+        with patch.dict(p.os.environ,{'ANTHROPIC_API_KEY':'test'}), patch.object(p.requests,'post',return_value=response) as post:
+            data=p.write_article(c,self.fetch(c))
+        schema=post.call_args.kwargs['json']['output_config']['format']['schema']
+        self.assertEqual(set(schema['properties']['category']['enum']),p.CATEGORIES|{'excluded','unknown'})
+        self.assertTrue(data['relevant'])
+    def test_manual_probe_defers_without_losing_remaining_items(self):
+        result=p.run(self.candidates(3),root=self.root,classifier=self.classifier,fetcher=self.fetch,article_writer=self.writer,max_articles=1)
+        self.assertEqual((result['ready'],result['pending']),(1,2))
+        result=p.run([],root=self.root,classifier=self.classifier,fetcher=self.fetch,article_writer=self.writer)
+        self.assertEqual((result['ready'],result['pending']),(2,0))
 if __name__=='__main__': unittest.main()
