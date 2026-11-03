@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-03T16:11:11.468822+00:00",
+  "updated": "2026-11-03T16:15:30.749135+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "7eddf31ebfc913e5167162841e1d9475",
+      "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
+      "title": "Neue Dinosaurierart aus englischen Ziegeleien identifiziert",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-03T16:15:30.747587+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "ba5ec6a20f35cc43710e1fec3bd2f744",
       "url": "https://phys.org/news/2026-10-ancient-alberta-fish-fossils-reveal.html",
@@ -142,19 +155,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-10-31T10:42:00.899891+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "7eddf31ebfc913e5167162841e1d9475",
-      "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
-      "title": "Neue Dinosaurierart aus englischen Ziegeleien identifiziert",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-10-30T11:08:50.361599+00:00",
       "sources": [],
       "score": null,
       "script": null,
