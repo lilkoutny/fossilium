@@ -4,6 +4,14 @@ Statische, eigenständige deutsche Langartikel mit stabilen URLs. Die Startseite
 
 ## Redaktioneller Ablauf
 
+Die automatische Pipeline bewertet jede RSS-Meldung mit Claude gegen die
+zentrale Policy (Dinosaurier, unmittelbare frühe Vogelentwicklung, Flugsaurier
+und ausgestorbene Meeresreptilien). Amphibien, moderne Tiere, Insekten-/Termiten-
+Funde, Affen/Säugetiere und bloße „Dinosaurierzeitalter“-Kontexte werden
+ausgeschlossen. Eine positive Meldung erhält eine eigene, quellengebundene
+Publikation; fehlgeschlagene Versuche bleiben in der Retry-Queue und erzeugen
+keinen toten Publikationslink.
+
 1. Nachricht und wissenschaftliche Originalreferenz festhalten; Meldungs-, Studien- und Übernahmedatum trennen.
 2. Tatsächlich gelesenen Umfang dokumentieren: Volltext, Abstract oder Institutsmitteilung. Keine nicht gelesene Studie als geprüft ausgeben.
 3. Eigenständigen deutschen Artikel schreiben. Befund, wissenschaftliche Interpretation und redaktionelle Einordnung unterscheiden. Hintergrundinformationen benötigen eigene Belege.
@@ -12,7 +20,9 @@ Statische, eigenständige deutsche Langartikel mit stabilen URLs. Die Startseite
 6. `python publikationen/render.py` erstellt HTML und Manifest; `python publikationen/render.py --check` prüft den gespeicherten Stand ohne Änderungen.
 7. Quellen und tatsächliche Desktop-/Mobilansicht prüfen, anschließend die zusammengehörigen Daten, Bilder, HTML-Dateien und das Manifest veröffentlichen.
 
-Die vier Startartikel vom 29.10.2026 sind redaktionell geprüft. Die bestehenden 54 Archivmeldungen werden nicht automatisch rückwirkend zu Langartikeln umgeschrieben. Der tägliche Claude-News-Workflow bleibt bestehen; eine unbeaufsichtigte automatische Langartikel-Erzeugung ist mit diesem Renderer **noch nicht aktiviert**. Weder der Renderer noch Seitenaufrufe rufen eine KI-API auf.
+Seit 03.11.2026 erstellt der tägliche Claude-News-Workflow für jede neu akzeptierte Meldung einen eigenen Artikel. Alle Quellen durchlaufen denselben Themenfilter; die Vorschau allein bleibt auf vier Einträge begrenzt. Der Originaltext wird abgerufen und erneut auf Relevanz geprüft. Eine gesperrte, zu kurze oder fehlerhafte Quelle sowie unvollständige Artikel erzeugen keinen neuen Teaser. `news-pipeline-state.json` bewahrt offene Versuche über das RSS-Altersfenster hinaus und verhindert doppelte Generierung. API-Schlüssel oder vollständige Quellentexte werden dort nicht gespeichert.
+
+Die Bestandsprüfung erhält alle 62 historischen Datensätze, blendet 44 fachfremde Meldungen aus und legt die 16 relevanten Meldungen ohne eigene Publikation zur Nachbearbeitung vor. Vorhandene Seiten behalten ihre URLs, auch wenn ihr Thema jetzt ausgeschlossen ist. Quelldatum, erstes Erscheinen auf Fossilium und Artikelveröffentlichung bleiben getrennt. Der Workflow validiert Daten und HTML vor einem gemeinsamen Git-Commit; Renderer und Seitenaufrufe selbst rufen keine KI-API auf.
 
 ## Abbildungsnachweis
 
@@ -20,5 +30,5 @@ Die vier Startartikel vom 29.10.2026 sind redaktionell geprüft. Die bestehenden
 
 ## Prüfungen
 
-Offline: `python -m unittest tests.test_publications tests.test_hole_news tests.test_news_archive`.
+Offline: `python -m unittest tests.test_publications tests.test_hole_news tests.test_news_archive tests.test_news_pipeline`.
 Browser: `node tests/publications-ui.cjs`, `node tests/dinodex-ui.cjs`, `node tests/news-ui.cjs` mit installiertem Playwright und lokalem Chrome. Die Browsernachweise bleiben unter `.content-state/` privat.

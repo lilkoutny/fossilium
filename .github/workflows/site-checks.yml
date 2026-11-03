@@ -2,9 +2,9 @@ name: Fossilium Website prüfen
 on:
   push:
     branches: [main]
-    paths: ["index.html", "bilder/**", "news*.json", "publikationen/**", "tests/**", ".github/workflows/site-checks.yml"]
+    paths: ["index.html", "bilder/**", "news*.json", "hole_news.py", "news_pipeline.py", ".github/workflows/news.yml", "publikationen/**", "tests/**", ".github/workflows/site-checks.yml"]
   pull_request:
-    paths: ["index.html", "bilder/**", "news*.json", "publikationen/**", "tests/**", ".github/workflows/site-checks.yml"]
+    paths: ["index.html", "bilder/**", "news*.json", "hole_news.py", "news_pipeline.py", ".github/workflows/news.yml", "publikationen/**", "tests/**", ".github/workflows/site-checks.yml"]
 permissions:
   contents: read
 jobs:
@@ -16,5 +16,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests feedparser
-      - run: python -m unittest tests.test_publications tests.test_hole_news tests.test_news_archive
+      - run: python -m unittest tests.test_publications tests.test_hole_news tests.test_news_archive tests.test_news_pipeline
       - run: python publikationen/render.py --check

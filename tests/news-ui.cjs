@@ -16,7 +16,7 @@ const server = http.createServer((req,res)=>{
     res.end(body);
   });
 });
-function item(n){return {titel:'Testmeldung '+n,zusammenfassung:'Sachliche Zusammenfassung für den UI-Test.',quelle:'Testquelle',url:'https://example.org/story/'+n,datum:'2026-10-'+String(n).padStart(2,'0')};}
+function item(n){return {titel:'Testmeldung '+n,zusammenfassung:'Sachliche Zusammenfassung für den UI-Test.',quelle:'Testquelle',url:'https://example.org/story/'+n,datum:'2026-10-'+String(n).padStart(2,'0'),relevant:true,relevanz_kategorie:'dinosaurier',relevanz_begruendung:'Zentraler Taxonbezug'};}
 (async()=>{
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
   const base='http://127.0.0.1:'+server.address().port;
@@ -25,7 +25,7 @@ function item(n){return {titel:'Testmeldung '+n,zusammenfassung:'Sachliche Zusam
     const page=await browser.newPage({viewport:{width:1440,height:1000}});
     const errors=[];page.on('pageerror',err=>errors.push(err.message));
     await page.route('**/news.json',r=>r.fulfill({json:{stand:'2026-10-19',meldungen:[item(9),item(8),{...item(7),url:'https://example.org/story/7/?utm_source=test'}]}}));
-    await page.route('**/news-archiv.json',r=>r.fulfill({json:{stand:'2026-10-19',meldungen:Array.from({length:8},(_,i)=>item(i+1))}}));
+    await page.route('**/news-archiv.json',r=>r.fulfill({json:{stand:'2026-10-19',meldungen:[...Array.from({length:7},(_,i)=>item(i+1)),{...item(99),relevant:false}]}}));
     await page.goto(base+'/#forschung');
     await page.waitForFunction(()=>document.querySelectorAll('#newsRaster article').length===4);
     assert.equal(await page.locator('#newsArchiv').isVisible(),false);
@@ -33,6 +33,7 @@ function item(n){return {titel:'Testmeldung '+n,zusammenfassung:'Sachliche Zusam
     await page.getByRole('button',{name:'Alle Meldungen anzeigen'}).click();
     assert.equal(await page.locator('#newsArchiv').isVisible(),true);
     assert.equal(await page.locator('#newsArchivListe li').count(),9);
+    assert.doesNotMatch(await page.locator('#newsArchivListe').innerText(),/Testmeldung 99/);
     const dates=await page.locator('#newsArchivListe time').evaluateAll(nodes=>nodes.map(n=>n.dateTime));
     assert.deepEqual(dates,[...dates].sort().reverse());
     await page.getByRole('button',{name:'Liste wieder schließen'}).click();
@@ -47,6 +48,8 @@ function item(n){return {titel:'Testmeldung '+n,zusammenfassung:'Sachliche Zusam
       {titel:'<img src=x onerror=alert(1)>',zusammenfassung:'Text',quelle:'Test',url:'https://example.org/safe',datum:'2026-99-55'},
       {titel:'Bad',zusammenfassung:'Text',url:'javascript:alert(1)',datum:'2026-10-01'}]},null));
     assert.equal(sanitized.length,1);assert.equal(sanitized[0].datum,'');
+    const denied=await page.evaluate(()=>sammleNews({meldungen:[{titel:'Termiten',zusammenfassung:'Alt',url:'https://example.org/excluded',datum:'2026-10-01',relevant:false}]},{meldungen:[{titel:'Termiten',zusammenfassung:'Alt',url:'https://example.org/excluded/?utm_source=x',datum:'2026-10-02'}]}));
+    assert.equal(denied.length,0);
     await page.route('**/news-archiv.json',r=>r.fulfill({status:503,body:'temporarily unavailable'}));
     await page.reload();await page.waitForFunction(()=>document.querySelectorAll('#newsRaster article').length===3);
     await page.getByRole('button',{name:'Alle Meldungen anzeigen'}).click();

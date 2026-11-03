@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+        "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
+        "quelle": "Phys.org",
+        "text": "Ein außergewöhnlich vielfältiges Fossilökosystem in Zentralkolumbien bewahrt eine seltene Überlagerung zwischen Überlebenden älterer Jura-Gruppen und neueren Kreide-Linien. Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben darin ein neues Muster großflächiger evolutionärer Übergänge erkannt, das ohne Massenaussterben abgelaufen ist.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-31",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Paja-Biota: Plesiosaurier und marine Krokodilverwandte sind zentraler Bestandteil des untersuchten Ökosystems; Originalmeldung geprüft."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+        "titel": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
+        "quelle": "Phys.org",
+        "text": "Forscher haben erstmals unwiderlegbare Hinweise auf fossilisierte rote Blutkörperchen und Kollagen-Aminosäuren in Dinosaurierknochen gefunden. Diese Entdeckung verändert unser Verständnis davon, wie lange Biomoleküle in Fossilien über geologische Zeiträume hinweg erhalten bleiben können.",
+        "news_datum": "2026-11-02"
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-31",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
+        "titel": "Sensationeller Verkauf: Miniatur-T.-rex-Fossil für 47 Millionen Dollar versteigert",
+        "quelle": "Phys.org",
+        "text": "Ein Dinosaurierfossil, das einem winzigen T. rex ähnelt, wurde für den Rekordpreis von 47 Millionen Dollar verkauft und zählt nun zu den teuersten Fossilien der Welt.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-28",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+        "titel": "Erstes Megaraptor-Fossil in Europa auf der Isle of Wight entdeckt",
+        "quelle": "Phys.org",
+        "text": "Forscher haben auf der Isle of Wight ein neues Dinosaurier-Fossil gefunden, das zu einer Gruppe agiler, zweibeiniger Raubtiere namens Megaraptoren gehört. Das Tier war etwa so groß wie ein großer Tiger und stellt den ersten Fund dieser Gruppe in Europa dar.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-14",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "candidate": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+        "titel": "Vergessenes Fossil enthüllt gefährlichen Dinosaurier mit Riesenkrallen",
+        "quelle": "ScienceDaily",
+        "text": "Ein 120 Millionen Jahre altes Fossil, das fast ein Jahrhundert lang in einem Museum lagerte, offenbart einen neuen, tigergroßen Raubdino mit gewaltigen Krallen. Der Fund liefert den ersten Nachweis von Megaraptoren in Europa und hilft zu erklären, wie diese mysteriösen Dinosaurier später zu gigantischen Jägern wurden.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-14",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
+      "candidate": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
+        "titel": "Neue Dinosaurierart aus Afrika offenbart verlorene prähistorische Welt",
+        "quelle": "ScienceDaily",
+        "text": "Ein neu identifizierter 210 Millionen Jahre alter Dinosaurier aus Simbabwe hilft Wissenschaftlern, ein überraschend eigenes prähistorisches Ökosystem zu enthüllen. Die Entdeckung deutet darauf hin, dass antike Klimaunterschiede Dinosaurierpopulationen in Südafrika voneinander isoliert haben könnten, was zu einzigartigen Arten führte.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-12",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
+        "titel": "Kleine Raptoren fraßen möglicherweise von Apex-Räubern",
+        "quelle": "Phys.org",
+        "text": "Fossile Bissspuren in der Nähe von Drumheller deuten darauf hin, dass ein kleiner Raubdinosaurus von einem Albertosaurus fraß oder ein junger Albertosaurus Kannibalismusverhalten zeigte. Die genaue Erklärung für die Spuren auf dem Fossil bleibt rätselhaft.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-09",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
+        "titel": "Flexible Schwänze halfen urzeitlichen Meeresreptilien beim Beutefang",
+        "quelle": "Phys.org",
+        "text": "Eine Studie der Rutgers-Universität zeigt anhand von Fossilienmodellen, dass einige der gigantischen Meeresreptilien aus dem Zeitalter der Dinosaurier durch flexible Schwänze zu schnellen Überraschungsangriffen befähigt waren, während andere Arten besser zum Verfolgen von Beute übers offene Wasser geeignet waren.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-08",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+        "titel": "Zimbabwes Dinosaurier unterschieden sich von denen Südafrikas",
+        "quelle": "Phys.org",
+        "text": "Paläontologen haben in Zimbabwe neue Dinosaurier-Arten entdeckt, die sich von südafrikanischen Arten unterscheiden. Die Funde deuten darauf hin, dass die verschiedenen Habitate Afrikas zu einer großen Vielfalt in der prähistorischen Fauna führten.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-08",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+        "titel": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
+        "quelle": "Phys.org",
+        "text": "Paläontologen haben eine neue Dinosaurierart entdeckt, die sich auf ein ungewöhnliches Nahrungsangebot spezialisiert hatte: Früchte. Der kleine Oviraptorosaur namens Infernogallus jamesis besaß spezialisierte Kaumuskeln zum Zerquetschen von weicher Nahrung und ist damit der erste bekannte Dinosaurier, der gezielt Früchte aß.",
+        "news_datum": "2026-10-31"
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-10-01",
+      "decision": {
+        "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
+      "candidate": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
+        "titel": "Uralte Meeresreptil mit erhaltenen Organen entdeckt",
+        "quelle": "ScienceDaily",
+        "text": "Wissenschaftler haben ein 245 Millionen Jahre altes Fossil des Meeresreptils Austronaga minuta gefunden, das außergewöhnlich detailliert erhalten ist – einschließlich Magen, Leber und Darm. Die Entdeckung zeigt, dass das Tier trotz eines einfachen Verdauungssystems perfekt an das Schwimmen angepasst war.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-09-27",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
+        "titel": "Dinosaurier fraßen angespülte Meeresalgen",
+        "quelle": "Phys.org",
+        "text": "Fossile Dinosaurier-Zähne deuten darauf hin, dass Dinosaurier an nordamerikanischen Küsten von Stürmen angespülte Meeresalgen gefressen haben. Dieses Phänomen der \"Meeressubventionierung\" ist besonders wichtig für Landtiere in Zeiten, wenn terrestrische Ökosysteme weniger Nahrung bieten, etwa während von Dürreperioden.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-09-25",
+      "decision": {
+        "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
+      "candidate": {
+        "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
+        "titel": "Plesiosaurier spülten ihre Beute an Land ab",
+        "quelle": "Phys.org",
+        "text": "Eine neue Studie der Cambridge University Press deutet darauf hin, dass Plesiosaurier in Flussmündungen schwammen, um Muschelschalen und andere unverdauliche Teile ihrer Mahlzeiten auszuspeien. Dieses Verhalten ähnelt dem heutiger Seelöwen und Meerkrokodile.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-09-23",
+      "decision": {
+        "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
+      "candidate": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
+        "titel": "Geheilte Rippenfraktur offenbart 66 Millionen Jahre alte Blutgefäße",
+        "quelle": "ScienceDaily",
+        "text": "Eine gebrochene Rippe des T. rex namens Scotty, dem größten bekannten Exemplar dieser Art, enthält ein außergewöhnlich erhaltenes Netzwerk von Blutgefäßen aus der Heilungsphase des Dinosauriers. Wissenschaftler nutzten Neutronen- und Röntgenstrahlen-Bildgebung, um die 66 Millionen Jahre alte Knochenstruktur zu untersuchen, ohne sie zu beschädigen.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-09-22",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
+      "candidate": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
+        "titel": "T. rex war warmblütig wie der Mensch",
+        "quelle": "ScienceDaily",
+        "text": "Chemische Analysen von fossilisierten T. rex-Zähnen zeigen, dass der Dinosaurier eine Körpertemperatur von etwa 36 Grad Celsius hatte – fast identisch mit der menschlichen Körpertemperatur. Dies belegt direkt, dass der Raubsaurier warmblütig war, was erklärt, wie er aktiv bleiben und in kalten Umgebungen wie Alaska überleben konnte.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-09-19",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
+      "candidate": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
+        "titel": "Diplodocus erstmals außerhalb Nordamerikas gefunden",
+        "quelle": "ScienceDaily",
+        "text": "In Spanien wurde das Fossil eines 150 Millionen Jahre alten Diplodocus entdeckt – der erste Fund dieser Gattung außerhalb Nordamerikas. Der 25 Meter lange Sauropode war so gut erhalten, dass Forscher charakteristische Merkmale in seinen Schwanzwirbeln dem bekannten Genus zuordnen konnten. Der Fund deutet darauf hin, dass Dinosaurier während des Oberjura zwischen den Kontinenten wanderten, möglicherweise über zeitweilige Landverbindungen.",
+        "news_datum": ""
+      },
+      "status": "pending",
+      "attempts": 0,
+      "first_seen": "2026-09-18",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+      }
+    }
+  ]
+}

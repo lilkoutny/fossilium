@@ -685,14 +685,18 @@ function newsAdresse(value){
 }
 function sammleNews(archiv,aktuell){
   const alle = new Map();
+  const gesperrt=new Set([archiv,aktuell].flatMap(d=>Array.isArray(d?.meldungen)?d.meldungen:[])
+    .filter(m=>m?.relevant===false).map(m=>newsAdresse(m.url)));
   [archiv,aktuell].forEach(daten=>{
     (Array.isArray(daten?.meldungen) ? daten.meldungen : []).forEach(m=>{
       if(!m || typeof m.titel!=="string" || !m.titel.trim() || typeof m.zusammenfassung!=="string") return;
-      const url=newsAdresse(m.url);if(!url) return;
+      const url=newsAdresse(m.url);if(!url || gesperrt.has(url)) return;
       const alt=alle.get(url);
       alle.set(url,{titel:m.titel.trim(),zusammenfassung:m.zusammenfassung,
         quelle:typeof m.quelle==="string" ? m.quelle : new URL(url).hostname,url,
-        datum:alt?.datum || newsDatum(m.datum)});
+        datum:newsDatum(m.news_datum) || alt?.datum || newsDatum(m.datum), relevant:true,
+        relevanz_kategorie:m.relevanz_kategorie || alt?.relevanz_kategorie || "ungeprüft",
+        relevanz_begruendung:m.relevanz_begruendung || alt?.relevanz_begruendung || ""});
     });
   });
   return [...alle.values()].sort((a,b)=>b.datum.localeCompare(a.datum)||a.titel.localeCompare(b.titel,"de"));

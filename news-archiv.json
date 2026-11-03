@@ -7,7 +7,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-11-year-fossilized-termite-karoo-town.html",
       "datum": "2026-11-03",
-      "erstmals_angezeigt": "2026-11-03"
+      "erstmals_angezeigt": "2026-11-03",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
@@ -15,7 +19,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
       "datum": "2026-10-31",
-      "erstmals_angezeigt": "2026-10-31"
+      "erstmals_angezeigt": "2026-10-31",
+      "relevant": true,
+      "relevanz_kategorie": "marine_reptile",
+      "relevanz_begruendung": "Paja-Biota: Plesiosaurier und marine Krokodilverwandte sind zentraler Bestandteil des untersuchten Ökosystems; Originalmeldung geprüft.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "17 Millionen Jahre alter Affenfossil in Ägypten gefunden",
@@ -23,7 +31,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
       "datum": "2026-10-31",
-      "erstmals_angezeigt": "2026-10-31"
+      "erstmals_angezeigt": "2026-10-31",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
@@ -31,7 +43,12 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
       "datum": "2026-10-31",
-      "erstmals_angezeigt": "2026-10-31"
+      "erstmals_angezeigt": "2026-10-31",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "news_datum": "2026-11-02"
     },
     {
       "titel": "Wie Krokodile den Dinosaurier-Asteroiden überlebten",
@@ -39,7 +56,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
       "datum": "2026-10-30",
-      "erstmals_angezeigt": "2026-10-30"
+      "erstmals_angezeigt": "2026-10-30",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Untersuchung des Überlebens von Krokodilen; kein zentraler Dinosaurierbefund und keine Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Alte DNA klärt das Rätsel um Europas vermeintlichen Riesenkranich",
@@ -47,7 +68,12 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-year-mystery-identity-extinct-giant.html",
       "datum": "2026-10-29",
-      "erstmals_angezeigt": "2026-10-29"
+      "erstmals_angezeigt": "2026-10-29",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03",
+      "publikation": "/publikationen/riesenkranich-dna-raetsel/"
     },
     {
       "titel": "Neue Dinosaurierart aus englischen Ziegeleien identifiziert",
@@ -55,7 +81,12 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
       "datum": "2026-10-29",
-      "erstmals_angezeigt": "2026-10-29"
+      "erstmals_angezeigt": "2026-10-29",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "publikation": "/publikationen/paludohadros-englands-feuchtgebiete/"
     },
     {
       "titel": "Fossiler Vogel ohne Schwanzfedern vor 121 Millionen Jahren",
@@ -63,7 +94,12 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
       "datum": "2026-10-29",
-      "erstmals_angezeigt": "2026-10-29"
+      "erstmals_angezeigt": "2026-10-29",
+      "relevant": true,
+      "relevanz_kategorie": "early_bird",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "publikation": "/publikationen/longipteryx-ohne-schwanzfedern/"
     },
     {
       "titel": "Marine Amphibie aus dem Meer vor 237 Millionen Jahren",
@@ -71,7 +107,12 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
       "datum": "2026-10-29",
-      "erstmals_angezeigt": "2026-10-29"
+      "erstmals_angezeigt": "2026-10-29",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03",
+      "publikation": "/publikationen/gerrothorax-amphibie-im-meer/"
     },
     {
       "titel": "Sensationeller Verkauf: Miniatur-T.-rex-Fossil für 47 Millionen Dollar versteigert",
@@ -79,7 +120,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
       "datum": "2026-10-28",
-      "erstmals_angezeigt": "2026-10-28"
+      "erstmals_angezeigt": "2026-10-28",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Urzeitliche Fische aus Alberta enthüllen Dinosaurier-Zeitalter in Nordamerika",
@@ -87,7 +132,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-ancient-alberta-fish-fossils-reveal.html",
       "datum": "2026-10-28",
-      "erstmals_angezeigt": "2026-10-28"
+      "erstmals_angezeigt": "2026-10-28",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Älteste Tiere der Erde teilen gemeinsamen wurmartigen Vorfahren",
@@ -95,7 +144,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-oldest-animals-earth-common-wormlike.html",
       "datum": "2026-10-19",
-      "erstmals_angezeigt": "2026-10-19"
+      "erstmals_angezeigt": "2026-10-19",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Älteste Spuren irdischen Lebens in Gefahr",
@@ -103,7 +156,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html",
       "datum": "2026-10-16",
-      "erstmals_angezeigt": "2026-10-16"
+      "erstmals_angezeigt": "2026-10-16",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Erstes Megaraptor-Fossil in Europa auf der Isle of Wight entdeckt",
@@ -111,7 +168,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
       "datum": "2026-10-14",
-      "erstmals_angezeigt": "2026-10-14"
+      "erstmals_angezeigt": "2026-10-14",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Jura-Säugetier-Fossil gibt Hinweise auf Evolution der Säugetier-Fähigkeiten",
@@ -119,7 +180,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
       "datum": "2026-10-14",
-      "erstmals_angezeigt": "2026-10-14"
+      "erstmals_angezeigt": "2026-10-14",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Vergessenes Fossil enthüllt gefährlichen Dinosaurier mit Riesenkrallen",
@@ -127,7 +192,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
       "datum": "2026-10-14",
-      "erstmals_angezeigt": "2026-10-14"
+      "erstmals_angezeigt": "2026-10-14",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue Jurassic-Krokodil-Art mit ungewöhnlich schlanken Zähnen entdeckt",
@@ -135,7 +204,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-jurassic-crocodile-species-unusually-slender.html",
       "datum": "2026-10-13",
-      "erstmals_angezeigt": "2026-10-13"
+      "erstmals_angezeigt": "2026-10-13",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Ctenosuchus aus ehemaligen Flüssen und Seen; trotz Verwandtschaft mit marinen Thalattosuchiern kein belegtes Meeresreptil. Originalmeldung geprüft.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Mikroskopische Fossilien enthüllen Meeresleben nach extremer Eiszeit",
@@ -143,7 +216,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-tiny-fossils-reveal-chapter-ocean.html",
       "datum": "2026-10-13",
-      "erstmals_angezeigt": "2026-10-13"
+      "erstmals_angezeigt": "2026-10-13",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue Dinosaurierart aus Afrika offenbart verlorene prähistorische Welt",
@@ -151,7 +228,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
       "datum": "2026-10-12",
-      "erstmals_angezeigt": "2026-10-12"
+      "erstmals_angezeigt": "2026-10-12",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Kleine Raptoren fraßen möglicherweise von Apex-Räubern",
@@ -159,7 +240,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
       "datum": "2026-10-09",
-      "erstmals_angezeigt": "2026-10-09"
+      "erstmals_angezeigt": "2026-10-09",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Flexible Schwänze halfen urzeitlichen Meeresreptilien beim Beutefang",
@@ -167,7 +252,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
       "datum": "2026-10-08",
-      "erstmals_angezeigt": "2026-10-08"
+      "erstmals_angezeigt": "2026-10-08",
+      "relevant": true,
+      "relevanz_kategorie": "marine_reptile",
+      "relevanz_begruendung": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Uintatheren: Neue Erkenntnisse zu sexuellem Dimorphismus im Fossilbericht",
@@ -175,7 +264,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-classic-sexual-dimorphism-fossil-nuance.html",
       "datum": "2026-10-08",
-      "erstmals_angezeigt": "2026-10-08"
+      "erstmals_angezeigt": "2026-10-08",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Jurassic-Fossil enthüllt evolutionäre Ursprünge des Säugetierstillens",
@@ -183,7 +276,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html",
       "datum": "2026-10-08",
-      "erstmals_angezeigt": "2026-10-08"
+      "erstmals_angezeigt": "2026-10-08",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Zimbabwes Dinosaurier unterschieden sich von denen Südafrikas",
@@ -191,7 +288,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
       "datum": "2026-10-08",
-      "erstmals_angezeigt": "2026-10-08"
+      "erstmals_angezeigt": "2026-10-08",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue ausgestorbene Krokodilart in den Steinen der Großen Sphinx entdeckt",
@@ -199,7 +300,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-crocodile-species-great-sphinx.html",
       "datum": "2026-10-07",
-      "erstmals_angezeigt": "2026-10-07"
+      "erstmals_angezeigt": "2026-10-07",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Tiere könnten 200 Millionen Jahre früher entstanden sein als bislang angenommen",
@@ -207,7 +312,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261003234023.htm",
       "datum": "2026-10-07",
-      "erstmals_angezeigt": "2026-10-07"
+      "erstmals_angezeigt": "2026-10-07",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Homo erectus älter als gedacht: Neue Fossilien aus Südafrika",
@@ -215,7 +324,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
       "datum": "2026-10-07",
-      "erstmals_angezeigt": "2026-10-07"
+      "erstmals_angezeigt": "2026-10-07",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue fossile Insektenart aus der Dinosaurierzeit in Bernstein entdeckt",
@@ -223,7 +336,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-rare-insect-discovery-reveals-species.html",
       "datum": "2026-10-06",
-      "erstmals_angezeigt": "2026-10-06"
+      "erstmals_angezeigt": "2026-10-06",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neuer säbelzahniger Raubtier aus Argentinien überrascht mit längerer Überlebensdauer",
@@ -231,7 +348,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-saber-toothed-predator-argentina-lineage.html",
       "datum": "2026-10-06",
-      "erstmals_angezeigt": "2026-10-06"
+      "erstmals_angezeigt": "2026-10-06",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "DNA-Analyse enthüllt ausgestorbene Rinderart aus dem Sibirischen Eiszeitalter",
@@ -239,7 +360,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-extinct-bovine-species-siberia-reveals.html",
       "datum": "2026-10-06",
-      "erstmals_angezeigt": "2026-10-06"
+      "erstmals_angezeigt": "2026-10-06",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Tiere könnten Millionen Jahre früher entstanden sein als Fossilien zeigen",
@@ -247,7 +372,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-animals-evolved-vastly-earlier-fossil.html",
       "datum": "2026-10-03",
-      "erstmals_angezeigt": "2026-10-03"
+      "erstmals_angezeigt": "2026-10-03",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Künstliche Intelligenz hilft bei der Suche nach Plastik-abbauenden Enzymen",
@@ -255,7 +384,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-millions-years-evolution-ai-pollution.html",
       "datum": "2026-10-03",
-      "erstmals_angezeigt": "2026-10-03"
+      "erstmals_angezeigt": "2026-10-03",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue Haarsinnneszellen bei Tintenfischen entdeckt",
@@ -263,7 +396,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-newly-hair-cells-squid-clues.html",
       "datum": "2026-10-03",
-      "erstmals_angezeigt": "2026-10-03"
+      "erstmals_angezeigt": "2026-10-03",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Forscher entdecken fünf neue Süßwassermuschel-Arten in den USA",
@@ -271,7 +408,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-species-freshwater-mussels-southern-uncovered.html",
       "datum": "2026-10-02",
-      "erstmals_angezeigt": "2026-10-02"
+      "erstmals_angezeigt": "2026-10-02",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
@@ -279,7 +420,12 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
       "datum": "2026-10-01",
-      "erstmals_angezeigt": "2026-10-01"
+      "erstmals_angezeigt": "2026-10-01",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "news_datum": "2026-10-31"
     },
     {
       "titel": "Älteste bekannte magnetische Navigation bei Meerestieren entdeckt",
@@ -287,7 +433,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260930020329.htm",
       "datum": "2026-09-30",
-      "erstmals_angezeigt": "2026-09-30"
+      "erstmals_angezeigt": "2026-09-30",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Fledermäuse entstanden vor 65 Millionen Jahren in Europa",
@@ -295,7 +445,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260929053531.htm",
       "datum": "2026-09-29",
-      "erstmals_angezeigt": "2026-09-29"
+      "erstmals_angezeigt": "2026-09-29",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Guatemalas Rettungsprogramm für die lebende Fossilie Tropischer Gar",
@@ -303,7 +457,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-guatemala-survival-vulnerable-fossil-fish.html",
       "datum": "2026-09-27",
-      "erstmals_angezeigt": "2026-09-27"
+      "erstmals_angezeigt": "2026-09-27",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Parasitäre Fadenwürmer lenken Ohrwürmer zum Wasser",
@@ -311,7 +469,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-earwigs-infected-parasitic-worms.html",
       "datum": "2026-09-27",
-      "erstmals_angezeigt": "2026-09-27"
+      "erstmals_angezeigt": "2026-09-27",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Invasionsmechanismus von Toxoplasma gondii enthüllt",
@@ -319,7 +481,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-parasites-host-cells-invasion.html",
       "datum": "2026-09-27",
-      "erstmals_angezeigt": "2026-09-27"
+      "erstmals_angezeigt": "2026-09-27",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Uralte Meeresreptil mit erhaltenen Organen entdeckt",
@@ -327,7 +493,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
       "datum": "2026-09-27",
-      "erstmals_angezeigt": "2026-09-27"
+      "erstmals_angezeigt": "2026-09-27",
+      "relevant": true,
+      "relevanz_kategorie": "marine_reptile",
+      "relevanz_begruendung": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Eingeschlepptes Vieh verdrängte Madagaskars große Pflanzenfresser",
@@ -335,7 +505,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-ancient-madagascar-large-native-herbivores.html",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Uralte Eukaryoten zeigen Sauerstoff als Schlüssel zur Entstehung komplexen Lebens",
@@ -343,7 +517,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Duftanalyse eröffnet neue Wege zur Überwachung der Bodengesundheit",
@@ -351,7 +529,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-soil-health.html",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Fische auf Korallenriffen beherbergen spezialisierte chemosynthetische Bakterien",
@@ -359,7 +541,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-dna-reveals-chemosynthesis-genes-bacteria.html",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Mongolischer Fund löst 40 Jahre altes Säugetier-Rätsel",
@@ -367,7 +553,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260925093204.htm",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Uralte Proteine zeigen Wirksamkeit gegen antibiotikaresistente Bakterien",
@@ -375,7 +565,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260925093155.htm",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Dinosaurier fraßen angespülte Meeresalgen",
@@ -383,7 +577,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
       "datum": "2026-09-25",
-      "erstmals_angezeigt": "2026-09-25"
+      "erstmals_angezeigt": "2026-09-25",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Plesiosaurier spülten ihre Beute an Land ab",
@@ -391,7 +589,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
       "datum": "2026-09-23",
-      "erstmals_angezeigt": "2026-09-23"
+      "erstmals_angezeigt": "2026-09-23",
+      "relevant": true,
+      "relevanz_kategorie": "marine_reptile",
+      "relevanz_begruendung": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Bürgerwissenschaftler kartieren weltweite Nahrungsnetze",
@@ -399,7 +601,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-amateur-naturalists-scientists-track.html",
       "datum": "2026-09-23",
-      "erstmals_angezeigt": "2026-09-23"
+      "erstmals_angezeigt": "2026-09-23",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Jahrhundert-Seegurken durch Überfischung bedroht",
@@ -407,7 +613,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-centenarian-sea-cucumbers-overfishing.html",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Zwei neue Stabschrecken-Arten in Australien entdeckt",
@@ -415,7 +625,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-large-insect-species-australia-backyards.html",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Geheilte Rippenfraktur offenbart 66 Millionen Jahre alte Blutgefäße",
@@ -423,7 +637,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Antarktische Pflanzen entwickeln gegensätzliche Überlebensstrategien unter Wärmestress",
@@ -431,7 +649,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-antarctic-reveal-opposing-strategies-surviving.html",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Genbearbeitete Sojabohne mit 90% Ölsäureanteil entwickelt",
@@ -439,7 +661,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-gene-soybean-oleic-acid.html",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Wurzelverletzungen erzeugen Druckwellen im Pflanzensystem",
@@ -447,7 +673,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-root-injuries-unleash-pressure-distances.html",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Einzelne Aminosäure entscheidend für Stabilität von Mitochondrien-Proteinen",
@@ -455,7 +685,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-mitochondrial-protein-complexes-amino-acid.html",
       "datum": "2026-09-22",
-      "erstmals_angezeigt": "2026-09-22"
+      "erstmals_angezeigt": "2026-09-22",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Neue Wildkatzen-Art in Bolivien entdeckt",
@@ -463,7 +697,11 @@
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-09-earth-wild-cat-species-century.html",
       "datum": "2026-09-21",
-      "erstmals_angezeigt": "2026-09-21"
+      "erstmals_angezeigt": "2026-09-21",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "T. rex war warmblütig wie der Mensch",
@@ -471,7 +709,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
       "datum": "2026-09-19",
-      "erstmals_angezeigt": "2026-09-19"
+      "erstmals_angezeigt": "2026-09-19",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Diplodocus erstmals außerhalb Nordamerikas gefunden",
@@ -479,7 +721,11 @@
       "quelle": "ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
       "datum": "2026-09-18",
-      "erstmals_angezeigt": "2026-09-18"
+      "erstmals_angezeigt": "2026-09-18",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Beispielmeldung: So sehen deine News aus",
@@ -487,7 +733,11 @@
       "quelle": "Fossilium",
       "url": "https://www.sciencedaily.com/news/fossils_ruins/dinosaurs",
       "datum": "2026-09-09",
-      "erstmals_angezeigt": "2026-09-09"
+      "erstmals_angezeigt": "2026-09-09",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     },
     {
       "titel": "Zweite Beispielmeldung",
@@ -495,7 +745,11 @@
       "quelle": "Fossilium",
       "url": "https://phys.org/biology-news/paleontology-fossils",
       "datum": "2026-09-09",
-      "erstmals_angezeigt": "2026-09-09"
+      "erstmals_angezeigt": "2026-09-09",
+      "relevant": false,
+      "relevanz_kategorie": "excluded",
+      "relevanz_begruendung": "Außerhalb des bestätigten Themenbereichs; kein zentraler Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien.",
+      "relevanz_geprueft": "2026-11-03"
     }
   ]
 }

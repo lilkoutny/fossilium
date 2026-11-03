@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fossilium-news
+  cancel-in-progress: false
+
 jobs:
   news:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Repository laden
         uses: actions/checkout@v4
@@ -28,10 +33,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python hole_news.py
 
-      - name: news.json einchecken
+      - name: Publikationsseiten prüfen
+        run: python publikationen/render.py --check
+
+      - name: Veröffentlichungsdaten und Status einchecken
         run: |
           git config user.name "fossilium-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add news.json news-archiv.json
+          git add news.json news-archiv.json publikationen/ news-pipeline-state.json
           git diff --cached --quiet || git commit -m "Paläo-News vom $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push

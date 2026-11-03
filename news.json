@@ -1,26 +1,57 @@
 {
+  "stand": "2026-11-03",
   "meldungen": [
     {
       "titel": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
       "zusammenfassung": "Forscher haben erstmals unwiderlegbare Hinweise auf fossilisierte rote Blutkörperchen und Kollagen-Aminosäuren in Dinosaurierknochen gefunden. Diese Entdeckung verändert unser Verständnis davon, wie lange Biomoleküle in Fossilien über geologische Zeiträume hinweg erhalten bleiben können.",
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
-      "datum": "2026-10-31"
+      "datum": "2026-10-31",
+      "erstmals_angezeigt": "2026-10-31",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "news_datum": "2026-11-02"
     },
     {
-      "titel": "Neue Dinosaurierart war spezialisierter Fruchtfresser",
-      "zusammenfassung": "Paläontologen haben eine neue Dinosaurierart namens Infernogallus jamesi entdeckt, einen kleinen Oviraptorosauren aus der Kreidezeit, der sich auf das Fressen von Früchten spezialisiert hatte. Mit seinen Kaumuskeln zum Zermalmen weicher Nahrung ist er der erste bekannte Dinosaurier, der gezielt Früchte aß.",
+      "titel": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
+      "zusammenfassung": "Paläontologen haben eine neue Dinosaurierart entdeckt, die sich auf ein ungewöhnliches Nahrungsangebot spezialisiert hatte: Früchte. Der kleine Oviraptorosaur namens Infernogallus jamesis besaß spezialisierte Kaumuskeln zum Zerquetschen von weicher Nahrung und ist damit der erste bekannte Dinosaurier, der gezielt Früchte aß.",
       "quelle": "Phys.org",
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
-      "datum": "2026-10-31"
+      "datum": "2026-10-01",
+      "erstmals_angezeigt": "2026-10-01",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "news_datum": "2026-10-31"
     },
     {
-      "titel": "400.000 Jahre alte Termitennester in Südafrika fosssilisiert",
-      "zusammenfassung": "Forscher der Universität Kapstadt haben eine Serie von etwa 400.000 Jahre alten, versteinerten Nestern einer ausgestorbenen Termitenartenentdeckt und benannt diese nach der südafrikanischen Stadt Calitzdorp. Die Fossilien helfen dabei, lokale Gemeinschaften mit dem Fossilienreichtum ihrer Region zu verbinden.",
+      "titel": "Neue Dinosaurierart aus englischen Ziegeleien identifiziert",
+      "zusammenfassung": "Paludohadros proudlovii ist eine neu benannte Dinosaurierart aus der Gruppe der Iguanodontier, deren Fossilien 2001 in einem Ziegelwerk in Surrey gefunden wurden. Der Fund stammt aus einer Zeit vor 125 Millionen Jahren, als in England Feuchtgebiete herrschten. Die Art war ein Vertreter der charakteristischen Dinosaurier mit Daumenstacheln.",
       "quelle": "Phys.org",
-      "url": "https://phys.org/news/2026-11-year-fossilized-termite-karoo-town.html",
-      "datum": "2026-11-03"
+      "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
+      "datum": "2026-10-29",
+      "erstmals_angezeigt": "2026-10-29",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "publikation": "/publikationen/paludohadros-englands-feuchtgebiete/"
+    },
+    {
+      "titel": "Fossiler Vogel ohne Schwanzfedern vor 121 Millionen Jahren",
+      "zusammenfassung": "Zwei gut erhaltene Longipteryx-Fossilien aus rund 121 Millionen Jahre alten Schichten in China bewahren Körper- und Flügelfedern, aber keine Schwanzfedern. Auch weitere bekannte Exemplare zeigen keine solchen Spuren. Die Forschenden vermuten deshalb, dass der frühe Vogel tatsächlich ohne Schwanzfedern lebte.",
+      "quelle": "Phys.org",
+      "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
+      "datum": "2026-10-29",
+      "erstmals_angezeigt": "2026-10-29",
+      "relevant": true,
+      "relevanz_kategorie": "early_bird",
+      "relevanz_begruendung": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung.",
+      "relevanz_geprueft": "2026-11-03",
+      "publikation": "/publikationen/longipteryx-ohne-schwanzfedern/"
     }
-  ],
-  "stand": "2026-11-03"
+  ]
 }
