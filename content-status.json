@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-03T16:15:30.749135+00:00",
+  "updated": "2026-11-03T16:17:57.322908+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "8cbc5e7f2766ed418664ef3f52e3d36c",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+      "title": "Wie Krokodile den Dinosaurier-Asteroiden überlebten",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-03T16:17:57.321632+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "7eddf31ebfc913e5167162841e1d9475",
       "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
@@ -142,19 +155,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-10-31T10:42:00.942901+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "8cbc5e7f2766ed418664ef3f52e3d36c",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
-      "title": "Wie Krokodile den Dinosaurier-Asteroiden überlebten",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-10-31T10:42:00.899891+00:00",
       "sources": [],
       "score": null,
       "script": null,
