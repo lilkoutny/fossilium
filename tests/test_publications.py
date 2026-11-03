@@ -17,7 +17,7 @@ class PublicationsTest(unittest.TestCase):
     def test_reviewed_articles_and_generated_pages_match(self):
         renderer.validate(self.data)
         for a in self.data['artikel']:
-            self.assertGreaterEqual(sum(len(p.split()) for s in a['abschnitte'] for p in s['absatz']), 450)
+            self.assertGreaterEqual(len(a['untertitel'].split()) + sum(len(p.split()) for s in a['abschnitte'] for p in s['absatz']), a.get('mindestwoerter',450))
             self.assertEqual((ROOT / 'publikationen' / a['slug'] / 'index.html').read_text(encoding='utf-8'), renderer.render(a))
 
     def test_duplicate_article_is_rejected(self):

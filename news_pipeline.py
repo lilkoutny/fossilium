@@ -132,6 +132,7 @@ def fetch_source(candidate):
         raw = b"".join(chunks).decode(encoding or "utf-8", errors="replace")
     text, date = clean_source_html(raw)
     return {"id": "S1", "url": candidate["url"], "titel": candidate["titel"], "text": text, "date": date or candidate.get("news_datum", ""),
+            "word_count": len(text.split()),
             "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"}
 
 def parse_article_text(text):
@@ -162,8 +163,9 @@ def write_article(candidate, source):
     full_candidate = {**candidate, "text": source["text"]}
     decision = validate_decisions(classify_batch([full_candidate]), [full_candidate])[candidate["url"]]
     if decision["relevant"] is not True: return decision
+    target = 650 if len(source["text"].split()) >= 600 else 450
     text = call_claude({
-        "task": "Schreibe einen eigenständigen deutschen Fossilium-Artikel mit etwa 650 Wörtern. Nutze sechs Abschnitte mit jeweils zwei Absätzen zu etwa 50 bis 60 Wörtern. Mindestumfang 450 Wörter. Eigene Darstellung, keine Übersetzung Absatz für Absatz und keine Wiederholungen. Jede Tatsachenbehauptung direkt nach dem Satz mit [[S1]] belegen. Jeden Absatz mit einem Quellenverweis abschließen. Beobachtungen, Interpretation und Grenzen trennen. Keine erfundenen Daten, Zitate oder Hintergründe. Keine neuen Aussagen über Stabilität, Ernährung oder Verhalten, wenn diese nicht in der Quelle stehen. Sensationsbehauptungen nicht verstärken. Keine wörtlichen Zitate. Die Quelle ist eine Nachricht; behaupte NICHT, die Studie gelesen zu haben. Keine Bilder.",
+        "task": f"Schreibe einen eigenständigen deutschen Fossilium-Artikel mit etwa {target} Wörtern, gegliedert in vier bis sechs Abschnitte. Der Umfang richtet sich nach dem belegten Inhalt; kurze Quellen nicht künstlich mit Spekulation verlängern. Eigene Darstellung, keine Übersetzung Absatz für Absatz und keine Wiederholungen. Jede Tatsachenbehauptung direkt nach dem Satz mit [[S1]] belegen. Jeden Absatz mit einem Quellenverweis abschließen. Beobachtungen, Interpretation und Grenzen trennen. Keine erfundenen Daten, Zitate oder Hintergründe. Keine neuen Aussagen über Stabilität, Ernährung oder Verhalten, wenn diese nicht in der Quelle stehen. Sensationsbehauptungen nicht verstärken. Keine wörtlichen Zitate. Die Quelle ist eine Nachricht; behaupte NICHT, die Studie gelesen zu haben. Keine Bilder. Personen ohne unbelegte Geschlechtszuordnung benennen.",
         "format": "Erste Zeile: # Eigener deutscher Titel. Dann 2 bis 3 Sätze kurze Zusammenfassung. Danach sechs Abschnitte, jeweils beginnend mit ## Abschnittstitel. Absatztrennung durch Leerzeilen. Nur diese Markdown-Überschriften, keine Listen, Tabellen oder Hervorhebungen. Kein JSON und kein Quellenverzeichnis; diese erstellt das System.",
         "source": source}, model="claude-sonnet-4-6", as_text=True)
     try:
@@ -185,8 +187,12 @@ def build_article(response, candidate, source, today):
     for section in article["abschnitte"]:
         section["absatz"] = [re.sub(r"\s+(?=\[\[S1\]\])", "", re.sub(r"\[\[S1\]\]([.!?])", r"\1[[S1]]", p)) for p in section["absatz"]]
     paragraphs = [p for s in article["abschnitte"] for p in s["absatz"]]
-    words = sum(len(re.sub(r"\[\[S1\]\]", "", p).split()) for p in paragraphs)
-    if not 450 <= words <= 900 or len(article["abschnitte"]) < 4: raise ValueError(f"Artikellänge/Gliederung unzureichend: {words} Wörter, {len(article['abschnitte'])} Abschnitte")
+    # The lead is part of the article, not navigation or source boilerplate.
+    words = len(article["untertitel"].split()) + sum(len(re.sub(r"\[\[S1\]\]", "", p).split()) for p in paragraphs)
+    source_words = source.get("word_count") or len(source.get("text", "").split())
+    minimum = 300 if 0 < source_words < 600 else 450
+    article["mindestwoerter"] = minimum
+    if not minimum <= words <= 900 or len(article["abschnitte"]) < 4: raise ValueError(f"Artikellänge/Gliederung unzureichend: {words} Wörter, {len(article['abschnitte'])} Abschnitte")
     if any("[[S1]]" not in p or re.search(r"(?<![.!?])\[\[S1\]\]", p) for p in paragraphs): raise ValueError("Inline-Belege fehlen oder stehen nicht am Satzende")
     return article
 
@@ -276,23 +282,30 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
             r.pop("decision", None); r.setdefault("error", "classification:unknown"); pending += 1; continue
         try:
             if url not in articles:
-                if max_articles and attempted >= max_articles:
-                    r["error"] = "deferred:manual_run_limit"
-                    pending += 1
-                    continue
-                attempted += 1
-                print(f"Artikel erstellen: {url}", flush=True)
-                source = fetcher(c)
-                if source.get("url") != url or source.get("id") != "S1" or not isinstance(source.get("text"), str) or len(source["text"].split()) < 180: raise ValueError("Quelle nicht belegt")
-                response = article_writer(c, source)
-                if isinstance(response, dict) and response.get("relevant") is False and response.get("category") == "excluded" and response.get("reason"):
-                    r.update(status="excluded", decision={"url": url, "relevant": False, "category": "excluded", "reason": response["reason"]}); excluded += 1; continue
-                try:
-                    article = build_article(response, c, source, today)
-                except (ValueError, TypeError, KeyError):
-                    r["draft"] = response
-                    r["source_metadata"] = {k:v for k,v in source.items() if k != "text"}
-                    raise
+                article = None
+                source = r.get("source_metadata", {})
+                response = r.get("draft")
+                if response and source.get("url") == url and source.get("id") == "S1":
+                    try: article = build_article(response, c, source, today)
+                    except (ValueError, TypeError, KeyError): pass
+                if article is None:
+                    if max_articles and attempted >= max_articles:
+                        r["error"] = "deferred:manual_run_limit"
+                        pending += 1
+                        continue
+                    attempted += 1
+                    print(f"Artikel erstellen: {url}", flush=True)
+                    source = fetcher(c)
+                    if source.get("url") != url or source.get("id") != "S1" or not isinstance(source.get("text"), str) or len(source["text"].split()) < 180: raise ValueError("Quelle nicht belegt")
+                    response = article_writer(c, source)
+                    if isinstance(response, dict) and response.get("relevant") is False and response.get("category") == "excluded" and response.get("reason"):
+                        r.update(status="excluded", decision={"url": url, "relevant": False, "category": "excluded", "reason": response["reason"]}); excluded += 1; continue
+                    try:
+                        article = build_article(response, c, source, today)
+                    except (ValueError, TypeError, KeyError):
+                        r["draft"] = response
+                        r["source_metadata"] = {k:v for k,v in source.items() if k != "text"}
+                        raise
                 d = {"url": url, "relevant": True, "category": response["category"], "reason": response.get("reason") or d["reason"]}
                 r["decision"] = d
                 publication.validate({"artikel": publications["artikel"] + [article]})

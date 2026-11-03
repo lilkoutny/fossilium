@@ -96,4 +96,17 @@ class PipelineIntegration(unittest.TestCase):
         self.assertEqual((result['ready'],result['pending']),(1,2))
         result=p.run([],root=self.root,classifier=self.classifier,fetcher=self.fetch,article_writer=self.writer)
         self.assertEqual((result['ready'],result['pending']),(2,0))
+    def test_valid_saved_draft_is_reused_without_model_or_source_calls(self):
+        with patch.object(p,'build_article',side_effect=ValueError('previous validation failure')):
+            p.run(self.candidates(1),root=self.root,classifier=self.classifier,fetcher=self.fetch,article_writer=self.writer)
+        never=Mock(side_effect=AssertionError('unexpected call'))
+        result=p.run([],root=self.root,classifier=never,fetcher=never,article_writer=never)
+        self.assertEqual(result['ready'],1); never.assert_not_called()
+    def test_length_matches_available_source_without_accepting_teasers(self):
+        c=self.candidates(1)[0]; response=self.writer(c,self.fetch(c))
+        for s in response['article']['abschnitte']:
+            s['absatz']=[' '.join(['Belegte Beobachtung im Dinosaurierfossil mit klar benannten wissenschaftlichen Grenzen. [[S1]]']*10)]
+        source={**self.fetch(c),'word_count':300}
+        self.assertEqual(p.build_article(response,c,source,'2026-01-02')['mindestwoerter'],300)
+        with self.assertRaises(ValueError): p.build_article(response,c,{**source,'word_count':800},'2026-01-02')
 if __name__=='__main__': unittest.main()

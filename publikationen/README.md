@@ -22,6 +22,8 @@ keinen toten Publikationslink.
 
 Seit 03.11.2026 erstellt der tägliche Claude-News-Workflow für jede neu akzeptierte Meldung einen eigenen Artikel. Alle Quellen durchlaufen denselben Themenfilter; die Vorschau allein bleibt auf vier Einträge begrenzt. Der Originaltext wird abgerufen und erneut auf Relevanz geprüft. Eine gesperrte, zu kurze oder fehlerhafte Quelle sowie unvollständige Artikel erzeugen keinen neuen Teaser. `news-pipeline-state.json` bewahrt offene Versuche über das RSS-Altersfenster hinaus und verhindert doppelte Generierung. API-Schlüssel oder vollständige Quellentexte werden dort nicht gespeichert.
 
+Haiku übernimmt die strukturierte Themenprüfung, Sonnet die eigene deutsche Darstellung. Längere Texte werden als Markdown erzeugt, lokal in Abschnitte eingelesen und danach validiert. Umfang einschließlich Vorspann: mindestens 300 Wörter bei kurzen Originalmeldungen, mindestens 450 bei Quellen ab 600 Wörtern; mindestens vier Abschnitte. Fehlende Fakten werden nicht durch erfundene Hintergründe ersetzt. Validierbare gespeicherte Entwürfe werden ohne weiteren Modellaufruf übernommen.
+
 Die Bestandsprüfung erhält alle 62 historischen Datensätze, blendet 44 fachfremde Meldungen aus und legt die 16 relevanten Meldungen ohne eigene Publikation zur Nachbearbeitung vor. Vorhandene Seiten behalten ihre URLs, auch wenn ihr Thema jetzt ausgeschlossen ist. Quelldatum, erstes Erscheinen auf Fossilium und Artikelveröffentlichung bleiben getrennt. Der Workflow validiert Daten und HTML vor einem gemeinsamen Git-Commit; Renderer und Seitenaufrufe selbst rufen keine KI-API auf.
 
 ## Abbildungsnachweis
