@@ -314,8 +314,8 @@
   .entdecker-hero h1{font-family:Jost,sans-serif;font-size:clamp(44px,7vw,82px);line-height:.98;letter-spacing:-.055em;margin:12px 0 18px;color:var(--nacht)}
   .entdecker-hero p{max-width:46ch;font-size:clamp(17px,2vw,21px);color:#405a61}
   .entdecker-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.entdecker-cta{display:inline-flex;align-items:center;min-height:46px;padding:10px 18px;border-radius:999px;background:var(--nacht);color:#fffaf1;text-decoration:none;font-weight:600}.entdecker-cta.alt{background:transparent;color:var(--nacht);border:1px solid var(--nacht)}.entdecker-cta:hover{background:var(--messing);border-color:var(--messing);color:white}
-  .entdecker-buehne{position:relative;min-height:360px;display:grid;place-items:center;background:#16374a;border-radius:22px;padding:20px;box-shadow:18px 22px 0 rgba(191,88,59,.16)}
-  .entdecker-buehne img{width:100%;height:100%;max-height:430px;object-fit:contain}.entdecker-label{position:absolute;left:18px;bottom:16px;padding:8px 13px;background:#fffaf1;color:var(--nacht);border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.04em}
+  .entdecker-buehne{position:relative;min-height:360px;display:grid;place-items:center;background:#16374a;border-radius:22px;padding:20px 20px 82px;box-shadow:18px 22px 0 rgba(191,88,59,.16)}
+  .entdecker-buehne img{width:100%;height:100%;max-height:430px;object-fit:contain}.entdecker-label{position:absolute;left:18px;bottom:16px;max-width:calc(100% - 36px);padding:8px 13px;background:#fffaf1;color:var(--nacht);border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.04em}
   .karte-kopf{padding:0 0 24px}.karte-kopf h1{color:var(--nacht)}.karte-kopf p{color:var(--bein-blass)}
   .karten-rahmen{border:0;border-radius:24px;background:var(--nacht);box-shadow:0 20px 50px rgba(22,55,74,.16)}.karten-bild{background:#16374a}.fundorte-panel{background:#fffaf1;border-left:1px solid var(--linie)}.fundorte-panel h2,.fundort-knopf{color:var(--bein)}.fundorte-panel>p,.fundort-ort{color:var(--bein-blass)}.karten-meta{color:#a8d0c2}.karten-fuss{color:#a8c4c5}.legende{color:#b5c8c8}.map-land{fill:#4f8a7b;stroke:#9fc5b5}.gitter{stroke:rgba(245,240,231,.16)}.gitter .aequator{stroke:rgba(191,88,59,.6)}
   #forschung{margin:72px 0;padding:clamp(26px,4vw,54px);background:var(--nacht);border-radius:28px;color:#fffaf1}.news-kopf{margin:0 0 28px;border-bottom-color:rgba(255,250,241,.22)}.news-kopf h2{font-family:Jost,sans-serif;font-size:clamp(32px,4vw,48px)}.news-stand,.news-zaehler,.news-archiv-hinweis{color:#b8d0d0}.news-raster{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.news-karte{background:#fffaf1;border:0;border-radius:16px;padding:24px;color:var(--bein)}.news-karte:nth-child(3){background:#e7f0ec}.news-karte time{color:var(--bein-blass)}.news-karte h3{color:var(--nacht);font-family:Jost,sans-serif}.news-karte a{color:var(--link)}.news-publikation{border-color:var(--messing);color:var(--messing)}.news-publikation:hover,.news-publikation:focus-visible{background:var(--messing);color:white}.news-archiv{border-top-color:rgba(255,250,241,.22);background:#fffaf1;color:var(--bein);padding:26px;border-radius:18px}.news-archiv h3{color:var(--nacht)}.news-archiv-liste li{border-top-color:var(--linie)}.news-archiv-liste time,.news-archiv-liste .news-quelle{color:var(--bein-blass)}.news-archiv-knopf{border-color:#b8d0d0;color:#fffaf1;border-radius:999px}.news-archiv-knopf:hover{background:#28556a}
@@ -349,7 +349,7 @@
   <div id="start">
     <section class="entdecker-hero" aria-labelledby="entdeckerTitel">
       <div><div class="entdecker-kicker">Fossilium · Feldnotizen</div><h1 id="entdeckerTitel">Urzeit.<br>Ganz nah.</h1><p>Dinosaurier, Fundorte und neue Forschung – verständlich erzählt und direkt auf der Karte entdeckt.</p><div class="entdecker-ctas"><a class="entdecker-cta" href="#lexikon">Dinodex öffnen</a><a class="entdecker-cta alt" href="#forschung">Forschung lesen</a></div></div>
-      <a class="entdecker-buehne" href="#artikel" onclick="zeigeArtikel('triceratops');return false" aria-label="Triceratops-Porträt öffnen"><img src="bilder/triceratops.png" alt="Triceratops in Seitenansicht"><span class="entdecker-label">Triceratops · Kreidezeit</span></a>
+      <a id="tagesDino" class="entdecker-buehne" data-dino="triceratops" href="#artikel" onclick="zeigeArtikel(this.dataset.dino);return false" aria-label="Triceratops-Porträt öffnen"><img src="bilder/triceratops.png" alt="Triceratops in Seitenansicht"><span class="entdecker-label">Triceratops · Kreidezeit</span></a>
     </section>
     <section class="karte-kopf" id="weltkarte">
       <h2>Wo die Dinosaurier gefunden wurden</h2>
@@ -537,6 +537,36 @@ const DINOS = [
 /* ============================================================
    Ab hier: Logik der Seite (musst du nicht anpassen)
    ============================================================ */
+// Ein gemeinsamer Dino pro Kalendertag, unabhängig von der Zeitzone des Besuchers.
+// Am 03.11.2026 beginnt die Runde mit dem bisherigen Titelmotiv Triceratops.
+const tagesDinoDatum = new Intl.DateTimeFormat("en-CA", {
+  timeZone:"Europe/Berlin", year:"numeric", month:"2-digit", day:"2-digit"
+});
+function tagesDinoFuerDatum(datum=new Date()){
+  const auswahl=DINOS.filter(d=>d.bild);
+  if(!auswahl.length) return null;
+  const teile=Object.fromEntries(tagesDinoDatum.formatToParts(datum).map(t=>[t.type,t.value]));
+  const tag=Date.UTC(Number(teile.year),Number(teile.month)-1,Number(teile.day));
+  const tageSeitStart=Math.round((tag-Date.UTC(2026,10,3))/86400000);
+  const start=Math.max(0,auswahl.findIndex(d=>d.id==="triceratops"));
+  return auswahl[((start+tageSeitStart)%auswahl.length+auswahl.length)%auswahl.length];
+}
+function aktualisiereTagesDino(){
+  const d=tagesDinoFuerDatum(),buehne=document.getElementById("tagesDino");
+  if(!d||!buehne||buehne.dataset.dino===d.id) return;
+  buehne.dataset.dino=d.id;
+  buehne.setAttribute("aria-label",d.name+"-Porträt öffnen");
+  const bild=buehne.querySelector("img");
+  bild.src=d.bild;
+  bild.alt="Künstlerische Rekonstruktion: "+d.name;
+  buehne.querySelector(".entdecker-label").textContent=d.name+" · "+d.zeit+"zeit";
+}
+aktualisiereTagesDino();
+// Auch ein offen gebliebener oder später wieder aktivierter Tab wechselt mit.
+setInterval(aktualisiereTagesDino,60000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)aktualisiereTagesDino()});
+window.addEventListener("pageshow",aktualisiereTagesDino);
+
 const FARBEN = {Trias:"var(--trias)", Jura:"var(--jura)", Kreide:"var(--kreide)"};
 const HEXFARBEN = {Trias:"#C87F52", Jura:"#8FAE7E", Kreide:"#8AA7C4"};
 
