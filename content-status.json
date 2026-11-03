@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-03T16:25:03.286773+00:00",
+  "updated": "2026-11-03T16:32:04.272357+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "a24c79c990baf892ac09b02d90a27906",
+      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+      "title": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-03T16:32:04.270545+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "dac9a8f10d90cd4c9a47f848c4be58c5",
       "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
@@ -142,19 +155,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-01T11:37:59.318841+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "a24c79c990baf892ac09b02d90a27906",
-      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
-      "title": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-01T11:37:59.256153+00:00",
       "sources": [],
       "score": null,
       "script": null,
