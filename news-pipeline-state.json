@@ -11,7 +11,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
@@ -20,7 +20,49 @@
         "reason": "Paja-Biota: Plesiosaurier und marine Krokodilverwandte sind zentraler Bestandteil des untersuchten Ökosystems; Originalmeldung geprüft."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "article:ValueError:Artikellänge/Gliederung unzureichend",
+      "draft": {
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Die Quelle behandelt zentral ein fossiles Meeresökosystem der Frühen Kreide mit marinen Reptilien als Schlüsselfossilien. Langhals-Plesiosauren und marine Krokodilvervandte bilden die Kernfauna und sind Gegenstand einer paläontologischen Studie zur evolutionären Transition. Dies entspricht der Policy für Meeresreptilien mit direktem wissenschaftlichen Fokus.",
+        "article": {
+          "titel": "Die Paja-Formation: Ein Fenster in die Evolution der Meeresreptilien der Frühen Kreide",
+          "untertitel": "Kolumbiens Fossillagerstätte zeigt außergewöhnliche Vielfalt und ökologische Komplexität einer kreidezeitlichen Meeresgemeinschaft",
+          "abschnitte": [
+            {
+              "titel": "Das Ökosystem der Paja-Formation",
+              "absatz": [
+                "Die Paja-Formation in der Nähe von Villa de Leyva in Zentralkolumbien bewahrt eines der außergewöhnlichsten marinen Fossilökosysteme der Erdgeschichte.[[S1]] Das System dokumentiert die Fauna der Frühen Kreide und enthält eine bemerkenswerte Konzentration großer mariner Reptilien, darunter langhalsige Plesiosauren und fossile Verwandte moderner Krokodile.[[S1]] Diese Tiere besiedelten ein komplexes Ökosystem, das von einer reichen Fauna von Schildkröten, Haien und Krebstieren ergänzt wurde.[[S1]] Die Gesamtzusammensetzung dieser Artengemeinschaft, bekannt als Paja-Biota, wird als eine der ökologisch komplexesten marinen Gemeinschaften betrachtet, die sich je entwickelt haben.[[S1]]"
+              ]
+            },
+            {
+              "titel": "Umweltbedingungen und das Konzept der \"Biotic Inflection\"",
+              "absatz": [
+                "Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben in der Paja-Formation ein neues Muster evolutionärer Übergänge identifiziert, das sie als \"Biotic Inflection\" bezeichnen.[[S1]] Dieses Konzept beschreibt eine zeitliche Phase, in der viele Evolutionslinien am Rande des Aussterbens mit neu entstehenden Gruppen koexistierten, die sich später diversifizierten.[[S1]] Die Forscher vermuten, dass die extreme Biodiversität und die biologische Transition in dieser Formation durch ein seltenes Zusammentreffen von Umweltfaktoren begünstigt wurden.[[S1]] Zu diesen Faktoren zählten Treibhausbedingungen, hohe Meeresspiegel, nährstoffreiche Küstengewässer und neue Meeresverbindungen zwischen dem östlichen Pazifik und dem frühen Atlantik durch die Region des heutigen Kolumbien.[[S1]] Diese Bedingungen ähneln nach Ansicht der Forscher vielen der Faktoren, die heute Biodiversität fördern."
+              ]
+            },
+            {
+              "titel": "Nahrungsnetzwerk und ökologische Komplexität",
+              "absatz": [
+                "Ein Merkmal der Paja-Biota war ihr außergewöhnlich komplexes Nahrungsnetzwerk mit hoher Diversität von Spitzenprädatoren.[[S1]] In einer früheren Studie hatten die Forscher bereits das Nahrungsnetzwerk dieser marinen Gemeinschaft modelliert und festgestellt, dass es zu den komplexesten zählte, die sich jemals entwickelt haben.[[S1]] Die dominanten marinen Reptilien, besonders die großen Plesiosauren, nahmen in diesem Ökosystem Positionen als Apex-Rauber ein.[[S1]] Diese hohe trophische Komplexität deutet auf ein stabiles und in sich differenziertes System hin, in dem sich spezialisierte Rollen über mehrere trophische Ebenen ausbildeten."
+              ]
+            },
+            {
+              "titel": "Forschungsfortschritt und offene Fragen",
+              "absatz": [
+                "Die Studie wurde in der Zeitschrift Frontiers in Ecology and Evolution veröffentlicht.[[S1]] Um das Konzept der Biotic Inflection zu validieren und deren globale Verbreitung zu untersuchen, sind nach Aussage der Forscher weitere Untersuchungen notwendig.[[S1]] Erforderlich sind zusätzliche Fossilproben, präzisere Altersbestimmungen und Vergleiche mit Fossillagerstätten an anderen Orten der Welt.[[S1]] Die Forschergruppe kündigte an, untersuchen zu wollen, wie verbreitet dieses Muster der Biodiversitätsveränderung in der Erdgeschichte war und wann ähnliche Ereignisse möglicherweise an anderen Lokalitäten auftraten.[[S1]] Die Paja-Formation bleibt damit ein zentraler Untersuchungsgegenstand für das Verständnis evolutionärer Übergänge in marinen Systemen der Mesozoikums."
+              ]
+            }
+          ]
+        }
+      },
+      "source_metadata": {
+        "id": "S1",
+        "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+        "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
+        "date": "2026-10-30",
+        "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"
+      }
     },
     {
       "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
@@ -32,7 +74,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
@@ -41,7 +83,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -53,7 +95,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-28",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -62,7 +104,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:JSONDecodeError:Expecting ',' delimiter: line 17 column 37 (char 1888)"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -74,7 +116,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -83,7 +125,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -95,7 +137,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -104,7 +146,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -116,7 +158,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-12",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -125,7 +167,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -137,7 +179,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-09",
       "decision": {
         "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -146,7 +188,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -158,7 +200,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -167,7 +209,7 @@
         "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -179,7 +221,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -188,7 +230,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -200,7 +242,7 @@
         "news_datum": "2026-10-31"
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-10-01",
       "decision": {
         "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -209,7 +251,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -221,7 +263,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-09-27",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -230,7 +272,7 @@
         "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -242,7 +284,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-09-25",
       "decision": {
         "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -251,7 +293,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -263,7 +305,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-09-23",
       "decision": {
         "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -272,7 +314,7 @@
         "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -284,7 +326,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-09-22",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -293,7 +335,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -305,7 +347,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-09-19",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -314,7 +356,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
@@ -326,7 +368,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-09-18",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
@@ -335,7 +377,7 @@
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261031221153.htm",
@@ -827,7 +869,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +878,7 @@
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:HTTPError"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.spektrum.de/kolumne/schlichting-die-kugel-fest-im-griff/2342507",
@@ -902,7 +944,7 @@
   "last_run": {
     "date": "2026-11-03",
     "ready": 0,
-    "excluded": 27,
+    "excluded": 0,
     "pending": 17
   }
 }
