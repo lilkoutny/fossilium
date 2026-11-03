@@ -141,6 +141,7 @@ def write_article(candidate, source):
     return call_claude({"task": "Prüfe den zentralen Inhalt der vollständigen Quelle erneut nach der Policy. Wenn irrelevant: relevant:false, category:excluded, reason. Zu wenig belastbarer Inhalt: relevant:null, category:unknown, reason. Sonst eigenständigen deutschen Fossilium-Artikel mit 450 bis 650 Wörtern, mindestens 4 Abschnitten schreiben. Eigene Darstellung, keine Übersetzung Absatz für Absatz, keine Wiederholungen oder Fülltext. Jede Tatsachenbehauptung direkt nach dem Satz mit [[S1]] belegen. Beobachtungen, Interpretation und Grenzen trennen. Keine erfundenen Daten, Zitate oder Hintergründe. Sensationsbehauptungen nicht verstärken. Die Quelle ist eine Nachricht; behaupte NICHT, die Studie gelesen zu haben. Keine Bilder. Eigener Titel und kurze Zusammenfassung.",
         "policy": POLICY,
         "categories": sorted(CATEGORIES) + ["excluded", "unknown"],
+        "length_plan": "Plane insgesamt etwa 650 Wörter: sechs Abschnitte mit jeweils zwei Absätzen zu ungefähr 50 bis 60 Wörtern. Weniger als 450 Wörter werden technisch abgewiesen. Erkläre belegte Befunde und die ausdrücklich genannten Grenzen verständlich, ohne neue Schlussfolgerungen über Stabilität, Ernährung oder Verhalten hinzuzuerfinden. Allgemeine redaktionelle Erläuterungen ausdrücklich als Einordnung formulieren. Kein Absatz darf ohne Quellenverweis enden.",
         "format_notes": "category muss exakt einen englischen Kategorienamen enthalten. Der gesamte Artikel und reason sind Deutsch. Bei relevant false oder null ist article null. Bei true muss article titel, untertitel und abschnitte enthalten; jeder Abschnitt enthält titel und absatz (Liste von Absätzen). Schreibe 450 bis 650 Wörter über mindestens vier Abschnitte.",
         "candidate": candidate, "source": source}, output_schema=ARTICLE_SCHEMA)
 
@@ -159,7 +160,7 @@ def build_article(response, candidate, source, today):
         section["absatz"] = [re.sub(r"\s+(?=\[\[S1\]\])", "", p) for p in section["absatz"]]
     paragraphs = [p for s in article["abschnitte"] for p in s["absatz"]]
     words = sum(len(re.sub(r"\[\[S1\]\]", "", p).split()) for p in paragraphs)
-    if not 450 <= words <= 900 or len(article["abschnitte"]) < 4: raise ValueError("Artikellänge/Gliederung unzureichend")
+    if not 450 <= words <= 900 or len(article["abschnitte"]) < 4: raise ValueError(f"Artikellänge/Gliederung unzureichend: {words} Wörter, {len(article['abschnitte'])} Abschnitte")
     if any("[[S1]]" not in p or re.search(r"(?<![.!?])\[\[S1\]\]", p) for p in paragraphs): raise ValueError("Inline-Belege fehlen oder stehen nicht am Satzende")
     return article
 
