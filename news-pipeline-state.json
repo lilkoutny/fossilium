@@ -11,14 +11,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
         "relevant": true,
         "category": "marine_reptile",
         "reason": "Paja-Biota: Plesiosaurier und marine Krokodilverwandte sind zentraler Bestandteil des untersuchten Ökosystems; Originalmeldung geprüft."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
@@ -30,14 +32,16 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -49,14 +53,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-28",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:JSONDecodeError:Expecting ',' delimiter: line 17 column 37 (char 1888)"
     },
     {
       "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -68,14 +74,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -87,14 +95,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -106,14 +116,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-12",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -125,14 +137,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-09",
       "decision": {
         "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -144,14 +158,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
         "relevant": true,
         "category": "marine_reptile",
         "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -163,14 +179,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -182,14 +200,16 @@
         "news_datum": "2026-10-31"
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-10-01",
       "decision": {
         "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -201,14 +221,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-09-27",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
         "relevant": true,
         "category": "marine_reptile",
         "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -220,14 +242,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-09-25",
       "decision": {
         "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -239,14 +263,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-09-23",
       "decision": {
         "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
         "relevant": true,
         "category": "marine_reptile",
         "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -258,14 +284,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-09-22",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -277,14 +305,16 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-09-19",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
@@ -296,14 +326,583 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 0,
+      "attempts": 1,
       "first_seen": "2026-09-18",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
         "relevant": true,
         "category": "dinosaur",
         "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
-      }
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:ValueError:Keine bestätigte Artikelrelevanz"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221153.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "30,000-year-old DNA reveals Ice Age Europeans were far more connected than we thought",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261031221153.htm",
+        "text": "Scientists have uncovered surprising DNA evidence that Europeans living more than 30,000 years ago were connected across vast distances, challenging the idea that ancient populations remained largely isolated. Genetic clues from human remains and cave sediments reveal prehistoric migration, long-lasting communities, and survival through the harshest conditions of the Ice Age.",
+        "news_datum": "2026-11-02"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/10/261031221153.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt prähistorische menschliche Genetik und Migration. Keine Verbindung zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/auch-ohne-leben-koennte-die-erde-milliarden-jahre-bewohnbar-bleiben",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Auch ohne Leben könnte die Erde Milliarden Jahre bewohnbar bleiben",
+        "url": "https://www.scinexx.de/news/kosmos/auch-ohne-leben-koennte-die-erde-milliarden-jahre-bewohnbar-bleiben",
+        "text": "Verwitterung entzieht der Atmosphäre CO₂ und wirkt als langfristiger Klimaregler",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/auch-ohne-leben-koennte-die-erde-milliarden-jahre-bewohnbar-bleiben",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt planetare Geologie und Klimawissenschaft. Keine Verbindung zu den definierten Themengebieten."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/eis-in-polaren-marskratern-veraendert-sich-von-jahr-zu-jahr",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Eis in polaren Marskratern verändert sich von Jahr zu Jahr",
+        "url": "https://www.scinexx.de/news/kosmos/eis-in-polaren-marskratern-veraendert-sich-von-jahr-zu-jahr",
+        "text": "32 von 36 untersuchten Kraterstandorten zeigten Zu- oder Abnahmen der hellen Eisflächen",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/eis-in-polaren-marskratern-veraendert-sich-von-jahr-zu-jahr",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Marsgeologie. Keine Verbindung zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/kleinsatellit-uebertraegt-daten-per-laser-zur-erde",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Kleinsatellit überträgt Daten per Laser zur Erde",
+        "url": "https://www.scinexx.de/news/technik/kleinsatellit-uebertraegt-daten-per-laser-zur-erde",
+        "text": "Griechischer CubeSat erreicht ein Gigabit pro Sekunde",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/kleinsatellit-uebertraegt-daten-per-laser-zur-erde",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Satelitentechnologie. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/quanten-ki-klassifiziert-lungenkrebs-daten-mit-hoher-genauigkeit",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Quanten-KI klassifiziert Lungenkrebs-Daten mit hoher Genauigkeit",
+        "url": "https://www.scinexx.de/news/medizin/quanten-ki-klassifiziert-lungenkrebs-daten-mit-hoher-genauigkeit",
+        "text": "Zehn Merkmale wie Rauchen, Husten und Brustschmerzen flossen in die Modelle ein",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/quanten-ki-klassifiziert-lungenkrebs-daten-mit-hoher-genauigkeit",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt medizinische KI-Anwendungen. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/ryugu-uebersehener-stoff-des-asteroiden-koennte-urspruengliche-chemie-bewahrt-haben",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Ryugu: Übersehener Stoff des Asteroiden könnte ursprüngliche Chemie bewahrt haben",
+        "url": "https://www.scinexx.de/news/kosmos/ryugu-uebersehener-stoff-des-asteroiden-koennte-urspruengliche-chemie-bewahrt-haben",
+        "text": "Der zusätzliche Bestandteil ähnelt einem Magnesiumsilikat-Hydrat mit wenig Kristallordnung",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/ryugu-uebersehener-stoff-des-asteroiden-koennte-urspruengliche-chemie-bewahrt-haben",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Asteroidenchemie. Keine Verbindung zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/steinzeitmenschen-brauchten-mehr-als-wasser-um-arabiens-wueste-zu-besiedeln",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Steinzeitmenschen brauchten mehr als Wasser, um Arabiens Wüste zu besiedeln",
+        "url": "https://www.scinexx.de/news/archaeologie/steinzeitmenschen-brauchten-mehr-als-wasser-um-arabiens-wueste-zu-besiedeln",
+        "text": "Im zentralen Wüsteninneren fanden sich trotz alter Seen keine bearbeiteten Steine",
+        "news_datum": "2026-11-02"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/steinzeitmenschen-brauchten-mehr-als-wasser-um-arabiens-wueste-zu-besiedeln",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt prähistorische menschliche Besiedlung. Keine Verbindung zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/intelligentes-fenster-schirmt-sonnenstrahlung-mit-reflektierender-silberschicht-ab",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Intelligentes Fenster schirmt Sonnenstrahlung mit reflektierender Silberschicht ab",
+        "url": "https://www.scinexx.de/news/technik/intelligentes-fenster-schirmt-sonnenstrahlung-mit-reflektierender-silberschicht-ab",
+        "text": "Elektrisch abgeschiedenes Silber schaltet die Scheibe zwischen transparent und reflektierend um",
+        "news_datum": "2026-11-02"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/intelligentes-fenster-schirmt-sonnenstrahlung-mit-reflektierender-silberschicht-ab",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Materialwissenschaft und Fenstertech. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ki-sprachmodelle-ist-die-zeit-des-aufwendigen-ki-trainings-vorbei/2352465",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sprachmodelle optimieren Sprachmodelle: KI entschlüsselt die Blackbox der künstlichen Intelligenz",
+        "url": "https://www.spektrum.de/news/ki-sprachmodelle-ist-die-zeit-des-aufwendigen-ki-trainings-vorbei/2352465",
+        "text": "Das Innere neuronaler Netze gilt als kaum durchschaubar. Doch Sprachmodelle können es verstehen und sogar verbessern. Das macht die KI-Entwicklung womöglich ressourcenschonender.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ki-sprachmodelle-ist-die-zeit-des-aufwendigen-ki-trainings-vorbei/2352465",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt künstliche Intelligenz und Sprachmodelle. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/sabotage-im-supermarkt-was-hinter-den-cyberangriffen-steckt/2352523",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sabotage im Supermarkt: Was hinter den Cyberangriffen auf Kühlanlagen steckt",
+        "url": "https://www.spektrum.de/news/sabotage-im-supermarkt-was-hinter-den-cyberangriffen-steckt/2352523",
+        "text": "In Supermärkten wurden Kühlanlagen aus der Ferne in den Heizmodus geschaltet – Lebensmittel verdarben, teils kam es zu Schwelbränden. Wie konnten die Angreifer eindringen?",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/sabotage-im-supermarkt-was-hinter-den-cyberangriffen-steckt/2352523",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Cybersicherheit. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/existenzielle-therapie-sinnsuche-in-schweren-zeiten/2318680",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Existenzielle Psychotherapie: Wozu das alles? Sinnsuche in schweren Zeiten",
+        "url": "https://www.spektrum.de/news/existenzielle-therapie-sinnsuche-in-schweren-zeiten/2318680",
+        "text": "Lebenskrisen stellen uns vor grundsätzliche Fragen: Wer bin ich? Was ist mir wichtig? Existenzielle und sinnzentrierte Therapien helfen, den Blick auf das Wesentliche zu richten.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/existenzielle-therapie-sinnsuche-in-schweren-zeiten/2318680",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Psychotherapie. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gravitative-rekonnexion-wenn-die-raumzeit-zerbricht/2351917",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Gravitative Rekonnexion: Wenn die Raumzeit zerbricht",
+        "url": "https://www.spektrum.de/news/gravitative-rekonnexion-wenn-die-raumzeit-zerbricht/2351917",
+        "text": "Felder der Schwerkraft können unter extremen Bedingungen zerreißen und sich neu zusammenschließen. Die Vorgänge ähneln Magnetfeld-Abschnürungen bei Eruptionen auf der Sonne.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gravitative-rekonnexion-wenn-die-raumzeit-zerbricht/2351917",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Gravitationsphysik und Astrophysik. Keine Verbindung zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/homosexualitaet-im-tierreich-raetselhafter-sex-zwischen-bulle-und-esel/2352447",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ungewöhnliches Paar: Forscher rätseln über Sex zwischen Bulle und Esel",
+        "url": "https://www.spektrum.de/news/homosexualitaet-im-tierreich-raetselhafter-sex-zwischen-bulle-und-esel/2352447",
+        "text": "Homosexualität ist im Tierreich weitverbreitet. Doch nun entdeckte ein Team aus Italien eine artübergreifende Beziehung zwischen dem Bullen Achille und dem Esel Patroclo.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/homosexualitaet-im-tierreich-raetselhafter-sex-zwischen-bulle-und-esel/2352447",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt modernes Tierverhalten bei rezenten Säugetieren. Keine Relevanz für ausgestorbene Reptilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/mit-diesen-drogen-schickten-die-inka-kinder-in-den-opfertod/2352365",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Capacocha-Ritual: Mit diesen Drogen schickten die Inka Kinder in den Opfertod",
+        "url": "https://www.spektrum.de/news/mit-diesen-drogen-schickten-die-inka-kinder-in-den-opfertod/2352365",
+        "text": "Mumien aus Peru und Argentinien bezeugen, dass die Inka Kinder opferten – und ihnen dazu berauschende Substanzen verabreichten. Was genau, haben Fachleute nun untersucht.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/mit-diesen-drogen-schickten-die-inka-kinder-in-den-opfertod/2352365",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Archäologie und antike Riten. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gute-freunde-schlechte-freunde-die-stille-bilanz/2352356",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Kontaktabbruch: Die stille Buchführung in Freundschaften",
+        "url": "https://www.spektrum.de/news/gute-freunde-schlechte-freunde-die-stille-bilanz/2352356",
+        "text": "Es gibt Freunde, die auch gerne nachts um drei anrufen dürfen. Und jene, bei denen man insgeheim hofft, dass sie sich gar nicht mehr melden. Was macht den Unterschied?",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gute-freunde-schlechte-freunde-die-stille-bilanz/2352356",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Psychologie und Sozialverhalten. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-quantenverschraenkung/2352321",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Quantenverschränkung – Experimente zu Einsteins spukhafter Fernwirkung",
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-quantenverschraenkung/2352321",
+        "text": "Die Quantenphysik zeigt, dass Messungen an verschränkten Teilchen Korrelationen hervorbringen, die sich nicht durch gewöhnliche klassische Vorstellungen beschreiben lassen.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-quantenverschraenkung/2352321",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Quantenphysik. Keine Verbindung zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gehirn-entsorgt-rund-um-geburt-milliarden-nervenzellen/2351820",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hirnentwicklung: Das Gehirn entsorgt vor der Geburt Milliarden Nervenzellen",
+        "url": "https://www.spektrum.de/news/gehirn-entsorgt-rund-um-geburt-milliarden-nervenzellen/2351820",
+        "text": "Das Gehirn räumt vor der Geburt offenbar gründlicher auf als bislang angenommen. Dabei verschwinden unzählige Neurone mit Chromosomenveränderungen.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gehirn-entsorgt-rund-um-geburt-milliarden-nervenzellen/2351820",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt moderne Neuronale Entwicklung. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-naturtalente/2352268",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "So wertvoll sind Baum, Biene und Biber",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-naturtalente/2352268",
+        "text": "Ideen für dünne Spritzen, Schleim für die Wundheilung oder ein Archiv von Umweltdaten – Esther Gonstalla illustriert kreativ, was die Natur Wertvolles leistet. Eine Rezension",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-naturtalente/2352268",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt moderne Naturphänomene und Biomimikry. Keine Verbindung zu ausgestorbenen Organismen."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/quantenkommunikation-erste-schritte-zum-quanteninternet/2028205",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Nichtlokalität: Erste Schritte zum Quanteninternet",
+        "url": "https://www.spektrum.de/news/quantenkommunikation-erste-schritte-zum-quanteninternet/2028205",
+        "text": "Verschränkte Quantenteilchen können sich über große Distanzen beeinflussen. Solche Phänomene sind der Schlüssel zum Aufbau eines hochsicheren Quanteninternets.",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/quantenkommunikation-erste-schritte-zum-quanteninternet/2028205",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Quantentechnologie. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-entsteht-hier-eine-spiegelsymmetrische-figur/2340887",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilden Sie aus diesen vier Formen eine spiegelsymmetrische Figur",
+        "url": "https://www.spektrum.de/raetsel/wie-entsteht-hier-eine-spiegelsymmetrische-figur/2340887",
+        "text": "Wie kann aus vier Pentiamanten eine spiegelsymmetrische Figur gebildet werden?",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-entsteht-hier-eine-spiegelsymmetrische-figur/2340887",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt mathematische Rätsel. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sternengeschichten-sternengeschichten-spezial-oktober-2026/2352312",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sternengeschichten Spezial Oktober 2026",
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-sternengeschichten-spezial-oktober-2026/2352312",
+        "text": "Eine Geschichte von einem toten Stern, der grün leuchtet, was Sterne eigentlich gar nicht tun sollten. 🎙️",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-sternengeschichten-spezial-oktober-2026/2352312",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie/Sternenkunde – kein Bezug zu Dinosauriern, Fossilien oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sprind-optogenetik/2352309",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Optogenetik",
+        "url": "https://www.spektrum.de/podcast/sprind-optogenetik/2352309",
+        "text": "Was Optogenetik ist und wie der Medizinnobelpreis dafür dem gesamten Innovationsfeld hilft, darüber spricht der Host Thomas Ramge mit Daniel Keppeler. 🎙️",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sprind-optogenetik/2352309",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin/Biotechnologie – kein Bezug zur Paläontologie oder Fossilforschung."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/eigenraum-natuerliche-intelligenz-mit-johannes/2352306",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Natürliche Intelligenz",
+        "url": "https://www.spektrum.de/podcast/eigenraum-natuerliche-intelligenz-mit-johannes/2352306",
+        "text": "In dieser Folge des Podcasts »Eigenraum« geht es alles um das aktuell heiße Eisen KI. 🎙️",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/eigenraum-natuerliche-intelligenz-mit-johannes/2352306",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Künstliche Intelligenz/Informatik – kein Bezug zu Dinosauriern oder Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/behind-science-die-muskulatur-der-seele/2352302",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Moshé Feldenkrais: Die Muskulatur der Seele",
+        "url": "https://www.spektrum.de/podcast/behind-science-die-muskulatur-der-seele/2352302",
+        "text": "Was hinter der Feldenkrais-Methode steckt, und was die Wissenschaft über ihre Wirksamkeit sagt, darum geht es in der Folge des Podcasts »Behind Science«. 🎙️",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/behind-science-die-muskulatur-der-seele/2352302",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Sportwissenschaft/Somatische Methode – kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Versteinerte Zellen:  Dinosaurierknochen enthält noch Blutspuren",
+        "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
+        "text": "Immer wieder finden Fachleute seltsame Strukturen in Dinosaurierknochen. Eine chemische Analyse zeigt nun, dass es sich wahrscheinlich um rote Blutkörperchen handelt.",
+        "news_datum": "2026-11-02"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
+      },
+      "last_attempt": "2026-11-03",
+      "error": "article:HTTPError"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/schlichting-die-kugel-fest-im-griff/2342507",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Schlichting!: Die Kugel fest im Griff",
+        "url": "https://www.spektrum.de/kolumne/schlichting-die-kugel-fest-im-griff/2342507",
+        "text": "Eine gläserne Weihnachtsbaumkugel ist erstaunlich stabil gegen allseitig ausgeübten Druck. Das kann zu kuriosen Phänomenen führen.",
+        "news_datum": "2026-11-02"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/schlichting-die-kugel-fest-im-griff/2342507",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Physik/Materialwissenschaft – kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/als-sos-zum-internationalen-notruf-auf-see-wurde/2352299",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vor 120 Jahren: Als SOS zum internationalen Notruf wurde",
+        "url": "https://www.spektrum.de/news/als-sos-zum-internationalen-notruf-auf-see-wurde/2352299",
+        "text": "Am 3. November 1906 wurde SOS als internationaler Seenotruf vereinbart. Warum setzte sich ausgerechnet dieses Signal durch?",
+        "news_datum": "2026-11-02"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/als-sos-zum-internationalen-notruf-auf-see-wurde/2352299",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Technikgeschichte/Maritime Geschichte – kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ein-jahr-simulierter-marsflug-nasa-experiment-beendet/2352245",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "12 Monate, 4 Menschen, 160 Quadratmeter: Ein Jahr simulierter Marsflug: NASA-Experiment beendet",
+        "url": "https://www.spektrum.de/news/ein-jahr-simulierter-marsflug-nasa-experiment-beendet/2352245",
+        "text": "Nach zwölf Monaten auf fensterlosen 160 Quadratmetern kehren vier Freiwillige von einer Mars-Simulation der US-Raumfahrtbehörde zurück. Was haben sie erlebt?",
+        "news_datum": "2026-11-02"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-03",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ein-jahr-simulierter-marsflug-nasa-experiment-beendet/2352245",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrt/Astronautik – kein Bezug zu Dinosauriern oder Paläontologie."
+      },
+      "last_attempt": "2026-11-03"
     }
-  ]
+  ],
+  "last_run": {
+    "date": "2026-11-03",
+    "ready": 0,
+    "excluded": 27,
+    "pending": 17
+  }
 }
