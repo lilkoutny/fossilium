@@ -26,9 +26,8 @@ const server=http.createServer((req,res)=>{
    const response=await page.goto(base+a.pfad);assert.equal(response.status(),200);await page.reload();
    assert.equal(await page.locator('h1').innerText(),a.titel);
    assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://fossilium.org'+a.pfad);
-   const expectedSourceCount=data.quellen.length;
-   assert.equal(await page.locator('.quellen a').count(),expectedSourceCount);
    const data=articles.find(x=>'/publikationen/'+x.slug+'/'===a.pfad);
+   assert.equal(await page.locator('.quellen li a').count(),data.quellen.length);
    const refs=data.abschnitte.flatMap(s=>s.absatz.flatMap(p=>[...p.matchAll(/\[\[(S[1-9][0-9]*)\]\]/g)].map(m=>m[1])));
    assert.equal(await page.locator('.quellenverweis').count(),refs.length);
    assert.equal(await page.locator('article > section:not(.quellen) small').count(),0);

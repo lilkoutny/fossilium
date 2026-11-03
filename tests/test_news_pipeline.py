@@ -79,14 +79,17 @@ class PipelineIntegration(unittest.TestCase):
         never=Mock(side_effect=AssertionError('unexpected paid or network call'))
         p.run([{**c,'url':c['url']+'/?utm_source=test#x'}],root=self.root,classifier=never,fetcher=never,article_writer=never)
         never.assert_not_called()
-    def test_article_request_uses_enforced_enum_schema(self):
+    def test_full_source_review_uses_schema_and_article_prose_is_parsed_locally(self):
         c=self.candidates(1)[0]
-        response=Mock()
-        response.json.return_value={'stop_reason':'end_turn','content':[{'type':'text','text':json.dumps(self.writer(c,self.fetch(c)))}]}
-        with patch.dict(p.os.environ,{'ANTHROPIC_API_KEY':'test'}), patch.object(p.requests,'post',return_value=response) as post:
+        decision=Mock(); prose=Mock()
+        decision.json.return_value={'stop_reason':'end_turn','content':[{'type':'text','text':json.dumps(self.classifier([c]))}]}
+        prose.json.return_value={'stop_reason':'end_turn','content':[{'type':'text','text':'# Ein neuer Fund\n\nEigene Zusammenfassung.\n\n## Befund\n\nEr wird als "neu" beschrieben. [[S1]]\n\n## Grenzen\n\nWeiter offen. [[S1]]'}]}
+        with patch.dict(p.os.environ,{'ANTHROPIC_API_KEY':'test'}), patch.object(p.requests,'post',side_effect=[decision,prose]) as post:
             data=p.write_article(c,self.fetch(c))
-        schema=post.call_args.kwargs['json']['output_config']['format']['schema']
-        self.assertEqual(set(schema['properties']['category']['enum']),p.CATEGORIES|{'excluded','unknown'})
+        schema=post.call_args_list[0].kwargs['json']['output_config']['format']['schema']
+        self.assertEqual(set(schema['properties']['decisions']['items']['properties']['category']['enum']),p.CATEGORIES|{'excluded','unknown'})
+        self.assertNotIn('output_config',post.call_args_list[1].kwargs['json'])
+        self.assertEqual(data['article']['abschnitte'][0]['absatz'],['Er wird als "neu" beschrieben. [[S1]]'])
         self.assertTrue(data['relevant'])
     def test_manual_probe_defers_without_losing_remaining_items(self):
         result=p.run(self.candidates(3),root=self.root,classifier=self.classifier,fetcher=self.fetch,article_writer=self.writer,max_articles=1)
