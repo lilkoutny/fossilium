@@ -330,6 +330,13 @@
   .karte-dino:hover{transform:none}
   .entdecker-kicker{color:#9f442f}.news-karte time{color:#4a5b61}.news-archiv .news-publikation{color:#a54832}.news-archiv .news-publikation:hover,.news-archiv .news-publikation:focus-visible{color:#fff}.zeit-band{color:#000}
   @media (prefers-reduced-motion:reduce){.karte-dino:hover{transform:none}}
+  .bild-oeffner{position:relative}
+  .bild-oeffner img,.entdecker-buehne img{transition:opacity .16s ease}
+  .bild-oeffner::after,.entdecker-buehne::after{content:"";position:absolute;inset:10px;background:var(--portraet-bild,none) center/contain no-repeat;opacity:0;pointer-events:none;transition:opacity .16s ease}
+  .entdecker-buehne::after{inset:20px 20px 82px}
+  .zeigt-portraet>img{opacity:0}
+  .zeigt-portraet::after{opacity:1}
+  @media(prefers-reduced-motion:reduce){.bild-oeffner img,.entdecker-buehne img,.bild-oeffner::after,.entdecker-buehne::after{transition:none}}
 </style>
 </head>
 <body>
@@ -349,7 +356,7 @@
   <div id="start">
     <section class="entdecker-hero" aria-labelledby="entdeckerTitel">
       <div><div class="entdecker-kicker">Fossilium · Feldnotizen</div><h1 id="entdeckerTitel">Urzeit.<br>Ganz nah.</h1><p>Dinosaurier, Fundorte und neue Forschung – verständlich erzählt und direkt auf der Karte entdeckt.</p><div class="entdecker-ctas"><a class="entdecker-cta" href="#lexikon">Dinodex öffnen</a><a class="entdecker-cta alt" href="#forschung">Forschung lesen</a></div></div>
-      <a id="tagesDino" class="entdecker-buehne" data-dino="triceratops" href="#artikel" onclick="zeigeArtikel(this.dataset.dino);return false" aria-label="Triceratops-Porträt öffnen"><img src="bilder/triceratops.png" alt="Triceratops in Seitenansicht"><span class="entdecker-label">Triceratops · Kreidezeit</span></a>
+      <a id="tagesDino" class="entdecker-buehne" data-dino="triceratops" data-portrait="bilder/portraits/triceratops.png" href="#artikel" onclick="zeigeArtikel(this.dataset.dino);return false" aria-label="Triceratops-Porträt öffnen"><img src="bilder/triceratops.png" alt="Künstlerische Rekonstruktion: Triceratops"><span class="entdecker-label">Triceratops · Kreidezeit</span></a>
     </section>
     <section class="karte-kopf" id="weltkarte">
       <h2>Wo die Dinosaurier gefunden wurden</h2>
@@ -539,6 +546,9 @@ const DINOS = [
    ============================================================ */
 // Ein gemeinsamer Dino pro Kalendertag, unabhängig von der Zeitzone des Besuchers.
 // Am 03.11.2026 beginnt die Runde mit dem bisherigen Titelmotiv Triceratops.
+const PORTRAITS = {majungasaurus:"bilder/portraits/majungasaurus.png",triceratops:"bilder/portraits/triceratops.png",yutyrannus:"bilder/portraits/yutyrannus.png"};
+const portraetLadungen = new Map();
+function portraitFor(d){return PORTRAITS[d.id] || "";}
 const tagesDinoDatum = new Intl.DateTimeFormat("en-CA", {
   timeZone:"Europe/Berlin", year:"numeric", month:"2-digit", day:"2-digit"
 });
@@ -557,7 +567,12 @@ function aktualisiereTagesDino(){
   buehne.dataset.dino=d.id;
   buehne.setAttribute("aria-label",d.name+"-Porträt öffnen");
   const bild=buehne.querySelector("img");
+  const warHover=buehne.dataset.portraitHovered==="true";
+  portraitHover(buehne,false);
   bild.src=d.bild;
+  buehne.dataset.portrait=portraitFor(d);
+  buehne.style.removeProperty("--portraet-bild");
+  if(warHover) portraitHover(buehne,true);
   bild.alt="Künstlerische Rekonstruktion: "+d.name;
   buehne.querySelector(".entdecker-label").textContent=d.name+" · "+d.zeit+"zeit";
 }
@@ -576,8 +591,35 @@ const platzhalterSVG = `
     <circle cx="44" cy="24" r="1.6" fill="currentColor"/>
   </svg>`;
 
+function portraitHover(flaeche,active){
+  flaeche.dataset.portraitHovered=String(active);
+  if(!active){
+    flaeche.classList.remove("zeigt-portraet");
+    const bild=flaeche.querySelector("img");
+    if(bild&&flaeche.hasAttribute("data-bild")) flaeche.dataset.bild=bild.getAttribute("src");
+    return;
+  }
+  const portrait=flaeche.dataset.portrait;
+  if(!portrait) return;
+  if(!portraetLadungen.has(portrait)){
+    portraetLadungen.set(portrait,new Promise(resolve=>{
+      const probe=new Image();
+      probe.onload=()=>resolve(true);
+      probe.onerror=()=>resolve(false);
+      probe.src=portrait;
+    }));
+  }
+  portraetLadungen.get(portrait).then(geladen=>{
+    if(!geladen||!flaeche.isConnected||flaeche.dataset.portrait!==portrait||flaeche.dataset.portraitHovered!=="true") return;
+    flaeche.style.setProperty("--portraet-bild",`url("${portrait}")`);
+    flaeche.classList.add("zeigt-portraet");
+    if(flaeche.hasAttribute("data-bild")) flaeche.dataset.bild=portrait;
+  });
+}
+
 function bildHTML(d,zoom=false){
-  return `<div class="bild-box"><button class="bild-oeffner${zoom?' detail-bild':''}" type="button" data-bild="${d.bild}" data-bild-name="${d.name}" data-dino="${d.id}" aria-label="${zoom?'Großansicht öffnen':'Artikel öffnen'}: ${d.name}">
+  const portrait=portraitFor(d);
+  return `<div class="bild-box"><button class="bild-oeffner${zoom?' detail-bild':''}" type="button" data-bild="${d.bild}" data-portrait="${portrait}" data-bild-name="${d.name}" data-dino="${d.id}" aria-label="${zoom?'Großansicht öffnen':'Artikel öffnen'}: ${d.name}">
     <img src="${d.bild}" alt="Künstlerische Rekonstruktion: ${d.name}"
          onerror="this.parentNode.classList.add('bild-fehlt');this.remove()">
     <div class="platzhalter">${platzhalterSVG}<span>Bild nicht verfügbar:<br><code>${d.bild}</code></span></div></button>
@@ -721,6 +763,16 @@ function zeigeStart(zurueck=false){
 /* ---------- Start ---------- */
 baueKarte();
 baueRaster();
+document.addEventListener("pointerover",e=>{
+  if(e.pointerType!=="mouse") return;
+  const flaeche=e.target.closest(".bild-oeffner[data-portrait],#tagesDino[data-portrait]");
+  if(flaeche&&!flaeche.contains(e.relatedTarget)) portraitHover(flaeche,true);
+});
+document.addEventListener("pointerout",e=>{
+  if(e.pointerType!=="mouse") return;
+  const flaeche=e.target.closest(".bild-oeffner[data-portrait],#tagesDino[data-portrait]");
+  if(flaeche&&!flaeche.contains(e.relatedTarget)) portraitHover(flaeche,false);
+});
 document.getElementById("raster").addEventListener("click",e=>{const b=e.target.closest(".bild-oeffner");if(b){e.preventDefault();zeigeArtikel(b.dataset.dino)}});
 document.getElementById("artikel").addEventListener("click",e=>{const b=e.target.closest(".bild-oeffner");if(b){e.preventDefault();oeffneBild(b.dataset.bild,b.dataset.bildName)}});
 document.getElementById("lightboxSchliessen").addEventListener("click",schliesseBild);
