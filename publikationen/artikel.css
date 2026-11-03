@@ -3,8 +3,8 @@ body,button,input{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-seri
 body,button,input,.zurueck,.kicker,.daten,.kennzahl strong,figcaption,.quellen,small,.quellenverweis{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}.nav{color:#fffaf1}.nav a,figcaption a{color:#c7e2eb}.kicker{color:#9f442f}
 
 /* Mehr Raum für längere Forschungstexte und ihre Überschriften. */
-main{max-width:1280px;padding-inline:clamp(18px,3vw,40px)}
-article{max-width:1040px;font-size:18px}
+main{max-width:1800px;padding-inline:clamp(18px,3vw,40px)}
+article{max-width:none;font-size:18px}
 h1{font-size:clamp(2.1rem,4.2vw,3.9rem);line-height:1.1;hyphens:none;overflow-wrap:normal;text-wrap:balance}
 @media(max-width:700px){h1{hyphens:auto;overflow-wrap:anywhere}}
 @media(max-width:560px){main{padding-inline:14px}article{font-size:16px}}
