@@ -53,17 +53,17 @@
         "text": "Ein Dinosaurierfossil, das einem winzigen T. rex ähnelt, wurde für den Rekordpreis von 47 Millionen Dollar verkauft und zählt nun zu den teuersten Fossilien der Welt.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-28",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Berichterstattung über Nanotyrannus, einen bestätigten eigenständigen Dinosaurier der Kreidezeit, der als entfernter Verwandter des Tyrannosaurus rex identifiziert wurde. Das Fossil und seine wissenschaftliche Einordnung bilden den Kerninhalt der Meldung."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/nanotyrannus-skelett-jodi-f-r-47-millionen-dollar-versteigert-68b90cd4d1/"
     },
     {
       "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -74,17 +74,17 @@
         "text": "Forscher haben auf der Isle of Wight ein neues Dinosaurier-Fossil gefunden, das zu einer Gruppe agiler, zweibeiniger Raubtiere namens Megaraptoren gehört. Das Tier war etwa so groß wie ein großer Tiger und stellt den ersten Fund dieser Gruppe in Europa dar.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Neuentdeckung einer neuen Dinosaurierart (Invictibellatrix amberina), eines Megaraptoren aus der Frühen Kreidezeit. Das zentrale Thema ist die Beschreibung und Analyse eines fossilen Theropoden-Dinosauriers, seiner morphologischen Merkmale, evolutionären Position und biogeographischen Bedeutung für die Dinosaurierforschung."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/invictibellatrix-amberina-erstes-europ-isches-megaraptor-fossil-a-63b222534b/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -95,17 +95,17 @@
         "text": "Ein 120 Millionen Jahre altes Fossil, das fast ein Jahrhundert lang in einem Museum lagerte, offenbart einen neuen, tigergroßen Raubdino mit gewaltigen Krallen. Der Fund liefert den ersten Nachweis von Megaraptoren in Europa und hilft zu erklären, wie diese mysteriösen Dinosaurier später zu gigantischen Jägern wurden.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Beschreibung einer neuen Dinosaurierart (Invictibellatrix amberina), eines frühen Megaraptoranen aus der Kreidezeit. Der Artikel behandelt die paläontologische Klassifizierung, Evolutionsgeschichte und Verbreitungsmuster dieser carnivoren Dinosaurier als Hauptthema. Dies fällt direkt unter Fossilium-Policy: Dinosaurier und ihre Evolution sind das zentrale Thema."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/jahrzehnte-im-museumsdepot-neues-fossil-belegt-europ-ische-megara-991e1d4b5a/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -116,17 +116,17 @@
         "text": "Ein neu identifizierter 210 Millionen Jahre alter Dinosaurier aus Simbabwe hilft Wissenschaftlern, ein überraschend eigenes prähistorisches Ökosystem zu enthüllen. Die Entdeckung deutet darauf hin, dass antike Klimaunterschiede Dinosaurierpopulationen in Südafrika voneinander isoliert haben könnten, was zu einzigartigen Arten führte.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-12",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Der Artikel behandelt zentral die Entdeckung einer neuen Dinosaurierart (Musango matusadonaensis), einen Sauropodomorphen aus der Triassic-Zeit Zimbabwes. Dies ist direkter Dinosaurierfokus mit Bedeutung für die frühe Dinosaurierevolution, nicht nur beiläufige Erwähnung."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/musango-matusadonaensis-neue-dinosaurierart-aus-simbabwe-beleucht-dc17afb5d1/"
     },
     {
       "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -137,17 +137,17 @@
         "text": "Fossile Bissspuren in der Nähe von Drumheller deuten darauf hin, dass ein kleiner Raubdinosaurus von einem Albertosaurus fraß oder ein junger Albertosaurus Kannibalismusverhalten zeigte. Die genaue Erklärung für die Spuren auf dem Fossil bleibt rätselhaft.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-09",
       "decision": {
         "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Thematik: Paläontologische Studie über Fressverhalten und Ökosystem von Dinosauriern (Dromaeosauride/Raptor und Albertosaurus/Tyrannosaure) basierend auf Fossilfunden. Direkt relevante Dinosaurierforschung mit neuen Erkenntnissen zur Nahrungskette der Kreidezeit."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/kleiner-raubdinosaurier-fra-offenbar-an-einem-apex-r-uber-oder-ei-a87d49d658/"
     },
     {
       "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -158,17 +158,17 @@
         "text": "Eine Studie der Rutgers-Universität zeigt anhand von Fossilienmodellen, dass einige der gigantischen Meeresreptilien aus dem Zeitalter der Dinosaurier durch flexible Schwänze zu schnellen Überraschungsangriffen befähigt waren, während andere Arten besser zum Verfolgen von Beute übers offene Wasser geeignet waren.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
         "relevant": true,
         "category": "marine_reptile",
-        "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
+        "reason": "Die Meldung behandelt Mosasaurier – ausgestorbene Meeresreptilien – als zentrales Thema. Untersucht wird ihre Schwanmanatomie und Jagdstrategie basierend auf Fossilienrekonstruktion. Dies entspricht vollständig der Fossilium-Policy für marine Reptilien aus der Dinosaurierzeit."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/flexible-schw-nze-verrieten-die-jagdstrategie-von-mosasauriern-0cd2d795f5/"
     },
     {
       "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -179,17 +179,17 @@
         "text": "Paläontologen haben in Zimbabwe neue Dinosaurier-Arten entdeckt, die sich von südafrikanischen Arten unterscheiden. Die Funde deuten darauf hin, dass die verschiedenen Habitate Afrikas zu einer großen Vielfalt in der prähistorischen Fauna führten.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Der Artikel behandelt zentral die frühe Dinosaurierevolution mit Fokus auf Sauropodomorphen (Musango matusadonaensis) aus der späten Trias Zimbabwes. Die Beschreibung neuer Dinosaurierarten und ihre evolutionären Unterschiede zu südafrikanischen Faunen bildet das Hauptthema."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/sauriervielfalt-am-sambesi-simbabwes-fr-he-dinosaurier-waren-kein-352fe91ba5/"
     },
     {
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -200,17 +200,17 @@
         "text": "Paläontologen haben eine neue Dinosaurierart entdeckt, die sich auf ein ungewöhnliches Nahrungsangebot spezialisiert hatte: Früchte. Der kleine Oviraptorosaur namens Infernogallus jamesis besaß spezialisierte Kaumuskeln zum Zerquetschen von weicher Nahrung und ist damit der erste bekannte Dinosaurier, der gezielt Früchte aß.",
         "news_datum": "2026-10-31"
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-10-01",
       "decision": {
         "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Thematik: Neue Dinosaurierart Infernogallus jamesis (Oviraptorosaur) aus der Kreidezeit mit detaillierter Analyse von Schädelstruktur und Ernährungsspezialisierung. Vollständige, artikulierte Fossilien sind das Hauptthema der Forschung zur Dinosaurierevolution und ökologischen Rolle."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/infernogallus-jamesi-der-fruchtkostfressende-dinosaurier-aus-der-a24c79c990/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -221,17 +221,17 @@
         "text": "Wissenschaftler haben ein 245 Millionen Jahre altes Fossil des Meeresreptils Austronaga minuta gefunden, das außergewöhnlich detailliert erhalten ist – einschließlich Magen, Leber und Darm. Die Entdeckung zeigt, dass das Tier trotz eines einfachen Verdauungssystems perfekt an das Schwimmen angepasst war.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-09-27",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
         "relevant": true,
         "category": "marine_reptile",
-        "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
+        "reason": "Die Meldung behandelt Austronaga minuta, ein ausgestorbenes Meeresreptil aus der Mitteltrias mit erhaltenen inneren Organen. Dies fällt unter die abgedeckten Themen von Fossilium: ausgestorbene Meeresreptilien sind zentral relevant. Der Fokus liegt auf der detaillierten Anatomie und Evolution dieses marinen Reptils, nicht auf beiläufigen Erwähnungen. Archosauren-Verwandte, die marine Anpassungen entwickelten, sind für das Verständnis von Reptilienevolution relevant."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/au-ergew-hnlich-erhaltenes-meeresreptil-aus-china-gibt-einblick-i-d7596a6ac5/"
     },
     {
       "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -242,17 +242,17 @@
         "text": "Fossile Dinosaurier-Zähne deuten darauf hin, dass Dinosaurier an nordamerikanischen Küsten von Stürmen angespülte Meeresalgen gefressen haben. Dieses Phänomen der \"Meeressubventionierung\" ist besonders wichtig für Landtiere in Zeiten, wenn terrestrische Ökosysteme weniger Nahrung bieten, etwa während von Dürreperioden.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-09-25",
       "decision": {
         "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Studie zur Ernährungsökologie von Dinosauriern der Kreidezeit, insbesondere herbivorer Dinosaurier an Küstenökosystemen. Untersucht Isotopensignaturen in Dinosaurierzähnen zur Rekonstruktion von Nahrungsquellen. Dies ist primär dinosaurierpaläontologische Forschung mit direktem Dinosaurierfokus."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/meeresalgen-als-nahrungsquelle-dinosaurier-an-der-k-ste-der-kreid-ec33f80881/"
     },
     {
       "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -263,17 +263,17 @@
         "text": "Eine neue Studie der Cambridge University Press deutet darauf hin, dass Plesiosaurier in Flussmündungen schwammen, um Muschelschalen und andere unverdauliche Teile ihrer Mahlzeiten auszuspeien. Dieses Verhalten ähnelt dem heutiger Seelöwen und Meerkrokodile.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-09-23",
       "decision": {
         "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
         "relevant": true,
         "category": "marine_reptile",
-        "reason": "Zentrales Thema: ausgestorbene Meeresreptilien und ihre Ökologie."
+        "reason": "Der Artikel behandelt Plesiosaurier (ausgestorbene Meeresreptilien) als Zentralthema. Die Forschung untersucht deren Verhalten, Anatomie und Ernährungsweise basierend auf fossilisierten Kotpellets aus dem Jura. Dies fällt direkt unter die Fossilium-Policy für ausgestorbene Meeresreptilien als Hauptthema."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/fossiler-speiballen-wie-plesiosaurier-ihren-verdauungsabfall-an-d-49081c54bd/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -284,17 +284,17 @@
         "text": "Eine gebrochene Rippe des T. rex namens Scotty, dem größten bekannten Exemplar dieser Art, enthält ein außergewöhnlich erhaltenes Netzwerk von Blutgefäßen aus der Heilungsphase des Dinosauriers. Wissenschaftler nutzten Neutronen- und Röntgenstrahlen-Bildgebung, um die 66 Millionen Jahre alte Knochenstruktur zu untersuchen, ohne sie zu beschädigen.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-09-22",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Studie über Scotty, einen Tyrannosaurus rex, mit Fokus auf geheilte Rippenfraktur und konservierte Blutgefäße. Dinosaurierbiologie und Fossilienforschung sind das Kernthema der Meldung."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/geheilte-rippenfraktur-aus-dem-bekanntesten-t-rex-skelett-bewahrt-e74808e109/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -305,17 +305,17 @@
         "text": "Chemische Analysen von fossilisierten T. rex-Zähnen zeigen, dass der Dinosaurier eine Körpertemperatur von etwa 36 Grad Celsius hatte – fast identisch mit der menschlichen Körpertemperatur. Dies belegt direkt, dass der Raubsaurier warmblütig war, was erklärt, wie er aktiv bleiben und in kalten Umgebungen wie Alaska überleben konnte.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-09-19",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Zentrale Forschung zur Biologie von Tyrannosaurus rex, einem klassischen Dinosaurier. Die Studie behandelt die Körpertemperatur und den Stoffwechsel von T. rex mit paleontologischen Methoden. Dies ist Kernthema der Fossilium-Policy, da es die unmittelbare Evolution und Biologie von Dinosauriern betrifft und kein beiläufiges Erwähnen darstellt."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/k-rpertemperatur-von-t-rex-erstmals-direkt-gemessen-968d461a02/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
@@ -326,17 +326,17 @@
         "text": "In Spanien wurde das Fossil eines 150 Millionen Jahre alten Diplodocus entdeckt – der erste Fund dieser Gattung außerhalb Nordamerikas. Der 25 Meter lange Sauropode war so gut erhalten, dass Forscher charakteristische Merkmale in seinen Schwanzwirbeln dem bekannten Genus zuordnen konnten. Der Fund deutet darauf hin, dass Dinosaurier während des Oberjura zwischen den Kontinenten wanderten, möglicherweise über zeitweilige Landverbindungen.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 6,
+      "status": "ready",
+      "attempts": 7,
       "first_seen": "2026-09-18",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Diplodocus ist ein Sauropoden-Dinosaurier und das zentrale Thema des Artikels. Die Meldung behandelt die Entdeckung von Diplodocus-Fossilien in Spanien, ihre paläontologische Bedeutung und ihre Rolle in der Dinosaurier-Evolution während des späten Jura. Dies fällt vollständig unter die Fossilium-Policy für Dinosaurier und ihre unmittelbare evolutionäre Bedeutung."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/diplodocus-erstmals-au-erhalb-nordamerikas-in-spanien-nachgewiese-c8d44fb972/"
     },
     {
       "url": "https://www.sciencedaily.com/releases/2026/10/261031221153.htm",
@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 6,
+      "attempts": 7,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -837,7 +837,7 @@
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "error": "article:HTTPError"
     },
     {
       "url": "https://www.spektrum.de/kolumne/schlichting-die-kugel-fest-im-griff/2342507",
@@ -902,8 +902,8 @@
   ],
   "last_run": {
     "date": "2026-11-03",
-    "ready": 2,
+    "ready": 14,
     "excluded": 0,
-    "pending": 15
+    "pending": 1
   }
 }
