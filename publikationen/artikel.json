@@ -324,6 +324,123 @@
           "umfang": "Studienreferenz und Veröffentlichungsdatum geprüft; Volltext beim Abruf nicht zugänglich"
         }
       ]
+    },
+    {
+      "slug": "fossile-meeresvielfalt-in-kolumbien-bergang-ohne-massensterben-28bdc12b7f",
+      "titel": "Fossile Meeresvielfalt in Kolumbien: Übergang ohne Massensterben",
+      "untertitel": "Paläontologen haben in der kolumbianischen Paja-Formation ein fossiles Meeresökosystem untersucht, das eine ungewöhnlich hohe Artenvielfalt aufweist. Die Befunde deuten auf einen neuartigen Modus großskaliger Evolutionsübergänge hin, der ohne Massenaussterbeereignisse auskommt. Das Konzept dafür nennen die Forschenden eine „biotische Inflexion\".",
+      "abschnitte": [
+        {
+          "titel": "Die Paja-Formation als Forschungsgrundlage",
+          "absatz": [
+            "Die Paja-Formation liegt nahe Villa de Leyva in Zentralkolumbien und gilt als außergewöhnlich fossilreicher Fundort.[[S1]] Dort sind unter anderem langhalsige Plesiosaurier, meereslebende Krokodilverwandte, Schildkröten, Haie und Krebstiere erhalten.[[S1]] Das Centro de Investigaciones Paleontológicas bewahrt den Großteil dieser Funde auf.",
+            "Die dortigen Fossilien stammen aus der Unteren Kreidezeit und repräsentieren gemeinsam die sogenannte Paja-Biota.[[S1]] Diese Gemeinschaft gilt laut den Forschenden als eine der ökologisch komplexesten marinen Faunen, die bislang dokumentiert wurden.[[S1]] Bereits frühere Arbeiten desselben Teams hatten das Nahrungsnetz dieser Biota rekonstruiert."
+          ]
+        },
+        {
+          "titel": "Das Konzept der biotischen Inflexion",
+          "absatz": [
+            "Forschende der McGill University und des CIP schlagen das Konzept der „biotischen Inflexion\" vor.[[S1]] Damit bezeichnen sie eine Phase, in der aussterbende ältere Linien gleichzeitig mit neu entstehenden Gruppen koexistieren, die sich später weiter entfalten.[[S1]] Im Mittelpunkt steht somit das Nebeneinander dieser Gruppen.",
+            "Das Muster unterscheidet sich konzeptionell von klassischen Massenaussterben, bei denen Artenverluste abrupt und großräumig auftreten.[[S1]] In der Paja-Formation überlagern sich Überlebende jurassischer Gruppen mit neuen Kreidelinien auf ungewöhnliche Weise.[[S1]] Ob dieses Muster andernorts ebenfalls beobachtbar ist, bleibt eine offene Frage."
+          ]
+        },
+        {
+          "titel": "Umweltbedingungen als begünstigende Faktoren",
+          "absatz": [
+            "Die Forschenden nennen mehrere Umweltfaktoren, die die außergewöhnliche Vielfalt begünstigt haben könnten.[[S1]] Dazu zählen Treibhaustemperaturen, hohe Meeresspiegel, nährstoffreiche Küstengewässer sowie neue maritime Verbindungen zwischen dem östlichen Pazifik und dem frühen Atlantik durch das heutige Kolumbien.[[S1]]",
+            "Diese Faktoren werden in der Nachricht als mögliche Erklärung dargestellt, nicht als bewiesene Ursachen.[[S1]] Die Forschenden weisen zudem darauf hin, dass ähnliche Bedingungen auch heute biologische Vielfalt begünstigen.[[S1]] Eine kausale Verknüpfung lässt sich anhand der vorliegenden Informationen nicht abschließend beurteilen."
+          ]
+        },
+        {
+          "titel": "Nahrungsnetzstruktur und ökologische Komplexität",
+          "absatz": [
+            "In einer früheren Studie desselben Teams war das Nahrungsnetz der Paja-Biota bereits analysiert worden.[[S1]] Dabei stellte sich heraus, dass es zu den komplexesten gehört, die je beschrieben wurden, mit einer großen Vielfalt an Spitzenprädatoren.[[S1]] Diese Vorarbeit bildet einen Teil des Kontexts für die aktuelle Studie.",
+            "Die aktuelle Publikation erschien im Fachjournal Frontiers in Ecology and Evolution.[[S1]] Verfasst wurde sie von Dirley Cortés, von der McGill University, und Professor Hans Larsson vom dortigen Fachbereich Biologie.[[S1]] Die zugrunde liegende Studie wurde für diesen Artikel nicht im Volltext geprüft."
+          ]
+        },
+        {
+          "titel": "Offene Fragen und weiterer Forschungsbedarf",
+          "absatz": [
+            "Die Forschenden betonen selbst, dass weitere Fossildaten, präzisere Datierungen und Vergleiche mit anderen Fundorten nötig sind.[[S1]] Erst dann lasse sich beurteilen, wie verbreitet das Muster der biotischen Inflexion in der Erdgeschichte tatsächlich war.[[S1]] Auch der zeitliche Rahmen vergleichbarer Ereignisse ist noch unklar.",
+            "Ebenso steht eine Quantifizierung der Auswirkungen dieses Musters noch aus.[[S1]] Die Forschenden beschreiben ihr Konzept als neues Modell globalen Biodiversitätswandels, das weitere Überprüfung erfordert.[[S1]] Es handelt sich damit um einen Ausgangspunkt, nicht um einen abgeschlossenen Befund."
+          ]
+        }
+      ],
+      "datum": "2026-11-03",
+      "news_datum": "2026-10-30",
+      "study_datum": "Nicht unabhängig geprüft",
+      "lesestand": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft",
+      "original_quelle": "Phys.org",
+      "original_url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+      "quellen": [
+        {
+          "id": "S1",
+          "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+          "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
+          "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"
+        }
+      ],
+      "bilder": [],
+      "mindestwoerter": 300
+    },
+    {
+      "slug": "fossilisierte-blutzellen-in-einem-115-millionen-jahre-alten-dinos-ffef91e2d3",
+      "titel": "Fossilisierte Blutzellen in einem 115 Millionen Jahre alten Dinosaurierknochen nachgewiesen",
+      "untertitel": "Ein internationales Forschungsteam hat erstmals chemisch eindeutige Belege für erhaltene rote Blutzellen und Hämoglobin-Derivate in einem Dinosaurierknochen erbracht. Die Entdeckung stammt aus Überresten des Theropoden Aratasaurus museunacionali aus dem Nordwesten Brasiliens und wurde in den Proceedings of the National Academy of Sciences veröffentlicht.",
+      "abschnitte": [
+        {
+          "titel": "Herkunft des Fossils und beteiligte Institutionen",
+          "absatz": [
+            "Die untersuchten Extremitätenknochen gehören zu Aratasaurus museunacionali, einem etwa 115 Millionen Jahre alten Theropoden .[[S1]] Das Forschungsteam wurde von der Curtin University geleitet und umfasste Wissenschaftlerinnen und Wissenschaftler der Curtin School of Earth and Planetary Sciences, der Japan Agency for Marine-Earth Science and Technology, des Brasilianischen Nationalmuseums, der Regional University of Cariri sowie der Johns Hopkins University .[[S1]]"
+          ]
+        },
+        {
+          "titel": "Chemischer Nachweis von Hämoglobin-Molekülen",
+          "absatz": [
+            "Frühere Studien hatten mögliche Strukturen roter Blutzellen in Fossilien beschrieben, ohne diese jedoch chemisch zu belegen .[[S1]] Die neue Untersuchung erbrachte nach Angaben der Forschenden erstmals den chemischen Nachweis von Häm-Molekülen – der sauerstoffbindenden Komponente des Hämoglobins – innerhalb der fossilisierten Zellen .[[S1]] Daneben wurden auch Aminosäuren des Kollagens identifiziert .[[S1]]"
+          ]
+        },
+        {
+          "titel": "Erhaltungsbedingungen und Mineralisierung",
+          "absatz": [
+            "Die roten Blutzellen lagen in Gefäßkanälen der Knochen und waren mit Hausmannit mineralisiert .[[S1]] Das Forschungsteam geht davon aus, dass diese Mineralisierung wie eine natürliche Zeitkapsel wirkte und die zellulären Strukturen sowie biomolekulare Bestandteile über geologische Zeiträume stabilisierte .[[S1]] Als weiteren begünstigenden Faktor nennt das Team eine rasche Einbettung des Tieres nach dem Tod in einem sauerstoffarmen, mikrobiell aktiven Milieu .[[S1]]"
+          ]
+        },
+        {
+          "titel": "Bedeutung für die molekulare Paläontologie",
+          "absatz": [
+            "Das Ergebnis stellt nach Einschätzung der Forschenden bisherige Annahmen in Frage, wonach bestimmte Biomoleküle wie Hämoglobin geologische Tiefenzeiten nicht überstehen können .[[S1]] Kliti Grice, Gründungsdirektorin des WA-Organic and Isotope Geochemistry Centre der Curtin University und Hauptautorin der Studie, bezeichnete die Entdeckung als bedeutenden Meilenstein, der neue Möglichkeiten für die Erforschung evolutionärer Fragen auf molekularer Ebene eröffne .[[S1]]"
+          ]
+        },
+        {
+          "titel": "Bezug zur Astrobiologie",
+          "absatz": [
+            "Martin Van Kranendonk, Leitung der School of Earth and Planetary Sciences an der Curtin University, verwies auf mögliche Relevanz der Befunde für die Astrobiologie .[[S1]] Die Erkenntnisse darüber, wie Molekülstrukturen unter widrigen Bedingungen über lange Zeiträume erhalten bleiben können, könnten demnach auch für die Suche nach urzeitlichem Leben außerhalb der Erde von Bedeutung sein .[[S1]]"
+          ]
+        },
+        {
+          "titel": "Einordnung und Grenzen",
+          "absatz": [
+            "Die vorliegenden Informationen beruhen auf einer Pressemitteilung der Curtin University; die zugrundeliegende Studie wurde im Volltext nicht geprüft .[[S1]] Aussagen über Physiologie oder Verhalten des Tieres, die über den chemischen Befund hinausgehen, lassen sich auf dieser Grundlage nicht belegen .[[S1]]"
+          ]
+        }
+      ],
+      "datum": "2026-11-03",
+      "news_datum": "2026-11-02",
+      "study_datum": "Nicht unabhängig geprüft",
+      "lesestand": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft",
+      "original_quelle": "Phys.org",
+      "original_url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+      "quellen": [
+        {
+          "id": "S1",
+          "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+          "titel": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
+          "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"
+        }
+      ],
+      "bilder": [],
+      "mindestwoerter": 300
     }
   ]
 }

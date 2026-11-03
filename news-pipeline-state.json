@@ -10,73 +10,18 @@
         "text": "Ein außergewöhnlich vielfältiges Fossilökosystem in Zentralkolumbien bewahrt eine seltene Überlagerung zwischen Überlebenden älterer Jura-Gruppen und neueren Kreide-Linien. Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben darin ein neues Muster großflächiger evolutionärer Übergänge erkannt, das ohne Massenaussterben abgelaufen ist.",
         "news_datum": ""
       },
-      "status": "pending",
-      "attempts": 5,
+      "status": "ready",
+      "attempts": 6,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
         "relevant": true,
         "category": "marine_reptile",
-        "reason": "Paja-Biota: Plesiosaurier und marine Krokodilverwandte sind zentraler Bestandteil des untersuchten Ökosystems; Originalmeldung geprüft."
+        "reason": "Die Studie behandelt zentral die Paja Formation mit ausgestorbenen Meeresreptilien als Hauptthema: lange Plesiosaurier und marine Krokodilverwandte bilden den Kern der beschriebenen ecologisch komplexen marinen Gemeinschaft. Dies entspricht der Policy für ausgestorbene Meeresreptilien."
       },
       "last_attempt": "2026-11-03",
-      "error": "article:ValueError:Artikellänge/Gliederung unzureichend: 428 Wörter, 5 Abschnitte",
-      "draft": {
-        "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
-        "relevant": true,
-        "category": "marine_reptile",
-        "reason": "Die Studie behandelt zentral die Paja Formation mit ausgestorbenen Meeresreptilien als Hauptthema: lange Plesiosaurier und marine Krokodilverwandte bilden den Kern der beschriebenen ecologisch komplexen marinen Gemeinschaft. Dies entspricht der Policy für ausgestorbene Meeresreptilien.",
-        "article": {
-          "titel": "Fossile Meeresvielfalt in Kolumbien: Übergang ohne Massensterben",
-          "untertitel": "Paläontologen haben in der kolumbianischen Paja-Formation ein fossiles Meeresökosystem untersucht, das eine ungewöhnlich hohe Artenvielfalt aufweist. Die Befunde deuten auf einen neuartigen Modus großskaliger Evolutionsübergänge hin, der ohne Massenaussterbeereignisse auskommt. Das Konzept dafür nennen die Forschenden eine „biotische Inflexion\".",
-          "abschnitte": [
-            {
-              "titel": "Die Paja-Formation als Forschungsgrundlage",
-              "absatz": [
-                "Die Paja-Formation liegt nahe Villa de Leyva in Zentralkolumbien und gilt als außergewöhnlich fossilreicher Fundort.[[S1]] Dort sind unter anderem langhalsige Plesiosaurier, meereslebende Krokodilverwandte, Schildkröten, Haie und Krebstiere erhalten.[[S1]] Das Centro de Investigaciones Paleontológicas bewahrt den Großteil dieser Funde auf.",
-                "Die dortigen Fossilien stammen aus der Unteren Kreidezeit und repräsentieren gemeinsam die sogenannte Paja-Biota.[[S1]] Diese Gemeinschaft gilt laut den Forschenden als eine der ökologisch komplexesten marinen Faunen, die bislang dokumentiert wurden.[[S1]] Bereits frühere Arbeiten desselben Teams hatten das Nahrungsnetz dieser Biota rekonstruiert."
-              ]
-            },
-            {
-              "titel": "Das Konzept der biotischen Inflexion",
-              "absatz": [
-                "Forschende der McGill University und des CIP schlagen das Konzept der „biotischen Inflexion\" vor.[[S1]] Damit bezeichnen sie eine Phase, in der aussterbende ältere Linien gleichzeitig mit neu entstehenden Gruppen koexistieren, die sich später weiter entfalten.[[S1]] Im Mittelpunkt steht somit das Nebeneinander dieser Gruppen.",
-                "Das Muster unterscheidet sich konzeptionell von klassischen Massenaussterben, bei denen Artenverluste abrupt und großräumig auftreten.[[S1]] In der Paja-Formation überlagern sich Überlebende jurassischer Gruppen mit neuen Kreidelinien auf ungewöhnliche Weise.[[S1]] Ob dieses Muster andernorts ebenfalls beobachtbar ist, bleibt eine offene Frage."
-              ]
-            },
-            {
-              "titel": "Umweltbedingungen als begünstigende Faktoren",
-              "absatz": [
-                "Die Forschenden nennen mehrere Umweltfaktoren, die die außergewöhnliche Vielfalt begünstigt haben könnten.[[S1]] Dazu zählen Treibhaustemperaturen, hohe Meeresspiegel, nährstoffreiche Küstengewässer sowie neue maritime Verbindungen zwischen dem östlichen Pazifik und dem frühen Atlantik durch das heutige Kolumbien.[[S1]]",
-                "Diese Faktoren werden in der Nachricht als mögliche Erklärung dargestellt, nicht als bewiesene Ursachen.[[S1]] Die Forschenden weisen zudem darauf hin, dass ähnliche Bedingungen auch heute biologische Vielfalt begünstigen.[[S1]] Eine kausale Verknüpfung lässt sich anhand der vorliegenden Informationen nicht abschließend beurteilen."
-              ]
-            },
-            {
-              "titel": "Nahrungsnetzstruktur und ökologische Komplexität",
-              "absatz": [
-                "In einer früheren Studie desselben Teams war das Nahrungsnetz der Paja-Biota bereits analysiert worden.[[S1]] Dabei stellte sich heraus, dass es zu den komplexesten gehört, die je beschrieben wurden, mit einer großen Vielfalt an Spitzenprädatoren.[[S1]] Diese Vorarbeit bildet einen Teil des Kontexts für die aktuelle Studie.",
-                "Die aktuelle Publikation erschien im Fachjournal Frontiers in Ecology and Evolution.[[S1]] Verfasst wurde sie von Dirley Cortés, von der McGill University, und Professor Hans Larsson vom dortigen Fachbereich Biologie.[[S1]] Die zugrunde liegende Studie wurde für diesen Artikel nicht im Volltext geprüft."
-              ]
-            },
-            {
-              "titel": "Offene Fragen und weiterer Forschungsbedarf",
-              "absatz": [
-                "Die Forschenden betonen selbst, dass weitere Fossildaten, präzisere Datierungen und Vergleiche mit anderen Fundorten nötig sind.[[S1]] Erst dann lasse sich beurteilen, wie verbreitet das Muster der biotischen Inflexion in der Erdgeschichte tatsächlich war.[[S1]] Auch der zeitliche Rahmen vergleichbarer Ereignisse ist noch unklar.",
-                "Ebenso steht eine Quantifizierung der Auswirkungen dieses Musters noch aus.[[S1]] Die Forschenden beschreiben ihr Konzept als neues Modell globalen Biodiversitätswandels, das weitere Überprüfung erfordert.[[S1]] Es handelt sich damit um einen Ausgangspunkt, nicht um einen abgeschlossenen Befund."
-              ]
-            }
-          ]
-        }
-      },
-      "source_metadata": {
-        "id": "S1",
-        "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
-        "titel": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
-        "date": "2026-10-30",
-        "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft",
-        "word_count": 573
-      },
-      "editorial_review": "2026-11-03: Hauptmodell gegen Originalmeldung geprüft; Geschlechtszuschreibung entfernt, Dichte zu Vielfalt korrigiert, unbelegte Gradualität vermieden."
+      "editorial_review": "2026-11-03: Hauptmodell gegen Originalmeldung geprüft; Geschlechtszuschreibung entfernt, Dichte zu Vielfalt korrigiert, unbelegte Gradualität vermieden.",
+      "publication": "/publikationen/fossile-meeresvielfalt-in-kolumbien-bergang-ohne-massensterben-28bdc12b7f/"
     },
     {
       "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
@@ -87,17 +32,17 @@
         "text": "Forscher haben erstmals unwiderlegbare Hinweise auf fossilisierte rote Blutkörperchen und Kollagen-Aminosäuren in Dinosaurierknochen gefunden. Diese Entdeckung verändert unser Verständnis davon, wie lange Biomoleküle in Fossilien über geologische Zeiträume hinweg erhalten bleiben können.",
         "news_datum": "2026-11-02"
       },
-      "status": "pending",
-      "attempts": 5,
+      "status": "ready",
+      "attempts": 6,
       "first_seen": "2026-10-31",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
         "relevant": true,
         "category": "dinosaur",
-        "reason": "Zentrales Thema: Dinosaurierforschung oder unmittelbare frühe Vogelentwicklung."
+        "reason": "Die Meldung behandelt zentral die molekulare Paläontologie eines Theropoden-Dinosauriers (Aratasaurus museunacionali) mit Fokus auf fossilisierte Blutbestandteile und Hämoglobin-Moleküle. Dies fällt unter die Kernthemen der Fossilium-Policy: Dinosaurier und ihre unmittelbare Evolution mit wissenschaftlichem Tiefgang."
       },
       "last_attempt": "2026-11-03",
-      "error": "deferred:manual_run_limit"
+      "publication": "/publikationen/fossilisierte-blutzellen-in-einem-115-millionen-jahre-alten-dinos-ffef91e2d3/"
     },
     {
       "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -109,7 +54,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-28",
       "decision": {
         "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -130,7 +75,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -151,7 +96,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-14",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -172,7 +117,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-12",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -193,7 +138,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-09",
       "decision": {
         "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -214,7 +159,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -235,7 +180,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-08",
       "decision": {
         "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -256,7 +201,7 @@
         "news_datum": "2026-10-31"
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-10-01",
       "decision": {
         "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -277,7 +222,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-09-27",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -298,7 +243,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-09-25",
       "decision": {
         "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -319,7 +264,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-09-23",
       "decision": {
         "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -340,7 +285,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-09-22",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -361,7 +306,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-09-19",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -382,7 +327,7 @@
         "news_datum": ""
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-09-18",
       "decision": {
         "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
@@ -883,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -957,8 +902,8 @@
   ],
   "last_run": {
     "date": "2026-11-03",
-    "ready": 0,
+    "ready": 2,
     "excluded": 0,
-    "pending": 17
+    "pending": 15
   }
 }
