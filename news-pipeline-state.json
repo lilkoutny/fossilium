@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 7,
+      "attempts": 8,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-03",
+      "last_attempt": "2026-11-04",
       "error": "article:HTTPError"
     },
     {
@@ -898,12 +898,372 @@
         "reason": "Raumfahrt/Astronautik – kein Bezug zu Dinosauriern oder Paläontologie."
       },
       "last_attempt": "2026-11-03"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/erderwaermung-koennte-deutlich-abkuehlung-in-europa-ausloesen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Erderwärmung könnte deutlich Abkühlung in Europa auslösen",
+        "url": "https://www.scinexx.de/news/geowissen/erderwaermung-koennte-deutlich-abkuehlung-in-europa-ausloesen",
+        "text": "Eine stark geschwächte AMOC könnte vor allem Nordwesteuropa regional deutlich abkühlen",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/erderwaermung-koennte-deutlich-abkuehlung-in-europa-ausloesen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimawissenschaft und Ozeanströmungen; kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/ceres-wassereis-des-zwergplaneten-kann-salzablagerungen-an-der-oberflaeche-verdecken",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Ceres: Wassereis des Zwergplaneten kann Salzablagerungen an der Oberfläche verdecken",
+        "url": "https://www.scinexx.de/news/kosmos/ceres-wassereis-des-zwergplaneten-kann-salzablagerungen-an-der-oberflaeche-verdecken",
+        "text": "Bei feinen Eiskörnern kann selbst ein hoher Salzanteil im Infrarot unauffällig bleiben",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/ceres-wassereis-des-zwergplaneten-kann-salzablagerungen-an-der-oberflaeche-verdecken",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Planetologie des Zwergplaneten Ceres; kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/dichte-sternhaufen-koennen-keime-fuer-supermassereiche-schwarze-loecher-bilden",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Dichte Sternhaufen können Keime für supermassereiche Schwarze Löcher bilden",
+        "url": "https://www.scinexx.de/news/kosmos/dichte-sternhaufen-koennen-keime-fuer-supermassereiche-schwarze-loecher-bilden",
+        "text": "Im besonders kompakten Cosmic-Gems-System wären Keime mit bis zu 2.700 Sonnenmassen möglich",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/dichte-sternhaufen-koennen-keime-fuer-supermassereiche-schwarze-loecher-bilden",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und schwarze Löcher; kein Bezug zu Fossilien oder prähistorischen Organismen."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/warum-war-die-riesengalaxie-leviathan-kurz-nach-dem-urknall-so-massereich-und-ausgedehnt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Warum war die Riesengalaxie Leviathan kurz nach dem Urknall so massereich und ausgedehnt?",
+        "url": "https://www.scinexx.de/news/kosmos/warum-war-die-riesengalaxie-leviathan-kurz-nach-dem-urknall-so-massereich-und-ausgedehnt",
+        "text": "Die Galaxie enthielt bereits rund 220 Milliarden Sonnenmassen an Sternen",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/warum-war-die-riesengalaxie-leviathan-kurz-nach-dem-urknall-so-massereich-und-ausgedehnt",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmologie und Galaxienforschung; kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/energiereiche-elektronen-koennten-rote-und-gruene-polarlichter-erzeugen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Energiereiche Elektronen könnten rote und grüne Polarlichter erzeugen",
+        "url": "https://www.scinexx.de/news/geowissen/energiereiche-elektronen-koennten-rote-und-gruene-polarlichter-erzeugen",
+        "text": "Das rote Leuchten entsteht meist oberhalb von 200 Kilometern, das grüne deutlich tiefer",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/energiereiche-elektronen-koennten-rote-und-gruene-polarlichter-erzeugen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geophysik und Magnetosphärenforschung; kein Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/vermeintliche-urzeit-galaxie-entpuppt-sich-als-kalter-brauner-zwerg",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Vermeintliche Urzeit-Galaxie entpuppt sich als kalter Brauner Zwerg",
+        "url": "https://www.scinexx.de/news/kosmos/vermeintliche-urzeit-galaxie-entpuppt-sich-als-kalter-brauner-zwerg",
+        "text": "Eine Eigenbewegung von rund 0,13 Bogensekunden widerlegt die Deutung als ferne Galaxie",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/vermeintliche-urzeit-galaxie-entpuppt-sich-als-kalter-brauner-zwerg",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie; trotz des Wortes 'Urzeit' geht es um einen braunen Zwerg, nicht um prähistorische Organismen."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/radioaktives-element-laserlicht-zeigt-versteckte-eigenschaften-des-fermium-atomkerns",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Radioaktives Element: Laserlicht zeigt versteckte Eigenschaften des Fermium-Atomkerns",
+        "url": "https://www.scinexx.de/news/physik/radioaktives-element-laserlicht-zeigt-versteckte-eigenschaften-des-fermium-atomkerns",
+        "text": "Der Kern von Fermium-255 ist deutlich länglich und damit weit von einer Kugelform entfernt",
+        "news_datum": "2026-11-03"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/radioaktives-element-laserlicht-zeigt-versteckte-eigenschaften-des-fermium-atomkerns",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kernphysik; kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/riffreporter-podcast-ist-mastodon-das-bessere-soziale-medium/2352498",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ist Mastodon das bessere soziale Medium, Felix Hlatky?",
+        "url": "https://www.spektrum.de/podcast/riffreporter-podcast-ist-mastodon-das-bessere-soziale-medium/2352498",
+        "text": "Werbung, undurchsichtige Algorithmen, toxische Debatten: Kann das Fediverse eine bessere Alternative sein? Darüber spricht Mastodon-Geschäftsführer Felix Hlatky. 🎙️",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/riffreporter-podcast-ist-mastodon-das-bessere-soziale-medium/2352498",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Technologie und soziale Medien; das Wort 'Mastodon' bezieht sich auf die Plattform, nicht auf das prähistorische Tier."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/news/pruefungen-stress-zeigt-sich-im-abwasser/2352670",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Prüfungen: Stress zeigt sich im Abwasser",
+        "url": "https://www.spektrum.de/news/pruefungen-stress-zeigt-sich-im-abwasser/2352670",
+        "text": "Was verrät das Abwasser einer Uni über das Studentenleben? Forscher suchten darin nach Spuren von Stress, Koffein und Antidepressiva. Die Prüfungszeit hinterließ deutliche Zeichen.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/news/pruefungen-stress-zeigt-sich-im-abwasser/2352670",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologie und Biomarker in Abwasser; kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/wtf-talk-besondere-zahlen-warum-wir-jubeljahre-feiern/2352480",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Besondere Zahlen – Warum haben wir unsere 100. Sendung gefeiert",
+        "url": "https://www.spektrum.de/podcast/wtf-talk-besondere-zahlen-warum-wir-jubeljahre-feiern/2352480",
+        "text": "Warum fühlen sich manche Zahlen wie Meilensteine an? Diese Folge des »WTF Talk«-Podcasts widmet sich der Frage, warum wir Jubeljahre feiern und magische Zahlen lieben. 🎙️",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/wtf-talk-besondere-zahlen-warum-wir-jubeljahre-feiern/2352480",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kulturgeschichte und Zahlentheorie; kein Bezug zu Fossilien oder prähistorischen Organismen."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/spieltheorie-john-nash-und-das-phantom-von-fine-hall/2352641",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "John Nash und das Phantom von Fine Hall",
+        "url": "https://www.spektrum.de/podcast/spieltheorie-john-nash-und-das-phantom-von-fine-hall/2352641",
+        "text": "John Nash gilt heute als brillanter Mathematiker – er hat einen Nobelpreis bekommen und wurde mit dem Abelpreis ausgezeichnet. Doch die Anerkennung kam erst spät. 🎙️",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/spieltheorie-john-nash-und-das-phantom-von-fine-hall/2352641",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Wissenschaftsgeschichte; kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/news/lebenserwartung-maenner-leben-laenger-frauen-auch-aber-nicht-ueberall/2352653",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bevölkerungsforschung: Männer leben länger. Frauen auch, aber nicht überall",
+        "url": "https://www.spektrum.de/news/lebenserwartung-maenner-leben-laenger-frauen-auch-aber-nicht-ueberall/2352653",
+        "text": "Die durchschnittliche Lebenserwartung steigt. Männer holen in allen Bundesländern auf. Bei Frauen sinkt die Lebenserwartung jedoch mancherorts. Was könnte dahinterstecken?",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/news/lebenserwartung-maenner-leben-laenger-frauen-auch-aber-nicht-ueberall/2352653",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Bevölkerungsforschung und Epidemiologie; kein Bezug zu Fossilien."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/news/hoeflichkeit-juengere-sagen-seltener-bitte-sind-sie-unhoeflicher/2352642",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Höflichkeit im Wandel: Jüngere sagen seltener »bitte«. Sind sie deshalb unhöflicher?",
+        "url": "https://www.spektrum.de/news/hoeflichkeit-juengere-sagen-seltener-bitte-sind-sie-unhoeflicher/2352642",
+        "text": "Wer höflich sein will, muss nicht immer zu denselben Formulierungen greifen. Forschende haben genauer untersucht, wie Menschen Höflichkeit und Rücksicht sprachlich ausdrücken.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/news/hoeflichkeit-juengere-sagen-seltener-bitte-sind-sie-unhoeflicher/2352642",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Sprachwissenschaft und Pragmatik; kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/video/christian-spannagel-aus-ungerade-mach/2352464",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Aus ungerade mach …",
+        "url": "https://www.spektrum.de/video/christian-spannagel-aus-ungerade-mach/2352464",
+        "text": "Heutiges Thema im »Christian Spannagel«-Video: Muster &amp; Strukturen.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/video/christian-spannagel-aus-ungerade-mach/2352464",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematikunterricht und Mustertheorie; kein Bezug zu Dinosauriern oder Fossilien."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-im-jahr-null/2352272",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die Kunst der Gleichzeitigkeit",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-im-jahr-null/2352272",
+        "text": "Wer glaubt, erst die Gegenwart sei so richtig komplex, sollte Moritz Aisslingers Erzählung antiker Geschichte folgen. Sie macht Gleichzeitigkeit erlebbar. Eine Rezension",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-im-jahr-null/2352272",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Antike Geschichtsschreibung und Literaturkritik; kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ki-loest-die-quasi-riemannsche-vermutung-was-bedeutet-das/2352107",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Durchbruch beim wichtigsten Rätsel der Mathematik: KI löst die quasi-riemannsche Vermutung. Was bedeutet das?",
+        "url": "https://www.spektrum.de/news/ki-loest-die-quasi-riemannsche-vermutung-was-bedeutet-das/2352107",
+        "text": "Seit 160 Jahren widersteht die riemannsche Vermutung allen Beweisversuchen. Nun hat eine KI eine schwächere Variante bewiesen und dabei eine bislang verborgene Verbindung entdeckt.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ki-loest-die-quasi-riemannsche-vermutung-was-bedeutet-das/2352107",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Künstliche Intelligenz; kein Bezug zu Fossilien oder prähistorischen Organismen."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-lassen-sich-hier-deckungsgleiche-figuren-bilden/2340883",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie lassen sich hiermit zwei deckungsgleiche Figuren bilden?",
+        "url": "https://www.spektrum.de/raetsel/wie-lassen-sich-hier-deckungsgleiche-figuren-bilden/2340883",
+        "text": "Wie können aus den Tritans zwei deckungsgleiche Figuren entstehen?",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-lassen-sich-hier-deckungsgleiche-figuren-bilden/2340883",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel; kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.spektrum.de/news/das-profil-von-menschen-mit-autismus-ist-heute-anders-als-frueher/2352500",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Diagnosen: Das Profil von Autisten ist heute ein anderes als früher",
+        "url": "https://www.spektrum.de/news/das-profil-von-menschen-mit-autismus-ist-heute-anders-als-frueher/2352500",
+        "text": "Früher war eine Autismusdiagnose eher mit Erkrankungen wie Epilepsie oder Psychosen verbunden. Heute geht die Diagnose zunehmend mit ADHS, Ängsten und Depressionen einher.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-04",
+      "decision": {
+        "url": "https://www.spektrum.de/news/das-profil-von-menschen-mit-autismus-ist-heute-anders-als-frueher/2352500",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin und Psychologie; kein Bezug zu Fossilien oder prähistorischen Organismen."
+      },
+      "last_attempt": "2026-11-04"
     }
   ],
   "last_run": {
-    "date": "2026-11-03",
-    "ready": 14,
-    "excluded": 0,
+    "date": "2026-11-04",
+    "ready": 0,
+    "excluded": 18,
     "pending": 1
   }
 }
