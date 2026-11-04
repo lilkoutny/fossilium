@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-03T16:40:26.082097+00:00",
+  "updated": "2026-11-04T12:44:47.166550+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "4155c9fb03177fbf9982510034401a1c",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
+      "title": "17 Millionen Jahre alter Affenfossil in Ägypten gefunden",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-04T12:44:47.165021+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "4725ddb5bfdf45cdc0d339336dd09a88",
       "url": "https://phys.org/news/2026-10-armored-amphibian-sea-million-years.html",
@@ -298,19 +311,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-02T13:01:12.294263+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "4155c9fb03177fbf9982510034401a1c",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
-      "title": "17 Millionen Jahre alter Affenfossil in Ägypten gefunden",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-02T13:01:12.139666+00:00",
       "sources": [],
       "score": null,
       "script": null,
