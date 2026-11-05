@@ -619,7 +619,8 @@ function portraitHover(flaeche,active){
 
 function bildHTML(d,zoom=false){
   const portrait=portraitFor(d);
-  return `<div class="bild-box"><button class="bild-oeffner${zoom?' detail-bild':''}" type="button" data-bild="${d.bild}" data-portrait="${portrait}" data-bild-name="${d.name}" data-dino="${d.id}" aria-label="${zoom?'Großansicht öffnen':'Artikel öffnen'}: ${d.name}">
+  const portraitAttr=zoom?'':` data-portrait="${portrait}"`;
+  return `<div class="bild-box"><button class="bild-oeffner${zoom?' detail-bild':''}" type="button" data-bild="${d.bild}"${portraitAttr} data-bild-name="${d.name}" data-dino="${d.id}" aria-label="${zoom?'Großansicht öffnen':'Artikel öffnen'}: ${d.name}">
     <img src="${d.bild}" alt="Künstlerische Rekonstruktion: ${d.name}"
          onerror="this.parentNode.classList.add('bild-fehlt');this.remove()">
     <div class="platzhalter">${platzhalterSVG}<span>Bild nicht verfügbar:<br><code>${d.bild}</code></span></div></button>
