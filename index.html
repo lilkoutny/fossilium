@@ -474,7 +474,7 @@ const DINOS = [
     id:"tyrannosaurus", name:"Tyrannosaurus rex", bedeutung:"„Königsechse der Tyrannen“",
     zeit:"Kreide", jahre:"vor 68–66 Mio. Jahren", kost:"Fleischfresser",
     laenge:"bis 12,5 m", gewicht:"ca. 8 t", fundort:"Hell Creek, Montana (USA)",
-    lat:47, lon:-107, bild:"bilder/tyrannosaurus.png",
+    lat:47, lon:-107, bild:"bilder/tyrannosaurus.png?v=20261105",
     text:[
       "Der Tyrannosaurus rex war einer der größten landlebenden Raubtiere aller Zeiten. Mit seinem massigen Schädel und bananengroßen Zähnen konnte er eine der stärksten Beißkräfte entwickeln, die je bei einem Landtier gemessen wurde – genug, um Knochen zu zermalmen.",
       "Trotz seiner winzigen Arme war der T. rex kein plumper Riese: Analysen seiner Beinknochen deuten darauf hin, dass er sich zügig fortbewegen konnte. Ob er aktiv jagte oder auch Aas fraß, wird bis heute diskutiert – vermutlich tat er beides.",
@@ -546,7 +546,7 @@ const DINOS = [
    ============================================================ */
 // Ein gemeinsamer Dino pro Kalendertag, unabhängig von der Zeitzone des Besuchers.
 // Am 03.11.2026 beginnt die Runde mit dem bisherigen Titelmotiv Triceratops.
-const PORTRAITS = {majungasaurus:"bilder/portraits/majungasaurus.png",triceratops:"bilder/portraits/triceratops.png",yutyrannus:"bilder/portraits/yutyrannus.png"};
+const PORTRAITS = {majungasaurus:"bilder/portraits/majungasaurus.png",triceratops:"bilder/portraits/triceratops.png",yutyrannus:"bilder/portraits/yutyrannus.png",tyrannosaurus:"bilder/portraits/tyrannosaurus.png?v=20261105"};
 const portraetLadungen = new Map();
 function portraitFor(d){return PORTRAITS[d.id] || "";}
 const tagesDinoDatum = new Intl.DateTimeFormat("en-CA", {
