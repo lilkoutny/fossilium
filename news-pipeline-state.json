@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 8,
+      "attempts": 9,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-04",
+      "last_attempt": "2026-11-05",
       "error": "article:HTTPError"
     },
     {
@@ -1258,12 +1258,433 @@
         "reason": "Medizin und Psychologie; kein Bezug zu Fossilien oder prähistorischen Organismen."
       },
       "last_attempt": "2026-11-04"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/manche-katzen-sind-zugleich-aengstlich-und-neugierig",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Manche Katzen sind zugleich ängstlich und neugierig",
+        "url": "https://www.scinexx.de/news/biowissen/manche-katzen-sind-zugleich-aengstlich-und-neugierig",
+        "text": "Vier Gruppen zeigten unterschiedliche Kombinationen von Angst und Annäherung",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/manche-katzen-sind-zugleich-aengstlich-und-neugierig",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Katzen, allgemeine Verhaltensbiologie, kein Bezug zu Dinosauriern oder fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/lichtgetriebene-winde-koennte-fruehe-galaxien-von-staub-befreit-haben",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Lichtgetriebene Winde könnte frühe Galaxien von Staub befreit haben",
+        "url": "https://www.scinexx.de/news/kosmos/lichtgetriebene-winde-koennte-fruehe-galaxien-von-staub-befreit-haben",
+        "text": "In dichten Gasstrukturen bleibt die Schwerkraft stärker als der berechnete Strahlungsdruck",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/lichtgetriebene-winde-koennte-fruehe-galaxien-von-staub-befreit-haben",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmologie und Galaxienentwicklung, völlig außerhalb des paläontologischen Schwerpunkts."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/beeinflusst-enge-unterwaesche-die-spermienqualitaet",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Beeinflusst enge Unterwäsche die Spermienqualität?",
+        "url": "https://www.scinexx.de/news/medizin/beeinflusst-enge-unterwaesche-die-spermienqualitaet",
+        "text": "Stark erhöhte DNA-Fragmentierung trat bei 10,7 statt 5,8 Prozent der Männer auf",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/beeinflusst-enge-unterwaesche-die-spermienqualitaet",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschung zu menschlicher Reproduktion, kein Bezug zu Fossilium-Themen."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/am-kilimandscharo-kuehlen-sich-mittlere-hoehenlagen-trotz-des-klimawandels-ab",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Am Kilimandscharo kühlen sich mittlere Höhenlagen trotz des Klimawandels ab",
+        "url": "https://www.scinexx.de/news/geowissen/am-kilimandscharo-kuehlen-sich-mittlere-hoehenlagen-trotz-des-klimawandels-ab",
+        "text": "In Gipfelnähe steigen die Tagestemperaturen hingegen",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/am-kilimandscharo-kuehlen-sich-mittlere-hoehenlagen-trotz-des-klimawandels-ab",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimatologie und Geomorphologie der Gegenwart, keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/raumsonde-psyche-fliegt-mit-winzigem-schub-zu-einem-metallreichen-asteroiden",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Raumsonde Psyche fliegt mit winzigem Schub zu einem metallreichen Asteroiden",
+        "url": "https://www.scinexx.de/news/kosmos/raumsonde-psyche-fliegt-mit-winzigem-schub-zu-einem-metallreichen-asteroiden",
+        "text": "Der Dauerschub erreicht bis zu rund 250 Millinewton und wirkt über Jahre",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/raumsonde-psyche-fliegt-mit-winzigem-schub-zu-einem-metallreichen-asteroiden",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrttechnik und Asteroidenmission, völlig außerhalb des Fossilium-Schwerpunkts."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/haushunde-koennen-invasive-pflanzen-im-gelaende-aufspueren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Haushunde können invasive Pflanzen im Gelände aufspüren",
+        "url": "https://www.scinexx.de/news/biowissen/haushunde-koennen-invasive-pflanzen-im-gelaende-aufspueren",
+        "text": "Training mit Blättern, Stängeln, Wurzeln und Blüten hing mit besseren Ergebnissen zusammen",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/haushunde-koennen-invasive-pflanzen-im-gelaende-aufspueren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Hundetraining und invasive Floraforschung, kein Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/wasserstoff-offenbart-die-grossraeumige-struktur-des-universums",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wasserstoff offenbart die großräumige Struktur des Universums",
+        "url": "https://www.scinexx.de/news/kosmos/wasserstoff-offenbart-die-grossraeumige-struktur-des-universums",
+        "text": "Die Radiostrahlung stammt aus einer Zeit vor rund 4,5 Milliarden Jahren",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/wasserstoff-offenbart-die-grossraeumige-struktur-des-universums",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmische Struktur und Radiostrahlung, keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/weltraummuell-warum-ist-weltraumschrott-ein-problem/2222789",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Weltraumschrott: Bis einer stirbt",
+        "url": "https://www.spektrum.de/kolumne/weltraummuell-warum-ist-weltraumschrott-ein-problem/2222789",
+        "text": "Noch gingen die Begegnungen von Menschen mit Weltraumschrott glimpflich aus. Doch das Risiko für eine tödliche Kollision steigt. Das muss nicht sein, kommentiert Katharina Menne.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/weltraummuell-warum-ist-weltraumschrott-ein-problem/2222789",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumschrott und Weltraummechanik, nicht relevant für Fossilium."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-die-schlacht-bei-culloden/2352690",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die Schlacht bei Culloden",
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-die-schlacht-bei-culloden/2352690",
+        "text": "In dieser Folge des Podcasts »Geschichten aus der Geschichte« geht es um eine Geschichte über den letzten Aufstand der Jakobiten und seine Folgen. 🎙️",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-die-schlacht-bei-culloden/2352690",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Historische Schlacht (1746), keine biologische oder paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/schlafforschung-guter-schlaf-ist-ein-wirtschaftsfaktor/2352840",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Schlafforschung: Guter Schlaf ist ein Wirtschaftsfaktor",
+        "url": "https://www.spektrum.de/news/schlafforschung-guter-schlaf-ist-ein-wirtschaftsfaktor/2352840",
+        "text": "Wer müde zur Arbeit kommt, kann weniger leisten. Das verursacht laut Fachleuten hohe Kosten. Guter Schlaf sollte daher auch im Interesse der Unternehmen liegen.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/schlafforschung-guter-schlaf-ist-ein-wirtschaftsfaktor/2352840",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Schlafforschung bei modernen Menschen, allgemeine Biologie ohne fossilen Bezug."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/das-ende-einer-aera-nasa-bestaetigt-absturz-von-swift/2352838",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Das Ende einer Ära: NASA bestätigt Absturz von Swift",
+        "url": "https://www.spektrum.de/news/das-ende-einer-aera-nasa-bestaetigt-absturz-von-swift/2352838",
+        "text": "Mit einer spektakulären Rettungsmission wollte die NASA das Weltraumteleskop Swift retten, doch daraus wurde nichts. Gestern Mittag stürzte es über Indonesien zurück zur Erde.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/das-ende-einer-aera-nasa-bestaetigt-absturz-von-swift/2352838",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumteleskop und Raumfahrt, keine Paläontologie."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/maeuse-fit-fuer-den-kampf-durch-blosses-beobachten/2352727",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Lernen durch Beobachten : Darum sollten Mäuse »Squid Game« gucken",
+        "url": "https://www.spektrum.de/news/maeuse-fit-fuer-den-kampf-durch-blosses-beobachten/2352727",
+        "text": "Trockenübung für den Ernstfall: Mäuse, die Artgenossen beim Kämpfen bloß zusehen, sind selbst besser auf einen späteren Kampf vorbereitet.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/maeuse-fit-fuer-den-kampf-durch-blosses-beobachten/2352727",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Verhaltensstudien an modernen Mäusen, allgemeine Verhaltensbiologie."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/die-grossen-fragen-der-wissenschaft-was-ist-leben-petra-schwille/2352854",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Was ist Leben, Petra Schwille?",
+        "url": "https://www.spektrum.de/podcast/die-grossen-fragen-der-wissenschaft-was-ist-leben-petra-schwille/2352854",
+        "text": "Wir glauben intuitiv zu wissen, was Leben ist. Aber es zu erklären, ist nicht einfach. Was macht aus einer Ansammlung von Molekülen plötzlich etwas, das wächst und sich vermehrt? 🎙️",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/die-grossen-fragen-der-wissenschaft-was-ist-leben-petra-schwille/2352854",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Philosophische Frage zur Definition von Leben, kein spezifischer paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-humans-der-mensch/2352767",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "»Der Mensch ist dem Menschen das Interessanteste«",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-humans-der-mensch/2352767",
+        "text": "»HUMANS« erzählt die Geschichte des Menschen aus der Sicht seines Körpers. Optisch beeindruckt das Werk, seine Themensauswahl überzeugt nicht auf ganzer Linie. Eine Rezension",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-humans-der-mensch/2352767",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Anthropologie und Menschheit aus körperlicher Perspektive, keine Dinosaurier oder fossile Reptilien."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/wissen/fakt-oder-mythos-sind-tattoos-gesundheitsschaedlich/2348413",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Fakt oder Mythos: Sind Tattoos gesundheitsschädlich?",
+        "url": "https://www.spektrum.de/wissen/fakt-oder-mythos-sind-tattoos-gesundheitsschaedlich/2348413",
+        "text": "Tattoos gelten oft als harmloser Körperschmuck. Doch die Farbpigmente bleiben nicht an Ort und Stelle. Welche Folgen das fürs Immunsystem hat, beschäftigt die Forschung zunehmend.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/wissen/fakt-oder-mythos-sind-tattoos-gesundheitsschaedlich/2348413",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschung zu Tätowierungen, ohne Bezug zu Fossilium-Themen."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/der-wievielte-teil-der-flaeche-ist-blau/2340866",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Der wievielte Teil der Fläche ist blau?",
+        "url": "https://www.spektrum.de/raetsel/der-wievielte-teil-der-flaeche-ist-blau/2340866",
+        "text": "Welcher Anteil der Quadratfläche ist blau gefärbt?",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/der-wievielte-teil-der-flaeche-ist-blau/2340866",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel, völlig außerhalb des paläontologischen Schwerpunkts."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/hinweise-auf-aktiven-vulkanismus-auf-dem-mars-gefunden/2352453",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Außerirdischer Vulkanismus: Hat der Mars aktive Vulkane?",
+        "url": "https://www.spektrum.de/news/hinweise-auf-aktiven-vulkanismus-auf-dem-mars-gefunden/2352453",
+        "text": "Im Bereich des Marsvulkans Alba Mons fanden sich in Daten der europäischen Raumsonde Trace Gas Orbiter Spalten in der Oberfläche, aus denen offenbar Salzsäure als Gas austritt.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/hinweise-auf-aktiven-vulkanismus-auf-dem-mars-gefunden/2352453",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Vulkanismus auf dem Mars, Planetologie ohne Bezug zu irdischen fossilen Organismen."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/adhs-bei-jungen-und-maedchen-unterschiede-oft-kleiner-als-gedacht/2349976",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Neurodiversität: Ähnelt sich ADHS bei Jungen und Mädchen stärker als gedacht?",
+        "url": "https://www.spektrum.de/news/adhs-bei-jungen-und-maedchen-unterschiede-oft-kleiner-als-gedacht/2349976",
+        "text": "Jungen gelten als impulsiv, Mädchen eher als verträumt. Eine große Langzeitstudie deutet nun darauf hin, dass die Unterschiede kleiner ausfallen als oft angenommen.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/adhs-bei-jungen-und-maedchen-unterschiede-oft-kleiner-als-gedacht/2349976",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Neurodiversität und ADHS-Forschung bei modernen Menschen, allgemeine Biologie."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/bewegungsmangel-jeder-vierte-jugendliche-treibt-keinen-sport/2352755",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bewegungsmangel: Jeder vierte Jugendliche treibt keinen Sport",
+        "url": "https://www.spektrum.de/news/bewegungsmangel-jeder-vierte-jugendliche-treibt-keinen-sport/2352755",
+        "text": "Laut WHO ist ein Viertel der 11- bis 17-Jährigen kaum oder gar nicht körperlich aktiv. Zwischen Mädchen und Jungs zeigen sich dabei deutliche Unterschiede.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/bewegungsmangel-jeder-vierte-jugendliche-treibt-keinen-sport/2352755",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Sportmedizin und Jugendgesundheit, kein Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Außergewöhnliches Vogelfossil: Frühe Eulen jagten offenbar noch bei Tageslicht",
+        "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
+        "text": "Was verrät die letzte Mahlzeit eines Vogels nach 47 Millionen Jahren? Ein gut erhaltenes Skelett aus der Grube Messel eröffnet nun neue Perspektiven auf die Evolution der Eulen.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
+        "relevant": true,
+        "category": "early_bird",
+        "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
+      },
+      "last_attempt": "2026-11-05",
+      "error": "article:HTTPError"
+    },
+    {
+      "url": "https://www.spektrum.de/news/silber-gegen-die-superkeime/2340302",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Antibiotikaresistenzen: Silber gegen die Superkeime",
+        "url": "https://www.spektrum.de/news/silber-gegen-die-superkeime/2340302",
+        "text": "Seit Jahrhunderten weiß man, dass Silber Bakterien tötet. Neue Verfahren und Nanotechnik sollen aus dem alten Wissen Hightech-Waffen gegen gefährliche Mikroben machen.",
+        "news_datum": "2026-11-04"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-05",
+      "decision": {
+        "url": "https://www.spektrum.de/news/silber-gegen-die-superkeime/2340302",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Artikel behandelt Antibiotikaresistenzen und Silber gegen Bakterien. Kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien. Reine Mikrobiologie und moderne Medizin."
+      },
+      "last_attempt": "2026-11-05"
     }
   ],
   "last_run": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "ready": 0,
-    "excluded": 18,
-    "pending": 1
+    "excluded": 20,
+    "pending": 2
   }
 }
