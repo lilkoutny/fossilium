@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 9,
+      "attempts": 10,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-05",
+      "last_attempt": "2026-11-06",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 1,
+      "attempts": 2,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-05",
+      "last_attempt": "2026-11-06",
       "error": "article:HTTPError"
     },
     {
@@ -1679,12 +1679,413 @@
         "reason": "Artikel behandelt Antibiotikaresistenzen und Silber gegen Bakterien. Kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien. Reine Mikrobiologie und moderne Medizin."
       },
       "last_attempt": "2026-11-05"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Scientists just found dinosaur blood that survived 115 million years",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+        "text": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation could unlock new clues about dinosaur physiology and even help scientists search for ancient life elsewhere in the universe.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "ready",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Der Artikel behandelt zentral die Entdeckung von fossilisiertem Dinosaurierblut in Knochen des Theropoden Aratasaurus museunacionali aus der Kreidezeit (115 Millionen Jahre alt). Die Forschung konzentriert sich auf die molekulare Paläontologie von Dinosauriern und deren Physiologie, was dem Kernthema von Fossilium entspricht."
+      },
+      "last_attempt": "2026-11-06",
+      "publication": "/publikationen/blutspuren-im-dinosaurierknochen-fund-fordert-grundannahmen-der-p-9ad9c4695d/"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/eiszeitmenschen-haben-kohlenhydrate-aus-unerwarteter-quelle-gegessen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Eiszeitmenschen haben Kohlenhydrate aus unerwarteter Quelle gegessen",
+        "url": "https://www.scinexx.de/news/archaeologie/eiszeitmenschen-haben-kohlenhydrate-aus-unerwarteter-quelle-gegessen",
+        "text": "Ein Bison könnte 25 Erwachsene drei Tage lang mit Protein und Kohlenhydraten versorgen",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/eiszeitmenschen-haben-kohlenhydrate-aus-unerwarteter-quelle-gegessen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Eiszeitmenschen und deren Ernährungsquellen (Bison). Kein Bezug zu Dinosauriern, frühen fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien. Fällt unter ausgeschlossene archäologische Themen."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/mondgezeiten-koennten-einsteins-gravitation-neu-auf-die-probe-stellen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Mondgezeiten könnten Einsteins Gravitation neu auf die Probe stellen",
+        "url": "https://www.scinexx.de/news/physik/mondgezeiten-koennten-einsteins-gravitation-neu-auf-die-probe-stellen",
+        "text": "Schon kleine Fehler im Erde-Mond-Bezugssystem können wie zusätzliche Gravitation wirken",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/mondgezeiten-koennten-einsteins-gravitation-neu-auf-die-probe-stellen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Reine Physik-Thematik zu Gravitation und Erde-Mond-Beziehungen. Kein Bezug zu paläontologischen Inhalten oder mesozoischen Fossilien."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/fraktale-muster-enthuellen-verborgene-grenzen-der-vorhersagbarkeit-von-ki",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Fraktale Muster enthüllen verborgene Grenzen der Vorhersagbarkeit von KI",
+        "url": "https://www.scinexx.de/news/technik/fraktale-muster-enthuellen-verborgene-grenzen-der-vorhersagbarkeit-von-ki",
+        "text": "Fast gleiche Startwerte können zu unterschiedlichen trainierten Modellen führen",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/fraktale-muster-enthuellen-verborgene-grenzen-der-vorhersagbarkeit-von-ki",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Technologie und Künstliche Intelligenz. Kein paläontologischer oder fossiler Bezug."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/rote-punkte-im-weltraum-koennten-urzeitliche-schwarze-loecher-verbergen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Rote Punkte im Weltraum könnten urzeitliche Schwarze Löcher verbergen",
+        "url": "https://www.scinexx.de/news/kosmos/rote-punkte-im-weltraum-koennten-urzeitliche-schwarze-loecher-verbergen",
+        "text": "Auch der Kollaps früher Sterne oder besonders massereicher Gaswolken bleibt als Erklärung möglich",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/rote-punkte-im-weltraum-koennten-urzeitliche-schwarze-loecher-verbergen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmologie und Astrophysik zu schwarzen Löchern. Keine Relevanz für Dinosaurier oder Fossilien."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/kleine-eiszeit-koennte-rachitis-waehrend-der-industrialisierung-verstaerkt-haben",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Kleine Eiszeit könnte Rachitis während der Industrialisierung verstärkt haben",
+        "url": "https://www.scinexx.de/news/archaeologie/kleine-eiszeit-koennte-rachitis-waehrend-der-industrialisierung-verstaerkt-haben",
+        "text": "Alte Zähne zeigen wiederholte Störungen der Mineralisierung in der Kindheit",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/kleine-eiszeit-koennte-rachitis-waehrend-der-industrialisierung-verstaerkt-haben",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Historische Anthropologie und Gesundheitsgeschichte. Kein Bezug zu Dinosauriern oder mesozoischen Fossilien."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/covid-19-stress-beschleunigt-bei-jugendlichen-das-epigenetische-altern",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Covid-19-Stress beschleunigt bei Jugendlichen das epigenetische Altern",
+        "url": "https://www.scinexx.de/news/medizin/covid-19-stress-beschleunigt-bei-jugendlichen-das-epigenetische-altern",
+        "text": "Bei Kindern und jungen Erwachsenen wurde der Effekt nicht festgestellt",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/covid-19-stress-beschleunigt-bei-jugendlichen-das-epigenetische-altern",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Medizin und Epigenetik. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/selbstaufladende-zahnbuerste-bekaempft-bakterien-mit-strom",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Selbstaufladende Zahnbürste bekämpft Bakterien mit Strom",
+        "url": "https://www.scinexx.de/news/medizin/selbstaufladende-zahnbuerste-bekaempft-bakterien-mit-strom",
+        "text": "Piezoelektrische Borsten erzeugen beim Putzen elektrische Ladungen ohne Batterie",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/selbstaufladende-zahnbuerste-bekaempft-bakterien-mit-strom",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizintechnische Innovation. Kein Bezug zu Fossilien oder Paläontologie."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/reflektierendes-biomaterial-pflanzen-werden-zu-spiegeln/2352925",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Reflektierendes Biomaterial: Pflanzen werden zu Spiegeln",
+        "url": "https://www.spektrum.de/news/reflektierendes-biomaterial-pflanzen-werden-zu-spiegeln/2352925",
+        "text": "Das stark reflektierende Material besteht einzig aus Pektin und Cellulose und stellt sogar Prachtkäfer in den Schatten. Es könnte im Sommer etwa Häuser vor Hitze schützen.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/reflektierendes-biomaterial-pflanzen-werden-zu-spiegeln/2352925",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Pflanzenbiologie und Materialwissenschaften. Kein Bezug zu Dinosauriern oder ausgestorbenen Organismen."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/altermagnete-eine-neue-form-des-magnetismus/2353027",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Müssen wir Magnetismus neu denken?",
+        "url": "https://www.spektrum.de/podcast/altermagnete-eine-neue-form-des-magnetismus/2353027",
+        "text": "Was macht einen Magneten zum Magneten? Die Antwort ist komplizierter als gedacht. Wissenschaftler erforschen neu entdeckte Altermagnete, deren Eigenschaften ungewöhnlich sind. 🎙️",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/altermagnete-eine-neue-form-des-magnetismus/2353027",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Physikalisches Phänomen Magnetismus. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/sonnenaktivitaet-im-oktober-2026/2350541",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sonne aktuell: Rückblick und Prognose: Buntes Treiben im Herbst",
+        "url": "https://www.spektrum.de/news/sonnenaktivitaet-im-oktober-2026/2350541",
+        "text": "Die Sonnenaktivität nähert sich zwar ihrem Minimum, jedoch wurden im Oktober 2026 zwei Eruptionen beobachtet, gefolgt von einem Polarlicht, das in Teilen Deutschlands sichtbar war.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/sonnenaktivitaet-im-oktober-2026/2350541",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Sonnenphysik und aktuelle Raumwetterbeobachtungen. Kein Bezug zu Fossilien oder Paläontologie."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/hera-asteroid-didymos-voraus/2353023",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Raumsonde Hera: Erstes Foto von Asteroid Didymos und seinem Mond Dimorphos",
+        "url": "https://www.spektrum.de/news/hera-asteroid-didymos-voraus/2353023",
+        "text": "Anfang November 2026 nahm die europäische Raumsonde Hera das erste scharfe Bild des Asteroiden Didymos auf, sein Mond Dimorphos versteckt sich in dessen Schatten.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/hera-asteroid-didymos-voraus/2353023",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrtmission und Asteroidenforschung. Kein paläontologischer Bezug troächst möglicher historischer Dinosaurier-Asteroidenverbindung zum Aussterben, hier aber nur Beobachtungsmission."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/escapade-sonden-auf-kurs-zum-mars/2352660",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Erforschung des Roten Planeten: ESCAPADE geht auf Kurs zum Mars",
+        "url": "https://www.spektrum.de/news/escapade-sonden-auf-kurs-zum-mars/2352660",
+        "text": "Am 7. und 9. November 2026 werden die beiden ESCAPADE-Raumsonden dicht an der Erde vorbeifliegen. Im September 2027 sollen sie den Mars erreichen und seine Atmosphäre erkunden.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/escapade-sonden-auf-kurs-zum-mars/2352660",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrtmission zur Marsforschung. Kein Bezug zu irdischen Fossilien oder Paläontologie."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/angst-vor-datenklau-wenn-die-ki-mitliest/2351353",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Angst vor Datenklau: Wenn die KI mitliest",
+        "url": "https://www.spektrum.de/news/angst-vor-datenklau-wenn-die-ki-mitliest/2351353",
+        "text": "Profitieren KI-Firmen von Ideen, die Forschende ihnen anvertrauen? Aus Sorge um ihre Daten setzt die deutsche Wissenschaft verstärkt auf eigene Modelle und Infrastruktur.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/angst-vor-datenklau-wenn-die-ki-mitliest/2351353",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Künstliche Intelligenz und Datensicherheit in der Forschung. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/welche-zahl-hat-den-groesseren-wert/2340560",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Welche der beiden Zahlen ist größer?",
+        "url": "https://www.spektrum.de/raetsel/welche-zahl-hat-den-groesseren-wert/2340560",
+        "text": "Wie lässt sich ermitteln, welche der beiden Zahlen den größeren Wert hat?",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/welche-zahl-hat-den-groesseren-wert/2340560",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel. Kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/forschungsquartett-das-geheimnis-der-schwarzloch-sterne/2352856",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Schwarzloch-Sterne: Das Geheimnis der kleinen, roten Punkte",
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-das-geheimnis-der-schwarzloch-sterne/2352856",
+        "text": "Mit der neuen Objektklasse der Schwarzloch-Sterne liefern Forschende vom MIT die Lösung für das kosmische Rätsel der winzigen roten Punkte. Allerdings gibt es jetzt neue Fragen. 🎙️",
+        "news_datum": "2026-11-06"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-das-geheimnis-der-schwarzloch-sterne/2352856",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmologie und Astrophysik zu Schwarzloch-Sternen. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kraken-oktopusse-zwaengen-sich-durch-schmalste-loecher/2352868",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Oktopusse: Wie sich Kraken durch kleinste Löcher zwängen",
+        "url": "https://www.spektrum.de/news/kraken-oktopusse-zwaengen-sich-durch-schmalste-loecher/2352868",
+        "text": "Zu eng? Ach was! Oktopusse nutzen ihre acht Arme, um sich durch schmalste Ritzen zu quetschen.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kraken-oktopusse-zwaengen-sich-durch-schmalste-loecher/2352868",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Zoologie zu rezenten Oktopussen. Nicht verwandt mit Dinosauriern, frühen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/alias/bilder-der-woche/laternentraegerzikade-eine-schoenheit-die-keiner-haben-will/2352920",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilder der Woche: Eine Schönheit, die keiner haben will",
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/laternentraegerzikade-eine-schoenheit-die-keiner-haben-will/2352920",
+        "text": "Diese invasive Insektenart vermehrt sich massenhaft, saugt ihre Wirtspflanzen aus und ist kaum zu bekämpfen. Nun wurde erstmals eine Population in Europa gesichtet.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/laternentraegerzikade-eine-schoenheit-die-keiner-haben-will/2352920",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Entomologie zu invasiver Insektenart. Fällt unter ausgeschlossene Insekten-Thematik."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ungewisse-zukunft-wie-kann-hubble-gerettet-werden/2352668",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ungewisse Zukunft: Kann Hubble gerettet werden?",
+        "url": "https://www.spektrum.de/news/ungewisse-zukunft-wie-kann-hubble-gerettet-werden/2352668",
+        "text": "Nach dem Absturz des Swift-Observatoriums blickt die NASA besorgt in Richtung des Weltraumteleskops Hubble und sucht nach Möglichkeiten, dessen Betriebsdauer zu verlängern.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ungewisse-zukunft-wie-kann-hubble-gerettet-werden/2352668",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrttechnik und Weltraumteleskop-Management. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kuenstliche-zellen-was-ist-leben-petra-schwille/2351192",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die großen Fragen der Wissenschaft: Was ist Leben, Petra Schwille?",
+        "url": "https://www.spektrum.de/news/kuenstliche-zellen-was-ist-leben-petra-schwille/2351192",
+        "text": "Ein Baum gilt als lebendig, ein Stein nicht. Was unterscheidet sie? Die Biophysikerin Petra Schwille versucht, diese Frage zu beantworten, indem sie künstliche Zellen erschafft.",
+        "news_datum": "2026-11-05"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-06",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kuenstliche-zellen-was-ist-leben-petra-schwille/2351192",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Biophysik und künstliche Zellen-Forschung. Keine paläontologische Relevanz für Dinosaurier oder fossile Organismen."
+      },
+      "last_attempt": "2026-11-06"
     }
   ],
   "last_run": {
-    "date": "2026-11-05",
-    "ready": 0,
-    "excluded": 20,
+    "date": "2026-11-06",
+    "ready": 1,
+    "excluded": 19,
     "pending": 2
   }
 }

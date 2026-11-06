@@ -1,6 +1,19 @@
 {
-  "stand": "2026-11-03",
+  "stand": "2026-11-06",
   "meldungen": [
+    {
+      "titel": "Blutspuren im Dinosaurierknochen: Fund fordert Grundannahmen der Paläontologie heraus",
+      "zusammenfassung": "Forschende haben in 115 Millionen Jahre alten Knochen eines Dinosauriers chemische Überreste von Blut nachgewiesen. Der Fund gilt als erster definitiver molekularer Beleg für Hämoglobin-Derivate in fossilen roten Blutzellen. Die Ergebnisse wurden in den Proceedings of the National Academy of Sciences veröffentlicht.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "datum": "2026-11-06",
+      "erstmals_angezeigt": "2026-11-06",
+      "news_datum": "2026-11-06",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Der Artikel behandelt zentral die Entdeckung von fossilisiertem Dinosaurierblut in Knochen des Theropoden Aratasaurus museunacionali aus der Kreidezeit (115 Millionen Jahre alt). Die Forschung konzentriert sich auf die molekulare Paläontologie von Dinosauriern und deren Physiologie, was dem Kernthema von Fossilium entspricht.",
+      "publikation": "/publikationen/blutspuren-im-dinosaurierknochen-fund-fordert-grundannahmen-der-p-9ad9c4695d/"
+    },
     {
       "titel": "Blutbezogene Molekülspuren in 115 Millionen Jahre altem Dinosaurierknochen",
       "zusammenfassung": "Ein Forschungsteam berichtet Häm-Spuren in mineralisierten Strukturen eines Aratasaurus-Fossils aus dem Nordosten Brasiliens. Die Kombination chemischer und mikroskopischer Befunde stützt nach Einschätzung des Teams die Deutung als erhaltene Reste roter Blutzellen.",

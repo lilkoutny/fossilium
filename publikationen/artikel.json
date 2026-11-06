@@ -1259,6 +1259,59 @@
       ],
       "bilder": [],
       "mindestwoerter": 450
+    },
+    {
+      "slug": "blutspuren-im-dinosaurierknochen-fund-fordert-grundannahmen-der-p-9ad9c4695d",
+      "titel": "Blutspuren im Dinosaurierknochen: Fund fordert Grundannahmen der Paläontologie heraus",
+      "untertitel": "Forschende haben in 115 Millionen Jahre alten Knochen eines Dinosauriers chemische Überreste von Blut nachgewiesen. Der Fund gilt als erster definitiver molekularer Beleg für Hämoglobin-Derivate in fossilen roten Blutzellen. Die Ergebnisse wurden in den Proceedings of the National Academy of Sciences veröffentlicht.",
+      "abschnitte": [
+        {
+          "titel": "Der Dinosaurier und sein Fundort",
+          "absatz": [
+            "Bei dem untersuchten Tier handelt es sich um Aratasaurus museunacionali, einen fleischfressenden Theropoden, dessen Überreste im Nordosten Brasiliens entdeckt wurden.[[S1]] An dem internationalen Forschungsprojekt waren Institutionen aus mehreren Ländern beteiligt, darunter die Curtin University in Australien, das Brasilianische Nationalmuseum, die Regional University of Cariri, die Japan Agency for Marine-Earth Science and Technology sowie die Johns Hopkins University.[[S1]] Geleitet wurde das Projekt von Kliti Grice, Professorin an der Curtin University und Gründungsdirektorin des dortigen WA-Organic and Isotope Geochemistry Centre.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Was die Analyse zeigte",
+          "absatz": [
+            "Als Forschende die Gliedmaßenknochen des Tieres untersuchten, stießen sie in den Gefäßkanälen – jenen feinen Kanälen, die einst Blutgefäße enthielten – auf zahlreiche mineralisierte rote Blutzellen.[[S1]] Eine chemische Analyse erbrachte den Nachweis von Häm-Molekülen, also Bestandteilen des Hämoglobins, das in roten Blutzellen den Sauerstofftransport ermöglicht.[[S1]] Zusätzlich wurden Aminosäuren nachgewiesen, die mit Kollagen assoziiert sind, einem strukturellen Protein in Knochen und Bindegewebe.[[S1]] Frühere Studien hatten zwar Strukturen beschrieben, die Blutzellen ähnelten, einen chemisch eindeutigen Nachweis von Hämoglobin-Derivaten innerhalb fossiler roter Blutzellen hatte die Wissenschaft bis dahin jedoch nicht erbringen können.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Warum das Material erhalten blieb",
+          "absatz": [
+            "Die außergewöhnliche Erhaltung steht nach Einschätzung der Forschenden in Zusammenhang mit dem Mineral Hausmannit.[[S1]] Dieses Mineral stabilisierte offenbar die fossilen Blutzellen und schützte ihre molekularen Bestandteile über einen immensen geologischen Zeitraum hinweg.[[S1]] Darüber hinaus vermuten die Forschenden, dass die Bedingungen zum Zeitpunkt der Einbettung des Tieres eine entscheidende Rolle spielten: Eine rasche Bedeckung durch Sediment in einem sauerstoffarmen Milieu mit hoher mikrobieller Aktivität könnte dazu beigetragen haben, biologisches Material zu erhalten, das unter gewöhnlichen Umständen zersetzt worden wäre.[[S1]] Hierbei handelt es sich um eine Interpretation der Forschenden; die genauen Mechanismen sind in der Nachricht nicht abschließend belegt."
+          ]
+        },
+        {
+          "titel": "Eine Herausforderung für bisherige Annahmen",
+          "absatz": [
+            "Der Fund stellt eine langjährige Grundannahme der Paläontologie in Frage, wonach Moleküle wie Hämoglobin über solch gewaltige Zeiträume nicht erhalten bleiben können.[[S1]] Die Ergebnisse eröffnen nach Aussage der Forschenden neue Möglichkeiten für eine Paläontologie auf molekularer Ebene, die es erlauben könnte, die Evolution von Blut, Stoffwechsel und weiteren physiologischen Merkmalen ausgestorbener Tiere zu untersuchen.[[S1]] Zugleich werfen die Befunde die Frage auf, ob andere Fossilien molekulare Informationen enthalten könnten, die bei herkömmlichen Untersuchungen bislang übersehen wurden.[[S1]] In welchem Umfang solche Nachweise in anderen Funden tatsächlich zu erwarten sind, bleibt nach dem Stand der Nachricht offen."
+          ]
+        },
+        {
+          "titel": "Mögliche Bedeutung für die Astrobiologie",
+          "absatz": [
+            "Die Reichweite des Fundes könnte über die Erforschung ausgestorbener Tiere hinausgehen. Martin Van Kranendonk, Leitung der School of Earth and Planetary Sciences an der Curtin University, erklärte laut der Meldung, die Ergebnisse veränderten das Verständnis davon, wie molekulare Strukturen über sehr lange Zeiträume und unter extremen Bedingungen erhalten bleiben können.[[S1]] Wenn biologische Moleküle oder ihre chemischen Signaturen unter geeigneten Bedingungen mehr als 100 Millionen Jahre überdauern können, so die Überlegung, könnte dies Konsequenzen dafür haben, wo und wie nach Spuren des Lebens in anderen Umgebungen gesucht wird – einschließlich jener außerhalb der Erde.[[S1]] Die Forschung wurde durch ein Australian Research Council Laureate Fellowship aus dem Jahr 2021 gefördert.[[S1]]"
+          ]
+        }
+      ],
+      "datum": "2026-11-06",
+      "news_datum": "2026-11-06",
+      "study_datum": "Nicht unabhängig geprüft",
+      "lesestand": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft",
+      "original_quelle": "ScienceDaily",
+      "original_url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "quellen": [
+        {
+          "id": "S1",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+          "titel": "Scientists just found dinosaur blood that survived 115 million years",
+          "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"
+        }
+      ],
+      "bilder": [],
+      "mindestwoerter": 450
     }
   ]
 }
