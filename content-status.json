@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-05T12:54:31.064404+00:00",
+  "updated": "2026-11-06T12:41:30.385754+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "ffef91e2d3120ff518323a22c86eb106",
+      "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
+      "title": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-06T12:41:30.383823+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "9ad9c4695d7d3f88496385e8b893549e",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "title": "Blutspuren im Dinosaurierknochen: Fund fordert Grundannahmen der Paläontologie heraus",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-06T12:41:30.116381+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "d1380627f2efa2397cf0fc77f1fd070f",
       "url": "https://phys.org/news/2026-10-year-mystery-identity-extinct-giant.html",
@@ -298,19 +324,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T12:34:51.625517+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "ffef91e2d3120ff518323a22c86eb106",
-      "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
-      "title": "Dinosaurier-Blutspuren in versteinerten Knochen entdeckt",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T12:34:51.621803+00:00",
       "sources": [],
       "score": null,
       "script": null,
