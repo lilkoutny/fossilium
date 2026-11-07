@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-06T12:41:30.385754+00:00",
+  "updated": "2026-11-07T11:27:17.581910+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "742c7009345149d7d689962384e78a9e",
+      "url": "https://phys.org/news/2026-11-year-fossilized-termite-karoo-town.html",
+      "title": "400.000 Jahre alte Termitennester in Südafrika fosssilisiert",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-07T11:27:17.580240+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "ffef91e2d3120ff518323a22c86eb106",
       "url": "https://phys.org/news/2026-10-dinosaur-blood-oldest-discovery-rewrites.html",
@@ -311,19 +324,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-03T12:34:51.660364+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "742c7009345149d7d689962384e78a9e",
-      "url": "https://phys.org/news/2026-11-year-fossilized-termite-karoo-town.html",
-      "title": "400.000 Jahre alte Termitennester in Südafrika fosssilisiert",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T12:34:51.625517+00:00",
       "sources": [],
       "score": null,
       "script": null,
