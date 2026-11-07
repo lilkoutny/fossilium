@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 10,
+      "attempts": 11,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-06",
+      "last_attempt": "2026-11-07",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-06",
+      "last_attempt": "2026-11-07",
       "error": "article:HTTPError"
     },
     {
@@ -2080,12 +2080,267 @@
         "reason": "Biophysik und künstliche Zellen-Forschung. Keine paläontologische Relevanz für Dinosaurier oder fossile Organismen."
       },
       "last_attempt": "2026-11-06"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/die-extremsten-hitzewellen-liegen-noch-vor-uns",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Die extremsten Hitzewellen liegen noch vor uns",
+        "url": "https://www.scinexx.de/news/geowissen/die-extremsten-hitzewellen-liegen-noch-vor-uns",
+        "text": "Klimasimulationen zeigen mögliche längere, großflächigere und heftigere Hitzeperioden",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/warum-koennten-fehlgeburten-bei-mandrills-nuetzlich-sein",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Warum könnten Fehlgeburten bei Mandrills nützlich sein?",
+        "url": "https://www.scinexx.de/news/biowissen/warum-koennten-fehlgeburten-bei-mandrills-nuetzlich-sein",
+        "text": "Nach Fötusverlusten folgten im Mittel mehr Jungtiere, die mindestens sechs Monate überlebten",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/dorsche-kompensierten-den-verlust-lebenswichtiger-gene",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Dorsche kompensierten den Verlust lebenswichtiger Gene",
+        "url": "https://www.scinexx.de/news/biowissen/dorsche-kompensierten-den-verlust-lebenswichtiger-gene",
+        "text": "Ein alter Aqp4-Wasserkanal übernimmt die Funktion der verlorenen Aqp1ab-Gene",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.scinexx.de/news/energie/deutschland-koennte-durch-elektrifizierung-30-milliarden-euro-an-fossilen-importen-ersetzen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Deutschland könnte durch Elektrifizierung 30 Milliarden Euro an fossilen Importen ersetzen",
+        "url": "https://www.scinexx.de/news/energie/deutschland-koennte-durch-elektrifizierung-30-milliarden-euro-an-fossilen-importen-ersetzen",
+        "text": "2025 lagen Deutschlands Nettoimportkosten für Energie bei rund 76 Milliarden Euro",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/galaxie-misty-moons-gibt-einen-einblick-in-die-sternbildung-im-jungen-universum",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Galaxie „Misty Moons“ gibt einen Einblick in die Sternbildung im jungen Universum",
+        "url": "https://www.scinexx.de/news/kosmos/galaxie-misty-moons-gibt-einen-einblick-in-die-sternbildung-im-jungen-universum",
+        "text": "Eine Gravitationslinse macht mehrere kompakte Sternklumpen in der fernen Galaxie sichtbar",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/roboter-gimli-soll-moegliche-mondhoehle-fuer-kuenftige-mondmissionen-erkunden",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Roboter GIMLI soll mögliche Mondhöhle für künftige Mondmissionen erkunden",
+        "url": "https://www.scinexx.de/news/kosmos/roboter-gimli-soll-moegliche-mondhoehle-fuer-kuenftige-mondmissionen-erkunden",
+        "text": "Radar, Seismik und Gravimetrie sollen Hohlräume von der Oberfläche aus lokalisieren",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/neue-upcycling-methode-macht-plastikabfall-zu-hochfesten-klebstoffen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Neue Upcycling-Methode macht Plastikabfall zu hochfesten Klebstoffen",
+        "url": "https://www.scinexx.de/news/technik/neue-upcycling-methode-macht-plastikabfall-zu-hochfesten-klebstoffen",
+        "text": "Schon 13 Milligramm Klebstoff konnten im Versuch ein 20-Kilogramm-Gewicht halten",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/reich-durch-heisse-luft-ammoniaksynthese/2338501",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Reich durch heiße Luft",
+        "url": "https://www.spektrum.de/raetsel/reich-durch-heisse-luft-ammoniaksynthese/2338501",
+        "text": "Wer erfand die Ammoniaksynthese und konnte damit Leben retten, aber auch vernichten?",
+        "news_datum": "2026-11-07"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-lang-ist-die-teilstrecke/2292026",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie lang ist die Teilstrecke?",
+        "url": "https://www.spektrum.de/raetsel/wie-lang-ist-die-teilstrecke/2292026",
+        "text": "Wie lässt sich die Länge der Strecke ermitteln?",
+        "news_datum": "2026-11-07"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/growth-mindset-warum-positives-denken-nicht-genuegt/2349417",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vorsicht, Denkfalle!: Warum die richtige Einstellung allein nicht reicht",
+        "url": "https://www.spektrum.de/kolumne/growth-mindset-warum-positives-denken-nicht-genuegt/2349417",
+        "text": "Ein »Growth Mindset« gilt vielen als Schlüssel zu persönlichem Wachstum und Erfolg. Doch das ist zu kurz gedacht, erklärt unser Psychologiekolumnist.",
+        "news_datum": "2026-11-07"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sternengeschichten-die-sternennacht-von-vincent-van-gogh/2353035",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die »Sternennacht« von Vincent van Gogh",
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-die-sternennacht-von-vincent-van-gogh/2353035",
+        "text": "Die »Sternennacht« von Vincent van Gogh ist eine der berühmtesten Darstellungen des Nachthimmels in der Kunst. Aber auch die Astronomie hat einiges zu diesem Gemälde zu sagen. 🎙️",
+        "news_datum": "2026-11-07"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/nerds-at-work-ueber-wissenschaft-in-brettspielen/2353030",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Über Wissenschaft in Brettspielen",
+        "url": "https://www.spektrum.de/podcast/nerds-at-work-ueber-wissenschaft-in-brettspielen/2353030",
+        "text": "Die weltgrößte Brettspielemesse ist ein jährliches Sammelbecken für Nerds aller Art. Was Wissenschaft mit Brettspielen zu tun hat, besprechen die Nerds in dieser Podcastfolge. 🎙️",
+        "news_datum": "2026-11-07"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/news/algebra-18-jaehriger-macht-fortschritte-beim-chicken-nuggets-problem/2353042",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Algebra: 18-Jähriger macht Fortschritte beim Chicken-Nuggets-Problem",
+        "url": "https://www.spektrum.de/news/algebra-18-jaehriger-macht-fortschritte-beim-chicken-nuggets-problem/2353042",
+        "text": "Welche Nugget-Zahlen kann man mit vier Packungsgrößen bestellen? Ein Schüler hat das Zahlenproblem in eine Landschaft aus Würfeln verwandelt – und damit neue Lösungswege eröffnet.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/news/beliebtes-paeuschen-fast-jeder-zweite-erwachsene-haelt-mittagsschlaf/2353021",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Beliebtes Päuschen: Fast jeder zweite Erwachsene hält Mittagsschlaf",
+        "url": "https://www.spektrum.de/news/beliebtes-paeuschen-fast-jeder-zweite-erwachsene-haelt-mittagsschlaf/2353021",
+        "text": "Ein kurzer Powernap kann wieder fit machen. Eine Analyse zeigt: Mittagsschlaf ist beliebt in Deutschland. Eines gilt es aber zu beachten.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ehe-und-partnerschaft-wie-es-um-die-liebe-im-alter-steht/2353017",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ehe und Partnerschaft: Wie es um die Liebe im Alter steht – das weiß die Forschung",
+        "url": "https://www.spektrum.de/news/ehe-und-partnerschaft-wie-es-um-die-liebe-im-alter-steht/2353017",
+        "text": "Schmetterlinge flattern vielleicht nicht mehr im Bauch, wenn man jahrzehntelang mit dem gleichen Partner zusammen ist. Dafür hat die Liebe im Alter andere Qualitäten.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/news/studie-zum-ki-boom-mit-neuen-rechenzentren-droht-wasserstress/2353019",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Studie des Öko-Instituts: Mit neuen Rechenzentren droht Wasserstress",
+        "url": "https://www.spektrum.de/news/studie-zum-ki-boom-mit-neuen-rechenzentren-droht-wasserstress/2353019",
+        "text": "Der Wasserbedarf deutscher Rechenzentren geht laut einer Studie deutlich über bisherige Annahmen hinaus. Umweltschützer fordern Maßnahmen, um den Wasserverbrauch zu senken.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
+    },
+    {
+      "url": "https://www.spektrum.de/news/geoengineering-ein-sonnenschirm-im-weltall-fuer-eine-kuehlere-erde/2352075",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Solares Geoengineering: Ein Sonnenschirm im Weltall für eine kühlere Erde",
+        "url": "https://www.spektrum.de/news/geoengineering-ein-sonnenschirm-im-weltall-fuer-eine-kuehlere-erde/2352075",
+        "text": "Könnte ein riesiger Sonnenschirm im All die Erderwärmung stoppen? Manche halten das Konzept für reine Fantasie, doch Forschende nehmen die Idee allmählich ernst.",
+        "news_datum": "2026-11-06"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-07",
+      "error": "classification:ValueError",
+      "last_attempt": "2026-11-07"
     }
   ],
   "last_run": {
-    "date": "2026-11-06",
-    "ready": 1,
-    "excluded": 19,
-    "pending": 2
+    "date": "2026-11-07",
+    "ready": 0,
+    "excluded": 0,
+    "pending": 19
   }
 }
