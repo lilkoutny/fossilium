@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 11,
+      "attempts": 12,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-07",
+      "last_attempt": "2026-11-08",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 3,
+      "attempts": 4,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-07",
+      "last_attempt": "2026-11-08",
       "error": "article:HTTPError"
     },
     {
@@ -2090,11 +2090,16 @@
         "text": "Klimasimulationen zeigen mögliche längere, großflächigere und heftigere Hitzeperioden",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/die-extremsten-hitzewellen-liegen-noch-vor-uns",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimawissenschaft und Zukunftsprognosen; kein Bezug zu Dinosauriern oder relevanten Fossilien."
+      }
     },
     {
       "url": "https://www.scinexx.de/news/biowissen/warum-koennten-fehlgeburten-bei-mandrills-nuetzlich-sein",
@@ -2105,11 +2110,16 @@
         "text": "Nach Fötusverlusten folgten im Mittel mehr Jungtiere, die mindestens sechs Monate überlebten",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/warum-koennten-fehlgeburten-bei-mandrills-nuetzlich-sein",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Primatologie und Reproduktionsbiologie; ausgeschlossen als Säugetierstudie ohne Fossilienbezug."
+      }
     },
     {
       "url": "https://www.scinexx.de/news/biowissen/dorsche-kompensierten-den-verlust-lebenswichtiger-gene",
@@ -2120,11 +2130,16 @@
         "text": "Ein alter Aqp4-Wasserkanal übernimmt die Funktion der verlorenen Aqp1ab-Gene",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/dorsche-kompensierten-den-verlust-lebenswichtiger-gene",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Fischbiologie und Genetik moderner Arten; nicht relevant für Fossilienforschung."
+      }
     },
     {
       "url": "https://www.scinexx.de/news/energie/deutschland-koennte-durch-elektrifizierung-30-milliarden-euro-an-fossilen-importen-ersetzen",
@@ -2135,11 +2150,16 @@
         "text": "2025 lagen Deutschlands Nettoimportkosten für Energie bei rund 76 Milliarden Euro",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/energie/deutschland-koennte-durch-elektrifizierung-30-milliarden-euro-an-fossilen-importen-ersetzen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Energiewirtschaft; 'fossil' bezieht sich auf Energieträger, nicht auf Paläontologie."
+      }
     },
     {
       "url": "https://www.scinexx.de/news/kosmos/galaxie-misty-moons-gibt-einen-einblick-in-die-sternbildung-im-jungen-universum",
@@ -2150,11 +2170,16 @@
         "text": "Eine Gravitationslinse macht mehrere kompakte Sternklumpen in der fernen Galaxie sichtbar",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/galaxie-misty-moons-gibt-einen-einblick-in-die-sternbildung-im-jungen-universum",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und kosmische Strukturen; kein Bezug zu Paläontologie oder Fossilien."
+      }
     },
     {
       "url": "https://www.scinexx.de/news/kosmos/roboter-gimli-soll-moegliche-mondhoehle-fuer-kuenftige-mondmissionen-erkunden",
@@ -2165,11 +2190,16 @@
         "text": "Radar, Seismik und Gravimetrie sollen Hohlräume von der Oberfläche aus lokalisieren",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/roboter-gimli-soll-moegliche-mondhoehle-fuer-kuenftige-mondmissionen-erkunden",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mondforschung und Raumfahrttechnik; nicht relevant für Fossilienforschung."
+      }
     },
     {
       "url": "https://www.scinexx.de/news/technik/neue-upcycling-methode-macht-plastikabfall-zu-hochfesten-klebstoffen",
@@ -2180,11 +2210,16 @@
         "text": "Schon 13 Milligramm Klebstoff konnten im Versuch ein 20-Kilogramm-Gewicht halten",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/neue-upcycling-methode-macht-plastikabfall-zu-hochfesten-klebstoffen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Materialwissenschaft und Kunststofftechnologie; kein Bezug zu Paläontologie."
+      }
     },
     {
       "url": "https://www.spektrum.de/raetsel/reich-durch-heisse-luft-ammoniaksynthese/2338501",
@@ -2195,11 +2230,16 @@
         "text": "Wer erfand die Ammoniaksynthese und konnte damit Leben retten, aber auch vernichten?",
         "news_datum": "2026-11-07"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/reich-durch-heisse-luft-ammoniaksynthese/2338501",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Chemiegeschichte und Industriechemie; kein Fossilienbezug."
+      }
     },
     {
       "url": "https://www.spektrum.de/raetsel/wie-lang-ist-die-teilstrecke/2292026",
@@ -2210,11 +2250,16 @@
         "text": "Wie lässt sich die Länge der Strecke ermitteln?",
         "news_datum": "2026-11-07"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-lang-ist-die-teilstrecke/2292026",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel; kein Bezug zu Paläontologie oder Fossilien."
+      }
     },
     {
       "url": "https://www.spektrum.de/kolumne/growth-mindset-warum-positives-denken-nicht-genuegt/2349417",
@@ -2225,11 +2270,16 @@
         "text": "Ein »Growth Mindset« gilt vielen als Schlüssel zu persönlichem Wachstum und Erfolg. Doch das ist zu kurz gedacht, erklärt unser Psychologiekolumnist.",
         "news_datum": "2026-11-07"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/growth-mindset-warum-positives-denken-nicht-genuegt/2349417",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologie und Persönlichkeitsentwicklung; nicht relevant für Fossilienforschung."
+      }
     },
     {
       "url": "https://www.spektrum.de/podcast/sternengeschichten-die-sternennacht-von-vincent-van-gogh/2353035",
@@ -2240,11 +2290,16 @@
         "text": "Die »Sternennacht« von Vincent van Gogh ist eine der berühmtesten Darstellungen des Nachthimmels in der Kunst. Aber auch die Astronomie hat einiges zu diesem Gemälde zu sagen. 🎙️",
         "news_datum": "2026-11-07"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-die-sternennacht-von-vincent-van-gogh/2353035",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kunstgeschichte und Astronomiegeschichte; kein Bezug zu Paläontologie."
+      }
     },
     {
       "url": "https://www.spektrum.de/podcast/nerds-at-work-ueber-wissenschaft-in-brettspielen/2353030",
@@ -2255,11 +2310,16 @@
         "text": "Die weltgrößte Brettspielemesse ist ein jährliches Sammelbecken für Nerds aller Art. Was Wissenschaft mit Brettspielen zu tun hat, besprechen die Nerds in dieser Podcastfolge. 🎙️",
         "news_datum": "2026-11-07"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/nerds-at-work-ueber-wissenschaft-in-brettspielen/2353030",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Freizeitkultur und Brettspiele; kein Fossilienbezug."
+      }
     },
     {
       "url": "https://www.spektrum.de/news/algebra-18-jaehriger-macht-fortschritte-beim-chicken-nuggets-problem/2353042",
@@ -2270,11 +2330,16 @@
         "text": "Welche Nugget-Zahlen kann man mit vier Packungsgrößen bestellen? Ein Schüler hat das Zahlenproblem in eine Landschaft aus Würfeln verwandelt – und damit neue Lösungswege eröffnet.",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/algebra-18-jaehriger-macht-fortschritte-beim-chicken-nuggets-problem/2353042",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Zahlentheorie; kein Bezug zu Paläontologie oder Fossilien."
+      }
     },
     {
       "url": "https://www.spektrum.de/news/beliebtes-paeuschen-fast-jeder-zweite-erwachsene-haelt-mittagsschlaf/2353021",
@@ -2285,11 +2350,16 @@
         "text": "Ein kurzer Powernap kann wieder fit machen. Eine Analyse zeigt: Mittagsschlaf ist beliebt in Deutschland. Eines gilt es aber zu beachten.",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/beliebtes-paeuschen-fast-jeder-zweite-erwachsene-haelt-mittagsschlaf/2353021",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Schlafforschung und Humanmedizin; nicht relevant für Fossilienforschung."
+      }
     },
     {
       "url": "https://www.spektrum.de/news/ehe-und-partnerschaft-wie-es-um-die-liebe-im-alter-steht/2353017",
@@ -2300,11 +2370,16 @@
         "text": "Schmetterlinge flattern vielleicht nicht mehr im Bauch, wenn man jahrzehntelang mit dem gleichen Partner zusammen ist. Dafür hat die Liebe im Alter andere Qualitäten.",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ehe-und-partnerschaft-wie-es-um-die-liebe-im-alter-steht/2353017",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Sozialwissenschaft und Beziehungsforschung; kein Fossilienbezug."
+      }
     },
     {
       "url": "https://www.spektrum.de/news/studie-zum-ki-boom-mit-neuen-rechenzentren-droht-wasserstress/2353019",
@@ -2315,11 +2390,16 @@
         "text": "Der Wasserbedarf deutscher Rechenzentren geht laut einer Studie deutlich über bisherige Annahmen hinaus. Umweltschützer fordern Maßnahmen, um den Wasserverbrauch zu senken.",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/studie-zum-ki-boom-mit-neuen-rechenzentren-droht-wasserstress/2353019",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Infrastruktur und Energieverbrauch; kein Bezug zu Paläontologie."
+      }
     },
     {
       "url": "https://www.spektrum.de/news/geoengineering-ein-sonnenschirm-im-weltall-fuer-eine-kuehlere-erde/2352075",
@@ -2330,17 +2410,302 @@
         "text": "Könnte ein riesiger Sonnenschirm im All die Erderwärmung stoppen? Manche halten das Konzept für reine Fantasie, doch Forschende nehmen die Idee allmählich ernst.",
         "news_datum": "2026-11-06"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-07",
-      "error": "classification:ValueError",
-      "last_attempt": "2026-11-07"
+      "last_attempt": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/geoengineering-ein-sonnenschirm-im-weltall-fuer-eine-kuehlere-erde/2352075",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimatechnologie und Geoengineering; kein Fossilienbezug."
+      }
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+        "text": "Scientists investigating a 2,800-year-old Siberian tomb discovered roughly 1,000 cannabis seeds and chemical evidence suggesting ancient Scythians used the plant for its intoxicating effects. The remarkable find, surrounded by evidence of elaborate burial rituals and animal sacrifices, offers the oldest directly dated archaeological evidence of psychoactive cannabis use.",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologie und antike Kulturgeschichte; kein Bezug zu Dinosauriern oder relevanten Fossilien."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/mittelalterliche-stadthygiene-hat-die-verbreitung-von-spulwuermern-beguenstigt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Mittelalterliche Stadthygiene hat die Verbreitung von Spulwürmern begünstigt",
+        "url": "https://www.scinexx.de/news/archaeologie/mittelalterliche-stadthygiene-hat-die-verbreitung-von-spulwuermern-beguenstigt",
+        "text": "In Trondheim wurden Fäkalien getrennt gesammelt und später aus dem Stadtkern transportiert",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/mittelalterliche-stadthygiene-hat-die-verbreitung-von-spulwuermern-beguenstigt",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologie und Parasitologie; Insekten und Würmer sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/gesuenderes-salz-koennte-jedes-jahr-drei-millionen-todesfaelle-verhindern",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Gesünderes Salz könnte jedes Jahr drei Millionen Todesfälle verhindern",
+        "url": "https://www.scinexx.de/news/medizin/gesuenderes-salz-koennte-jedes-jahr-drei-millionen-todesfaelle-verhindern",
+        "text": "Auch 10,17 Millionen neue Herz- und Nierenerkrankungen könnten jährlich vermieden werden",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/gesuenderes-salz-koennte-jedes-jahr-drei-millionen-todesfaelle-verhindern",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Humanmedizin und Ernährungswissenschaft; kein Fossilienbezug."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/zwei-tiefe-risse-zerreissen-eine-abtauchende-erdplatte-unter-dem-iran",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Zwei tiefe Risse zerreißen eine abtauchende Erdplatte unter dem Iran",
+        "url": "https://www.scinexx.de/news/geowissen/zwei-tiefe-risse-zerreissen-eine-abtauchende-erdplatte-unter-dem-iran",
+        "text": "Der westliche Bruch erstreckt sich über 300 bis 400 Kilometer nahezu horizontal durch die Tiefe",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/zwei-tiefe-risse-zerreissen-eine-abtauchende-erdplatte-unter-dem-iran",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geowissenschaftliche Studie über tektonische Störungen und Erdplattenversatz – kein Bezug zu Dinosauriern, frühen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/energie/wasserstoffspeicherung-koennte-eine-tiefe-stoerungszone-stabilisieren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wasserstoffspeicherung könnte eine tiefe Störungszone stabilisieren",
+        "url": "https://www.scinexx.de/news/energie/wasserstoffspeicherung-koennte-eine-tiefe-stoerungszone-stabilisieren",
+        "text": "Die berechnete Rutschneigung sank über zehn jährliche Speicherzyklen schrittweise",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/energie/wasserstoffspeicherung-koennte-eine-tiefe-stoerungszone-stabilisieren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Energiewissenschaftliche Studie zur Wasserstoffspeicherung und Erdbebenrisiko – keine Relevanz für Paläontologie oder die behandelten Tiergruppen."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/wie-zwaengen-sich-kraken-durch-oeffnungen-die-viel-kleiner-sind-als-ihr-koerper",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wie zwängen sich Kraken durch Öffnungen, die viel kleiner sind als ihr Körper?",
+        "url": "https://www.scinexx.de/news/biowissen/wie-zwaengen-sich-kraken-durch-oeffnungen-die-viel-kleiner-sind-als-ihr-koerper",
+        "text": "Videoanalysen zeigen zwei wiederkehrende Bewegungsfolgen mit drei oder vier Schritten",
+        "news_datum": "2026-11-07"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/wie-zwaengen-sich-kraken-durch-oeffnungen-die-viel-kleiner-sind-als-ihr-koerper",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Verhaltensbiologie moderner Kraken (Kopffüßer) – moderne Invertebrata sind ausgeschlossen, kein Fossilienbezug."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/new-york-und-co-boden-unter-metropolen-an-der-us-ostkueste-sinkt-ab",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "New York und Co.: Boden unter Metropolen an der US-Ostküste sinkt ab",
+        "url": "https://www.scinexx.de/news/geowissen/new-york-und-co-boden-unter-metropolen-an-der-us-ostkueste-sinkt-ab",
+        "text": "Lokal erreicht die Absenkung bis zu 13 Millimeter pro Jahr",
+        "news_datum": "2026-11-07"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/new-york-und-co-boden-unter-metropolen-an-der-us-ostkueste-sinkt-ab",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geowissenschaftliche Studie zur rezenten Landabsenkung in Städten – kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/starker-regen-kann-die-geschwindigkeit-von-gletschern-in-alaska-mehr-als-verdoppeln",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Starker Regen kann die Geschwindigkeit von Gletschern in Alaska mehr als verdoppeln",
+        "url": "https://www.scinexx.de/news/geowissen/starker-regen-kann-die-geschwindigkeit-von-gletschern-in-alaska-mehr-als-verdoppeln",
+        "text": "In der Schubphase erreichte der Gletscher kurzfristig rund 7,5 Meter pro Tag",
+        "news_datum": "2026-11-07"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/starker-regen-kann-die-geschwindigkeit-von-gletschern-in-alaska-mehr-als-verdoppeln",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Glaziologie über rezente Gletscherbewegungen – kein Bezug zu ausgestorbenen Tiergruppen oder Fossilien."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gelassenheit-im-alter-akzeptanz-sinn-und-vergebung-zaehlen/2332430",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Gelassenheit im Alter: »Im mittleren Alter werden die Weichen gestellt«",
+        "url": "https://www.spektrum.de/news/gelassenheit-im-alter-akzeptanz-sinn-und-vergebung-zaehlen/2332430",
+        "text": "Zufriedenes Altern beginnt lange vor dem Ruhestand. Die Psychologin Pasqualina Perrig-Chiello erklärt, warum manche Menschen im Alter gelassen sind – und andere verbittern.",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gelassenheit-im-alter-akzeptanz-sinn-und-vergebung-zaehlen/2332430",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologische Studie zum Altern und Wohlbefinden – keine Relevanz für Paläontologie oder Fossilienforschung."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gammastrahlenausbrueche-wie-sie-die-physik-auf-den-kopf-stellen/2350618",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Kosmischen Katastrophen: Gammastrahlenausbrüche stellen die Physik auf den Kopf",
+        "url": "https://www.spektrum.de/news/gammastrahlenausbrueche-wie-sie-die-physik-auf-den-kopf-stellen/2350618",
+        "text": "Die Erforschung der gewaltigsten Explosionen im Kosmos ist eine Geschichte voller Überraschungen – immer wieder bringen neue Beobachtungen das gängige Modell ins Wanken.",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gammastrahlenausbrueche-wie-sie-die-physik-auf-den-kopf-stellen/2350618",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und kosmische Explosionen – kein Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.spektrum.de/kurzgeschichte/futur-iii-wenn-gott-sich-offenbart/2322098",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wenn Gott sich offenbart …",
+        "url": "https://www.spektrum.de/kurzgeschichte/futur-iii-wenn-gott-sich-offenbart/2322098",
+        "text": "… was wird dann aus seinem Propheten? Eine Kurzgeschichte von Steven Berger. Die Futur-III-Kurzgeschichte des Monats.",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/kurzgeschichte/futur-iii-wenn-gott-sich-offenbart/2322098",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Science-Fiction-Kurzgeschichte – keine wissenschaftliche Inhalte über Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.spektrum.de/news/suche-nach-exoplaneten-dem-sternenlicht-ein-schnippchen-schlagen/2352788",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Auf der Suche nach Exoplaneten: Dem Sternenlicht ein Schnippchen schlagen",
+        "url": "https://www.spektrum.de/news/suche-nach-exoplaneten-dem-sternenlicht-ein-schnippchen-schlagen/2352788",
+        "text": "Eine neue Software für das James-Webb-Weltraumteleskop macht bislang verborgene Welten sichtbar. Auch erdähnliche Planeten könnten damit aufgespürt werden.",
+        "news_datum": "2026-11-07"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/suche-nach-exoplaneten-dem-sternenlicht-ein-schnippchen-schlagen/2352788",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und Exoplanetenforschung mittels Weltraumteleskop – kein Bezug zu ausgestorbenen Tieren oder Fossilien."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.spektrum.de/news/warum-polarlichter-manchmal-wie-wellen-tanzen/2308995",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Polarlichter: Warum Polarlichter gebogen sind",
+        "url": "https://www.spektrum.de/news/warum-polarlichter-manchmal-wie-wellen-tanzen/2308995",
+        "text": "Ein neues Forschungsergebnis enthüllt, wie eine »Weltraumbatterie« Polarlichter antreibt und sie biegt.",
+        "news_datum": "2026-11-07"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/warum-polarlichter-manchmal-wie-wellen-tanzen/2308995",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geophysik der Polarlichter und Magnetosphäre – keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ki-agenten-hackten-hugging-face-um-ihre-taten-zu-vertuschen/2352869",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Angriff auf Hugging Face: Der größte KI-Hack ist deutlich beunruhigender als gedacht",
+        "url": "https://www.spektrum.de/news/ki-agenten-hackten-hugging-face-um-ihre-taten-zu-vertuschen/2352869",
+        "text": "Hunderte KI-Agenten griffen Hugging Face an. Zunächst schien klar, wonach sie suchten. Doch eine unabhängige Untersuchung offenbart ein weitaus beunruhigenderes Motiv.",
+        "news_datum": "2026-11-07"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-08",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ki-agenten-hackten-hugging-face-um-ihre-taten-zu-vertuschen/2352869",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "IT-Sicherheit und KI-Cyberattacken – völlig außerhalb des paläontologischen Themengefüges."
+      },
+      "last_attempt": "2026-11-08"
     }
   ],
   "last_run": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "ready": 0,
-    "excluded": 0,
-    "pending": 19
+    "excluded": 31,
+    "pending": 2
   }
 }
