@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-07T11:27:17.581910+00:00",
+  "updated": "2026-11-08T11:39:19.032512+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "68b90cd4d1213024de49f58aaf268dfa",
+      "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
+      "title": "Sensationeller Verkauf: Miniatur-T.-rex-Fossil für 47 Millionen Dollar versteigert",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-08T11:39:19.030791+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "742c7009345149d7d689962384e78a9e",
       "url": "https://phys.org/news/2026-11-year-fossilized-termite-karoo-town.html",
@@ -311,19 +324,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-03T16:11:11.466967+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "68b90cd4d1213024de49f58aaf268dfa",
-      "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
-      "title": "Sensationeller Verkauf: Miniatur-T.-rex-Fossil für 47 Millionen Dollar versteigert",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-11-03T12:34:51.660364+00:00",
       "sources": [],
       "score": null,
       "script": null,
