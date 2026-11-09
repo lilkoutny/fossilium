@@ -1312,6 +1312,65 @@
       ],
       "bilder": [],
       "mindestwoerter": 450
+    },
+    {
+      "slug": "kolumbianische-fossilien-zeigen-koexistenz-alter-und-neuer-tiergr-f4af5b1661",
+      "titel": "Kolumbianische Fossilien zeigen Koexistenz alter und neuer Tiergruppen im Frühen Kreide-Ozean",
+      "untertitel": "Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben in der kolumbianischen Paja-Formation eine ungewöhnliche Vergesellschaftung jurassischer und kretazischer Meereslebewesen entdeckt. Die Befunde deuten darauf hin, dass bedeutende Evolutionsübergänge nicht zwingend Massenaussterben voraussetzen. Für dieses Muster schlagen die Wissenschaftler das neue Konzept der „Biotischen Inflexion\" vor.",
+      "abschnitte": [
+        {
+          "titel": "Fundort und Fossilbestand",
+          "absatz": [
+            "Die Paja-Formation liegt in der Nähe von Villa de Leyva in Zentralkolumbien und gehört dem Frühen Kreide-Zeitalter an.[[S1]] Die dortigen Ablagerungen haben eine außergewöhnlich vielfältige Meerestierwelt konserviert, darunter langhalstragige Plesiosaurier, Verwandte mariner Krokodile, Schildkröten, Haie und Krebstiere.[[S1]] Der größte Teil der geborgenen Fossilien wird im Centro de Investigaciones Paleontológicas aufbewahrt.[[S1]] Diese Vielfalt macht die Formation zu einem der ökologisch komplexesten bekannten marinen Fossilsysteme der Erdgeschichte.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Ein Ökosystem im Übergang",
+          "absatz": [
+            "Das Besondere an der sogenannten Paja-Biota ist das gleichzeitige Vorkommen absterbender Jurassischer Abstammungslinien und aufkommender Gruppen, die sich in der Folgezeit weiter ausbreiteten.[[S1]] In einer früheren, ebenfalls von Hans Larsson und Dirley Cortés durchgeführten Studie wurden die Nahrungsbeziehungen innerhalb der Paja-Biota rekonstruiert.[[S1]] Die Analyse ergab ein außergewöhnlich vielschichtiges Nahrungsnetz mit einer ungewöhnlich großen Zahl an Spitzenprädatoren auf den höchsten Ebenen des Ökosystems.[[S1]] Diese strukturelle Komplexität macht den Fundort besonders geeignet, um Veränderungen in Ökosystemen während evolutionärer Übergangsphasen zu untersuchen.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Günstige Umweltbedingungen als mögliche Ursache",
+          "absatz": [
+            "Die Forschenden sehen in einer Kombination aus mehreren Umweltfaktoren eine mögliche Erklärung für die außergewöhnliche Koexistenz.[[S1]] Warme Treibhaustemperaturen, erhöhte Meeresspiegel und nährstoffreiche Küstengewässer könnten eine besonders diverse Meereswelt begünstigt haben.[[S1]] Zusätzlich entstanden zu dieser Zeit neue Meeresverbindungen zwischen dem östlichen Pazifik und dem frühen Atlantik durch das heutige kolumbianische Gebiet.[[S1]] Zusammengenommen schufen diese Bedingungen nach Einschätzung der Wissenschaftler Nischen, in denen verschiedene Tiergruppen nebeneinander gedeihen konnten.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Das Konzept der Biotischen Inflexion",
+          "absatz": [
+            "Auf Grundlage dieser Beobachtungen schlagen Larsson und Cortés den Begriff „Biotic Inflection\" vor, also „Biotische Inflexion\".[[S1]] Damit bezeichnen sie einen evolutionären Wendepunkt, an dem ältere, dem Aussterben nahestehende Gruppen mit jüngeren, sich entfaltenden Abstammungslinien koexistieren.[[S1]] Das Konzept stellt eine Alternative zu dem verbreiteten Erklärungsmodell dar, demzufolge große Faunenwechsel stets auf Massenaussterben folgen.[[S1]] Stattdessen könnten solche Übergänge auch durch Phasen ungewöhnlich hoher Diversität gekennzeichnet sein.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Einschränkungen und weiterer Forschungsbedarf",
+          "absatz": [
+            "Die Forschenden betonen ausdrücklich, dass weitere Belege notwendig sind, um die Verbreitung dieses Musters beurteilen zu können.[[S1]] Zusätzliche Fossilfunde, genauere Altersbestimmungen und der Vergleich mit geologischen Formationen in anderen Weltregionen werden als notwendige nächste Schritte genannt, um zu klären, ob ähnliche Übergänge auch andernorts stattgefunden haben.[[S1]] Da der vorliegenden Meldung die zugrunde liegende Studie im Volltext nicht vorlag, können Methodik und Datengrundlage hier nicht im Einzelnen bewertet werden. Das Konzept der Biotischen Inflexion ist neu vorgeschlagen und bedarf der Überprüfung durch weitere unabhängige Forschungsgruppen.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Förderung und institutionelle Einbindung",
+          "absatz": [
+            "Die Untersuchungen wurden von mehreren Institutionen und Förderprogrammen unterstützt, darunter der Natural Sciences and Engineering Research Council of Canada, das Smithsonian Tropical Research Institute, die Anders Foundation sowie weitere Stiftungen und das McGill Biology Department.[[S1]] Die institutionelle Einbindung des Centro de Investigaciones Paleontológicas in Kolumbien sichert den Zugang zu den Fossilbeständen vor Ort und macht die Zusammenarbeit zu einem binationalen Forschungsvorhaben.[[S1]]"
+          ]
+        }
+      ],
+      "datum": "2026-11-09",
+      "news_datum": "2026-11-08",
+      "study_datum": "Nicht unabhängig geprüft",
+      "lesestand": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft",
+      "original_quelle": "ScienceDaily",
+      "original_url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+      "quellen": [
+        {
+          "id": "S1",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+          "titel": "An ancient ocean full of giant predators reveals a surprising twist in evolution",
+          "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"
+        }
+      ],
+      "bilder": [],
+      "mindestwoerter": 450
     }
   ]
 }

@@ -1,6 +1,19 @@
 {
-  "stand": "2026-11-06",
+  "stand": "2026-11-09",
   "meldungen": [
+    {
+      "titel": "Kolumbianische Fossilien zeigen Koexistenz alter und neuer Tiergruppen im Frühen Kreide-Ozean",
+      "zusammenfassung": "Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben in der kolumbianischen Paja-Formation eine ungewöhnliche Vergesellschaftung jurassischer und kretazischer Meereslebewesen entdeckt. Die Befunde deuten darauf hin, dass bedeutende Evolutionsübergänge nicht zwingend Massenaussterben voraussetzen. Für dieses Muster schlagen die Wissenschaftler das neue Konzept der „Biotischen Inflexion\" vor.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+      "datum": "2026-11-09",
+      "erstmals_angezeigt": "2026-11-09",
+      "news_datum": "2026-11-08",
+      "relevant": true,
+      "relevanz_kategorie": "marine_reptile",
+      "relevanz_begruendung": "Zentrale Fokussierung auf die Early-Cretaceous Paja Formation mit detaillierter Beschreibung ausgestorbener Meeresreptilien als Hauptthema: Langhalssaurier (Plesiosaurier) und marine Krokodilartige als dominante Prädatoren des Ökosystems. Die Rekonstruktion der Nahrungsbeziehungen und ökologischen Komplexität dieser Meeresreptilien-Gemeinschaft steht im Mittelpunkt der paläontologischen Forschung.",
+      "publikation": "/publikationen/kolumbianische-fossilien-zeigen-koexistenz-alter-und-neuer-tiergr-f4af5b1661/"
+    },
     {
       "titel": "Blutspuren im Dinosaurierknochen: Fund fordert Grundannahmen der Paläontologie heraus",
       "zusammenfassung": "Forschende haben in 115 Millionen Jahre alten Knochen eines Dinosauriers chemische Überreste von Blut nachgewiesen. Der Fund gilt als erster definitiver molekularer Beleg für Hämoglobin-Derivate in fossilen roten Blutzellen. Die Ergebnisse wurden in den Proceedings of the National Academy of Sciences veröffentlicht.",

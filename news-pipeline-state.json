@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 12,
+      "attempts": 13,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-08",
+      "last_attempt": "2026-11-09",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 4,
+      "attempts": 5,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-08",
+      "last_attempt": "2026-11-09",
       "error": "article:HTTPError"
     },
     {
@@ -2700,12 +2700,353 @@
         "reason": "IT-Sicherheit und KI-Cyberattacken – völlig außerhalb des paläontologischen Themengefüges."
       },
       "last_attempt": "2026-11-08"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "An ancient ocean full of giant predators reveals a surprising twist in evolution",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+        "text": "A remarkable fossil discovery in Colombia is challenging how scientists understand major evolutionary changes in Earth's history. Researchers uncovered an incredibly diverse ancient marine ecosystem where giant reptiles, sharks, and other creatures thrived as older evolutionary groups approached extinction and newer ones emerged. They call this previously unrecognized pattern a \"Biotic Inflection,\" suggesting that major transformations in life can occur without mass extinctions.",
+        "news_datum": "2026-11-08"
+      },
+      "status": "ready",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Zentrale Fokussierung auf die Early-Cretaceous Paja Formation mit detaillierter Beschreibung ausgestorbener Meeresreptilien als Hauptthema: Langhalssaurier (Plesiosaurier) und marine Krokodilartige als dominante Prädatoren des Ökosystems. Die Rekonstruktion der Nahrungsbeziehungen und ökologischen Komplexität dieser Meeresreptilien-Gemeinschaft steht im Mittelpunkt der paläontologischen Forschung."
+      },
+      "last_attempt": "2026-11-09",
+      "publication": "/publikationen/kolumbianische-fossilien-zeigen-koexistenz-alter-und-neuer-tiergr-f4af5b1661/"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/wie-10-billionen-sonnen-schwarzes-loch-zeigt-den-staerksten-lichtausbruch",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wie 10 Billionen Sonnen: Schwarzes Loch zeigt den stärksten Lichtausbruch",
+        "url": "https://www.scinexx.de/news/kosmos/wie-10-billionen-sonnen-schwarzes-loch-zeigt-den-staerksten-lichtausbruch",
+        "text": "Der Ausbruch wurde 2018 innerhalb weniger Monate mehr als 40-mal heller",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/wie-10-billionen-sonnen-schwarzes-loch-zeigt-den-staerksten-lichtausbruch",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Black hole gamma-ray burst has no connection to dinosaurs, early birds, pterosaurs, or marine reptiles."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/james-webb-hat-104-sternenaufhellungen-in-ferner-drachen-galaxie-entdeckt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "James-Webb hat 104 Sternenaufhellungen in ferner Drachen-Galaxie entdeckt",
+        "url": "https://www.scinexx.de/news/kosmos/james-webb-hat-104-sternenaufhellungen-in-ferner-drachen-galaxie-entdeckt",
+        "text": "Der Galaxienhaufen Abell 370 verstärkt das Licht einzelner Sterne wie eine kosmische Lupe",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/james-webb-hat-104-sternenaufhellungen-in-ferner-drachen-galaxie-entdeckt",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Galaxy cluster observation is astronomy content unrelated to paleontology or extinct reptiles."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/polarlicht-stuerme-koennen-das-erdmagnetfeld-binnen-minuten-stoeren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Polarlicht-Stürme können das Erdmagnetfeld binnen Minuten stören",
+        "url": "https://www.scinexx.de/news/geowissen/polarlicht-stuerme-koennen-das-erdmagnetfeld-binnen-minuten-stoeren",
+        "text": "Die stärksten Magnetfeldänderungen erreichten rund 25 Nanotesla pro Sekunde",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/polarlicht-stuerme-koennen-das-erdmagnetfeld-binnen-minuten-stoeren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geophysics of magnetospheric disturbances has no connection to Fossilium's scope."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/unvorstellbar-grosse-primordiale-schwarze-loecher-als-quelle-dunkler-materie-ausgeschlossen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "„Unvorstellbar große“ primordiale Schwarze Löcher als Quelle Dunkler Materie ausgeschlossen",
+        "url": "https://www.scinexx.de/news/kosmos/unvorstellbar-grosse-primordiale-schwarze-loecher-als-quelle-dunkler-materie-ausgeschlossen",
+        "text": "Die Berechnungen reichen von 100 Millionen bis zu zehn Trillionen Sonnenmassen",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/unvorstellbar-grosse-primordiale-schwarze-loecher-als-quelle-dunkler-materie-ausgeschlossen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Cosmology research on primordial black holes is outside Fossilium's paleontological focus."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/tierisch-vs-pflanzlich-gibt-es-unterschiede-beim-testosteronspiegel-je-nach-eiweissquelle",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Tierisch vs. pflanzlich: Gibt es Unterschiede beim Testosteronspiegel je nach Eiweißquelle?",
+        "url": "https://www.scinexx.de/news/medizin/tierisch-vs-pflanzlich-gibt-es-unterschiede-beim-testosteronspiegel-je-nach-eiweissquelle",
+        "text": "Bei 2.546 Männern war pflanzliches Protein mit höheren Gesamttestosteronwerten verbunden",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/tierisch-vs-pflanzlich-gibt-es-unterschiede-beim-testosteronspiegel-je-nach-eiweissquelle",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Modern nutritional biochemistry unrelated to extinct reptiles or paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/rechenmodelle-sollen-erdbebenrisiken-fuer-gebaeude-besser-erfassen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Rechenmodelle sollen Erdbebenrisiken für Gebäude besser erfassen",
+        "url": "https://www.scinexx.de/news/technik/rechenmodelle-sollen-erdbebenrisiken-fuer-gebaeude-besser-erfassen",
+        "text": "Vier spezialisierte Programme analysieren Baugrund, Bodenbewegung, Verformung und Tragfähigkeit",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/rechenmodelle-sollen-erdbebenrisiken-fuer-gebaeude-besser-erfassen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Engineering and earthquake hazard modeling unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/roentgenpulsare-koennten-winzige-schwarze-loecher-verraten",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Röntgenpulsare könnten winzige Schwarze Löcher verraten",
+        "url": "https://www.scinexx.de/news/kosmos/roentgenpulsare-koennten-winzige-schwarze-loecher-verraten",
+        "text": "Kurzzeitige Helligkeitsspitzen könnten durch Gravitationslinseneffekte entstehen",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/roentgenpulsare-koennten-winzige-schwarze-loecher-verraten",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysics research on X-ray pulsars is outside Fossilium's scope."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/news/aaronson-ambainis-vermutung-bewiesen-die-grenze-von-quantencomputern/2353307",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Aaronson‑Ambainis-Vermutung bewiesen: Der Traum vom allmächtigen Quantencomputer ist geplatzt",
+        "url": "https://www.spektrum.de/news/aaronson-ambainis-vermutung-bewiesen-die-grenze-von-quantencomputern/2353307",
+        "text": "Seit 2009 versuchten Forschende zu zeigen, dass Quantencomputer Grenzen haben. Nun hat ein KI-System den entscheidenden Beweis geliefert.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/news/aaronson-ambainis-vermutung-bewiesen-die-grenze-von-quantencomputern/2353307",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantum computing theory has no connection to paleontology or extinct reptiles."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/news/2026-koennte-weltweiten-waermerekord-brechen/2353308",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "UN-Klimakonferenz in Antalya: 2026 könnte weltweiten Wärmerekord brechen",
+        "url": "https://www.spektrum.de/news/2026-koennte-weltweiten-waermerekord-brechen/2353308",
+        "text": "Die Welt steht vor einem neuen Zeitalter der Klimaextreme. Dieses und nächstes Jahr könnte zudem El Niño die globalen Temperaturen weiter erhöhen.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/news/2026-koennte-weltweiten-waermerekord-brechen/2353308",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Climate science and contemporary climate trends unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/alias/bilder-der-woche/orionnebel-im-blick-des-anglo-australian-telescope/2353303",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilder der Woche: Orionnebel im Blick des Anglo-Australian Telescope",
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/orionnebel-im-blick-des-anglo-australian-telescope/2353303",
+        "text": "Immer wieder schön anzusehen ist Messier 42, der Große Orionnebel im gleichnamigen Sternbild, von dem uns 1450 Lichtjahre trennen.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/orionnebel-im-blick-des-anglo-australian-telescope/2353303",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomy image of Orion Nebula unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/news/raumfahrt-nasa-sucht-neue-astronauten-und-astronautinnen/2353310",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Raumfahrt: NASA sucht neue Astronauten und Astronautinnen",
+        "url": "https://www.spektrum.de/news/raumfahrt-nasa-sucht-neue-astronauten-und-astronautinnen/2353310",
+        "text": "Wer schon immer mal zum Mars oder auf den Mond wollte, kann sich jetzt bei der NASA bewerben. Ein paar Voraussetzungen müssen allerdings erfüllt sein.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/news/raumfahrt-nasa-sucht-neue-astronauten-und-astronautinnen/2353310",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Space exploration recruitment announcement unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/news/cannabis-bereits-vor-2-800-jahren-nutzten-die-skythen-das-rauschgift/2353068",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Skythen: Schon vor 2800 Jahren berauschten sich Menschen mit Cannabis",
+        "url": "https://www.spektrum.de/news/cannabis-bereits-vor-2-800-jahren-nutzten-die-skythen-das-rauschgift/2353068",
+        "text": "Archäologen entdecken öfters Überreste von Cannabis. Doch beweist das auch, dass Menschen es einst als Rauschmittel konsumierten? Nun fand sich in Sibirien ein direkter Beleg.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/news/cannabis-bereits-vor-2-800-jahren-nutzten-die-skythen-das-rauschgift/2353068",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archaeological study of human cannabis use in historical times; no connection to Fossilium's paleontological focus on extinct reptiles."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-der-kleine-alexander-von-humboldt/2353241",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Auf Entdeckertour durch die Wälder",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-der-kleine-alexander-von-humboldt/2353241",
+        "text": "Ein 10-jähriger Alexander von Humboldt führt ein junges Publikum durch die Natur. Er erklärt ihm die Wälder sowie Tiere und Pflanzen, die in ihnen leben. Eine Rezension",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-der-kleine-alexander-von-humboldt/2353241",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Book review about nature and modern forests unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/news/teamerfolg-wann-die-kluegsten-koepfe-nicht-das-beste-team-bilden/2318471",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Der Synergie-Faktor: Warum die klügsten Köpfe nicht unbedingt das beste Team bilden",
+        "url": "https://www.spektrum.de/news/teamerfolg-wann-die-kluegsten-koepfe-nicht-das-beste-team-bilden/2318471",
+        "text": "Teams können Probleme lösen, an denen viele Einzelne scheitern. Der Teamforscher Christoph Riedl erklärt im Interview, wann eine Gruppe klüger ist als die Summe ihrer Mitglieder.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/news/teamerfolg-wann-die-kluegsten-koepfe-nicht-das-beste-team-bilden/2318471",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Team dynamics and organizational psychology unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/welche-rollen-haben-die-spieler-inne/2340544",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Welche Rollen haben die Spieler inne?",
+        "url": "https://www.spektrum.de/raetsel/welche-rollen-haben-die-spieler-inne/2340544",
+        "text": "Welche Rollen haben die Logiker in dem »Mafia«-Spiel übernommen?",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/welche-rollen-haben-die-spieler-inne/2340544",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Logic puzzle game unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/antike-die-mathematik-der-erschoepfung/2352055",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Freistetters Formelwelt: Integrale sind erschöpfend – aber nicht so, wie Sie vielleicht denken",
+        "url": "https://www.spektrum.de/kolumne/antike-die-mathematik-der-erschoepfung/2352055",
+        "text": "Mathematik kann erschöpfen. Aber in vielen Fällen ist das nicht nur erwünscht, sondern sogar äußerst hilfreich – das wusste man schon in der Antike.",
+        "news_datum": "2026-11-08"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-09",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/antike-die-mathematik-der-erschoepfung/2352055",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematics history and integral calculus unrelated to paleontology."
+      },
+      "last_attempt": "2026-11-09"
     }
   ],
   "last_run": {
-    "date": "2026-11-08",
-    "ready": 0,
-    "excluded": 31,
+    "date": "2026-11-09",
+    "ready": 1,
+    "excluded": 16,
     "pending": 2
   }
 }
