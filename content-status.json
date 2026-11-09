@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-08T11:39:19.032512+00:00",
+  "updated": "2026-11-09T13:33:59.011914+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "ba5ec6a20f35cc43710e1fec3bd2f744",
+      "url": "https://phys.org/news/2026-10-ancient-alberta-fish-fossils-reveal.html",
+      "title": "Urzeitliche Fische aus Alberta enthüllen Dinosaurier-Zeitalter in Nordamerika",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-09T13:33:59.009995+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "f4af5b1661847f17f1b08f7f5c078656",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+      "title": "Kolumbianische Fossilien zeigen Koexistenz alter und neuer Tiergruppen im Frühen Kreide-Ozean",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-09T13:33:58.576873+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "68b90cd4d1213024de49f58aaf268dfa",
       "url": "https://phys.org/news/2026-10-dinosaur-fossil-mini-rex-sold.html",
@@ -311,19 +337,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-03T16:15:30.747587+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "ba5ec6a20f35cc43710e1fec3bd2f744",
-      "url": "https://phys.org/news/2026-10-ancient-alberta-fish-fossils-reveal.html",
-      "title": "Urzeitliche Fische aus Alberta enthüllen Dinosaurier-Zeitalter in Nordamerika",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-11-03T16:11:11.466967+00:00",
       "sources": [],
       "score": null,
       "script": null,
