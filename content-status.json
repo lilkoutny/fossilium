@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-09T13:33:59.011914+00:00",
+  "updated": "2026-11-10T13:13:19.574218+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "7eddf31ebfc913e5167162841e1d9475",
+      "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
+      "title": "Neue Dinosaurierart aus englischen Ziegeleien identifiziert",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-10T13:13:19.571217+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "250044e1d3e3696e2c6332d2b7964c73",
+      "url": "https://www.scinexx.de/news/geowissen/erdbahnzyklen-haben-das-klima-nach-dem-dinosauriersterben-gepraegt",
+      "title": "Erdbahn, Vulkane und Einschlag: Drei Kräfte formten das Klima nach dem Massenaussterben",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-10T13:13:19.433952+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "ba5ec6a20f35cc43710e1fec3bd2f744",
       "url": "https://phys.org/news/2026-10-ancient-alberta-fish-fossils-reveal.html",
@@ -324,19 +350,6 @@
       "stage": "research",
       "reason": "api_not_enabled",
       "updated": "2026-11-03T16:17:57.321632+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "7eddf31ebfc913e5167162841e1d9475",
-      "url": "https://phys.org/news/2026-10-fossils-brickworks-reveal-dinosaur-species.html",
-      "title": "Neue Dinosaurierart aus englischen Ziegeleien identifiziert",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-11-03T16:15:30.747587+00:00",
       "sources": [],
       "score": null,
       "script": null,
