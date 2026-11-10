@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 13,
+      "attempts": 14,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-09",
+      "last_attempt": "2026-11-10",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 5,
+      "attempts": 6,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-09",
+      "last_attempt": "2026-11-10",
       "error": "article:HTTPError"
     },
     {
@@ -3041,12 +3041,453 @@
         "reason": "Mathematics history and integral calculus unrelated to paleontology."
       },
       "last_attempt": "2026-11-09"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/nachbarplanet-bewegt-sich-von-exoplaneten-aus-gesehen-scheinbar-rueckwaerts",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Nachbarplanet bewegt sich von Exoplaneten aus gesehen scheinbar rückwärts",
+        "url": "https://www.scinexx.de/news/kosmos/nachbarplanet-bewegt-sich-von-exoplaneten-aus-gesehen-scheinbar-rueckwaerts",
+        "text": "Besonders günstig wären Beobachtungen von GJ 1002 b und Teegardens Planet c.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/nachbarplanet-bewegt-sich-von-exoplaneten-aus-gesehen-scheinbar-rueckwaerts",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie/Exoplaneten - kein Bezug zu Dinosauriern, frühen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/erdbahnzyklen-haben-das-klima-nach-dem-dinosauriersterben-gepraegt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Erdbahnzyklen haben das Klima nach dem Dinosauriersterben geprägt",
+        "url": "https://www.scinexx.de/news/geowissen/erdbahnzyklen-haben-das-klima-nach-dem-dinosauriersterben-gepraegt",
+        "text": "Die Analyse kombiniert Isotopenwerte, Quecksilbergehalte und Fossilien von Meeresplankton",
+        "news_datum": "2026-11-10"
+      },
+      "status": "ready",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/erdbahnzyklen-haben-das-klima-nach-dem-dinosauriersterben-gepraegt",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Die Meldung behandelt zentral die Folgen des Dinosauieraussterbens vor 66 Millionen Jahren und analysiert Klimaveränderungen nach dem Asteroideneinschlag sowie die Rolle des Vulkanismus der Dekkan-Trapps. Das Dinosauieraussterben und dessen Auswirkungen auf das Klima und die Biosphäre sind ein unmittelbar relevantes Forschungsthema nach der Policy, die explizit \"Forschung zum Dinosauieraussterben\" als relevant kategorisiert."
+      },
+      "last_attempt": "2026-11-10",
+      "publication": "/publikationen/erdbahn-vulkane-und-einschlag-drei-kr-fte-formten-das-klima-nach-250044e1d3/"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/haben-steinzeitmenschen-riesen-faustkeile-als-statussymbole-genutzt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Haben Steinzeitmenschen Riesen-Faustkeile als Statussymbole genutzt?",
+        "url": "https://www.scinexx.de/news/archaeologie/haben-steinzeitmenschen-riesen-faustkeile-als-statussymbole-genutzt",
+        "text": "Besonders auffällig waren große Ficrons mit schmaler, langgezogener Form",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/haben-steinzeitmenschen-riesen-faustkeile-als-statussymbole-genutzt",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Steinzeitarchäologie/Menschheitsgeschichte - kein Bezug zu den behandelten Fossilgruppen."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/meteoriteneinschlaege-hinterlassen-uneinheitliche-spuren-in-kristallen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Meteoriteneinschläge hinterlassen uneinheitliche Spuren in Kristallen",
+        "url": "https://www.scinexx.de/news/kosmos/meteoriteneinschlaege-hinterlassen-uneinheitliche-spuren-in-kristallen",
+        "text": "Zirkon, Apatit und Whitlockit wurden mit Drücken von bis zu 40 Gigapascal belastet",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/meteoriteneinschlaege-hinterlassen-uneinheitliche-spuren-in-kristallen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Materialwissenschaft von Meteoriten - kein direkter Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/suedozean-koennte-die-erderwaermung-vor-50-millionen-jahren-verstaerkt-haben",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Südozean könnte die Erderwärmung vor 50 Millionen Jahren verstärkt haben",
+        "url": "https://www.scinexx.de/news/geowissen/suedozean-koennte-die-erderwaermung-vor-50-millionen-jahren-verstaerkt-haben",
+        "text": "Fossile Foraminiferen deuten auf eine schwächere biologische Kohlenstoffpumpe hin",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/suedozean-koennte-die-erderwaermung-vor-50-millionen-jahren-verstaerkt-haben",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Paläoklimatologie des Eozäns - allgemeine Klimaforschung ohne zentralen Bezug zu Dinosauriern oder relevanten Reptilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/elektrischer-kamm-laesst-haare-nach-hormonbedingtem-ausfall-fast-vollstaendig-nachwachsen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Elektrischer Kamm lässt Haare nach hormonbedingtem Ausfall fast vollständig nachwachsen",
+        "url": "https://www.scinexx.de/news/medizin/elektrischer-kamm-laesst-haare-nach-hormonbedingtem-ausfall-fast-vollstaendig-nachwachsen",
+        "text": "Stromimpulse schleusten Moleküle bis zu rund 660 Mikrometer tief in die Haut",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/elektrischer-kamm-laesst-haare-nach-hormonbedingtem-ausfall-fast-vollstaendig-nachwachsen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschung zu Haarwuchs - kein Bezug zur Paläontologie oder den behandelten Fossilgruppen."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/biomaterialien-koennten-lichtchips-mit-lebendem-gewebe-verbinden",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Biomaterialien könnten Lichtchips mit lebendem Gewebe verbinden",
+        "url": "https://www.scinexx.de/news/technik/biomaterialien-koennten-lichtchips-mit-lebendem-gewebe-verbinden",
+        "text": "Proteine und DNA können Licht leiten, erzeugen oder in elektrische Signale übersetzen",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/biomaterialien-koennten-lichtchips-mit-lebendem-gewebe-verbinden",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Biotechnologie/Bioelektronik - kein Bezug zu fossilen Organismen oder Paläontologie."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/der-orionnebel-im-fernglas/2350542",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Astronomie mit dem Fernglas: Das Schimmern im Schwert des Orion",
+        "url": "https://www.spektrum.de/news/der-orionnebel-im-fernglas/2350542",
+        "text": "Der große Orionnebel ist eines der berühmtesten und hellsten Objekte an unserem Himmel und ein hervorragendes Ziel für die Beobachtung mit dem Fernglas.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/der-orionnebel-im-fernglas/2350542",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie/Beobachtungshimmel - kein Bezug zu Paläontologie oder Dinosauriern."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/toedlicher-schnupfen-vorsicht-bei-abschwellendem-nasenspray/2353104",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Unwahrscheinlich tödlich: Tod durch Nasenspray",
+        "url": "https://www.spektrum.de/kolumne/toedlicher-schnupfen-vorsicht-bei-abschwellendem-nasenspray/2353104",
+        "text": "Abschwellende Wirkstoffe wie Oxymetazolin verschaffen verstopften Nasen zwar kurze Verschnaufpausen – doch der übermäßige Gebrauch von Nasensprays birgt erhebliche Gefahren.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/toedlicher-schnupfen-vorsicht-bei-abschwellendem-nasenspray/2353104",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin/Pharmazie - kein Bezug zu Paläontologie oder fossilen Organismen."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/escapade-marssonden-sind-auf-dem-weg-zum-roten-planeten/2353480",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Erkundung des Mars: ESCAPADE-Marssonden sind auf dem Weg zum Roten Planeten",
+        "url": "https://www.spektrum.de/news/escapade-marssonden-sind-auf-dem-weg-zum-roten-planeten/2353480",
+        "text": "Die Vorbeiflüge der beiden ESCAPADE-Raumsonden am 7. und 9. November 2026 an der Erde waren erfolgreich, sie sind nun auf dem Weg zum Roten Planeten.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/escapade-marssonden-sind-auf-dem-weg-zum-roten-planeten/2353480",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumforschung/Mars-Mission - kein Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/video/doktor-whatson-die-grosse-luege-hinter-plug-in-hybrid-autos/2353332",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die große Lüge hinter Plug-In-Hybrid-Autos",
+        "url": "https://www.spektrum.de/video/doktor-whatson-die-grosse-luege-hinter-plug-in-hybrid-autos/2353332",
+        "text": "Offiziell verbrauchen die Plug-in-Hybride deutlich mehr Sprit als angegeben. Wie kann ein Auto, das als emissionsarm gilt, immer noch so viel ausstoßen?",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/video/doktor-whatson-die-grosse-luege-hinter-plug-in-hybrid-autos/2353332",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Automobilindustrie/Umwelttechnik - kein Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kohlenstoff-budget-fossile-emissionen-sinken-2026/2353385",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Weltweites Kohlenstoff-Budget: Fossile Emissionen sinken 2026 leicht",
+        "url": "https://www.spektrum.de/news/kohlenstoff-budget-fossile-emissionen-sinken-2026/2353385",
+        "text": "Die Welt hat im laufenden Jahr etwas weniger Erdgas und Erdöl verbrannt als im Jahr zuvor. Obwohl andere Emissionen derweil gestiegen sind, gibt das Experten Anlass zur Hoffnung.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kohlenstoff-budget-fossile-emissionen-sinken-2026/2353385",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimawissenschaft/Energiewirtschaft - das Wort 'fossile' bezieht sich auf Brennstoffe, nicht auf Fossilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/schimpansen-geben-die-bedeutung-ihrer-rufe-weiter/2353349",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Soziales Lernen: Schimpansen übernehmen Rufregeln von ihren Artgenossen",
+        "url": "https://www.spektrum.de/news/schimpansen-geben-die-bedeutung-ihrer-rufe-weiter/2353349",
+        "text": "Eine Studie zeigt: Die Primaten lernen voneinander, welche Rufe zu welchen Situationen passen. Die Bedeutung ihrer Laute scheint teilweise sozial vermittelt zu werden.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/schimpansen-geben-die-bedeutung-ihrer-rufe-weiter/2353349",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Primatologie/moderne Zoologie - Affen/Säugetiere sind gemäß Policy ausgeschlossen."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-orca/2353245",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wider den Mythos vom Killerwal",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-orca/2353245",
+        "text": "Orcas sind uns Menschen in vielerlei Hinsicht ähnlich – und in manchen Punkten vielleicht sogar überlegen. Elena Gossmann porträtiert diese besondere Art. Eine Rezension",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-orca/2353245",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Meeressäugetiere - Orcas sind rezente Wale, nicht ausgestorbene Meeresreptilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/allen-frances-ueber-chatbots-in-der-psychotherapie-wann-hilft-ki/2352685",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Chatbots in der Psychotherapie: »Es ist ein gigantisches Experiment«",
+        "url": "https://www.spektrum.de/news/allen-frances-ueber-chatbots-in-der-psychotherapie-wann-hilft-ki/2352685",
+        "text": "Therapeuten müssen Chatbots umarmen, sonst werden sie ersetzt, sagt der Psychiater Allen Frances. In welchen Situationen Bots wirklich helfen – und wann sie schaden.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/allen-frances-ueber-chatbots-in-der-psychotherapie-wann-hilft-ki/2352685",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Künstliche Intelligenz/Psychologie - kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/kurzgeschichte/futur-iii-die-tiefschlafmaske/2298676",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die Tiefschlafmaske",
+        "url": "https://www.spektrum.de/kurzgeschichte/futur-iii-die-tiefschlafmaske/2298676",
+        "text": "Eintauchen in die virtuelle Welt. Eine Kurzgeschichte von Uwe Hermann",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/kurzgeschichte/futur-iii-die-tiefschlafmaske/2298676",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Science-Fiction/Unterhaltung - kein wissenschaftlicher Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-koennen-hier-deckungsgleiche-figuren-entstehen/2340870",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie können hieraus zwei deckungsgleiche Figuren entstehen?",
+        "url": "https://www.spektrum.de/raetsel/wie-koennen-hier-deckungsgleiche-figuren-entstehen/2340870",
+        "text": "Wie entstehen aus den vier Pentiamanten zwei deckungsgleiche Figuren?",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-koennen-hier-deckungsgleiche-figuren-entstehen/2340870",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik/Rätsel - kein Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-feuer-ki-und-das-scheitern-der-aliens/2353297",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Harald Lesch: Feuer, künstliche Intelligenz und das Scheitern der Alie",
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-feuer-ki-und-das-scheitern-der-aliens/2353297",
+        "text": "Warum intelligentes Leben auf fremden Planeten entstehen könnte, ohne jemals eine technische Zivilisation hervorzubringen. Darum geht es in diesem Video.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-feuer-ki-und-das-scheitern-der-aliens/2353297",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik/Kosmologie - kein Bezug zu Dinosauriern oder fossilen Organismen."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/hoergang-vom-labor-ans-krankenbett/2353294",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vom Labor ans Krankenbett",
+        "url": "https://www.spektrum.de/podcast/hoergang-vom-labor-ans-krankenbett/2353294",
+        "text": "In dieser Folge des Podcasts »Hörgang« geht es darum, wie die neuen Zentren der MedUni Wien medizinische Forschung schneller zu Patienten bringen sollen. 🎙️",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/hoergang-vom-labor-ans-krankenbett/2353294",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschungstransfer - kein Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/wie-menschliche-eingriffe-tsunamis-in-seen-beguenstigen/2353396",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Katastrophen: Wie menschliche Eingriffe Tsunamis in Seen begünstigen",
+        "url": "https://www.spektrum.de/news/wie-menschliche-eingriffe-tsunamis-in-seen-beguenstigen/2353396",
+        "text": "Seen wirken idyllisch, doch unter ihrer Oberfläche können sie eine große Gefahr bergen: Menschliche Eingriffe in die Landschaft fördern unter Umständen verheerende Tsunamis.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/wie-menschliche-eingriffe-tsunamis-in-seen-beguenstigen/2353396",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologie/Naturkatastrophen - kein Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/dieser-kleine-vogel-hat-einen-zwei-komponenten-schnabel/2353283",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hawaii-Sichelkleidervogel: Dieser kleine Vogel hat einen Zwei-Komponenten-Schnabel",
+        "url": "https://www.spektrum.de/news/dieser-kleine-vogel-hat-einen-zwei-komponenten-schnabel/2353283",
+        "text": "ʻAkiapōlāʻau, so der hawaiische Name, hat einen für die Tierwelt außergewöhnlichen Schnabel. Wie er sein Werkzeug zum Einsatz bringt, haben Fachleute nun anatomisch geklärt.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/dieser-kleine-vogel-hat-einen-zwei-komponenten-schnabel/2353283",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Der Artikel behandelt einen modernen hawaiischen Vogel (ʻAkiapōlāʻau) und seine anatomische Schnabelstruktur. Moderne Vögel sind gemäß Policy ausgeschlossen. Es fehlt jeglicher Bezug zu fossilen Vögeln oder Dinosauriern."
+      },
+      "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kill-switch-kann-man-ki-systeme-einfach-abschalten/2352091",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Unkontrolliert agierende KI: Kann man eine KI einfach abschalten?",
+        "url": "https://www.spektrum.de/news/kill-switch-kann-man-ki-systeme-einfach-abschalten/2352091",
+        "text": "Ein Notausschalter für außer Kontrolle geratene KIs klingt verlockend, ist aber kaum umsetzbar. Stattdessen braucht es Konzepte aus der IT-Sicherheit und Einsatzgrenzen für KI.",
+        "news_datum": "2026-11-09"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-10",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kill-switch-kann-man-ki-systeme-einfach-abschalten/2352091",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Der Artikel behandelt künstliche Intelligenz und IT-Sicherheit. Kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-10"
     }
   ],
   "last_run": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "ready": 1,
-    "excluded": 16,
+    "excluded": 21,
     "pending": 2
   }
 }

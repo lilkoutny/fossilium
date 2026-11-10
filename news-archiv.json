@@ -1,6 +1,19 @@
 {
-  "stand": "2026-11-09",
+  "stand": "2026-11-10",
   "meldungen": [
+    {
+      "titel": "Erdbahn, Vulkane und Einschlag: Drei Kräfte formten das Klima nach dem Massenaussterben",
+      "zusammenfassung": "Eine Untersuchung von Meeressedimenten aus mehreren Weltregionen beleuchtet, welche Faktoren das Erdklima in den ersten Hunderttausenden von Jahren nach dem Asteroideneinschlag vor rund 66 Millionen Jahren beeinflussten. Die Ergebnisse deuten darauf hin, dass spätere Klimaschwankungen eher mit Veränderungen der Erdumlaufbahn zusammenhängen als mit dem gleichzeitig tobenden Vulkanismus auf dem indischen Subkontinent.",
+      "quelle": "scinexx",
+      "url": "https://www.scinexx.de/news/geowissen/erdbahnzyklen-haben-das-klima-nach-dem-dinosauriersterben-gepraegt",
+      "datum": "2026-11-10",
+      "erstmals_angezeigt": "2026-11-10",
+      "news_datum": "2026-11-10",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Die Meldung behandelt zentral die Folgen des Dinosauieraussterbens vor 66 Millionen Jahren und analysiert Klimaveränderungen nach dem Asteroideneinschlag sowie die Rolle des Vulkanismus der Dekkan-Trapps. Das Dinosauieraussterben und dessen Auswirkungen auf das Klima und die Biosphäre sind ein unmittelbar relevantes Forschungsthema nach der Policy, die explizit \"Forschung zum Dinosauieraussterben\" als relevant kategorisiert.",
+      "publikation": "/publikationen/erdbahn-vulkane-und-einschlag-drei-kr-fte-formten-das-klima-nach-250044e1d3/"
+    },
     {
       "titel": "Kolumbianische Fossilien zeigen Koexistenz alter und neuer Tiergruppen im Frühen Kreide-Ozean",
       "zusammenfassung": "Forscher der McGill University und des Centro de Investigaciones Paleontológicas haben in der kolumbianischen Paja-Formation eine ungewöhnliche Vergesellschaftung jurassischer und kretazischer Meereslebewesen entdeckt. Die Befunde deuten darauf hin, dass bedeutende Evolutionsübergänge nicht zwingend Massenaussterben voraussetzen. Für dieses Muster schlagen die Wissenschaftler das neue Konzept der „Biotischen Inflexion\" vor.",
