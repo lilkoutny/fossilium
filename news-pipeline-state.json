@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 14,
+      "attempts": 15,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-10",
+      "last_attempt": "2026-11-11",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 6,
+      "attempts": 7,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-10",
+      "last_attempt": "2026-11-11",
       "error": "article:HTTPError"
     },
     {
@@ -3482,12 +3482,412 @@
         "reason": "Der Artikel behandelt künstliche Intelligenz und IT-Sicherheit. Kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
       },
       "last_attempt": "2026-11-10"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Scientists discover a giant 66-pound rodent that lived 34 million years ago",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+        "text": "Scientists have uncovered fossils of a giant rodent that lived in Thailand 34 million years ago, revealing that enormous rodents evolved much earlier than previously thought. Named Yakamys sirindhornae, the ancient animal may have weighed around 66 pounds, roughly twice as much as other known rodents of its time.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Fossilien eines riesigen Nagetiers aus dem Eozän. Säugetiere sind nach Policy ausgeschlossen, kein Dinosaurierbezug."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105085201.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Paleontologists discover “one-in-a-million” fossil with 450-million-year-old soft tissue",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105085201.htm",
+        "text": "Scientists have discovered a remarkably preserved 450-million-year-old fossil containing soft tissues from an ancient starfish relative, revealing unexpected details about marine life more than 200 million years before dinosaurs existed. Found in a museum collection, the extraordinarily rare specimen offers new clues about how Earth's earliest reef animals fed, survived, and evolved.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105085201.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "450 Millionen Jahre altes Seesternrelativ. Allgemeine Fossilien ohne Dinosaurierbezug sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "237-million-year-old fossils reveal a bizarre armored sea amphibian",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
+        "text": "A bizarre, heavily armored amphibian roamed the oceans 237 million years ago, despite the fact that modern amphibians cannot survive entirely in saltwater. Discovered in China, the giant salamander-sized creature may be the first known amphibian to have adapted to a fully marine existence.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "237 Millionen Jahre altes marines Amphib (Salamander-ähnliches Tier). Amphibien, auch marine, sind nach Policy ausgeschlossen."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/roentgensignale-koennten-vor-jets-in-systemen-mit-schwarzen-loechern-warnen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Röntgensignale könnten vor Jets in Systemen mit Schwarzen Löchern warnen",
+        "url": "https://www.scinexx.de/news/kosmos/roentgensignale-koennten-vor-jets-in-systemen-mit-schwarzen-loechern-warnen",
+        "text": "Der Scheibenrand näherte sich dabei offenbar der innersten stabilen Umlaufbahn",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/roentgensignale-koennten-vor-jets-in-systemen-mit-schwarzen-loechern-warnen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und Schwarze Löcher. Kein Bezug zu Paläontologie oder fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/kohlenstoff-der-erde-koennte-von-fernen-meteoriten-stammen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Kohlenstoff der Erde könnte von fernen Meteoriten stammen",
+        "url": "https://www.scinexx.de/news/geowissen/kohlenstoff-der-erde-koennte-von-fernen-meteoriten-stammen",
+        "text": "Hawaiianische Lava deutet auf späte Lieferung aus dem äußeren Sonnensystem",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/kohlenstoff-der-erde-koennte-von-fernen-meteoriten-stammen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmochemie und Erdursprünge. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/gammastrahlung-verwandelt-biokunststoff-in-ein-superstruktur-hydrogel",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Gammastrahlung verwandelt Biokunststoff in ein „Superstruktur“-Hydrogel",
+        "url": "https://www.scinexx.de/news/technik/gammastrahlung-verwandelt-biokunststoff-in-ein-superstruktur-hydrogel",
+        "text": "Das neue Material nimmt in drei Stunden bis zu 610 Prozent seines Trockengewichts an Wasser auf",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/gammastrahlung-verwandelt-biokunststoff-in-ein-superstruktur-hydrogel",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Materialwissenschaften und Kunststoffforschung. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/suesswasserfisch-kann-skelette-um-jahrhunderte-aelter-erscheinen-lassen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Süßwasserfisch kann Skelette um Jahrhunderte älter erscheinen lassen",
+        "url": "https://www.scinexx.de/news/archaeologie/suesswasserfisch-kann-skelette-um-jahrhunderte-aelter-erscheinen-lassen",
+        "text": "Bei sechs von 27 Klosterbestattungen passten die C-14-Daten nicht zum Alter der Anlagen",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/suesswasserfisch-kann-skelette-um-jahrhunderte-aelter-erscheinen-lassen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Süßwasserfische und Radiokarbon-Datierung in der Archäologie. Fische sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/schwarze-loecher-verraten-womoeglich-einen-stillen-sternentod",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Schwarze Löcher verraten womöglich einen stillen Sternentod",
+        "url": "https://www.scinexx.de/news/kosmos/schwarze-loecher-verraten-womoeglich-einen-stillen-sternentod",
+        "text": "Gravitationswellen zeigen auffällige Häufung bei zehn Sonnenmassen",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/schwarze-loecher-verraten-womoeglich-einen-stillen-sternentod",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und Gravitationswellen. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/quasarpaar-im-jungen-universum-gibt-raetsel-um-das-wachstum-schwarzer-loecher-auf",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Quasarpaar im jungen Universum gibt Rätsel um das Wachstum Schwarzer Löcher auf",
+        "url": "https://www.scinexx.de/news/kosmos/quasarpaar-im-jungen-universum-gibt-raetsel-um-das-wachstum-schwarzer-loecher-auf",
+        "text": "Die beiden Lichtquellen erschienen bereits rund 900 Millionen Jahre nach dem Urknall",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/quasarpaar-im-jungen-universum-gibt-raetsel-um-das-wachstum-schwarzer-loecher-auf",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmologie und frühe Galaxienentwicklung. Kein Bezug zu fossilen Systemen."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/galaxien-einer-fernen-gruppe-enthalten-offenbar-weniger-sternengas",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Galaxien einer fernen Gruppe enthalten offenbar weniger Sternengas",
+        "url": "https://www.scinexx.de/news/kosmos/galaxien-einer-fernen-gruppe-enthalten-offenbar-weniger-sternengas",
+        "text": "Gemeinsame Messungen an 17 Galaxien deuten auf nur 20 bis 40 Prozent der erwarteten Gasmenge hin",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/galaxien-einer-fernen-gruppe-enthalten-offenbar-weniger-sternengas",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Galaxien und Sternengas. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/news/der-neue-nasa-mondrover-promise/2353221",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "PROMISE: Der neue NASA-Mondrover PROMISE",
+        "url": "https://www.spektrum.de/news/der-neue-nasa-mondrover-promise/2353221",
+        "text": "Die NASA plant eine revolutionäre Rückkehr zum Mond: Ein neuer Rover und innovative Missionen bereiten den Weg für Menschen.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/news/der-neue-nasa-mondrover-promise/2353221",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrt und Mondmissionen. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/news/illusionen-magie-offenbart-13-formen-von-unmoeglichkeit/2353535",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Trugbilder: Magie offenbart 13 Formen von Unmöglichkeit",
+        "url": "https://www.spektrum.de/news/illusionen-magie-offenbart-13-formen-von-unmoeglichkeit/2353535",
+        "text": "Was haben verschiedene wunderliche Phänomene gemeinsam? Eine neue Taxonomie der Zauberkunst zeigt, wie unser Gehirn unmögliche Ereignisse sortiert.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/news/illusionen-magie-offenbart-13-formen-von-unmoeglichkeit/2353535",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Zauberkunst und Wahrnehmungspsychologie. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/news/deutschland-im-klimaschutz-ranking-nur-noch-mittelmass/2353687",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Weltklimakonferenz: Deutschland rutscht im Klimaschutz-Ranking ins Mittelmaß ab",
+        "url": "https://www.spektrum.de/news/deutschland-im-klimaschutz-ranking-nur-noch-mittelmass/2353687",
+        "text": "Deutsche Klimapolitik: schwach. So lautet das Urteil im neuen Klimaschutz-Index. Die Fachleute rügen vor allem den geplanten Ausbau von Erdgas-Projekten.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/news/deutschland-im-klimaschutz-ranking-nur-noch-mittelmass/2353687",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimapolitik und Energiepolitik. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-das-ende-des-lesens/2353557",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Das Smartphone als Feind der Demokratie",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-das-ende-des-lesens/2353557",
+        "text": "Die Lesekultur fördere den rationalen Weltzugang, während die Bildschirmkultur zur Irrationalität führe, was die Demokratie bedrohe. So die Warnung James Marriotts. Eine Rezension",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-das-ende-des-lesens/2353557",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medienkultur und Demokratietheorie. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/news/endlager-forschung-sicher-fuer-eine-million-jahre/1747720",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Endlager für Atommüll: Sicher für eine Million Jahre?",
+        "url": "https://www.spektrum.de/news/endlager-forschung-sicher-fuer-eine-million-jahre/1747720",
+        "text": "Sicher soll ein Endlager sein, möglichst auf ewig. Doch wie findet man heraus, was es dazu braucht? In einem Schweizer Berg kommen Forschende der Antwort näher. Ein Besuch vor Ort.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/news/endlager-forschung-sicher-fuer-eine-million-jahre/1747720",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Atommüll und Endlagerforschung. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-gross-ist-die-flaeche/2340854",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie groß ist die Fläche des vierten Dreiecks?",
+        "url": "https://www.spektrum.de/raetsel/wie-gross-ist-die-flaeche/2340854",
+        "text": "Wie lässt sich der Flächeninhalt des vierten Dreiecks berechnen?",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-gross-ist-die-flaeche/2340854",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Geometrie. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/machen-statt-quatschen-die-smartphone-fotografie-neu-denken/2353468",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie Leica und Xiaomi die Smartphone-Fotografie neu denken",
+        "url": "https://www.spektrum.de/podcast/machen-statt-quatschen-die-smartphone-fotografie-neu-denken/2353468",
+        "text": "Für gute Fotos reicht heute oft ein Smartphone. Doch wie kommt das fotografische Know-how einer Traditionsmarke wie Leica in eine Kamera, die in die Hosentasche passt? 🎙️",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/machen-statt-quatschen-die-smartphone-fotografie-neu-denken/2353468",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Smartphone-Fotografie und Technologie. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/mission-energiewende-was-koennen-wir-von-der-cop31-erwarten/2353462",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Was können wir von der COP31 erwarten?",
+        "url": "https://www.spektrum.de/podcast/mission-energiewende-was-koennen-wir-von-der-cop31-erwarten/2353462",
+        "text": "Wie schaffen wir es als Weltgemeinschaft, die Erderwärmung möglichst gering zu halten? Diese Frage verhandeln aktuell die Vertreterinnen und Vertreter von fast 200 Staaten.  🎙️",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/mission-energiewende-was-koennen-wir-von-der-cop31-erwarten/2353462",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimapolitik und Energiewende. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/news/inseln-unberuehrteste-atolle-der-welt-entdeckt/2353400",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Inseln: Die vielleicht letzten wilden Atolle der Welt entdeckt",
+        "url": "https://www.spektrum.de/news/inseln-unberuehrteste-atolle-der-welt-entdeckt/2353400",
+        "text": "Bikar und Bokak stehen für etwas, was selten geworden ist auf der Welt: Gebiete, in denen der Mensch praktisch keine Spuren hinterlassen hat.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/news/inseln-unberuehrteste-atolle-der-welt-entdeckt/2353400",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Inselökologie und Naturschutz. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.spektrum.de/news/leuchtspuren-in-kalten-novembernaechten/2353100",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Leoniden & Co.: Leuchtspuren in kalten Novembernächten",
+        "url": "https://www.spektrum.de/news/leuchtspuren-in-kalten-novembernaechten/2353100",
+        "text": "Trotz eines eher schwachen Auftritts der Leoniden im November bietet der Herbstmonat beste Aussichten auf eindrucksvolle Meteore.",
+        "news_datum": "2026-11-10"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-11",
+      "decision": {
+        "url": "https://www.spektrum.de/news/leuchtspuren-in-kalten-novembernaechten/2353100",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Meteorologie und Astronomie. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-11"
     }
   ],
   "last_run": {
-    "date": "2026-11-10",
-    "ready": 1,
-    "excluded": 21,
+    "date": "2026-11-11",
+    "ready": 0,
+    "excluded": 20,
     "pending": 2
   }
 }
