@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-11T12:21:33.658458+00:00",
+  "updated": "2026-11-12T13:30:34.445525+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "28bdc12b7fd6c1312f114339a3ad45cb",
+      "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
+      "title": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-12T13:30:34.443629+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "8cbc5e7f2766ed418664ef3f52e3d36c",
       "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
@@ -337,19 +350,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-03T16:25:03.284592+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "28bdc12b7fd6c1312f114339a3ad45cb",
-      "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
-      "title": "Fossile Meeresökosysteme in Kolumbien zeigen Evolution ohne Massensterben",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-11-03T16:20:59.252933+00:00",
       "sources": [],
       "score": null,
       "script": null,
