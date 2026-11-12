@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 15,
+      "attempts": 16,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-11",
+      "last_attempt": "2026-11-12",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 7,
+      "attempts": 8,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-11",
+      "last_attempt": "2026-11-12",
       "error": "article:HTTPError"
     },
     {
@@ -3882,12 +3882,552 @@
         "reason": "Meteorologie und Astronomie. Kein paläontologischer Inhalt."
       },
       "last_attempt": "2026-11-11"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Scientists discover that necks didn't evolve for the reason we thought",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm",
+        "text": "Scientists have discovered that the first animals to venture onto land nearly 380 million years ago had surprisingly stiff necks, overturning a long-standing theory about evolution. Rather than evolving to help animals turn their heads, necks may have emerged as part of the anatomical changes that allowed them to move using their front limbs.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt die Evolution von Hälsen bei frühen Landtieren (vor 380 Mio. Jahren). Dies bezieht sich auf Amphibien und frühe Tetrapoden, nicht auf Dinosaurier oder deren unmittelbare Evolution. Kein direkter Dinosaurierbezug vorhanden."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174545.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Scientists find deadly virus DNA hidden in 1,000-year-old manuscripts",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174545.htm",
+        "text": "Ancient manuscripts, including the 1,000-year-old York Gospels, have revealed traces of a deadly sheep virus whose history stretches back more than 3,700 years. Scientists discovered that the virus has remained remarkably unchanged for millennia, turning historic parchment into an unexpected record of ancient disease outbreaks.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174545.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von Virologie und mittelalterlichen Manuskripten. Kein Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Where are all the males? Ancient human fossils reveal a startling mystery",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm",
+        "text": "A remarkable discovery in a South African cave suggests that an extinct human relative may have created an all-female burial site more than 240,000 years ago. Scientists analyzed ancient proteins preserved in Homo naledi teeth and found no male-specific markers among at least 20 individuals, potentially solving a mystery that has puzzled researchers for over a decade.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Homo naledi und menschliche Evolution. Dies fällt unter Säugetierfossilien und Anthropologie, nicht unter die abgedeckten Taxagruppen (Dinosaurier, frühe Vögel, Pterosaurier, marine Reptilien)."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Scientists uncover a 192-year-old mystery hidden in a mangled silver coin",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+        "text": "A bizarrely deformed 1834 British silver coin found at a car boot sale may preserve evidence of a rare minting accident nearly 200 years ago. Advanced 3D scans and microscopic analysis revealed unusual metal distortions suggesting the coin was crushed under extreme pressure, potentially during its original production.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von Numismatik und einem deformierten Münzfund. Kein paläontologischer Bezug und kein Dinosaurierthema."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/lichtimpuls-laesst-mikrowellen-rueckwaerts-laufen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Lichtimpuls lässt Mikrowellen rückwärts laufen",
+        "url": "https://www.scinexx.de/news/physik/lichtimpuls-laesst-mikrowellen-rueckwaerts-laufen",
+        "text": "Der zurücklaufende Puls kehrt auch die Reihenfolge seiner Signalspitzen um",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/lichtimpuls-laesst-mikrowellen-rueckwaerts-laufen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Physik und Wellenpropagation. Kein Bezug zur Paläontologie oder den abgedeckten Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/gemeinschaftsbestattungen-gewaltige-steingraeber-gab-es-bis-weit-in-die-bronzezeit",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Gemeinschaftsbestattungen: Gewaltige Steingräber gab es bis weit in die Bronzezeit",
+        "url": "https://www.scinexx.de/news/archaeologie/gemeinschaftsbestattungen-gewaltige-steingraeber-gab-es-bis-weit-in-die-bronzezeit",
+        "text": "Mindestens 20 Menschen wurden in den beiden Grabanlagen am Kap Trafalgar bestattet",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/gemeinschaftsbestattungen-gewaltige-steingraeber-gab-es-bis-weit-in-die-bronzezeit",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Archäologie und Bestattungspraktiken der Bronzezeit. Kein Fossilienbezug und keine Relevanz für Dinosaurier oder ausgestorbene Reptilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/steinzeitmenschen-haben-schon-vor-15-000-jahren-tonfiguren-geformt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Steinzeitmenschen haben schon vor 15.000 Jahren Tonfiguren geformt",
+        "url": "https://www.scinexx.de/news/archaeologie/steinzeitmenschen-haben-schon-vor-15-000-jahren-tonfiguren-geformt",
+        "text": "Fingerabdrücke zeigen, dass auch Kinder an der Herstellung beteiligt waren",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/steinzeitmenschen-haben-schon-vor-15-000-jahren-tonfiguren-geformt",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Archäologie und Steinzeitmenschen. Kein paläontologischer Inhalt und kein Bezug zu Dinosauriern oder verwandten Gruppen."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/unscheinbare-wettersysteme-praegen-den-starkregen-der-tropen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Unscheinbare Wettersysteme prägen den Starkregen der Tropen",
+        "url": "https://www.scinexx.de/news/geowissen/unscheinbare-wettersysteme-praegen-den-starkregen-der-tropen",
+        "text": "Zwischen 15. und 20. Breitengrad sind Feuchtemoden mit 45 bis 75 Prozent der Extremfälle verknüpft",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/unscheinbare-wettersysteme-praegen-den-starkregen-der-tropen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Meteorologie und Wettersysteme. Kein Fossil- oder Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/neuer-fermi-katalog-zeigt-60-raetselhafte-gammastrahlenquellen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Neuer Fermi-Katalog zeigt 60 rätselhafte Gammastrahlenquellen",
+        "url": "https://www.scinexx.de/news/kosmos/neuer-fermi-katalog-zeigt-60-raetselhafte-gammastrahlenquellen",
+        "text": "Der Katalog erfasst 450 Quellen zwischen 20 und 200 Megaelektronenvolt",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/neuer-fermi-katalog-zeigt-60-raetselhafte-gammastrahlenquellen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Astronomie und Gammastrahlenquellen. Kein Bezug zur Paläontologie oder den abgedeckten Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/mondstaub-und-papierfasern-koennen-mondbasen-gegen-extreme-temperaturen-daemmen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Mondstaub und Papierfasern können Mondbasen gegen extreme Temperaturen dämmen",
+        "url": "https://www.scinexx.de/news/technik/mondstaub-und-papierfasern-koennen-mondbasen-gegen-extreme-temperaturen-daemmen",
+        "text": "Die Aerogele bestanden zu knapp 80 bis 98,6 Prozent aus Poren",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/mondstaub-und-papierfasern-koennen-mondbasen-gegen-extreme-temperaturen-daemmen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Raumfahrttechnologie und Materialwissenschaften. Kein Fossil- oder Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/warum-beeinflusst-derselbe-wolkenverlust-das-klima-unterschiedlich-stark",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Warum beeinflusst derselbe Wolkenverlust das Klima unterschiedlich stark?",
+        "url": "https://www.scinexx.de/news/geowissen/warum-beeinflusst-derselbe-wolkenverlust-das-klima-unterschiedlich-stark",
+        "text": "Optisch dichtere Wolken verlieren bei gleichem Flächenrückgang einen größeren Kühleffekt",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/warum-beeinflusst-derselbe-wolkenverlust-das-klima-unterschiedlich-stark",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Klimawissenschaft und Wolkenphysik. Kein Bezug zur Paläontologie oder ausgestorbenen Organismen."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/tiefsee-manganknollen-beherbergen-vielfaeltiges-leben/2353926",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Tiefseebergbau: Manganknollen wimmeln nur so vor Leben",
+        "url": "https://www.spektrum.de/news/tiefsee-manganknollen-beherbergen-vielfaeltiges-leben/2353926",
+        "text": "Manganknollen sind offenbar wichtige Lebensräume für eine Vielzahl von Meeresbewohnern. Die Erkenntnis sollte bei Plänen zum Bergbau in der Tiefsee berücksichtigt werden.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/tiefsee-manganknollen-beherbergen-vielfaeltiges-leben/2353926",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt moderne Meeresbewohner der Tiefsee. Nicht relevant für ausgestorbene marine Reptilien und keine Fossilienfokussierung."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/die-vermessung-des-alls-euclid-enthuellt-erste-3d-karte-des-universums/2353375",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die Vermessung des Universums: Euclid präsentiert seine erste große Himmelskarte",
+        "url": "https://www.spektrum.de/news/die-vermessung-des-alls-euclid-enthuellt-erste-3d-karte-des-universums/2353375",
+        "text": "Die europäische Weltraumbehörde ESA hat den ersten großen Datensatz des Weltraumteleskops Euclid veröffentlicht. Er umfasst bereits Hunderte Millionen kosmische Objekte.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/die-vermessung-des-alls-euclid-enthuellt-erste-3d-karte-des-universums/2353375",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Astronomie und Kosmologie. Kein Paläontologie- oder Fossilienbezug."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/video/christian-spannagel-fehlersuche-im-6er-system/2353719",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Fehlersuche im 6er-System",
+        "url": "https://www.spektrum.de/video/christian-spannagel-fehlersuche-im-6er-system/2353719",
+        "text": "Heutiges Thema im »Christian Spannagel«-Video: Stellenwertsysteme.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/video/christian-spannagel-fehlersuche-im-6er-system/2353719",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Mathematik und Stellenwertsysteme. Kein wissenschaftlicher Inhalt zu Fossilien oder Paläontologie."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/optische-illusion-forscher-lueften-geheimnis-des-phantom-leuchtturms/2353904",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Geisterhafte Illusion in Australien: Forscher lüften Geheimnis des Phantom-Leuchtturms",
+        "url": "https://www.spektrum.de/news/optische-illusion-forscher-lueften-geheimnis-des-phantom-leuchtturms/2353904",
+        "text": "Auf einer Insel am Great Barrier Reef erscheint nachts ein Leuchtturm am Horizont, den es gar nicht gibt. Forscher haben rekonstruiert, wie das Gehirn den Geisterschein erzeugt.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/optische-illusion-forscher-lueften-geheimnis-des-phantom-leuchtturms/2353904",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt optische Illusionen und visuelle Wahrnehmung. Kein Fossil- oder Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/england-archaeologen-finden-ursprung-von-roemischem-froschfriedhof/2353767",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Fund in England: Archäologen finden Ursprung von römischem Froschfriedhof",
+        "url": "https://www.spektrum.de/news/england-archaeologen-finden-ursprung-von-roemischem-froschfriedhof/2353767",
+        "text": "Seit Jahren rätseln Archäologen über Tausende Frosch- und Krötenknochen aus einer römischen Siedlung. Wer nur hatte vor mehr als 1700 Jahren so vielen Amphibien den Garaus gemacht?",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/england-archaeologen-finden-ursprung-von-roemischem-froschfriedhof/2353767",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt archäologische und paläontologische Funde von Fröschen und Kröten (Amphibien). Amphibien sind laut Policy ausgeschlossen, auch wenn marine Formen wie Gerrothorax genannt werden."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/fantasien-der-falsche-mann-in-meinem-kopf/2353311",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sex matters: Der falsche Mann in meinem Kopf",
+        "url": "https://www.spektrum.de/kolumne/fantasien-der-falsche-mann-in-meinem-kopf/2353311",
+        "text": "Die Gedanken sind frei. Warum sexuelle Fantasien dennoch Schuldgefühle verursachen können, erklärt der Sexualtherapeut Carsten Müller in seiner Kolumne.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/fantasien-der-falsche-mann-in-meinem-kopf/2353311",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Sexualwissenschaft und Psychotherapie. Kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-herzblut/2353784",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ein Leben für die Herzchirurgie",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-herzblut/2353784",
+        "text": "Rüdiger Lange schildert sein Leben als Herzchirurg. Eine kurzweilige Lektüre mit vielen Fakten zu Herzoperationen und Einblicken in die Arbeitswelt von Medizinern. Eine Rezension",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-herzblut/2353784",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Herzchirurgie und Medizin. Kein Fossil- oder Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/psychotherapie-warum-traurigkeit-fortschritte-foerdern-kann/2349986",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Emotionsfokussierte Therapie: Traurigkeit ebnet den Weg zu neuen Einsichten",
+        "url": "https://www.spektrum.de/news/psychotherapie-warum-traurigkeit-fortschritte-foerdern-kann/2349986",
+        "text": "Eine neue Studie legt nahe, dass Trauer und Freude in einer Psychotherapie gemeinsam zu innerer Klarheit beitragen.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/psychotherapie-warum-traurigkeit-fortschritte-foerdern-kann/2349986",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Psychotherapie und emotionale Prozesse. Kein Bezug zur Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-muessen-die-zahlen-angeordnet-werden/2340543",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie müssen die Zahlen angeordnet werden?",
+        "url": "https://www.spektrum.de/raetsel/wie-muessen-die-zahlen-angeordnet-werden/2340543",
+        "text": "Wie müssen die Zahlen von 1 bis 16 angeordnet werden, damit diese Bedingung erfüllt ist?",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-muessen-die-zahlen-angeordnet-werden/2340543",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel. Kein Wissenschaftsbezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-entdeckung-von-lsd-und-psilocybin/2353692",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Mutterkornfelder und das Fleisch der Götter",
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-entdeckung-von-lsd-und-psilocybin/2353692",
+        "text": "In dieser Folge des Podcasts »Geschichten aus der Geschichte« geht es um eine Geschichte über die Entdeckung von LSD und Psilocybin. 🎙️",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-entdeckung-von-lsd-und-psilocybin/2353692",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt die Geschichte von LSD und Psilocybin. Kein Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/strukturfarbe-raetsel-um-magenta-von-annakolibris-geloest/2353716",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Übersehene Nanostruktur: Rätsel um das Magenta von Kolibris ist gelöst",
+        "url": "https://www.spektrum.de/news/strukturfarbe-raetsel-um-magenta-von-annakolibris-geloest/2353716",
+        "text": "Wie entsteht im Gefieder des Annakolibris eine Farbe, die es im Regenbogen nicht gibt? Forschende haben eine spezielle Nanostruktur als entscheidende Ursache identifiziert.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/strukturfarbe-raetsel-um-magenta-von-annakolibris-geloest/2353716",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von modernen Kolibris und deren Gefiederstrukturen. Moderne Vögel sind ausgeschlossen; kein Dinosaurierbezug."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/mikroplastik-im-blut-von-tapir-und-ameisenbaer-nachgewiesen/2353800",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Umweltverschmutzung: Mikroplastik im Blut von Ameisenbär und Tapir",
+        "url": "https://www.spektrum.de/news/mikroplastik-im-blut-von-tapir-und-ameisenbaer-nachgewiesen/2353800",
+        "text": "Tapire und Ameisenbären tragen selbst in abgelegenen Lebensräumen Mikroplastik im Blut. Eine Studie zeigt, wann die Belastung mit winzigen Kunststoffteilchen besonders hoch ist.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/mikroplastik-im-blut-von-tapir-und-ameisenbaer-nachgewiesen/2353800",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Umweltverschmutzung bei modernen Säugetieren (Tapir, Ameisenbär). Säugetiere und allgemeine Biologie sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/hemmer-und-messner-erzaehlen-die-geschichte-des-erdoelbooms-im-iran/2335421",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hemmer und Meßner erzählen: Kleine Geschichte der Jagd nach dem schwarzen Gold des Schahs",
+        "url": "https://www.spektrum.de/kolumne/hemmer-und-messner-erzaehlen-die-geschichte-des-erdoelbooms-im-iran/2335421",
+        "text": "Unsere Kolumnisten erzählen vom Erdölboom im Mittleren Osten, der jahrelang auf sich warten ließ – und sich dann mit Macht Bahn brach.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/hemmer-und-messner-erzaehlen-die-geschichte-des-erdoelbooms-im-iran/2335421",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt vom Erdölboom im Iran. Keine Relevanz für Paläontologie oder ausgestorbene Reptilien."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/millennium-problem-ki-liefert-existenzbeweis-fuer-yang-mills-theorien/2353697",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Durchbruch beim Yang-Mills-Millennium-Problem: KI schließt jahrzehntealte Lücke im Fundament der Physik",
+        "url": "https://www.spektrum.de/news/millennium-problem-ki-liefert-existenzbeweis-fuer-yang-mills-theorien/2353697",
+        "text": "Yang-Mills-Theorien bilden die Grundlage der theoretischen Teilchenphysik. Trotzdem konnte bislang niemand zeigen, dass sie im mathematischen Sinn überhaupt existieren.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/millennium-problem-ki-liefert-existenzbeweis-fuer-yang-mills-theorien/2353697",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Yang-Mills-Theorien und Teilchenphysik. Kein Bezug zu Dinosauriern oder paläontologischen Themen."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kleine-kometenphysik-2p-encke-ist-alles-andere-als-kugelrund/2353528",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Kleine Kometenphysik: Komet Encke ist alles andere als kugelrund",
+        "url": "https://www.spektrum.de/news/kleine-kometenphysik-2p-encke-ist-alles-andere-als-kugelrund/2353528",
+        "text": "Infrarotaufnahmen mit dem japanischen Subaru-Teleskop enthüllen die längliche Gestalt von 2P/Encke. Auf dessen Oberfläche ist es zudem erstaunlich warm.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kleine-kometenphysik-2p-encke-ist-alles-andere-als-kugelrund/2353528",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von Kometenphysik und Astronomie. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.spektrum.de/news/studie-zum-wohlbefinden-naehe-und-gute-beziehungen-zentral/2353755",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Subjektive Zufriedenheit: Studie zum Wohlbefinden – Nähe und gute Beziehungen zentral",
+        "url": "https://www.spektrum.de/news/studie-zum-wohlbefinden-naehe-und-gute-beziehungen-zentral/2353755",
+        "text": "Gute soziale Beziehungen sind wichtig für die Lebenszufriedenheit in Deutschland, zeigt eine Analyse. Viele Paare fühlen sich wohl auch ohne Kinder.",
+        "news_datum": "2026-11-11"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-12",
+      "decision": {
+        "url": "https://www.spektrum.de/news/studie-zum-wohlbefinden-naehe-und-gute-beziehungen-zentral/2353755",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Wohlbefinden und soziale Beziehungen. Keine Relevanz für Dinosaurier oder ausgestorbene Reptilien."
+      },
+      "last_attempt": "2026-11-12"
     }
   ],
   "last_run": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "ready": 0,
-    "excluded": 20,
+    "excluded": 27,
     "pending": 2
   }
 }
