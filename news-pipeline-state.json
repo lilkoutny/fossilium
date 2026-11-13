@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 17,
+      "attempts": 18,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 9,
+      "attempts": 10,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1658,7 +1658,7 @@
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
       "last_attempt": "2026-11-13",
-      "error": "article:HTTPError"
+      "error": "deferred:manual_run_limit"
     },
     {
       "url": "https://www.spektrum.de/news/silber-gegen-die-superkeime/2340302",
@@ -4826,12 +4826,528 @@
       },
       "last_attempt": "2026-11-13",
       "publication": "/publikationen/hintighernia-edingerae-ein-alter-sch-delrest-bekommt-einen-neuen-cd303c8be2/"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025529.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "A new treasure map reveals where Earth's lost prehistoric life may be hiding",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112025529.htm",
+        "text": "A sweeping analysis of 540 million years of marine fossils has revealed surprising gaps in our understanding of Earth's ancient life. Scientists discovered that some of the greatest opportunities for finding previously unknown species lie in relatively recent geological periods, rather than the distant past. By mapping unexplored fossil-rich regions around the world, researchers have created a powerful tool to guide future excavations.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112025529.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Analyse von 540 Millionen Jahren Meeresfossilien ohne spezifischen Fokus auf Dinosaurier, Flugsaurier oder ausgestorbene Meeresreptilien. Beiläufige Erwähnung prähistorischen Lebens reicht nicht für Relevanz."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/ungewoehnliches-sternenpaar-sendet-alle-acht-minuten-radiosignale-aus",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Ungewöhnliches Sternenpaar sendet alle acht Minuten Radiosignale aus",
+        "url": "https://www.scinexx.de/news/kosmos/ungewoehnliches-sternenpaar-sendet-alle-acht-minuten-radiosignale-aus",
+        "text": "Ein Weißer Zwerg umkreist dabei einen sonnenähnlichen Stern",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/ungewoehnliches-sternenpaar-sendet-alle-acht-minuten-radiosignale-aus",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomische Forschung zu Sternenpaaren. Kein Bezug zu Paläontologie oder den relevanten Taxa."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/alterungsuhr-im-blut-kann-krankheiten-und-einen-fruehen-tod-vorhersagen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "„Alterungsuhr“ im Blut kann Krankheiten und einen frühen Tod vorhersagen",
+        "url": "https://www.scinexx.de/news/medizin/alterungsuhr-im-blut-kann-krankheiten-und-einen-fruehen-tod-vorhersagen",
+        "text": "56 altersabhängige Stoffwechselmerkmale bilden die Grundlage des berechneten Alterswerts",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/alterungsuhr-im-blut-kann-krankheiten-und-einen-fruehen-tod-vorhersagen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschung zu Stoffwechselmarkern und Alterung. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/quantencomputer-kuenstliche-intelligenz-erkennt-muster-im-quantenrauschen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Quantencomputer: Künstliche Intelligenz erkennt Muster im Quantenrauschen",
+        "url": "https://www.scinexx.de/news/physik/quantencomputer-kuenstliche-intelligenz-erkennt-muster-im-quantenrauschen",
+        "text": "Ein neuronales Netz nutzt zeitliche Spektralmessungen, um kommende Frequenzdriften abzuschätzen",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/quantencomputer-kuenstliche-intelligenz-erkennt-muster-im-quantenrauschen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantencomputer und KI-Forschung. Kein Bezug zu Paläontologie oder fossilen Organismen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/phobos-koennte-gesteinsbrocken-vom-mars-bewahren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Phobos könnte Gesteinsbrocken vom Mars bewahren",
+        "url": "https://www.scinexx.de/news/kosmos/phobos-koennte-gesteinsbrocken-vom-mars-bewahren",
+        "text": "MMX soll die Mineralverteilung auf Phobos mit dem Nahinfrarot-Spektrometer MIRS erfassen",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/phobos-koennte-gesteinsbrocken-vom-mars-bewahren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Marsmond-Geologie und planetarische Forschung. Kein Bezug zu Dinosauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/forscher-fordern-eine-pause-bei-der-industrialisierung-des-mondes",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Forscher fordern eine Pause bei der Industrialisierung des Mondes",
+        "url": "https://www.scinexx.de/news/kosmos/forscher-fordern-eine-pause-bei-der-industrialisierung-des-mondes",
+        "text": "Das Moratorium soll Zeit für internationale Regeln zur Nutzung des Mondes schaffen",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/forscher-fordern-eine-pause-bei-der-industrialisierung-des-mondes",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mondschutz und Raumfahrtpolitik. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/multiplexiertes-detektorsystem-zaehlt-mehr-als-9-000-photonen-aus-lichtpulsen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Multiplexiertes Detektorsystem zählt mehr als 9.000 Photonen aus Lichtpulsen",
+        "url": "https://www.scinexx.de/news/physik/multiplexiertes-detektorsystem-zaehlt-mehr-als-9-000-photonen-aus-lichtpulsen",
+        "text": "Acht supraleitende Nanodrahtsensoren erzeugen durch Multiplexing 1.024 Messkanäle",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/multiplexiertes-detektorsystem-zaehlt-mehr-als-9-000-photonen-aus-lichtpulsen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Photonik und Detektortechnik. Kein Bezug zu Fossilien oder prähistorischen Organismen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/ki-nutzt-myonen-um-verborgene-objekte-genauer-zu-orten",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "KI nutzt Myonen, um verborgene Objekte genauer zu orten",
+        "url": "https://www.scinexx.de/news/technik/ki-nutzt-myonen-um-verborgene-objekte-genauer-zu-orten",
+        "text": "Die KI wertet zwei Arten von Myonenspuren gemeinsam aus statt nur deren Richtungsänderungen",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/ki-nutzt-myonen-um-verborgene-objekte-genauer-zu-orten",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Teilchenphysik und Objekterkennung. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/physiker-bauen-motor-mit-quanten-antrieb-im-labor/2354191",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Arbeit ohne Bewegung: Physiker bauen Motor mit Quanten-Antrieb im Labor",
+        "url": "https://www.spektrum.de/news/physiker-bauen-motor-mit-quanten-antrieb-im-labor/2354191",
+        "text": "Kein Kolben, kein Rotor, keine Verbrennung: Physiker haben einen Motor, der aus einem einzigen Quantensystem besteht, im Labor gebaut. Und er verrichtet tatsächlich Arbeit.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/physiker-bauen-motor-mit-quanten-antrieb-im-labor/2354191",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantenphysik und experimentelle Motorentwicklung. Kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/riffe-taucher-entdecken-gigantische-koralle/2354137",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Riffe: Taucher entdecken gigantische Koralle",
+        "url": "https://www.spektrum.de/news/riffe-taucher-entdecken-gigantische-koralle/2354137",
+        "text": "Vor der australischen Cocos-Insel erstreckt sich eine Art Superorganismus in einem der Riffe. Erst jetzt wird Biologen klar, wie groß diese Korallenkolonie im Meer tatsächlich ist.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/riffe-taucher-entdecken-gigantische-koralle/2354137",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne rezente Korallenbiologie. Keine fossilen oder ausgestorbenen Arten."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/spektrum-podcast-was-den-ebola-ausbruch-im-kongo-so-gefaehrlich-macht/2354117",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Was den Ebola-Ausbruch im Kongo so gefährlich macht",
+        "url": "https://www.spektrum.de/podcast/spektrum-podcast-was-den-ebola-ausbruch-im-kongo-so-gefaehrlich-macht/2354117",
+        "text": "Krieg, Flucht, Migration und Misstrauen erschweren den Kampf gegen Ebola im Kongo. Warum Vertrauen dabei womöglich genauso wichtig ist wie Impfstoffe und Medikamente. 🎙️",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/spektrum-podcast-was-den-ebola-ausbruch-im-kongo-so-gefaehrlich-macht/2354117",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Aktuelle Virenepidemiologie. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/rekordtemperatur-bei-bose-einstein-kondensat/2354021",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bose-Einstein-Kondensat: Chinesische Raumstation erreicht Quantengas-Rekord",
+        "url": "https://www.spektrum.de/news/rekordtemperatur-bei-bose-einstein-kondensat/2354021",
+        "text": "So kalt wie nie zuvor ist ein Bose-Einstein-Kondensat, das chinesische Fachleute im Erdorbit hergestellt haben. Eine neue Lasertechnik macht den Rekord möglich.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/rekordtemperatur-bei-bose-einstein-kondensat/2354021",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantenphysik in der Raumfahrt. Kein Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag132",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Hidden in moss, lichen, and soil: taxonomy and ecology of tardigrades in South Africa, with the erection of\n                    <i>Bartelscon</i>\n                    gen. nov. (Eutardigrada: Itaquasconinae)",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag132",
+        "text": "Hidden in moss, lichen, and soil: taxonomy and ecology of tardigrades in South Africa, with the erection of\n                    <i>Bartelscon</i>\n                    gen. nov. (Eutardigrada: Itaquasconinae)",
+        "news_datum": "2026-10-29",
+        "study_datum": "2026-10-29",
+        "doi": "10.1093/zoolinnean/zlag132",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag132",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Taxonomie rezenter Bärtierchen (Tardigraden). Moderne Meiofauna, nicht fossile Organismen relevanter Taxa."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag133",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Disassembly of actin and microtubules differentially affects mortality and anhydrobiosis recovery in the eutardigrade\n                    <i>Paramacrobiotus gadabouti</i>\n                    (Macrobiotidae)",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag133",
+        "text": "Disassembly of actin and microtubules differentially affects mortality and anhydrobiosis recovery in the eutardigrade\n                    <i>Paramacrobiotus gadabouti</i>\n                    (Macrobiotidae)",
+        "news_datum": "2026-10-28",
+        "study_datum": "2026-10-28",
+        "doi": "10.1093/zoolinnean/zlag133",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag133",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Experimentelle Biologie rezenter Bärtierchen (Tardigraden). Nicht paleontologisch relevant."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag131",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Genus-level taxonomic inflation in Asian horned frogs (Amphibia: Megophryidae:\n                    <i>Megophrys</i>\n                    ): a critical re-evaluation of recent proposals to split one genus into ten",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag131",
+        "text": "Genus-level taxonomic inflation in Asian horned frogs (Amphibia: Megophryidae:\n                    <i>Megophrys</i>\n                    ): a critical re-evaluation of recent proposals to split one genus into ten",
+        "news_datum": "2026-11-05",
+        "study_datum": "2026-11-05",
+        "doi": "10.1093/zoolinnean/zlag131",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag131",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Taxonomie rezenter asiatischer Hornfrösche (Amphibien). Amphibien sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag146",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Toxicity of zinc(II), cadmium(II), and mercury(II) salts in the tardigrade\n                    <i>Hypsibius exemplaris</i>\n                    assessed by automated imaging and deep neural networks",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag146",
+        "text": "Toxicity of zinc(II), cadmium(II), and mercury(II) salts in the tardigrade\n                    <i>Hypsibius exemplaris</i>\n                    assessed by automated imaging and deep neural networks",
+        "news_datum": "2026-10-22",
+        "study_datum": "2026-10-22",
+        "doi": "10.1093/zoolinnean/zlag146",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag146",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Ökotoxikologie rezenter Bärtierchen (Tardigraden). Moderne Organismen, nicht fossil."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag165",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Ancient endemism in a global biodiversity hotspot: an integrative revision of Tyrannochthoniini pseudoscorpions (Pseudoscorpiones: Chthoniidae) from the Western Ghats of India",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag165",
+        "text": "Ancient endemism in a global biodiversity hotspot: an integrative revision of Tyrannochthoniini pseudoscorpions (Pseudoscorpiones: Chthoniidae) from the Western Ghats of India",
+        "news_datum": "2026-11-04",
+        "study_datum": "2026-11-04",
+        "doi": "10.1093/zoolinnean/zlag165",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag165",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Revision rezenter Pseudoskorpione (Arthropoden) aus den Western Ghats. Moderne Invertebraten ohne paläontologischen Bezug."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag164",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Cranial osteology and ontogenetic assessment of a partially articulated sub-adult\n                    <i>Malpolon</i>\n                    cf\n                    <i>. monspessulanus</i>\n                    (Serpentes: Psammophiidae) from the Early Pleistocene of Quibas (SE Spain)",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag164",
+        "text": "Cranial osteology and ontogenetic assessment of a partially articulated sub-adult\n                    <i>Malpolon</i>\n                    cf\n                    <i>. monspessulanus</i>\n                    (Serpentes: Psammophiidae) from the Early Pleistocene of Quibas (SE Spain)",
+        "news_datum": "2026-10-31",
+        "study_datum": "2026-10-31",
+        "doi": "10.1093/zoolinnean/zlag164",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag164",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Pleistozäne fossile Schlange Malpolon cf. monspessulanus (Colubridae). Fossile Schlangen sind ausgeschlossen; nur marine Reptilien (Ichthyosaurier, Plesiosaurier, Mosasaurier, marine Krokodile) sind relevant."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag169",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Integrative taxonomy reveals three new\n                    <i>Novibipalium</i>\n                    species (Tricladida: Geoplanidae) from South Korea, with notes on morphological variation and parasitism",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag169",
+        "text": "Integrative taxonomy reveals three new\n                    <i>Novibipalium</i>\n                    species (Tricladida: Geoplanidae) from South Korea, with notes on morphological variation and parasitism",
+        "news_datum": "2026-11-04",
+        "study_datum": "2026-11-04",
+        "doi": "10.1093/zoolinnean/zlag169",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag169",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Neue rezente Landplanarien-Arten (Platyhelminthes) aus Südkorea. Moderne Organismen ohne paläontologischen Kontext."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag171",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "The clitellum’s deception: phylogenetic and morphological insights into the\n                    <i>Allolobophora molleri–moebii</i>\n                    (Crassiclitellata: Lumbricidae) earthworm species complex",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag171",
+        "text": "The clitellum’s deception: phylogenetic and morphological insights into the\n                    <i>Allolobophora molleri–moebii</i>\n                    (Crassiclitellata: Lumbricidae) earthworm species complex",
+        "news_datum": "2026-11-13",
+        "study_datum": "2026-11-13",
+        "doi": "10.1093/zoolinnean/zlag171",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag171",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Taxonomie rezenter Regenwürmer (Lumbricidae). Moderne Wirbellosenorganismen, keine fossilen oder relevanten Gruppen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag182",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Lost in the sands, found in the genes: the systematic placement and ecology of the unique Central Asian winter moth\n                    <i>Cheimoptena pennigera</i>\n                    Danilevsky, 1969 (Lepidoptera: Geometridae)",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag182",
+        "text": "Lost in the sands, found in the genes: the systematic placement and ecology of the unique Central Asian winter moth\n                    <i>Cheimoptena pennigera</i>\n                    Danilevsky, 1969 (Lepidoptera: Geometridae)",
+        "news_datum": "2026-11-12",
+        "study_datum": "2026-11-12",
+        "doi": "10.1093/zoolinnean/zlag182",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag182",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt eine rezente Motte (Insekt). Insekten sind ausdrücklich ausgeschlossen. Kein Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag185",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Acoustic space variation and phylogenetic-allometric patterns in baleen whale vocalizations",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag185",
+        "text": "Acoustic space variation and phylogenetic-allometric patterns in baleen whale vocalizations",
+        "news_datum": "2026-11-08",
+        "study_datum": "2026-11-08",
+        "doi": "10.1093/zoolinnean/zlag185",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag185",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Befasst sich mit Bartenwalen (moderne Meeressäugetiere). Moderne Vögel und Säugetiere sind ausgeschlossen. Kein paläontologischer Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag172",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Continental-scale adaptive radiation in bandicoots and bilbies (Marsupialia: Peramelemorphia) revealed by cranial shape",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag172",
+        "text": "Continental-scale adaptive radiation in bandicoots and bilbies (Marsupialia: Peramelemorphia) revealed by cranial shape",
+        "news_datum": "2026-11-02",
+        "study_datum": "2026-11-02",
+        "doi": "10.1093/zoolinnean/zlag172",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag172",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Beutelratten und Biber (moderne Säugetiere). Affen/Säugetiere sind ausgeschlossen. Die Untersuchung fossiler Cranien ändert nicht die grundsätzliche Exklusion von Marsupialien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag176",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Octopus diversity in the East China Sea: a new species of\n                    <i>Enteroctopus</i>\n                    and reassignment of ‘\n                    <i>Octopus</i>\n                    ’\n                    <i>hongkongensis</i>\n                    (Hoyle, 1885) to Enteroctopodidae (Cephalopoda: Enteroctopodidae)",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag176",
+        "text": "Octopus diversity in the East China Sea: a new species of\n                    <i>Enteroctopus</i>\n                    and reassignment of ‘\n                    <i>Octopus</i>\n                    ’\n                    <i>hongkongensis</i>\n                    (Hoyle, 1885) to Enteroctopodidae (Cephalopoda: Enteroctopodidae)",
+        "news_datum": "2026-11-03",
+        "study_datum": "2026-11-03",
+        "doi": "10.1093/zoolinnean/zlag176",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag176",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Befasst sich mit Oktopoden (Kopffüßer/Mollusken). Moderne wirbellose Tiere und Meerestiere außer den spezifizierten ausgestorbenen Meeresreptilien sind ausgeschlossen. Kein Bezug zu relevanten Taxa."
+      },
+      "last_attempt": "2026-11-13"
     }
   ],
   "last_run": {
     "date": "2026-11-13",
     "ready": 0,
-    "excluded": 19,
+    "excluded": 24,
     "pending": 2
   }
 }
