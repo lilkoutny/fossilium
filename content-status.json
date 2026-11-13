@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-13T12:47:28.962459+00:00",
+  "updated": "2026-11-13T16:43:01.176671+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "a24c79c990baf892ac09b02d90a27906",
+      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+      "title": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-13T16:43:01.174516+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "cd303c8be286e1246b13d1f3e8247033",
+      "url": "https://doi.org/10.1093/zoolinnean/zlag162",
+      "title": "Hintighernia edingerae: Ein alter Schädelrest bekommt einen neuen Namen",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-13T16:43:00.735564+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "dac9a8f10d90cd4c9a47f848c4be58c5",
       "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
@@ -337,19 +363,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.804564+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "a24c79c990baf892ac09b02d90a27906",
-      "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
-      "title": "Neue Dinosaurierart: Fruchtkostverköstiger aus der Kreidezeit",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-11-03T16:32:04.270545+00:00",
       "sources": [],
       "score": null,
       "script": null,
