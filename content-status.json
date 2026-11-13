@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-12T13:30:34.445525+00:00",
+  "updated": "2026-11-13T12:47:28.962459+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "dac9a8f10d90cd4c9a47f848c4be58c5",
+      "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
+      "title": "Fossiler Vogel ohne Schwanzfedern vor 121 Millionen Jahren",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-13T12:47:28.959918+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "28bdc12b7fd6c1312f114339a3ad45cb",
       "url": "https://phys.org/news/2026-10-marine-fossils-colombia-reveal-evolutionary.html",
@@ -337,19 +350,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-03T16:32:04.270545+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "dac9a8f10d90cd4c9a47f848c4be58c5",
-      "url": "https://phys.org/news/2026-10-million-year-fossils-longipteryx-tail.html",
-      "title": "Fossiler Vogel ohne Schwanzfedern vor 121 Millionen Jahren",
-      "state": "failed",
-      "stage": "research",
-      "reason": "technical_error",
-      "updated": "2026-11-03T16:25:03.284592+00:00",
       "sources": [],
       "score": null,
       "script": null,
