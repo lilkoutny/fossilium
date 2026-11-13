@@ -14,8 +14,9 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from datetime import date, datetime, timedelta, timezone
+from html import unescape
+from urllib.parse import parse_qsl, unquote, urlencode, urlsplit, urlunsplit
 
 import feedparser
 import requests
@@ -34,6 +35,7 @@ FEEDS = [
 MAX_ALTER_TAGE = 3      # nur Meldungen der letzten X Tage
 AUSGABE = "news.json"
 ARCHIV = "news-archiv.json"
+CROSSREF_API = "https://api.crossref.org/journals/1096-3642/works"
 
 def normalisiere_url(url):
     """Stabile URL für Archiv-Deduplizierung (Tracking-Parameter entfernt)."""
@@ -51,6 +53,72 @@ def normalisiere_url(url):
     except ValueError:
         return ""
 
+def normalisiere_doi(value):
+    """Return a conservative DOI key, or an empty string for non-DOIs."""
+    if not isinstance(value, str):
+        return ""
+    value = unescape(value).strip()
+    if re.match(r"^https?://(?:dx\.)?doi\.org/", value, re.I):
+        try:
+            value = unquote(urlsplit(value).path.lstrip("/"))
+        except ValueError:
+            return ""
+    value = re.sub(r"^doi:\s*", "", value, flags=re.I).strip().rstrip(".,;")
+    return value.lower() if re.fullmatch(r"10\.\d{4,9}/[-._;()/:a-z0-9]+", value, re.I) else ""
+
+def _plain_abstract(value):
+    if not isinstance(value, str):
+        return ""
+    value = re.sub(r"<[^>]+>", " ", unescape(value))
+    return re.sub(r"\s+", " ", value).strip()
+
+def hole_journal_kandidaten(today=None):
+    """Fetch recent Zoological Journal of the Linnean Society works from Crossref."""
+    now = date.fromisoformat(today) if today else datetime.now(timezone.utc).date()
+    start = now - timedelta(days=29)
+    params = {"filter": f"from-pub-date:{start},until-pub-date:{now.isoformat()},type:journal-article",
+              "rows": 100}
+    candidates, cursor = {}, "*"
+    try:
+        for _ in range(3):
+            params["cursor"] = cursor
+            response = requests.get(CROSSREF_API, params=params, headers={"User-Agent": "FossiliumNews/1.0"}, timeout=(10, 30))
+            response.raise_for_status()
+            message = response.json()["message"]
+            items = message["items"]
+            if not isinstance(items, list):
+                raise ValueError("Ungültige Crossref-Trefferliste")
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                doi = normalisiere_doi(item.get("DOI", ""))
+                abstract = _plain_abstract(item.get("abstract", ""))
+                titles = item.get("title")
+                if not isinstance(titles, list):
+                    continue
+                title = next((x.strip() for x in titles if isinstance(x, str) and x.strip()), "")
+                online_date = None
+                for key in ("published-online", "published", "issued"):
+                    field = item.get(key)
+                    if not isinstance(field, dict):
+                        continue
+                    try:
+                        online_date = date(*field["date-parts"][0])
+                    except (KeyError, IndexError, TypeError, ValueError):
+                        continue
+                    break
+                if doi and title and len(abstract.split()) >= 20 and online_date and start <= online_date <= now:
+                    study_date = online_date.isoformat()
+                    candidates.setdefault(doi, {"quelle": "Zoological Journal of the Linnean Society",
+                        "titel": title, "url": "https://doi.org/" + doi, "text": abstract,
+                        "news_datum": study_date, "study_datum": study_date, "doi": doi,
+                        "journal_abstract": True})
+            cursor = message.get("next-cursor", "")
+            if not cursor or len(items) < params["rows"]:
+                break
+    except (requests.RequestException, ValueError, TypeError, KeyError) as exc:
+        print(f"::warning::Crossref-Journal konnte nicht gelesen werden: {type(exc).__name__}")
+    return list(candidates.values())
 
 def _valid_news(items):
     fields = ("titel", "zusammenfassung", "quelle", "url", "datum")
@@ -150,6 +218,8 @@ def main():
     if not os.environ.get("ANTHROPIC_API_KEY"):
         sys.exit("Fehler: ANTHROPIC_API_KEY ist nicht gesetzt.")
     candidates = hole_kandidaten()
+    if os.environ.get("NEWS_JOURNAL_PILOT") == "1":
+        candidates.extend(hole_journal_kandidaten())
     print(f"{len(candidates)} frische Meldungen; zusätzlich werden offene Artikel erneut bearbeitet.")
     limit = int(os.environ.get("NEWS_MAX_ARTICLES", "0"))
     if limit < 0: raise ValueError("NEWS_MAX_ARTICLES muss mindestens 0 sein")

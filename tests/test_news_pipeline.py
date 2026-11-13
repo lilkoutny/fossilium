@@ -109,4 +109,77 @@ class PipelineIntegration(unittest.TestCase):
         source={**self.fetch(c),'word_count':300}
         self.assertEqual(p.build_article(response,c,source,'2026-01-02')['mindestwoerter'],300)
         with self.assertRaises(ValueError): p.build_article(response,c,{**source,'word_count':800},'2026-01-02')
+
+    def test_same_doi_is_processed_once(self):
+        cs = [dict(self.candidates(1)[0], url='https://doi.org/10.1093/zoolinnean/zlag162', doi='10.1093/zoolinnean/zlag162', journal_abstract=True, study_datum='2026-01-01', text='abstract '*30),
+              dict(self.candidates(1)[0], url='https://doi.org/10.1093/zoolinnean/zlag162?x=1', doi='10.1093/zoolinnean/zlag162', journal_abstract=True, study_datum='2026-01-01', text='abstract '*30)]
+        result = p.run(cs, root=self.root, classifier=self.classifier, fetcher=self.fetch, article_writer=self.short_writer, today='2026-01-02')
+        self.assertEqual(result['ready'], 1)
+        never = Mock(side_effect=AssertionError('already published'))
+        p.run(cs, root=self.root, classifier=never, fetcher=never, article_writer=never, today='2026-01-03')
+        never.assert_not_called()
+
+    def short_writer(self, candidate, source):
+        response = self.writer(candidate, source)
+        response['article']['abschnitte'] = response['article']['abschnitte'][:2]
+        return response
+
+    def test_journal_and_report_share_one_article_and_keep_source_numbers(self):
+        doi = '10.1093/zoolinnean/zlag162'
+        report = self.candidates(1)[0]
+        journal = dict(report, url='https://doi.org/'+doi, doi=doi, journal_abstract=True,
+                       study_datum='2026-01-01', text='abstract '*30)
+        writer = Mock(wraps=self.short_writer)
+        fetch = lambda c: {**self.fetch(c), 'study_doi': doi}
+        p.run([report, journal], root=self.root, classifier=self.classifier, fetcher=fetch,
+              article_writer=writer, today='2026-01-02')
+        writer.assert_called_once()
+        article, = json.loads((self.root/'publikationen/artikel.json').read_text(encoding='utf-8'))['artikel']
+        self.assertEqual(article['original_url'], journal['url'])
+        self.assertEqual(article['study_datum'], '2026-01-01')
+        self.assertEqual([q['url'] for q in article['quellen']], [journal['url'], report['url']])
+        self.assertIn('veröffentlichte Abstract', article['untertitel'])
+        self.assertEqual(len(json.loads((self.root/'news-archiv.json').read_text())['meldungen']), 1)
+
+    def test_new_journal_source_attaches_to_older_report(self):
+        doi = '10.1093/zoolinnean/zlag162'
+        report = self.candidates(1)[0]
+        fetch = lambda c: {**self.fetch(c), 'study_doi': doi}
+        p.run([report], root=self.root, classifier=self.classifier, fetcher=fetch, article_writer=self.writer)
+        journal = dict(report, url='https://doi.org/'+doi, doi=doi, journal_abstract=True,
+                       study_datum='2026-01-01', text='abstract '*30)
+        writer = Mock(side_effect=AssertionError('second article'))
+        p.run([journal], root=self.root, classifier=self.classifier, article_writer=writer)
+        writer.assert_not_called()
+        article, = json.loads((self.root/'publikationen/artikel.json').read_text())['artikel']
+        self.assertEqual(article['original_url'], report['url'])
+        self.assertEqual(article['quellen'][1]['url'], journal['url'])
+        self.assertEqual(article['study_datum'], '2026-01-01')
+
+    def test_journal_retry_refreshes_abstract_without_storing_it(self):
+        doi = '10.1093/zoolinnean/zlag162'
+        candidate = dict(self.candidates(1)[0], url='https://doi.org/'+doi, doi=doi,
+                         journal_abstract=True, study_datum='2026-01-01', text='unique-abstract '*30)
+        failing = Mock(side_effect=ValueError('temporary model failure'))
+        result = p.run([candidate], root=self.root, classifier=self.classifier, article_writer=failing)
+        self.assertEqual(result['pending'], 1)
+        self.assertNotIn('unique-abstract', (self.root/'news-pipeline-state.json').read_text(encoding='utf-8'))
+        never = Mock(side_effect=AssertionError('missing abstract'))
+        self.assertEqual(p.run([], root=self.root, classifier=never, article_writer=never)['pending'], 1)
+        never.assert_not_called()
+        self.assertEqual(p.run([candidate], root=self.root, classifier=self.classifier, article_writer=self.short_writer)['ready'], 1)
+
+    def test_news_source_requires_unambiguous_study_link(self):
+        doi = '10.1093/zoolinnean/zlag162'
+        reference = '<a href="https://doi.org/10.1000/other">Other study</a>'
+        for additional, expected in [('', doi), (reference, '')]:
+            with self.subTest(additional=additional):
+                raw = (f'<nav>{reference}</nav><article><p>' + 'Fossil observations '*100
+                       + f'<a href="https://doi.org/{doi}">Study</a>{additional}</p></article>')
+                response = Mock(headers={'content-type': 'text/html'})
+                response.iter_content.return_value = [raw.encode('utf-8')]
+                with patch.object(p.requests, 'get') as request:
+                    request.return_value.__enter__.return_value = response
+                    source = p.fetch_source(self.candidates(1)[0])
+                self.assertEqual(source['study_doi'], expected)
 if __name__=='__main__': unittest.main()

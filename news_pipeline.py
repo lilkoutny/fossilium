@@ -35,6 +35,10 @@ def normalized_url(value):
     from hole_news import normalisiere_url
     return normalisiere_url(value)
 
+def normalized_doi(value):
+    from hole_news import normalisiere_doi
+    return normalisiere_doi(value)
+
 def call_claude(payload, max_tokens=6500, output_schema=None, model="claude-haiku-4-5", as_text=False):
     response = requests.post("https://api.anthropic.com/v1/messages",
         headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01", "content-type": "application/json"},
@@ -81,6 +85,7 @@ class SourceParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.stack, self.article, self.primary, self.body, self.date = [], [], [], [], ""
+        self.doi_links = set()
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "meta" and a.get("property", a.get("name", "")) in ("article:published_time", "citation_publication_date", "date"):
@@ -93,6 +98,11 @@ class SourceParser(HTMLParser):
         primary = parent[4] or bool(re.search(r"articleBody|article-body|article__body|article-main|storytext|story[_-]text|story-content", marker, re.I))
         article = parent[2] or tag == "article" or primary
         paragraph = parent[3] or tag in ("p", "h1", "h2", "h3", "li", "blockquote")
+        href = a.get("href") or ""
+        if tag == "a" and not blocked and (article or paragraph) and re.match(r"https?://(?:dx\.)?doi\.org/", href, re.I):
+            doi = normalized_doi(href)
+            if doi:
+                self.doi_links.add(doi)
         self.stack.append((tag, blocked, article, paragraph, primary))
     def handle_endtag(self, tag):
         for i in range(len(self.stack)-1, -1, -1):
@@ -105,8 +115,8 @@ class SourceParser(HTMLParser):
             if self.stack[-1][2]: self.article.append(text)
             if self.stack[-1][4]: self.primary.append(text)
 
-def clean_source_html(raw, minimum=180):
-    parser = SourceParser()
+def clean_source_html(raw, minimum=180, *, parser=None):
+    parser = parser or SourceParser()
     parser.feed(raw)
     if not parser.date:
         date_match = re.search(r'id=[\"\x27]date_posted[\"\x27][^>]*>\s*([^<]+)', raw)
@@ -130,10 +140,29 @@ def fetch_source(candidate):
             chunks.append(chunk)
         encoding = response.encoding if "charset=" in response.headers.get("content-type", "").lower() else "utf-8"
         raw = b"".join(chunks).decode(encoding or "utf-8", errors="replace")
-    text, date = clean_source_html(raw)
+    parser = SourceParser()
+    text, date = clean_source_html(raw, parser=parser)
+    dois = parser.doi_links
+    for raw_doi in re.findall(r"(?:\bdoi\s*:\s*|https?://(?:dx\.)?doi\.org/)(10\.\d{4,9}/[-._;()/:a-z0-9]+)", text, re.I):
+        doi = normalized_doi(raw_doi)
+        if doi:
+            dois.add(doi)
     return {"id": "S1", "url": candidate["url"], "titel": candidate["titel"], "text": text, "date": date or candidate.get("news_datum", ""),
+            "study_doi": next(iter(dois)) if len(dois) == 1 else "",
             "word_count": len(text.split()),
             "umfang": "Originalmeldung abgerufen; zugrunde liegende Studie nicht im Volltext geprüft"}
+
+def fetch_journal_source(candidate):
+    text = candidate.get("text", "").strip()
+    if len(text.split()) < 20:
+        raise ValueError("Abstract fehlt oder ist zu kurz")
+    study_date = candidate.get("study_datum", "")
+    doi = normalized_doi(candidate["url"])
+    if not doi or doi != normalized_doi(candidate.get("doi")) or not study_date:
+        raise ValueError("Studien-DOI oder Publikationsdatum fehlt")
+    return {"id": "S1", "url": candidate["url"], "titel": candidate["titel"], "text": text,
+            "date": study_date, "study_doi": doi, "word_count": len(text.split()),
+            "umfang": "Crossref-Abstract; Volltext der Studie nicht geprüft"}
 
 def parse_article_text(text):
     """Parse prose locally; long prose must not be constrained by JSON grammar."""
@@ -164,10 +193,10 @@ def write_article(candidate, source):
     full_candidate = {**candidate, "text": source["text"]}
     decision = validate_decisions(classify_batch([full_candidate]), [full_candidate])[candidate["url"]]
     if decision["relevant"] is not True: return decision
-    target = 650 if len(source["text"].split()) >= 600 else 450
+    target = 200 if candidate.get("journal_abstract") else (650 if len(source["text"].split()) >= 600 else 450)
     text = call_claude({
-        "task": f"Schreibe einen eigenständigen deutschen Fossilium-Artikel mit etwa {target} Wörtern, gegliedert in vier bis sechs Abschnitte. Der Umfang richtet sich nach dem belegten Inhalt; kurze Quellen nicht künstlich mit Spekulation verlängern. Eigene Darstellung, keine Übersetzung Absatz für Absatz und keine Wiederholungen. Jede Tatsachenbehauptung direkt nach dem Satz mit [[S1]] belegen. Jeden Absatz mit einem Quellenverweis abschließen. Beobachtungen, Interpretation und Grenzen trennen. Keine erfundenen Daten, Zitate oder Hintergründe. Keine neuen Aussagen über Stabilität, Ernährung oder Verhalten, wenn diese nicht in der Quelle stehen. Sensationsbehauptungen nicht verstärken. Keine wörtlichen Zitate. Die Quelle ist eine Nachricht; behaupte NICHT, die Studie gelesen zu haben. Keine Bilder. Personen ohne unbelegte Geschlechtszuordnung benennen.",
-        "format": "Erste Zeile: # Eigener deutscher Titel. Dann 2 bis 3 Sätze kurze Zusammenfassung. Danach sechs Abschnitte, jeweils beginnend mit ## Abschnittstitel. Absatztrennung durch Leerzeilen. Nur diese Markdown-Überschriften, keine Listen, Tabellen oder Hervorhebungen. Kein JSON und kein Quellenverzeichnis; diese erstellt das System.",
+        "task": f"Schreibe einen eigenständigen deutschen Fossilium-Artikel mit etwa {target} Wörtern, gegliedert in {'zwei bis vier' if candidate.get('journal_abstract') else 'vier bis sechs'} Abschnitte. Der Umfang richtet sich nach dem belegten Inhalt; kurze Quellen nicht künstlich mit Spekulation verlängern. Eigene Darstellung, keine Übersetzung Absatz für Absatz und keine Wiederholungen. Jede Tatsachenbehauptung direkt nach dem Satz mit [[S1]] belegen. Jeden Absatz mit einem Quellenverweis abschließen. Beobachtungen, Interpretation und Grenzen trennen. Keine erfundenen Daten, Zitate oder Hintergründe. Keine neuen Aussagen über Stabilität, Ernährung oder Verhalten, wenn diese nicht in der Quelle stehen. Sensationsbehauptungen nicht verstärken. Keine wörtlichen Zitate. {'Die Quelle ist ein Abstract; behaupte NICHT, den Volltext oder die Studie vollständig gelesen zu haben.' if candidate.get('journal_abstract') else 'Die Quelle ist eine Nachricht; behaupte NICHT, die Studie gelesen zu haben.'} Keine Bilder. Personen ohne unbelegte Geschlechtszuordnung benennen.",
+        "format": f"Erste Zeile: # Eigener deutscher Titel. Dann 2 bis 3 Sätze kurze Zusammenfassung. Danach {'zwei bis vier' if candidate.get('journal_abstract') else 'sechs'} Abschnitte, jeweils beginnend mit ## Abschnittstitel. Absatztrennung durch Leerzeilen. Nur diese Markdown-Überschriften, keine Listen, Tabellen oder Hervorhebungen. Kein JSON und kein Quellenverzeichnis; diese erstellt das System.",
         "source": source}, model="claude-sonnet-4-6", as_text=True)
     try:
         return {**decision, "article": parse_article_text(text)}
@@ -183,9 +212,16 @@ def build_article(response, candidate, source, today):
     # Only prose comes from the model; links, dates and source provenance are bound here.
     lead = raw.get("untertitel")
     if isinstance(lead, str): lead = lead.replace("[[S1]]", "").strip()
+    is_abstract = candidate.get("journal_abstract") is True
+    if is_abstract and lead:
+        lead += " Grundlage ist das veröffentlichte Abstract der Studie."
     article = {"slug": slug, "titel": raw.get("titel"), "untertitel": lead, "abschnitte": raw.get("abschnitte"), "datum": today,
-        "news_datum": source.get("date") or "Nicht angegeben", "study_datum": "Nicht unabhängig geprüft", "lesestand": source["umfang"],
+        "news_datum": "Nicht angegeben" if is_abstract else source.get("date") or "Nicht angegeben",
+        "study_datum": source.get("date") if is_abstract else "Nicht unabhängig geprüft", "lesestand": source["umfang"],
         "original_quelle": candidate["quelle"], "original_url": candidate["url"], "quellen": [{k: source[k] for k in ("id", "url", "titel", "umfang")}], "bilder": []}
+    doi = normalized_doi(source.get("study_doi"))
+    if doi:
+        article["doi"] = doi
     publication.validate({"artikel": [article]})
     for section in article["abschnitte"]:
         section["absatz"] = [re.sub(r"\s+([.,;!?])", r"\1", re.sub(r"\s+(?=\[\[S1\]\])", "", re.sub(r"\[\[S1\]\]([.!?])", r"\1[[S1]]", p))) for p in section["absatz"]]
@@ -193,11 +229,28 @@ def build_article(response, candidate, source, today):
     # The lead is part of the article, not navigation or source boilerplate.
     words = len(article["untertitel"].split()) + sum(len(re.sub(r"\[\[S1\]\]", "", p).split()) for p in paragraphs)
     source_words = source.get("word_count") or len(source.get("text", "").split())
-    minimum = 300 if 0 < source_words < 600 else 450
+    minimum = 110 if is_abstract else (300 if 0 < source_words < 600 else 450)
     article["mindestwoerter"] = minimum
-    if not minimum <= words <= 900 or len(article["abschnitte"]) < 4: raise ValueError(f"Artikellänge/Gliederung unzureichend: {words} Wörter, {len(article['abschnitte'])} Abschnitte")
+    maximum = 360 if is_abstract else 900
+    sections = len(article["abschnitte"])
+    valid_sections = 2 <= sections <= 4 if is_abstract else sections >= 4
+    if not minimum <= words <= maximum or not valid_sections: raise ValueError(f"Artikellänge/Gliederung unzureichend: {words} Wörter, {sections} Abschnitte")
     if any("[[S1]]" not in p or re.search(r"(?<![.!?])\[\[S1\]\]", p) for p in paragraphs): raise ValueError("Inline-Belege fehlen oder stehen nicht am Satzende")
     return article
+
+def article_doi(article):
+    urls = [article["original_url"], *(source["url"] for source in article["quellen"])]
+    dois = {normalized_doi(value) for value in [article.get("doi"), *urls]} - {""}
+    return next(iter(dois)) if len(dois) == 1 else ""
+
+def add_study_source(article, source, doi, journal_abstract):
+    """Keep existing links and citation numbers when adding a second account."""
+    if normalized_url(source["url"]) not in {normalized_url(q["url"]) for q in article["quellen"]}:
+        index = max(int(q["id"][1:]) for q in article["quellen"]) + 1
+        article["quellen"].append({"id": f"S{index}", **{k: source[k] for k in ("url", "titel", "umfang")}})
+    article["doi"] = doi
+    if journal_abstract:
+        article["study_datum"] = source["date"]
 
 def load_json(path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else copy.deepcopy(default)
@@ -248,18 +301,34 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
         records[key] = item
     articles = {normalized_url(a["original_url"]): a for a in publications["artikel"]}
     if len(articles) != len(publications["artikel"]): raise ValueError("Doppelte normalisierte Publikations-URL")
+    studies = {}
+    for article in publications["artikel"]:
+        doi = article_doi(article)
+        if doi:
+            studies.setdefault(doi, article)
     archive = merge_archiv(archive, current["meldungen"], today)
     old = {m["url"]: m for m in archive["meldungen"]}
     work = {url: r["candidate"] for url, r in records.items() if r["status"] == "pending"}
+    available_abstracts = set()
     for c in candidates:
         key = normalized_url(c.get("url"))
         if not key or any(not isinstance(c.get(k), str) or not c[k].strip() for k in ("titel", "quelle", "text")): continue
+        if c.get("journal_abstract") is True:
+            doi = normalized_doi(key)
+            if not doi or doi != normalized_doi(c.get("doi")):
+                continue
+            key = "https://doi.org/" + doi
         if records.get(key, {}).get("status") in {"ready", "excluded"} or old.get(key, {}).get("relevant") is False: continue
-        work.setdefault(key, {**c, "url": key})
+        if c.get("journal_abstract") is True:
+            available_abstracts.add(key)
+            work[key] = {**c, "url": key}
+        else:
+            work.setdefault(key, {**c, "url": key})
     for url, c in work.items():
         if c.get("url") != url or any(not isinstance(c.get(k), str) or not c[k].strip() for k in ("titel", "quelle", "text")): raise ValueError("Unvollständiger Retry-Kandidat")
         records.setdefault(url, {"url": url, "candidate": c, "status": "pending", "attempts": 0, "first_seen": today})
-    to_classify = [c for url, c in work.items() if not records[url].get("decision") and not (url in articles and old.get(url, {}).get("relevant") is True)]
+    awaiting_abstract = {url for url, c in work.items() if c.get("journal_abstract") is True and url not in available_abstracts}
+    to_classify = [c for url, c in work.items() if url not in awaiting_abstract and not records[url].get("decision") and not (url in articles and old.get(url, {}).get("relevant") is True)]
     for offset in range(0, len(to_classify), 20):
         batch = to_classify[offset:offset+20]
         if time.monotonic() >= deadline: break
@@ -270,7 +339,11 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
         except Exception as exc:
             for c in batch: records[c["url"]]["error"] = "classification:" + type(exc).__name__
     ready, excluded, pending, attempted = [], 0, 0, 0
-    for url, c in work.items():
+    for url, c in sorted(work.items(), key=lambda item: item[1].get("journal_abstract") is not True):
+        if url in awaiting_abstract:
+            records[url]["error"] = "deferred:journal_abstract_unavailable"
+            pending += 1
+            continue
         if time.monotonic() >= deadline:
             records[url]["error"] = "deferred:run_time_limit"
             pending += 1
@@ -288,6 +361,14 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
                 article = None
                 source = r.get("source_metadata", {})
                 response = r.get("draft")
+                doi = normalized_doi(source.get("study_doi"))
+                if response and source.get("url") == url and source.get("id") == "S1" and doi in studies:
+                    existing = studies[doi]
+                    add_study_source(existing, source, doi, c.get("journal_abstract") is True)
+                    r.update(status="ready", publication="/publikationen/"+existing["slug"]+"/")
+                    for field in ("error", "draft", "source_metadata"):
+                        r.pop(field, None)
+                    continue
                 if response and source.get("url") == url and source.get("id") == "S1":
                     try: article = build_article(response, c, source, today)
                     except (ValueError, TypeError, KeyError): pass
@@ -298,8 +379,17 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
                         continue
                     attempted += 1
                     print(f"Artikel erstellen: {url}", flush=True)
-                    source = fetcher(c)
-                    if source.get("url") != url or source.get("id") != "S1" or not isinstance(source.get("text"), str) or len(source["text"].split()) < 180: raise ValueError("Quelle nicht belegt")
+                    source = fetch_journal_source(c) if c.get("journal_abstract") else fetcher(c)
+                    minimum_source_words = 20 if c.get("journal_abstract") else 180
+                    if source.get("url") != url or source.get("id") != "S1" or not isinstance(source.get("text"), str) or len(source["text"].split()) < minimum_source_words: raise ValueError("Quelle nicht belegt")
+                    doi = normalized_doi(source.get("study_doi"))
+                    if doi in studies:
+                        existing = studies[doi]
+                        add_study_source(existing, source, doi, c.get("journal_abstract") is True)
+                        r.update(status="ready", publication="/publikationen/"+existing["slug"]+"/")
+                        for field in ("error", "draft", "source_metadata"):
+                            r.pop(field, None)
+                        continue
                     response = article_writer(c, source)
                     if isinstance(response, dict) and response.get("relevant") is False and response.get("category") == "excluded" and response.get("reason"):
                         r.update(status="excluded", decision={"url": url, "relevant": False, "category": "excluded", "reason": response["reason"]}); excluded += 1; continue
@@ -313,6 +403,9 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
                 r["decision"] = d
                 publication.validate({"artikel": publications["artikel"] + [article]})
                 publications["artikel"].append(article); articles[url] = article
+                doi = article_doi(article)
+                if doi:
+                    studies.setdefault(doi, article)
             article = articles[url]
             message = {"titel": article["titel"], "zusammenfassung": article["untertitel"], "quelle": c["quelle"], "url": url,
                 "datum": old.get(url, {}).get("datum", today), "erstmals_angezeigt": old.get(url, {}).get("erstmals_angezeigt", today),
@@ -330,6 +423,11 @@ def run(candidates, *, root=Path("."), classifier=None, fetcher=None, article_wr
     archive = merge_archiv(archive, ready, today)
     manifest = {"artikel": [{"original_url": a["original_url"], "pfad": "/publikationen/"+a["slug"]+"/", "titel": a["titel"]} for a in publications["artikel"]]}
     dumps = lambda v: json.dumps(v, ensure_ascii=False, indent=2) + "\n"
+    # Reacquire journal abstracts on retries instead of publishing them in the queue.
+    for record in records.values():
+        candidate = record["candidate"]
+        if candidate.get("journal_abstract") is True:
+            record["candidate"] = {**candidate, "text": candidate["titel"]}
     state["items"] = list(records.values()); state["last_run"] = {"date": today, "ready": len(ready), "excluded": excluded, "pending": pending}
     files = {state_path: dumps(state), archive_path: dumps(archive), pub_path: dumps(publications), root/"publikationen/index.json": dumps(manifest)}
     if ready:

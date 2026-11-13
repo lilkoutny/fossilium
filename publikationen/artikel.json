@@ -1430,6 +1430,48 @@
       ],
       "bilder": [],
       "mindestwoerter": 450
+    },
+    {
+      "slug": "hintighernia-edingerae-ein-alter-sch-delrest-bekommt-einen-neuen-cd303c8be2",
+      "titel": "Hintighernia edingerae: Ein alter Schädelrest bekommt einen neuen Namen",
+      "untertitel": "Ein Schädelfragment aus der Kreidezeit Englands gehört nach einer neuen Untersuchung zu einer bislang unbeschriebenen Flugsaurierart. Das Forschungsteam nennt sie Hintighernia edingerae. Grundlage ist das veröffentlichte Abstract der Studie.",
+      "abschnitte": [
+        {
+          "titel": "Was sich am Fund geändert hat",
+          "absatz": [
+            "Der Schädelrest CAMSM B54406 aus dem Cambridge Greensand wurde häufig der Art Ornithostoma sedgwicki zugerechnet. Das Team ordnet ihn nun den Tapejariden zu und beschreibt mit Hintighernia edingerae eine neue Gattung und Art. Für diese Einordnung stützt es sich unter anderem auf die Form der oberen Schläfenöffnungen und einen länglichen Knochenkamm am Hinterkopf.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Was die CT-Aufnahmen zeigen",
+          "absatz": [
+            "Mit Mikro-CT-Aufnahmen untersuchten die Forschenden auch die innere Anatomie des Schädels. Sie berichten über Ähnlichkeiten mit dem verwandten Flugsaurier Tapejara wellnhoferi. Die Neubestimmung betrifft auch den bisherigen Namen: Bei Ornithostoma sedgwicki belässt das Team vier Kieferfragmente.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Warum der Fund für Europas Flugsaurier wichtig ist",
+          "absatz": [
+            "Die Studie sieht in Europa eine Region, in der sich früh unterschiedliche Linien der Tapejariden nachweisen lassen. Die Forschenden diskutieren Europa zudem als möglichen Ausgangspunkt für Linien, die später in Ostlaurasien und Südamerika vorkamen. Auch bei weiteren Funden aus dem Cambridge Greensand bleibt die Zuordnung teilweise offen. Ein einzelnes Schnauzenfragment bringen sie nur vorläufig mit Hintighernia in Verbindung.[[S1]]"
+          ]
+        }
+      ],
+      "datum": "2026-11-13",
+      "news_datum": "Nicht angegeben",
+      "study_datum": "2026-11-01",
+      "lesestand": "Crossref-Abstract; Volltext der Studie nicht geprüft",
+      "original_quelle": "Zoological Journal of the Linnean Society",
+      "original_url": "https://doi.org/10.1093/zoolinnean/zlag162",
+      "quellen": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1093/zoolinnean/zlag162",
+          "titel": "A tapejarid pterosaur from the Cambridge Greensand (Cretaceous of England), with comments on its neuroanatomy and the biogeography of the group",
+          "umfang": "Crossref-Abstract; Volltext der Studie nicht geprüft"
+        }
+      ],
+      "bilder": [],
+      "doi": "10.1093/zoolinnean/zlag162",
+      "mindestwoerter": 110
     }
   ]
 }

@@ -3,6 +3,9 @@ name: Paläo-News aktualisieren
 on:
   schedule:
     - cron: "0 5 * * *"   # jeden Tag um 5:00 UTC (7:00 deutscher Sommerzeit)
+  push:
+    branches: [main]
+    paths: [".github/workflows/news.yml"]
   workflow_dispatch:
     inputs:
       max_articles:
@@ -37,7 +40,8 @@ jobs:
       - name: News holen und zusammenfassen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          NEWS_MAX_ARTICLES: ${{ inputs.max_articles || '0' }}
+          NEWS_JOURNAL_PILOT: '1'
+          NEWS_MAX_ARTICLES: ${{ inputs.max_articles || (github.event_name == 'push' && '1') || '0' }}
         run: python -u hole_news.py
 
       - name: Publikationsseiten prüfen

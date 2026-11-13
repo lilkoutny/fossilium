@@ -4802,6 +4802,30 @@
         "reason": "Public Health und Epidemiologie. Kein Bezug zu Fossilien oder ausgestorbenen Organismen."
       },
       "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag162",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "A tapejarid pterosaur from the Cambridge Greensand (Cretaceous of England), with comments on its neuroanatomy and the biogeography of the group",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag162",
+        "text": "A tapejarid pterosaur from the Cambridge Greensand (Cretaceous of England), with comments on its neuroanatomy and the biogeography of the group",
+        "news_datum": "2026-11-01",
+        "study_datum": "2026-11-01",
+        "doi": "10.1093/zoolinnean/zlag162",
+        "journal_abstract": true
+      },
+      "status": "ready",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag162",
+        "relevant": true,
+        "category": "pterosaur",
+        "reason": "Neue Flugsaurierart auf Grundlage eines neu bestimmten Schädelfragments."
+      },
+      "last_attempt": "2026-11-13",
+      "publication": "/publikationen/hintighernia-edingerae-ein-alter-sch-delrest-bekommt-einen-neuen-cd303c8be2/"
     }
   ],
   "last_run": {

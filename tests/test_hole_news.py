@@ -26,4 +26,17 @@ class NewsEntrypointTests(unittest.TestCase):
         self.assertEqual(news.normalisiere_url("https://EXAMPLE.org/a/?utm_source=x#top"),"https://example.org/a")
         self.assertFalse(news._valid_news([{"titel":"A","zusammenfassung":"B","quelle":"C","url":"https://example.org","datum":"2026-02-31"}]))
 
+    def test_doi_normalization_and_crossref_abstract(self):
+        self.assertEqual(news.normalisiere_doi("https://doi.org/10.1093/zoolinnean/zlag162."), "10.1093/zoolinnean/zlag162")
+        response = SimpleNamespace(raise_for_status=lambda: None, json=lambda: {"message": {"items": [{
+            "DOI": "10.1093/zoolinnean/zlag162", "title": ["A study"],
+            "abstract": "<jats:p>Observed &amp; tested. Further observations support the description of the fossil from a stratigraphically well documented locality in southern England.</jats:p>",
+            "published-online": {"date-parts": [[2026, 11, 1]]}, "next-cursor": ""
+        }]}})
+        with patch.object(news.requests, "get", return_value=response):
+            out = news.hole_journal_kandidaten(today="2026-11-13")
+        self.assertEqual(len(out), 1)
+        self.assertTrue(out[0]["text"].startswith("Observed & tested."))
+        self.assertEqual(out[0]["study_datum"], "2026-11-01")
+
 if __name__ == "__main__": unittest.main()
