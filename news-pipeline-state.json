@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 16,
+      "attempts": 17,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-12",
+      "last_attempt": "2026-11-13",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 8,
+      "attempts": 9,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-12",
+      "last_attempt": "2026-11-13",
       "error": "article:HTTPError"
     },
     {
@@ -4422,12 +4422,392 @@
         "reason": "Behandelt Wohlbefinden und soziale Beziehungen. Keine Relevanz für Dinosaurier oder ausgestorbene Reptilien."
       },
       "last_attempt": "2026-11-12"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/schwarzes-loch-gerichtete-elektronen-koennen-helle-raender-kosmischer-jets-erklaeren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Schwarzes Loch: Gerichtete Elektronen können helle Ränder kosmischer Jets erklären",
+        "url": "https://www.scinexx.de/news/kosmos/schwarzes-loch-gerichtete-elektronen-koennen-helle-raender-kosmischer-jets-erklaeren",
+        "text": "Auch Geschwindigkeitsunterschiede und Elektronenabkühlung könnten zum hellen Rand beitragen",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/schwarzes-loch-gerichtete-elektronen-koennen-helle-raender-kosmischer-jets-erklaeren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik zu schwarzen Löchern und kosmischen Jets. Kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/atombombe-koennte-erdnahe-satelliten-innerhalb-weniger-tage-lahmlegen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Atombombe könnte erdnahe Satelliten innerhalb weniger Tage lahmlegen",
+        "url": "https://www.scinexx.de/news/kosmos/atombombe-koennte-erdnahe-satelliten-innerhalb-weniger-tage-lahmlegen",
+        "text": "Ein künstlicher Strahlengürtel wäre der Hauptgrund für die meisten Ausfälle",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/atombombe-koennte-erdnahe-satelliten-innerhalb-weniger-tage-lahmlegen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumtechnik und Satelliten. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/erstes-schwarzes-loch-foto-hat-unabhaengigen-test-bestanden",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Erstes Schwarzes-Loch-Foto hat unabhängigen Test bestanden",
+        "url": "https://www.scinexx.de/news/kosmos/erstes-schwarzes-loch-foto-hat-unabhaengigen-test-bestanden",
+        "text": "Neue Auswertung bestätigt den Ring um M87*",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/erstes-schwarzes-loch-foto-hat-unabhaengigen-test-bestanden",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und schwarze Löcher. Keine Relevanz für Fossilium-Inhalte."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/asteroidenbergbau-kann-den-platinmarkt-zum-absturz-bringen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Asteroidenbergbau kann den Platinmarkt zum Absturz bringen",
+        "url": "https://www.scinexx.de/news/kosmos/asteroidenbergbau-kann-den-platinmarkt-zum-absturz-bringen",
+        "text": "Sinkende Preise könnten neue Anwendungen und zusätzliche Nachfrage anregen",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/asteroidenbergbau-kann-den-platinmarkt-zum-absturz-bringen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Wirtschaft und Weltraumressourcen. Kein Zusammenhang mit Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/psychologie/wissenschaftler-sind-sich-uneinig-was-wissenschaft-eigentlich-ist",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wissenschaftler sind sich uneinig, was Wissenschaft eigentlich ist",
+        "url": "https://www.scinexx.de/news/psychologie/wissenschaftler-sind-sich-uneinig-was-wissenschaft-eigentlich-ist",
+        "text": "92 Wissenschaftler und 99 Laien bewerteten 18 verschiedene Bilder von Wissenschaft",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/psychologie/wissenschaftler-sind-sich-uneinig-was-wissenschaft-eigentlich-ist",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Wissenschaftsphilosophie. Kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/was-verraet-argon-auf-uranus-und-neptun-ueber-die-herkunft-der-eisriesen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Was verrät Argon auf Uranus und Neptun über die Herkunft der Eisriesen?",
+        "url": "https://www.scinexx.de/news/kosmos/was-verraet-argon-auf-uranus-und-neptun-ueber-die-herkunft-der-eisriesen",
+        "text": "Edelgase können chemische Spuren aus der frühen Planetenbildung bewahren",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/was-verraet-argon-auf-uranus-und-neptun-ueber-die-herkunft-der-eisriesen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Planetologie und Edelgase. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/meeresspiegelanstieg-bedroht-lebensraeume-von-ueber-15-000-tierarten",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Meeresspiegelanstieg bedroht Lebensräume von über 15.000 Tierarten",
+        "url": "https://www.scinexx.de/news/biowissen/meeresspiegelanstieg-bedroht-lebensraeume-von-ueber-15-000-tierarten",
+        "text": "Die Modelle erfassen 34.120 Vogel-, Säugetier-, Reptilien- und Amphibienarten",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/meeresspiegelanstieg-bedroht-lebensraeume-von-ueber-15-000-tierarten",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Aktuelle Umweltbiologie und moderne Tierarten. Keine fossilen Organismen im Fokus."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/start-des-nasa-mondflugs-artemis-ii-verursachte-gps-stoerungen/2353976",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Menschengemachtes Weltraumwetter: NASA-Mondflug Artemis II riss »Loch« in die Erdatmosphäre",
+        "url": "https://www.spektrum.de/news/start-des-nasa-mondflugs-artemis-ii-verursachte-gps-stoerungen/2353976",
+        "text": "Artemis II verursachte ungewöhnlich starke Veränderungen in der Ionosphäre: Die Mission hinterließ eine Tausende Kilometer lange Spur. Forscher warnen vor Navigationsausfällen.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/start-des-nasa-mondflugs-artemis-ii-verursachte-gps-stoerungen/2353976",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumtechnik und Ionosphärenphysik. Kein paläontologischer Inhalt."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/nahrungsergaenzungsmittel-was-gegen-chronische-entzuendungen-hilft/2299542",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Nahrungsergänzungsmittel: Was gegen chronische Entzündungen wirklich hilft",
+        "url": "https://www.spektrum.de/news/nahrungsergaenzungsmittel-was-gegen-chronische-entzuendungen-hilft/2299542",
+        "text": "Chronische Entzündungen gelten als Risikofaktor für zahlreiche Erkrankungen. Welche Nahrungsergänzungsmittel können hier helfen? Nur für wenige gibt es überzeugende Belege.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/nahrungsergaenzungsmittel-was-gegen-chronische-entzuendungen-hilft/2299542",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin und Gesundheit. Keine Relevanz für Paläontologie."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/verzoegerte-ki-angriff-wenige-eingriffe-machen-ki-agenten-zu-schlaefer/2353949",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Angriff mit Verzögerung: Wenige Eingriffe verwandeln KI-Agenten in digitale »Schläfer«",
+        "url": "https://www.spektrum.de/news/verzoegerte-ki-angriff-wenige-eingriffe-machen-ki-agenten-zu-schlaefer/2353949",
+        "text": "Die KI verhält sich zunächst völlig normal – doch sobald ein geheimer Trigger auftaucht, erzeugt sie Schadcode. Dieser Angriff funktioniert viel einfacher als gedacht.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/verzoegerte-ki-angriff-wenige-eingriffe-machen-ki-agenten-zu-schlaefer/2353949",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Informatik und künstliche Intelligenz. Kein Bezug zu Fossilien oder ausgestorbenen Organismen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/video/dai-heidelberg-hamed-abdel-samad-with-god-on-their-side/2353901",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hamed Abdel-Samad – With God on their Side",
+        "url": "https://www.spektrum.de/video/dai-heidelberg-hamed-abdel-samad-with-god-on-their-side/2353901",
+        "text": "Hat das aufklärerische Ideal der Trennung von Religion und Staat noch eine Zukunft? Über diese Frage und mehr spricht Hamed Abdel-Samad.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/video/dai-heidelberg-hamed-abdel-samad-with-god-on-their-side/2353901",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Religion und Gesellschaft. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/artenschutz-sozialer-kipppunkt-bei-elefanten/2353922",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sozialer Kipppunkt: Bestandsrückgang bei Elefanten erreicht kritische Schwelle",
+        "url": "https://www.spektrum.de/news/artenschutz-sozialer-kipppunkt-bei-elefanten/2353922",
+        "text": "Populationseinbußen beim Asiatischen Elefanten führen zu einem sozialen Kipppunkt, bei dem der Zusammenhalt der Gemeinschaften zunehmend kollabiert.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/artenschutz-sozialer-kipppunkt-bei-elefanten/2353922",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Säugetiere und Artenschutz. Elefanten sind rezente Tiere, nicht ausgestorbene Reptilien oder fossile Vögel."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/apokalypse-am-13-november-2026-sollte-die-menschheit-am-ende-sein/2349586",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die fabelhafte Welt der Mathematik: Laut Mathematik sollte die Welt am 13. November 2026 untergehen",
+        "url": "https://www.spektrum.de/kolumne/apokalypse-am-13-november-2026-sollte-die-menschheit-am-ende-sein/2349586",
+        "text": "Drei Forscher berechneten 1960 das Ende der Menschheit: den 13. November 2026. Ihre Formel lag jahrzehntelang erstaunlich richtig. Doch dann veränderte sich etwas.",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/apokalypse-am-13-november-2026-sollte-die-menschheit-am-ende-sein/2349586",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Zahlenspiele. Keine paläontologische Relevanz trotz Bezug zu Weltende."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/welche-zahlen-koennen-in-die-gleichung-eingesetzt-werden/2340539",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Welche Zahlen können in die Gleichung eingesetzt werden?",
+        "url": "https://www.spektrum.de/raetsel/welche-zahlen-koennen-in-die-gleichung-eingesetzt-werden/2340539",
+        "text": "Welche drei Primzahlen erfüllen die Gleichung?",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/welche-zahlen-koennen-in-die-gleichung-eingesetzt-werden/2340539",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Rätsel. Kein Bezug zu Dinosauriern oder ausgestorbenen Organismen."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/hoergang-typ-ii-diabetes-vorbeugen-was-im-alltag-wirklich-hilft/2353889",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Typ-II-Diabetes vorbeugen: Was im Alltag wirklich hilft",
+        "url": "https://www.spektrum.de/podcast/hoergang-typ-ii-diabetes-vorbeugen-was-im-alltag-wirklich-hilft/2353889",
+        "text": "Wer Übergewicht, Bluthochdruck, Diabetesfälle in der Familie oder einen früheren Schwangerschaftsdiabetes aufweist, sollte das persönliche Risiko ärztlich abklären lassen. 🎙️",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/hoergang-typ-ii-diabetes-vorbeugen-was-im-alltag-wirklich-hilft/2353889",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin und Gesundheit. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/forschungsquartett-blaualgen-mit-daten-gegen-die-badesperre/2353885",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Blaualgen: Mit Daten gegen die Badesperre",
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-blaualgen-mit-daten-gegen-die-badesperre/2353885",
+        "text": "Wegen grüner Schleimschichten und giftiger Blaualgen werden Seen häufig gesperrt. Forschende arbeiten an einem Frühwarnsystem, das Algenblüten vorhersagt, bevor das Wasser kippt. 🎙️",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-blaualgen-mit-daten-gegen-die-badesperre/2353885",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Limnologie und Algen. Moderne Gewässerkunde, keine Relevanz für Fossilium."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/astrogeo-was-ist-im-krater-des-noerdlinger-ries-passiert/2353883",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Was ist im Krater des Nördlinger Ries passiert?",
+        "url": "https://www.spektrum.de/podcast/astrogeo-was-ist-im-krater-des-noerdlinger-ries-passiert/2353883",
+        "text": "Das Nördlinger Ries ist ein gigantisch großer Krater. Dass vor 14,8 Millionen Jahren dort ein Asteroid eingeschlagen ist, wollten viele Geologen lange nicht glauben. 🎙️",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/astrogeo-was-ist-im-krater-des-noerdlinger-ries-passiert/2353883",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologie und Asteroideneinschlag. Zwar geologisch relevant, aber kein direkter Bezug zu Dinosauriern oder ausgestorbenen Reptilien als zentrales Thema."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/neurodegeneration-die-epizentren-der-multiplen-sklerose/2353911",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Multiple Sklerose: Hochaktive Hirnregionen sind besonders gefährdet",
+        "url": "https://www.spektrum.de/news/neurodegeneration-die-epizentren-der-multiplen-sklerose/2353911",
+        "text": "Bei multipler Sklerose wird die graue Substanz an mehreren Stellen im Gehirn abgebaut – offenbar ausgehend von besonders aktiven und gut vernetzten Epizentren.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/neurodegeneration-die-epizentren-der-multiplen-sklerose/2353911",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin und Neurowissenschaften. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.spektrum.de/news/who-ziele-zur-bekaempfung-von-tuberkulose-wurden-verfehlt/2353981",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "WHO-Bericht: Tuberkulose-Ziele verfehlt – 1,13 Millionen Tote",
+        "url": "https://www.spektrum.de/news/who-ziele-zur-bekaempfung-von-tuberkulose-wurden-verfehlt/2353981",
+        "text": "Weniger Geld für die Tuberkulose-Bekämpfung, viele Fälle bleiben unentdeckt.",
+        "news_datum": "2026-11-12"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-13",
+      "decision": {
+        "url": "https://www.spektrum.de/news/who-ziele-zur-bekaempfung-von-tuberkulose-wurden-verfehlt/2353981",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Public Health und Epidemiologie. Kein Bezug zu Fossilien oder ausgestorbenen Organismen."
+      },
+      "last_attempt": "2026-11-13"
     }
   ],
   "last_run": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "ready": 0,
-    "excluded": 27,
+    "excluded": 19,
     "pending": 2
   }
 }
