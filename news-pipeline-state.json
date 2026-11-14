@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 18,
+      "attempts": 19,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-13",
+      "last_attempt": "2026-11-14",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 10,
+      "attempts": 11,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,8 +1657,8 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-13",
-      "error": "deferred:manual_run_limit"
+      "last_attempt": "2026-11-14",
+      "error": "article:HTTPError"
     },
     {
       "url": "https://www.spektrum.de/news/silber-gegen-die-superkeime/2340302",
@@ -5342,12 +5342,232 @@
         "reason": "Befasst sich mit Oktopoden (Kopffüßer/Mollusken). Moderne wirbellose Tiere und Meerestiere außer den spezifizierten ausgestorbenen Meeresreptilien sind ausgeschlossen. Kein Bezug zu relevanten Taxa."
       },
       "last_attempt": "2026-11-13"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+        "text": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially fatal head injuries in 18, suggesting that at least 39% of those studied may have been deliberately killed. The findings support a century-old theory that royal attendants were sacrificed when kings died, possibly to serve them in the afterlife.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologische Studie zu altägyptischen Königen und Menschenopfern. Kein Bezug zu Dinosauriern, frühen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/kohlenstoffkreislauf-koennte-erde-nach-erwaermung-stark-abkuehlen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Kohlenstoffkreislauf könnte Erde nach Erwärmung stark abkühlen",
+        "url": "https://www.scinexx.de/news/geowissen/kohlenstoffkreislauf-koennte-erde-nach-erwaermung-stark-abkuehlen",
+        "text": "Phosphor aus stärkerer Verwitterung fördert Algenwachstum und bindet Kohlenstoff im Meeresboden",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/kohlenstoffkreislauf-koennte-erde-nach-erwaermung-stark-abkuehlen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geowissenschaftliche Studie zum Kohlenstoffkreislauf und Phosphorverwitterung. Allgemeine Biologie und Geologie ohne Paleontologie-Bezug."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/zyklopie-1600-jahre-alter-kinderschaedel-mit-nur-einer-augenhoehle-in-peru-entdeckt",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Zyklopie: 1600 Jahre alter Kinderschädel mit nur einer Augenhöhle in Peru entdeckt",
+        "url": "https://www.scinexx.de/news/archaeologie/zyklopie-1600-jahre-alter-kinderschaedel-mit-nur-einer-augenhoehle-in-peru-entdeckt",
+        "text": "Trisomie 13 gilt als wichtige Ursache schwerer Störungen der Gehirn- und Gesichtsentwicklung",
+        "news_datum": "2026-11-13"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/zyklopie-1600-jahre-alter-kinderschaedel-mit-nur-einer-augenhoehle-in-peru-entdeckt",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinhistorische Studie zu angeborenen Fehlbildungen (Trisomie 13) bei einem präkolumbischen Kind. Keine Relevanz für Paläontologie oder Evolution von Dinosauriern."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/demokratie-freiheit-und-gleichheit-nach-der-revolution/2353979",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Warkus' Welt: Amerikas Demokratie-Paradox",
+        "url": "https://www.spektrum.de/kolumne/demokratie-freiheit-und-gleichheit-nach-der-revolution/2353979",
+        "text": "Die USA entstanden aus den Idealen von Freiheit und Gleichheit. Doch zwischen Anspruch und Wirklichkeit klaffte von Beginn an eine tiefe Lücke, meint unser Philosophie-Kolumnist.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/demokratie-freiheit-und-gleichheit-nach-der-revolution/2353979",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Politisch-philosophische Kolumne zur amerikanischen Demokratiegeschichte. Völlig außerhalb paläontologischen Kontextes."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/news/koennen-sie-vergessene-kindheitserinnerungen-zurueckholen/2319861",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Gummihand-Illusion: Gesichtsillusion bringt Kindheitserinnerungen zurück",
+        "url": "https://www.spektrum.de/news/koennen-sie-vergessene-kindheitserinnerungen-zurueckholen/2319861",
+        "text": "Je älter man wird, desto mehr verblassen die Kindheitserinnerungen. Aber wenn man das Gehirn glauben lässt, dass man jünger ist, erwachen die Erinnerungen zu neuem Leben.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/news/koennen-sie-vergessene-kindheitserinnerungen-zurueckholen/2319861",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologische Studie zur Gummihand-Illusion und Kindheitserinnerungen. Nicht relevant für Fossilium-Themen."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/video/christian-spannagel-plaettchen-in-der-stellenwerttafel/2354152",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Plättchen in der Stellenwerttafel",
+        "url": "https://www.spektrum.de/video/christian-spannagel-plaettchen-in-der-stellenwerttafel/2354152",
+        "text": "Heutiges Thema im »Christian Spannagel«-Video: Stellenwertsysteme.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/video/christian-spannagel-plaettchen-in-der-stellenwerttafel/2354152",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik-Lernvideo zu Stellenwertsystemen. Keine Verbindung zu Paläontologie oder Evolution."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-schwarze-loecher-sichtbar-machen/2354142",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Schwarze Löcher sichtbar machen – Ein Teleskop so groß wie die Erde",
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-schwarze-loecher-sichtbar-machen/2354142",
+        "text": "Wie gelingt es, ein Schwarzes Loch in Millionen Lichtjahren Entfernung sichtbar zu machen? Das erklärt Anton Zensus vom Max-Planck-Institut für Radioastronomie.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-schwarze-loecher-sichtbar-machen/2354142",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik-Video über schwarze Löcher und das Event Horizon Telescope. Kosmologie ohne paläontologischen Bezug."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/news/fotometrie-mit-smart-teleskopen/2343745",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sternfotometrie mit Smart-Teleskopen: Astrophysik mit einem Klick?",
+        "url": "https://www.spektrum.de/news/fotometrie-mit-smart-teleskopen/2343745",
+        "text": "Smart-Teleskope eröffnen neue Möglichkeiten für astronomische Beobachtungen, beispielsweise Helligkeitsmessungen von veränderlichen Sternen.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/news/fotometrie-mit-smart-teleskopen/2343745",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie-Artikel über Stern-Fotometrie und Smart-Teleskope. Nicht relevant für Fossilium."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/welcher-spieler-war-am-erfolgreichsten/2292006",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Welcher Spieler war am erfolgreichsten?",
+        "url": "https://www.spektrum.de/raetsel/welcher-spieler-war-am-erfolgreichsten/2292006",
+        "text": "Welcher Streetball-Spieler hat die meisten Punkte erzielt?",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/welcher-spieler-war-am-erfolgreichsten/2292006",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Rätsel zu Streetball-Spielstatistiken. Sportwissenschaft ohne Paleontologie-Bezug."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sternengeschichten-acamar-ein-heller-stern-ist-nicht-mehr-da/2354126",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Acamar – ein heller Stern ist nicht mehr da",
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-acamar-ein-heller-stern-ist-nicht-mehr-da/2354126",
+        "text": "In der Antike und bis zum Mittelalter war Acamar einer der hellsten Sterne am Himmel. Jetzt ist er das nicht mehr. 🎙️",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-acamar-ein-heller-stern-ist-nicht-mehr-da/2354126",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie-Podcast über Sterngeschichte und Helligkeitsveränderungen. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/nerds-at-work-geschichten-von-der-bueffelfarm/2354120",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Geschichten von der Büffelfarm",
+        "url": "https://www.spektrum.de/podcast/nerds-at-work-geschichten-von-der-bueffelfarm/2354120",
+        "text": "In dieser Folge des Podcasts »Nerds at Work« sprechen Jens und Christian über den Tod von Hubert Aiwanger und Texas. 🎙️",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-14",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/nerds-at-work-geschichten-von-der-bueffelfarm/2354120",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Podcast über Büffelfarm und lokale Ereignisse in Texas. Kein Bezug zu Dinosauriern oder ausgestorbenen Arten der Fossilium-Kriterien."
+      },
+      "last_attempt": "2026-11-14"
     }
   ],
   "last_run": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "ready": 0,
-    "excluded": 24,
+    "excluded": 11,
     "pending": 2
   }
 }
