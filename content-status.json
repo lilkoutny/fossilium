@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-13T16:43:01.176671+00:00",
+  "updated": "2026-11-14T11:54:27.853525+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "63b222534bd0eb9f0a17604522458ba6",
+      "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+      "title": "Invictibellatrix amberina: Erstes europäisches Megaraptor-Fossil auf der Isle of Wight identifiziert",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-14T11:54:27.851340+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "a24c79c990baf892ac09b02d90a27906",
       "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
@@ -350,19 +363,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.842064+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "63b222534bd0eb9f0a17604522458ba6",
-      "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
-      "title": "Invictibellatrix amberina: Erstes europäisches Megaraptor-Fossil auf der Isle of Wight identifiziert",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.804564+00:00",
       "sources": [],
       "score": null,
       "script": null,
