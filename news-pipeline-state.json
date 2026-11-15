@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 19,
+      "attempts": 20,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-14",
+      "last_attempt": "2026-11-15",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 11,
+      "attempts": 12,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-14",
+      "last_attempt": "2026-11-15",
       "error": "article:HTTPError"
     },
     {
@@ -5562,12 +5562,336 @@
         "reason": "Podcast über Büffelfarm und lokale Ereignisse in Texas. Kein Bezug zu Dinosauriern oder ausgestorbenen Arten der Fossilium-Kriterien."
       },
       "last_attempt": "2026-11-14"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Dinosaurs may have been eating seaweed 100 million years ago",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
+        "text": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth. Researchers discovered chemical signatures suggesting that coastal dinosaurs and other prehistoric animals relied partly on nutrients originating in the sea. The findings reveal that marine resources traveled through ancient food chains, supplementing the diets of everything from plant-eating dinosaurs to predators.",
+        "news_datum": "2026-11-15"
+      },
+      "status": "ready",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
+        "relevant": true,
+        "category": "dinosaur",
+        "reason": "Die Studie untersucht zentral die Ernährung von Dinosauriern, insbesondere Herbivoren wie Tenontosaurus tilletti, anhand von Isotopenanalysen in Fossilien. Die Forschung zu Dinosaurierökosystemen und ihren Lebensweisen während der Kreide ist ein Kernthema von Fossilium. Obwohl Meeresreptilien erwähnt werden, liegt der Fokus auf Dinosauriern und deren Ernährungsverhalten."
+      },
+      "last_attempt": "2026-11-15",
+      "publication": "/publikationen/meeresalgen-als-nahrungsquelle-fossile-belege-f-r-marine-eintr-ge-06c161ac8d/"
+    },
+    {
+      "url": "https://www.scinexx.de/news/energie/hitzewellen-gefaehrden-europas-stromversorgung",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Hitzewellen gefährden Europas Stromversorgung",
+        "url": "https://www.scinexx.de/news/energie/hitzewellen-gefaehrden-europas-stromversorgung",
+        "text": "Frankreich, Spanien und Italien sind besonders anfällig für Engpässe",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/energie/hitzewellen-gefaehrden-europas-stromversorgung",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Energiewirtschaft und moderne Klimaphänomene haben keinen Bezug zu prähistorischen Reptilien oder Fossilien."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/groesster-suesswassersee-der-erde-erlebt-nach-jahrzehntelanger-trockenphase-schnellen-wasserzuwachs",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Größter Süßwassersee der Erde erlebt nach jahrzehntelanger Trockenphase schnellen Wasserzuwachs",
+        "url": "https://www.scinexx.de/news/geowissen/groesster-suesswassersee-der-erde-erlebt-nach-jahrzehntelanger-trockenphase-schnellen-wasserzuwachs",
+        "text": "Baumringdaten für 1682 bis 2024 zeigen seit 2017 die stärkste Erholungsphase der Reihe",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/groesster-suesswassersee-der-erde-erlebt-nach-jahrzehntelanger-trockenphase-schnellen-wasserzuwachs",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Hydrologie und Baumringdaten sind nicht relevant für Dinosaurier oder ausgestorbene Reptilien."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/quantensensor-bewahrt-dank-wechselwirkender-atome-mehr-messinformation",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Quantensensor bewahrt dank wechselwirkender Atome mehr Messinformation",
+        "url": "https://www.scinexx.de/news/physik/quantensensor-bewahrt-dank-wechselwirkender-atome-mehr-messinformation",
+        "text": "Rund 100 Millionen ultrakalte Rubidium-87-Atome dienten dabei als Quantenspeicher",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/quantensensor-bewahrt-dank-wechselwirkender-atome-mehr-messinformation",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantenphysik und moderne Sensorentwicklung haben keinen Bezug zum Forschungsthema."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/technik/gewoehnlicher-kunststoff-kann-ein-grosses-problem-von-mondstationen-loesen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Gewöhnlicher Kunststoff kann ein großes Problem von Mondstationen lösen",
+        "url": "https://www.scinexx.de/news/technik/gewoehnlicher-kunststoff-kann-ein-grosses-problem-von-mondstationen-loesen",
+        "text": "Gestapelte Mylar-Folien verbinden starke Dämmung mit hoher Druckfestigkeit",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/technik/gewoehnlicher-kunststoff-kann-ein-grosses-problem-von-mondstationen-loesen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumtechnik ist nicht relevant für Fossilienforschung oder prähistorische Reptilien."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/bakterielles-molekuel-kann-darmschaeden-schnell-reparieren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Bakterielles Molekül kann Darmschäden schnell reparieren",
+        "url": "https://www.scinexx.de/news/medizin/bakterielles-molekuel-kann-darmschaeden-schnell-reparieren",
+        "text": "N-MNA liefert Darmzellen einen Baustein für das Coenzym NAD",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/bakterielles-molekuel-kann-darmschaeden-schnell-reparieren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Medizin und Mikrobiologie sind ausgeschlossen vom Forschungsthema."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/unsichtbarer-begleiter-koennte-ein-supermassereicher-neutronenstern-sein",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Unsichtbarer Begleiter könnte ein supermassereicher Neutronenstern sein",
+        "url": "https://www.scinexx.de/news/kosmos/unsichtbarer-begleiter-koennte-ein-supermassereicher-neutronenstern-sein",
+        "text": "Die mögliche Masse reicht je nach Berechnung von 1,8 bis 2,8 Sonnenmassen",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/unsichtbarer-begleiter-koennte-ein-supermassereicher-neutronenstern-sein",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und Neutronensterne haben keinen Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/so-haben-chinesen-vor-5-000-jahren-in-der-steinzeit-ihren-alkohol-verfeinert",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "So haben Chinesen vor 5.000 Jahren in der Steinzeit ihren Alkohol verfeinert",
+        "url": "https://www.scinexx.de/news/archaeologie/so-haben-chinesen-vor-5-000-jahren-in-der-steinzeit-ihren-alkohol-verfeinert",
+        "text": "Mikrospuren deuten darauf hin, dass Gewebe als Filter für vergorene Reisgetränke diente",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/so-haben-chinesen-vor-5-000-jahren-in-der-steinzeit-ihren-alkohol-verfeinert",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologie menschlicher Kulturgeschichte liegt außerhalb des Fokus auf prähistorische Reptilien."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/news/voegel-flores-hobbits-lebten-mit-riesenhuhn-zusammen/2354225",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vögel: Lebten die Flores-Hobbits mit Riesenhühnern zusammen?",
+        "url": "https://www.spektrum.de/news/voegel-flores-hobbits-lebten-mit-riesenhuhn-zusammen/2354225",
+        "text": "Die indonesische Insel Flores ist bekannt für einen Verwandten von uns. Er lebte dort mit einer sehr eigenen Tierwelt. Das bestätigt der Fund eines Vogelknochens.",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/news/voegel-flores-hobbits-lebten-mit-riesenhuhn-zusammen/2354225",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Vögel und Pleistozän-Archäologie sind ausgeschlossen; keine direkten Dinosaurier-Bezüge."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/einfache-formel-fuer-komplexe-folgen-der-klimakrise/2352056",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Freistetters Formelwelt: Auch einfache Formeln können komplexe Inhalte offenbaren",
+        "url": "https://www.spektrum.de/kolumne/einfache-formel-fuer-komplexe-folgen-der-klimakrise/2352056",
+        "text": "Ob eine mathematische Formel einfach erscheint oder nicht, ist Ansichtssache. Aber das, was sie beschreibt, kann dennoch von dramatischer Bedeutung sein.",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/einfache-formel-fuer-komplexe-folgen-der-klimakrise/2352056",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Klimaforschung ist nicht relevant für das Forschungsthema."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/news/quantenphysik-physiker-verfolgen-teilchen-bis-zum-quantenvakuum/2308535",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Quantenphysik: Teilchen entstehen aus dem Nichts – und Physiker sehen zu",
+        "url": "https://www.spektrum.de/news/quantenphysik-physiker-verfolgen-teilchen-bis-zum-quantenvakuum/2308535",
+        "text": "Das Vakuum ist nicht leer, sondern steckt voller virtueller Teilchen. Fachleute konnten nun im Teilchenbeschleuniger nachverfolgen, wie diese zu real messbaren Partikeln wurden.",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/news/quantenphysik-physiker-verfolgen-teilchen-bis-zum-quantenvakuum/2308535",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantenphysik hat keinen Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/news/entscheiden-wir-im-herbst-anders-als-im-winter/2313085",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Werte und Vorlieben: Entscheiden wir im Herbst anders als im Winter?",
+        "url": "https://www.spektrum.de/news/entscheiden-wir-im-herbst-anders-als-im-winter/2313085",
+        "text": "An sonnigen Tagen treibt es viele Menschen nach draußen. Und sie ticken auch generell ein wenig anders: Psychologen haben beobachtet, wie sich Werte mit den Jahreszeiten wandeln.",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/news/entscheiden-wir-im-herbst-anders-als-im-winter/2313085",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologie und moderne menschliche Verhaltensweisen sind nicht relevant."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-viele-quadrate-koennen-auf-dem-schachbrett-gezeichnet-werden/2266242",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie viele Quadrate können auf dem Schachbrett gezeichnet werden?",
+        "url": "https://www.spektrum.de/raetsel/wie-viele-quadrate-koennen-auf-dem-schachbrett-gezeichnet-werden/2266242",
+        "text": "Wie viele verschiedene Quadrate kann der König auf einem Schachbrett bilden?",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-viele-quadrate-koennen-auf-dem-schachbrett-gezeichnet-werden/2266242",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Spieltheorie haben keinen Bezug zum Forschungsthema."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/news/fossilien-dieser-wal-hatte-den-schiefsten-schaedel-aller-saeugetiere/2354196",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Fossilien: Dieser Wal hatte den schiefsten Schädel aller Säugetiere",
+        "url": "https://www.spektrum.de/news/fossilien-dieser-wal-hatte-den-schiefsten-schaedel-aller-saeugetiere/2354196",
+        "text": "In Peru wurde eine ausgestorbene Art an Zwergpottwal gefunden. Ihr Schädel war außergewöhnlich asymmetrisch geformt.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/news/fossilien-dieser-wal-hatte-den-schiefsten-schaedel-aller-saeugetiere/2354196",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Fossilien sind relevant, aber Wale sind Säugetiere und nicht Teil der abgedeckten ausgestorbenen Reptilien (nur Meeresreptilien wie Ichthyosaurier, Plesiosaurier, Mosasaurier)."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/springers-einwuerfe-die-vermessung-der-ungleichheit/2342518",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Springers Einwürfe: Die Vermessung der Ungleichheit",
+        "url": "https://www.spektrum.de/kolumne/springers-einwuerfe-die-vermessung-der-ungleichheit/2342518",
+        "text": "Der Reichtum der Nationen ist extrem unterschiedlich verteilt. Das hat verheerende Folgen. Doch zuverlässige Daten sind Mangelware.",
+        "news_datum": "2026-11-14"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/springers-einwuerfe-die-vermessung-der-ungleichheit/2342518",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Ökonomie und Sozialwissenschaften haben keinen Bezug zu Dinosauriern oder Fossilienforschung."
+      },
+      "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag145",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "An atlas of widow spiders (Araneae: Theridiidae:\n                    <i>Latrodectus</i>\n                    Walckenaer, 1805): phylogeny, biogeography, and integrated taxonomy",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag145",
+        "text": "An atlas of widow spiders (Araneae: Theridiidae:\n                    <i>Latrodectus</i>\n                    Walckenaer, 1805): phylogeny, biogeography, and integrated taxonomy",
+        "news_datum": "2026-11-14",
+        "study_datum": "2026-11-14",
+        "doi": "10.1093/zoolinnean/zlag145",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-15",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag145",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Witwen-Spinnen (Araneae) sind Insekten und nach Policy ausgeschlossen; kein Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-15"
     }
   ],
   "last_run": {
-    "date": "2026-11-14",
-    "ready": 0,
-    "excluded": 11,
+    "date": "2026-11-15",
+    "ready": 1,
+    "excluded": 15,
     "pending": 2
   }
 }

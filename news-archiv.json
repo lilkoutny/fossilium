@@ -1,6 +1,19 @@
 {
-  "stand": "2026-11-14",
+  "stand": "2026-11-15",
   "meldungen": [
+    {
+      "titel": "Meeresalgen als Nahrungsquelle: Fossile Belege für marine Einträge in Kreide-Küstenökosysteme",
+      "zusammenfassung": "Eine in der Fachzeitschrift Frontiers in Ecology and Evolution veröffentlichte Studie legt nahe, dass küstennah lebende Dinosaurier und andere Wirbeltiere vor rund 100 Millionen Jahren Nährstoffe aus dem Meer aufnahmen. Chemische Signaturen in fossilen Zähnen deuten darauf hin, dass marine Ressourcen – möglicherweise Meeresalgen – in die landgebundenen Nahrungsketten einflossen. Die zugrunde liegende Studie wurde für diesen Artikel nicht im Volltext geprüft; die folgenden Angaben stützen sich auf eine Originalmeldung.",
+      "quelle": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
+      "datum": "2026-11-15",
+      "erstmals_angezeigt": "2026-11-15",
+      "news_datum": "2026-11-14",
+      "relevant": true,
+      "relevanz_kategorie": "dinosaur",
+      "relevanz_begruendung": "Die Studie untersucht zentral die Ernährung von Dinosauriern, insbesondere Herbivoren wie Tenontosaurus tilletti, anhand von Isotopenanalysen in Fossilien. Die Forschung zu Dinosaurierökosystemen und ihren Lebensweisen während der Kreide ist ein Kernthema von Fossilium. Obwohl Meeresreptilien erwähnt werden, liegt der Fokus auf Dinosauriern und deren Ernährungsverhalten.",
+      "publikation": "/publikationen/meeresalgen-als-nahrungsquelle-fossile-belege-f-r-marine-eintr-ge-06c161ac8d/"
+    },
     {
       "titel": "Hintighernia edingerae: Ein alter Schädelrest bekommt einen neuen Namen",
       "zusammenfassung": "Ein Schädelfragment aus der Kreidezeit Englands gehört nach einer neuen Untersuchung zu einer bislang unbeschriebenen Flugsaurierart. Das Forschungsteam nennt sie Hintighernia edingerae. Grundlage ist das veröffentlichte Abstract der Studie.",
