@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-14T11:54:27.853525+00:00",
+  "updated": "2026-11-15T12:27:35.434205+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "991e1d4b5a41def235a60eb902d6e65a",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "title": "Jahrzehnte im Museumsdepot: Neues Fossil belegt europäische Megaraptoren",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-15T12:27:35.433209+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "06c161ac8d6feb2ddefa4a0422cf7526",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
+      "title": "Meeresalgen als Nahrungsquelle: Fossile Belege für marine Einträge in Kreide-Küstenökosysteme",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-15T12:27:35.043440+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "63b222534bd0eb9f0a17604522458ba6",
       "url": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
@@ -350,19 +376,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.843653+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "991e1d4b5a41def235a60eb902d6e65a",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
-      "title": "Jahrzehnte im Museumsdepot: Neues Fossil belegt europäische Megaraptoren",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.842064+00:00",
       "sources": [],
       "score": null,
       "script": null,
