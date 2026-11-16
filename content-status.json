@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "updated": "2026-11-15T12:27:35.434205+00:00",
+  "updated": "2026-11-16T13:19:09.888374+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "dc17afb5d1d9a421a2cbbbb2d766d2c2",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
+      "title": "Musango matusadonaensis: Neue Dinosaurierart aus Simbabwe beleuchtet frühe Evolution",
+      "state": "blocked",
+      "stage": "scoring",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-16T13:19:09.886566+00:00",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/a-history-of-african-dinosaurs-unique-narratives-starting-to-be-told.html"
+        },
+        {
+          "url": "https://www.nature.com/articles/2271339a0"
+        }
+      ],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "991e1d4b5a41def235a60eb902d6e65a",
       "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
@@ -363,19 +383,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.845200+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "dc17afb5d1d9a421a2cbbbb2d766d2c2",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
-      "title": "Musango matusadonaensis: Neue Dinosaurierart aus Simbabwe beleuchtet frühe Evolution",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.843653+00:00",
       "sources": [],
       "score": null,
       "script": null,
