@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 20,
+      "attempts": 21,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-15",
+      "last_attempt": "2026-11-16",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 12,
+      "attempts": 13,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-15",
+      "last_attempt": "2026-11-16",
       "error": "article:HTTPError"
     },
     {
@@ -5886,12 +5886,352 @@
         "reason": "Witwen-Spinnen (Araneae) sind Insekten und nach Policy ausgeschlossen; kein Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
       },
       "last_attempt": "2026-11-15"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/quanteneffekt-koennte-zeit-gleichzeitig-unterschiedlich-schnell-vergehen-lassen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Quanteneffekt könnte Zeit gleichzeitig unterschiedlich schnell vergehen lassen",
+        "url": "https://www.scinexx.de/news/physik/quanteneffekt-koennte-zeit-gleichzeitig-unterschiedlich-schnell-vergehen-lassen",
+        "text": "Atomuhren könnten überlagerte Eigenzeiten durch ein schwächeres Interferenzsignal verraten",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/quanteneffekt-koennte-zeit-gleichzeitig-unterschiedlich-schnell-vergehen-lassen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantenphysik und theoretische Physik ohne Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/raetselhafte-radioquelle-sendet-alle-62-minuten-zwei-unterschiedliche-pulse",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Rätselhafte Radioquelle sendet alle 62 Minuten zwei unterschiedliche Pulse",
+        "url": "https://www.scinexx.de/news/kosmos/raetselhafte-radioquelle-sendet-alle-62-minuten-zwei-unterschiedliche-pulse",
+        "text": "Die Pulse unterscheiden sich in Dauer und Drehsinn ihrer zirkularen Polarisation",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/raetselhafte-radioquelle-sendet-alle-62-minuten-zwei-unterschiedliche-pulse",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und Astrophysik ohne Relevanz für Paläontologie oder ausgestorbene Tiergruppen."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/wie-gut-sagen-modelle-die-hoehe-von-vulkan-tsunamis-voraus",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wie gut sagen Modelle die Höhe von Vulkan-Tsunamis voraus?",
+        "url": "https://www.scinexx.de/news/geowissen/wie-gut-sagen-modelle-die-hoehe-von-vulkan-tsunamis-voraus",
+        "text": "Eine verbreitete Formel überschätzte die gemessenen Wellenhöhen um mehr als das Zehnfache",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/wie-gut-sagen-modelle-die-hoehe-von-vulkan-tsunamis-voraus",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Vulkanologie und Geophysik ohne Bezug zu Dinosauriern oder ihren zeitlichen Kontexten."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/stammt-die-helle-supernova-in-ngc-1433-aus-einem-ungewoehnlich-jungen-sternhaufen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Stammt die helle Supernova in NGC 1433 aus einem ungewöhnlich jungen Sternhaufen?",
+        "url": "https://www.scinexx.de/news/kosmos/stammt-die-helle-supernova-in-ngc-1433-aus-einem-ungewoehnlich-jungen-sternhaufen",
+        "text": "Zwei Sternhaufen liegen nur 0,19 und 0,26 Bogensekunden vom Explosionsort entfernt",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/stammt-die-helle-supernova-in-ngc-1433-aus-einem-ungewoehnlich-jungen-sternhaufen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie ohne Relevanz zur Paläontologie."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/pilzzucker-verstaerkt-die-antikoerperantwort-auf-covid-19-mrna-impfstoffe",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Pilzzucker verstärkt die Antikörperantwort auf Covid-19-mRNA-Impfstoffe",
+        "url": "https://www.scinexx.de/news/medizin/pilzzucker-verstaerkt-die-antikoerperantwort-auf-covid-19-mrna-impfstoffe",
+        "text": "Mannadjuvant verbindet Mannan aus Candida albicans mit Aluminiumhydroxid",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/pilzzucker-verstaerkt-die-antikoerperantwort-auf-covid-19-mrna-impfstoffe",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschung zu modernen Immunsystemen und Impfstoffen, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/vulkane-haben-vor-450-millionen-jahren-eine-eiszeit-ausgeloest",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Vulkane haben vor 450 Millionen Jahren eine Eiszeit ausgelöst",
+        "url": "https://www.scinexx.de/news/geowissen/vulkane-haben-vor-450-millionen-jahren-eine-eiszeit-ausgeloest",
+        "text": "Frisch freigelegter Basalt kann bei seiner Verwitterung CO₂ aus dem Kohlenstoffkreislauf binden",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/vulkane-haben-vor-450-millionen-jahren-eine-eiszeit-ausgeloest",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologische und klimatische Ereignisse vor 450 Millionen Jahren ohne spezifischen Bezug zu Dinosauriern, die erst später entstanden."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/gammastrahlenblitz-zeigt-spuren-eines-kosmischen-lawineneffekts",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Gammastrahlenblitz zeigt Spuren eines kosmischen Lawineneffekts",
+        "url": "https://www.scinexx.de/news/kosmos/gammastrahlenblitz-zeigt-spuren-eines-kosmischen-lawineneffekts",
+        "text": "Die Abstände zwischen 172 hochenergetischen Photonen folgen eher einem Potenzgesetz",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/gammastrahlenblitz-zeigt-spuren-eines-kosmischen-lawineneffekts",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Hochenergie-Astrophysik ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/briefe-vom-hof-des-sonnenkoenigs-prinzessin-allein-zu-haus/2283485",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Briefe vom Hof des Sonnenkönigs: Prinzessin allein zu Haus",
+        "url": "https://www.spektrum.de/news/briefe-vom-hof-des-sonnenkoenigs-prinzessin-allein-zu-haus/2283485",
+        "text": "Rund 60 000 Briefe soll Liselotte von der Pfalz verfasst haben. Darin lamentierte sie, furchtbar einsam am Hof von Ludwig XIV. zu sein. Doch es gibt Zweifel an ihren Worten.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/briefe-vom-hof-des-sonnenkoenigs-prinzessin-allein-zu-haus/2283485",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kulturgeschichte und Geschichtswissenschaft ohne Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/alzheimer-schuetzende-proteine-durchdringen-blut-hirn-schranke/2353846",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Alzheimer: Schützende Proteine durchdringen die Blut-Hirn-Schranke",
+        "url": "https://www.spektrum.de/news/alzheimer-schuetzende-proteine-durchdringen-blut-hirn-schranke/2353846",
+        "text": "Bestimmte Proteine helfen, Nervenzellen zu erhalten. Dafür müssen sie zuerst ins Gehirn gelangen. Ist der Weg blockiert, droht neuronaler Abbau.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/alzheimer-schuetzende-proteine-durchdringen-blut-hirn-schranke/2353846",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Medizin und Neurowissenschaften ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kontinente-der-mond-koennte-das-groesste-raetsel-der-erde-loesen/2354218",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ursprung der Plattentektonik: Der Mond könnte das größte Rätsel der Erde lösen",
+        "url": "https://www.spektrum.de/news/kontinente-der-mond-koennte-das-groesste-raetsel-der-erde-loesen/2354218",
+        "text": "Eigentlich sollte es auf unserem Planeten keine Kontinente geben. Laut einer neuen, spektakulären Hypothese half der Mond bei ihrer Entstehung.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kontinente-der-mond-koennte-das-groesste-raetsel-der-erde-loesen/2354218",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologie und Plattentektonik ohne spezifischen Bezug zu Dinosauriern oder ausgestorbenen Tiergruppen."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/video/wird-ki-die-menschheit-ausloeschen/2354024",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wird KI die Menschheit auslöschen?",
+        "url": "https://www.spektrum.de/video/wird-ki-die-menschheit-ausloeschen/2354024",
+        "text": "KI-Hersteller warnen vor dem baldigen Ende der Menschheit durch KI. Doch wie realistisch ist das? Ist es möglich, alle Menschen umzubringen? Und wenn ja, kann die KI das schaffen?",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/video/wird-ki-die-menschheit-ausloeschen/2354024",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Künstliche Intelligenz und Zukunftsforschung ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/spacex-faengt-riesenrakete-starship-erstmals-wieder-auf/2354367",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Starship: SpaceX fängt Riesenrakete Starship erstmals wieder auf",
+        "url": "https://www.spektrum.de/news/spacex-faengt-riesenrakete-starship-erstmals-wieder-auf/2354367",
+        "text": "Erstmals gelang, das Starship nach einem Raumflug auf dem Startturm in Texas wieder intakt einzufangen. Somit rückt die Wiederwendbarkeit immer näher.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/spacex-faengt-riesenrakete-starship-erstmals-wieder-auf/2354367",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrt ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/raumsonde-hera-beginnt-mit-ihrer-arbeit/2353894",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hera-Mission : Raumsonde Hera beginnt mit ihrer Arbeit",
+        "url": "https://www.spektrum.de/news/raumsonde-hera-beginnt-mit-ihrer-arbeit/2353894",
+        "text": "Die Asteroiden Didymos und Dimorphos stehen ab sofort unter der direkten Beobachtung durch die europäische Asteroidensonde Hera.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/raumsonde-hera-beginnt-mit-ihrer-arbeit/2353894",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Asteroiden-Mission und Raumfahrt ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-schamanen-sibiriens/2354415",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Trance und Ritual",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-schamanen-sibiriens/2354415",
+        "text": "Der Schamanismus Sibiriens war für die Rezeption des Kulturphänomens in Europa maßgeblich. Ihm widmet sich dieses Buch, das eine Ausstellung in Mannheim begleitet. Eine Rezension",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-schamanen-sibiriens/2354415",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kulturanthropologie und Geschichte ohne Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/trainierte-immunitaet-staerken-leichte-infekte-das-immunsystem/2317437",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Trainierte Immunität: Verbessern leichte Infekte unsere Immunabwehr?",
+        "url": "https://www.spektrum.de/news/trainierte-immunitaet-staerken-leichte-infekte-das-immunsystem/2317437",
+        "text": "Wer gerade einen Schnupfen hatte, infiziert sich seltener mit Coronaviren – und das hat nichts mit Antikörpern gegen Rhinoviren zu tun.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/trainierte-immunitaet-staerken-leichte-infekte-das-immunsystem/2317437",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Immunologie und Infektionsforschung ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/stimmt-die-behauptung/2340232",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Stimmt die Behauptung?",
+        "url": "https://www.spektrum.de/raetsel/stimmt-die-behauptung/2340232",
+        "text": "Können Sie die Behauptung beweisen oder sie widerlegen?",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/stimmt-die-behauptung/2340232",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeines Rätsel ohne Bezug zu Dinosauriern oder ausgestorbenen Tiergruppen."
+      },
+      "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.spektrum.de/news/warum-immer-mehr-chemikalien-im-trinkwasser-auftauchen/2352384",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Spurenstoffe im Wasser: Warum immer mehr Chemikalien im Trinkwasser auftauchen",
+        "url": "https://www.spektrum.de/news/warum-immer-mehr-chemikalien-im-trinkwasser-auftauchen/2352384",
+        "text": "Deutsches Trinkwasser gilt als besonders sicher. Dennoch haben Forschende darin Rückstände von Medikamenten und langlebigen Chemikalien entdeckt. Wie wird man sie wieder los?",
+        "news_datum": "2026-11-15"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-16",
+      "decision": {
+        "url": "https://www.spektrum.de/news/warum-immer-mehr-chemikalien-im-trinkwasser-auftauchen/2352384",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Umweltwissenschaften und Trinkwasserqualität ohne Paläontologie-Bezug."
+      },
+      "last_attempt": "2026-11-16"
     }
   ],
   "last_run": {
-    "date": "2026-11-15",
-    "ready": 1,
-    "excluded": 15,
+    "date": "2026-11-16",
+    "ready": 0,
+    "excluded": 17,
     "pending": 2
   }
 }
