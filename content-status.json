@@ -1,9 +1,35 @@
 {
   "version": 1,
-  "updated": "2026-11-16T13:19:09.888374+00:00",
+  "updated": "2026-11-17T14:03:39.895788+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "a87d49d65872c6759910b07aae36d838",
+      "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
+      "title": "Kleiner Raubdinosaurier fraß offenbar an einem Apex-Räuber – oder ein Kannibalismus-Fall erschüttert das Bild der Urzeit",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-17T14:03:39.831849+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
+    {
+      "id": "6e78da06d16b31265091e32a3f528aa3",
+      "url": "https://doi.org/10.1093/zoolinnean/zlag190",
+      "title": "Krankhafter Knochen: Zahnfehlstellungen und Frakturen bei Mosasaurus hoffmannii",
+      "state": "queued",
+      "stage": "research",
+      "reason": "",
+      "updated": "2026-11-17T14:03:39.255680+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "dc17afb5d1d9a421a2cbbbb2d766d2c2",
       "url": "https://www.sciencedaily.com/releases/2026/10/261012185013.htm",
@@ -370,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.846685+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "a87d49d65872c6759910b07aae36d838",
-      "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
-      "title": "Kleiner Raubdinosaurier fraß offenbar an einem Apex-Räuber – oder ein Kannibalismus-Fall erschüttert das Bild der Urzeit",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.845200+00:00",
       "sources": [],
       "score": null,
       "script": null,
