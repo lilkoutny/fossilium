@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 21,
+      "attempts": 22,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-16",
+      "last_attempt": "2026-11-17",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 13,
+      "attempts": 14,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-16",
+      "last_attempt": "2026-11-17",
       "error": "article:HTTPError"
     },
     {
@@ -6226,12 +6226,474 @@
         "reason": "Umweltwissenschaften und Trinkwasserqualität ohne Paläontologie-Bezug."
       },
       "last_attempt": "2026-11-16"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/mrna-impfstoff-erzeugt-antikoerper-gegen-mehrere-lebensmittelallergien",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "mRNA-Impfstoff erzeugt Antikörper gegen mehrere Lebensmittelallergien",
+        "url": "https://www.scinexx.de/news/medizin/mrna-impfstoff-erzeugt-antikoerper-gegen-mehrere-lebensmittelallergien",
+        "text": "Das künstliche Allergen cnsLTP1 bündelt Merkmale verschiedener pflanzlicher Lipidtransferproteine",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/mrna-impfstoff-erzeugt-antikoerper-gegen-mehrere-lebensmittelallergien",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Medizin und Immunologie, kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/zeitreisen-quantenmodell-koennte-nachrichten-in-die-vergangenheit-schicken",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Zeitreisen: Quantenmodell könnte Nachrichten in die Vergangenheit schicken",
+        "url": "https://www.scinexx.de/news/physik/zeitreisen-quantenmodell-koennte-nachrichten-in-die-vergangenheit-schicken",
+        "text": "Ein störungsfreier Quantenspeicher verbindet Vergangenheit und Zukunft",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/zeitreisen-quantenmodell-koennte-nachrichten-in-die-vergangenheit-schicken",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Theoretische Physik und Quantenmechanik, kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/wasser-und-kohlendioxid-eis-um-beta-pictoris-deutet-auf-haeufige-kollisionen-hin",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Wasser- und Kohlendioxid-Eis um Beta Pictoris deutet auf häufige Kollisionen hin",
+        "url": "https://www.scinexx.de/news/kosmos/wasser-und-kohlendioxid-eis-um-beta-pictoris-deutet-auf-haeufige-kollisionen-hin",
+        "text": "Webb wies das gefrorene Material erstmals direkt in der Trümmerscheibe nach",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/wasser-und-kohlendioxid-eis-um-beta-pictoris-deutet-auf-haeufige-kollisionen-hin",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und Weltraum, kein Bezug zu fossiler Fauna oder Evolution."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/euclid-zeigt-wo-in-fernen-galaxien-neue-sterne-entstehen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Euclid zeigt, wo in fernen Galaxien neue Sterne entstehen",
+        "url": "https://www.scinexx.de/news/kosmos/euclid-zeigt-wo-in-fernen-galaxien-neue-sterne-entstehen",
+        "text": "H-alpha-Licht verrät Regionen, in denen junge Sterne das umgebende Gas zum Leuchten anregen",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/euclid-zeigt-wo-in-fernen-galaxien-neue-sterne-entstehen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und Galaxienforschung, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/erde-sonne-und-co-begrenzen-dunkle-materie-modelle",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Erde, Sonne und Co. begrenzen Dunkle-Materie-Modelle",
+        "url": "https://www.scinexx.de/news/kosmos/erde-sonne-und-co-begrenzen-dunkle-materie-modelle",
+        "text": "Neutrinos und Wärme machen verborgene Wechselwirkungen prüfbar",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/erde-sonne-und-co-begrenzen-dunkle-materie-modelle",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kosmologie und Dunkle Materie, kein Bezug zu Fossilien oder Dinosauriern."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.scinexx.de/news/archaeologie/baumringe-und-eisbohrkerne-zeigen-wann-babylonien-fiel",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Baumringe und Eisbohrkerne zeigen, wann Babylonien fiel",
+        "url": "https://www.scinexx.de/news/archaeologie/baumringe-und-eisbohrkerne-zeigen-wann-babylonien-fiel",
+        "text": "Ein markanter ¹⁴C-Sprung zwischen 1532 und 1531 vor Christus dient als Zeitanker",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.scinexx.de/news/archaeologie/baumringe-und-eisbohrkerne-zeigen-wann-babylonien-fiel",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologie der Menschheitsgeschichte, kein Bezug zu Paläontologie oder Mesozoikum."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/zwei-grosse-sauerstoffanstiege-der-atmosphaere-begannen-wohl-frueher",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Zwei große Sauerstoffanstiege der Atmosphäre begannen wohl früher",
+        "url": "https://www.scinexx.de/news/geowissen/zwei-grosse-sauerstoffanstiege-der-atmosphaere-begannen-wohl-frueher",
+        "text": "Die Ozeane reagierten teils erst rund 200 Millionen Jahre später auf den Wandel",
+        "news_datum": "2026-11-17"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "last_attempt": "2026-11-17",
+      "error": "classification:unknown"
+    },
+    {
+      "url": "https://www.spektrum.de/news/wasserversorgung-wie-wir-sie-sichern-koennen/2346060",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Klimawandel: Wie wir unser Wasser für morgen sichern können",
+        "url": "https://www.spektrum.de/news/wasserversorgung-wie-wir-sie-sichern-koennen/2346060",
+        "text": "Wie viel Wasser ist verfügbar, wenn es künftig immer trockener wird in Deutschland? Forschende testen neue Verfahren des digitalen Wassermanagements und Abwasserrecyclings.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/wasserversorgung-wie-wir-sie-sichern-koennen/2346060",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Wasserwirtschaft und Klimawandel, kein Bezug zu Fossilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/video/doktor-whatson-alle-weltkarten-sind-falsch/2354470",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Alle Weltkarten sind falsch",
+        "url": "https://www.spektrum.de/video/doktor-whatson-alle-weltkarten-sind-falsch/2354470",
+        "text": "Die UN-Generalversammlung hat im September beschlossen: Wir wollen flächentreue Projektionen der Erde mehr fördern. Warum es keine perfekte Weltkarte gibt, zeigt das Video.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/video/doktor-whatson-alle-weltkarten-sind-falsch/2354470",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kartographie und Geographie, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/news/voegel-weisskehl-kleidervogel-ist-in-der-natur-ausgestorben/2354592",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Artensterben: 41 sind die letzte Hoffnung für diesen Vogel",
+        "url": "https://www.spektrum.de/news/voegel-weisskehl-kleidervogel-ist-in-der-natur-ausgestorben/2354592",
+        "text": "Das letzte freilebende Weibchen des Weißkehl-Kleidervogels ist verschwunden. Nun ruhen die letzten Hoffnungen für die Art auf einem Zuchtprogramm.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/voegel-weisskehl-kleidervogel-ist-in-der-natur-ausgestorben/2354592",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Vögel und rezente Artenschutz; moderne Vögel sind ausgeschlossen, auch wenn ausgestorben in der Natur."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/news/physiker-finden-weg-nachrichten-in-die-vergangenheit-zu-schicken/2328673",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Zeitreisen: Physiker finden Weg, Nachrichten in die Vergangenheit zu schicken",
+        "url": "https://www.spektrum.de/news/physiker-finden-weg-nachrichten-in-die-vergangenheit-zu-schicken/2328673",
+        "text": "Zeitreisen sind möglich – zumindest theoretisch und für Quanteninformation. Wenn die Verbindung verrauscht ist, klappt das sogar besser als in der gewöhnlichen Zeitrichtung.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/physiker-finden-weg-nachrichten-in-die-vergangenheit-zu-schicken/2328673",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Theoretische Physik und Quanteninformation, kein Bezug zu Fossilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/news/duenen-tacho-wuestensand-als-anzeige-fuer-windstaerke/2354580",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Dünen-Tacho: Wüstensand zeigt Windstärke an",
+        "url": "https://www.spektrum.de/news/duenen-tacho-wuestensand-als-anzeige-fuer-windstaerke/2354580",
+        "text": "Die Sandkorngröße von Dünen lässt sich dafür nutzen, die Windgeschwindigkeit zu bestimmen, nicht nur auf der Erde, sondern womöglich auch anderswo im Sonnensystem.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/duenen-tacho-wuestensand-als-anzeige-fuer-windstaerke/2354580",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geophysik und Sedimentologie, kein Bezug zu fossiler Fauna."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/news/menschen-wurden-im-lauf-der-jahrtausende-nicht-immer-groesser/2354460",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Einstige Körpergröße: Menschen wurden im Lauf der Jahrtausende nicht immer größer",
+        "url": "https://www.spektrum.de/news/menschen-wurden-im-lauf-der-jahrtausende-nicht-immer-groesser/2354460",
+        "text": "Bessere Technologie bringt bessere Lebensqualität? Nicht unbedingt, wie Skelettdaten aus den vergangenen 7000 Jahren zeigen.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/menschen-wurden-im-lauf-der-jahrtausende-nicht-immer-groesser/2354460",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Menschheitsgeschichte und Anthropologie, kein Bezug zu Dinosauriern oder Mesozoikum."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-faszination-weltall/2354459",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Faszination Weltall – Von Saturn bis an die Grenzen des Kosmos",
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-faszination-weltall/2354459",
+        "text": "Welche neuen Bilder und Beobachtungen die Astronomie 2026 geprägt haben, präsentiert Andreas Müller in diesem Video.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-faszination-weltall/2354459",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Astronomie und Kosmologie, kein fokussierter Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-wenn-alles-trauma-ist/2354534",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Inflation eines klinischen Begriffs",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-wenn-alles-trauma-ist/2354534",
+        "text": "Jonas Tesarz und Günter H. Seidler zeigen, wie schädlich die Entgrenzung des Traumabegriffs für wirklich Traumatisierte sein kann. Ein Einspruch zur richtigen Zeit. Eine Rezension",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-wenn-alles-trauma-ist/2354534",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologie und Trauma-Konzepte, kein Bezug zu Fossilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/news/erkaeltungen-wie-mikrobiom-sport-und-stress-das-immunsystem-praegen/2343019",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vitamin C, Probiotika, Sport: Ein gutes Immunsystem? Was wirklich hilft",
+        "url": "https://www.spektrum.de/news/erkaeltungen-wie-mikrobiom-sport-und-stress-das-immunsystem-praegen/2343019",
+        "text": "Vitamin C, Ingwer oder Zink gelten als Klassiker bei Erkältungen. Was hilft dem Immunsystem wirklich? Welche Rolle Mikrobiom, Mindset oder Sport bei der Immunabwehr spielen.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/erkaeltungen-wie-mikrobiom-sport-und-stress-das-immunsystem-praegen/2343019",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin und Immunologie, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-gross-sind-die-flaecheninhalte/2340849",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie groß sind die Flächeninhalte der Dreiecke?",
+        "url": "https://www.spektrum.de/raetsel/wie-gross-sind-die-flaecheninhalte/2340849",
+        "text": "Wie lassen sich die Flächeninhalte der anderen Dreiecke bestimmen?",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-gross-sind-die-flaecheninhalte/2340849",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Geometrie, kein Bezug zu Fossilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/hoergang-ich-nehme-nicht-ab-sind-die-hormone-schuld/2354453",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Ich nehme nicht ab – Sind die Hormone schuld?",
+        "url": "https://www.spektrum.de/podcast/hoergang-ich-nehme-nicht-ab-sind-die-hormone-schuld/2354453",
+        "text": "In dieser Podcast-Folge von »Hörgang« spricht der Allgemeinmediziner und Hormonexperte DDr. Gerald Jahl über den Einfluss von Hormonen auf das Abnehmen. 🎙️",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/hoergang-ich-nehme-nicht-ab-sind-die-hormone-schuld/2354453",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizin und Endokrinologie, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sprind-national-agency-for-disruptive-innovation/2354449",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Nationale Agentur für Disruptive Innovation",
+        "url": "https://www.spektrum.de/podcast/sprind-national-agency-for-disruptive-innovation/2354449",
+        "text": "Warum die Niederlande ihre eigene Nationale Agentur für Disruptive Innovation gründen und wie es dem Gründungsteam gelang, vom Staat 500 Millionen Euro für den Start zu sichern. 🎙️",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sprind-national-agency-for-disruptive-innovation/2354449",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Innovation und Institutionspolitik, kein Bezug zu Fossilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/behind-science-befreite-brueste/2354444",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Befreite Brüste",
+        "url": "https://www.spektrum.de/podcast/behind-science-befreite-brueste/2354444",
+        "text": "In dieser Folge des Podcasts »Behind Science« geht es um Herminie Cadolle und die Erfindung des BHs. 🎙️",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/behind-science-befreite-brueste/2354444",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kulturgeschichte und Mode, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kohlendioxid-ein-abgasrohr-vom-schornstein-bis-ans-meer/2354219",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Pipelines für Kohlendioxid: Ein Abgasrohr vom Schornstein bis zum Meer",
+        "url": "https://www.spektrum.de/news/kohlendioxid-ein-abgasrohr-vom-schornstein-bis-ans-meer/2354219",
+        "text": "Kohlendioxid aus der Industrie soll schon bald unter der Nordsee gespeichert werden. Forschende schlagen nun ein Netz von Pipelines für den Transport vor.",
+        "news_datum": "2026-11-16"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kohlendioxid-ein-abgasrohr-vom-schornstein-bis-ans-meer/2354219",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Artikel behandelt CO2-Pipelines und Industrietechnologie. Kein Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag175",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Convergent evolutionary adaptations in wing morphology enable flight among miniaturized bark beetles",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag175",
+        "text": "Convergent evolutionary adaptations in wing morphology enable flight among miniaturized bark beetles",
+        "news_datum": "2026-11-16",
+        "study_datum": "2026-11-16",
+        "doi": "10.1093/zoolinnean/zlag175",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag175",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Studie untersucht Flügelmorphologie und Aerodynamik bei rezenten Rindenkäfern (Insekten). Keine fossilen oder prähistorischen Organismen. Insekten sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-17"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag190",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Orodental pathology in\n                    <i>Mosasaurus hoffmannii</i>\n                    (Reptilia: Squamata)",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag190",
+        "text": "Orodental pathology in\n                    <i>Mosasaurus hoffmannii</i>\n                    (Reptilia: Squamata)",
+        "news_datum": "2026-11-16",
+        "study_datum": "2026-11-16",
+        "doi": "10.1093/zoolinnean/zlag190",
+        "journal_abstract": true
+      },
+      "status": "ready",
+      "attempts": 1,
+      "first_seen": "2026-11-17",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag190",
+        "relevant": true,
+        "category": "marine_reptile",
+        "reason": "Mosasaurus hoffmannii ist ein ausgestorbenes Meeresreptil (Mosasaurier), das zentrale Thema dieser paläopathologischen Studie. Die Untersuchung von Schädelpathologien, Zahnanomalien und Bissspuren dokumentiert die Biologie und das Verhalten dieser ausgestorbenen Meeresreptilien, was direkt in Fossiums Fachbereich fällt."
+      },
+      "last_attempt": "2026-11-17",
+      "publication": "/publikationen/krankhafter-knochen-zahnfehlstellungen-und-frakturen-bei-mosasaur-6e78da06d1/"
     }
   ],
   "last_run": {
-    "date": "2026-11-16",
-    "ready": 0,
-    "excluded": 17,
-    "pending": 2
+    "date": "2026-11-17",
+    "ready": 1,
+    "excluded": 21,
+    "pending": 3
   }
 }

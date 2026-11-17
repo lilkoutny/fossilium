@@ -1533,6 +1533,48 @@
       "bilder": [],
       "doi": "10.3389/fevo.2026.1895247",
       "mindestwoerter": 450
+    },
+    {
+      "slug": "krankhafter-knochen-zahnfehlstellungen-und-frakturen-bei-mosasaur-6e78da06d1",
+      "titel": "Krankhafter Knochen: Zahnfehlstellungen und Frakturen bei Mosasaurus hoffmannii",
+      "untertitel": "Zwei Schädel des Riesenmosasauriers Mosasaurus hoffmannii aus der belgischen Maastricht-Formation zeigen schwere pathologische Veränderungen, die mit modernen Bildgebungsverfahren neu bewertet wurden. Die Befunde geben Einblick in Verletzungen und Heilungsprozesse eines der bekanntesten Meeresreptilien der Kreidezeit. Grundlage ist das veröffentlichte Abstract der Studie.",
+      "abschnitte": [
+        {
+          "titel": "Fundgeschichte und Untersuchungsmethode",
+          "absatz": [
+            "Mosasaurus hoffmannii ist seit über 250 Jahren bekannt; die ersten Funde stammen aus der niederländischen Maastricht-Formation.[[S1]] Für die aktuelle Untersuchung wurden zwei Schädel aus der belgischen Maastricht-Formation mittels Mikro-Computertomografie (μCT) analysiert, um frühere Diagnosen zu überprüfen.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Neu interpretierte Pathologien",
+          "absatz": [
+            "Beim ersten Schädel, der einem subadulten Individuum gehörte, handelt es sich nicht um eine infizierte Fraktur, sondern um eine fehlausgerichtete Zahnalveole.[[S1]] Ein Trauma am Unterkiefer führte demnach dazu, dass sich ein Zahn in Richtung Zunge entwickelte, was starke Entzündung und Knochenresorption auslöste.[[S1]] Der zweite, adulte Schädel zeigt tatsächlich eine nicht verheilte Fraktur mit einer Pseudarthrose; Spuren, die ursprünglich als Infektion gedeutet wurden, werden nun als entzündungsbedingte Resorption interpretiert.[[S1]] Zudem sind an diesem Exemplar mutmaßliche Bissspuren erkennbar, darunter eine, die den Alveolarkanal durchtrennte, wobei Anzeichen einer neurovaskulären Wiederanknüpfung vorhanden sind.[[S1]]"
+          ]
+        },
+        {
+          "titel": "Einordnung und Grenzen",
+          "absatz": [
+            "Die Befunde ergänzen die wachsende Dokumentation zu Verletzungen bei großen Mosasauriern und verdeutlichen laut Abstract, welche Herausforderungen die kinetische Kieferanatomie dieser Tiere für normale Heilungsprozesse darstellte.[[S1]] Da nur der Abstract vorliegt, können weitergehende Aussagen zu Ursachen oder Häufigkeit solcher Pathologien hier nicht getroffen werden."
+          ]
+        }
+      ],
+      "datum": "2026-11-17",
+      "news_datum": "Nicht angegeben",
+      "study_datum": "2026-11-16",
+      "lesestand": "Crossref-Abstract; Volltext der Studie nicht geprüft",
+      "original_quelle": "Zoological Journal of the Linnean Society",
+      "original_url": "https://doi.org/10.1093/zoolinnean/zlag190",
+      "quellen": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1093/zoolinnean/zlag190",
+          "titel": "Orodental pathology in\n                    <i>Mosasaurus hoffmannii</i>\n                    (Reptilia: Squamata)",
+          "umfang": "Crossref-Abstract; Volltext der Studie nicht geprüft"
+        }
+      ],
+      "bilder": [],
+      "doi": "10.1093/zoolinnean/zlag190",
+      "mindestwoerter": 110
     }
   ]
 }
