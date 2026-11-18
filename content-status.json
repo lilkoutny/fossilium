@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-17T14:03:39.895788+00:00",
+  "updated": "2026-11-18T13:38:07.964124+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "0cd2d795f5a9b126809672eb0b85ed0b",
+      "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
+      "title": "Flexible Schwänze verrieten die Jagdstrategie von Mosasauriern",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-18T13:38:07.962190+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "a87d49d65872c6759910b07aae36d838",
       "url": "https://phys.org/news/2026-10-fossil-evidence-small-raptor-apex.html",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.848313+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "0cd2d795f5a9b126809672eb0b85ed0b",
-      "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
-      "title": "Flexible Schwänze verrieten die Jagdstrategie von Mosasauriern",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.846685+00:00",
       "sources": [],
       "score": null,
       "script": null,
