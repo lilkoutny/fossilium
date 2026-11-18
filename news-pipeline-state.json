@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 22,
+      "attempts": 23,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-17",
+      "last_attempt": "2026-11-18",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 14,
+      "attempts": 15,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-17",
+      "last_attempt": "2026-11-18",
       "error": "article:HTTPError"
     },
     {
@@ -6356,11 +6356,16 @@
         "text": "Die Ozeane reagierten teils erst rund 200 Millionen Jahre später auf den Wandel",
         "news_datum": "2026-11-17"
       },
-      "status": "pending",
-      "attempts": 1,
+      "status": "excluded",
+      "attempts": 2,
       "first_seen": "2026-11-17",
-      "last_attempt": "2026-11-17",
-      "error": "classification:unknown"
+      "last_attempt": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/zwei-grosse-sauerstoffanstiege-der-atmosphaere-begannen-wohl-frueher",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Atmosphärenforschung ohne Bezug zu Dinosauriern oder relevanten Fossiliengruppen."
+      }
     },
     {
       "url": "https://www.spektrum.de/news/wasserversorgung-wie-wir-sie-sichern-koennen/2346060",
@@ -6688,12 +6693,372 @@
       },
       "last_attempt": "2026-11-17",
       "publication": "/publikationen/krankhafter-knochen-zahnfehlstellungen-und-frakturen-bei-mosasaur-6e78da06d1/"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "125,000 years ago, hippos roamed what is now the vast Arabian Desert",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm",
+        "text": "A remarkable 125,000-year-old discovery in Saudi Arabia reveals that early humans once thrived beside enormous lakes filled with wildlife in what is now a vast desert. Thousands of stone tools and ancient plant remains suggest these prehistoric people used sophisticated hunting techniques, potentially including weapons enhanced with poisonous plant compounds.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Prähistorische Menschheitsgeschichte und Nilpferde, nicht relevant für Dinosaurier oder Zielgruppen."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/energie/tiefe-wolken-beeinflussen-die-leistung-von-offshore-windparks",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Tiefe Wolken beeinflussen die Leistung von Offshore-Windparks",
+        "url": "https://www.scinexx.de/news/energie/tiefe-wolken-beeinflussen-die-leistung-von-offshore-windparks",
+        "text": "Die Strahlungskühlung an Wolkenoberseiten kann zusätzliche Windenergie nach unten transportieren",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/energie/tiefe-wolken-beeinflussen-die-leistung-von-offshore-windparks",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Meteorologie und Windenergie, kein Bezug zu Paläontologie oder Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/meereis-und-stroemungen-koennten-eiszeit-co%e2%82%82-in-der-tiefsee-eingeschlossen-haben",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Meereis und Strömungen könnten Eiszeit-CO₂ in der Tiefsee eingeschlossen haben",
+        "url": "https://www.scinexx.de/news/geowissen/meereis-und-stroemungen-koennten-eiszeit-co%e2%82%82-in-der-tiefsee-eingeschlossen-haben",
+        "text": "Mehr als 80 Prozent des Rückgangs beruhten auf biogeochemischer Speicherung im Ozean",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/meereis-und-stroemungen-koennten-eiszeit-co%e2%82%82-in-der-tiefsee-eingeschlossen-haben",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Ozeanographie und Klimageschichte ohne Fokus auf Dinosaurier oder relevante Fossilien."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/satellit-sentinel-6b-wird-zur-neuen-referenz-fuer-globale-meeresspiegelmessungen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Satellit Sentinel-6B wird zur neuen Referenz für globale Meeresspiegelmessungen",
+        "url": "https://www.scinexx.de/news/geowissen/satellit-sentinel-6b-wird-zur-neuen-referenz-fuer-globale-meeresspiegelmessungen",
+        "text": "Ab Januar 2027 soll Sentinel-6B die internationale Bezugsgröße für Höhenmessungen liefern",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/satellit-sentinel-6b-wird-zur-neuen-referenz-fuer-globale-meeresspiegelmessungen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Satellitenmesstechnik und Meeresspiegel, nicht relevant für Paläontologie."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/radioteleskope-bestimmen-massen-zweier-roter-zwergsterne-aussergewoehnlich-praezise",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Radioteleskope bestimmen Massen zweier roter Zwergsterne außergewöhnlich präzise",
+        "url": "https://www.scinexx.de/news/kosmos/radioteleskope-bestimmen-massen-zweier-roter-zwergsterne-aussergewoehnlich-praezise",
+        "text": "18 Jahre Radiodaten liefern 27 präzise Sternpositionen für das gemeinsame Bahnmodell",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/radioteleskope-bestimmen-massen-zweier-roter-zwergsterne-aussergewoehnlich-praezise",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und Sternmessung, kein Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/energie/co%e2%82%82-blase-wie-hoch-ist-das-bewertungsrisiko-bei-grossen-oel-und-gasunternehmen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "CO₂-Blase: Wie hoch ist das Bewertungsrisiko bei großen Öl- und Gasunternehmen?",
+        "url": "https://www.scinexx.de/news/energie/co%e2%82%82-blase-wie-hoch-ist-das-bewertungsrisiko-bei-grossen-oel-und-gasunternehmen",
+        "text": "Untersucht wurden Aktien- und Optionsdaten von 21 großen, in den USA gehandelten Unternehmen",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/energie/co%e2%82%82-blase-wie-hoch-ist-das-bewertungsrisiko-bei-grossen-oel-und-gasunternehmen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Wirtschaft und Energiesektor, nicht relevant für Paläontologie."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/kosmos/sauerstoffisotope-deuten-auf-duenne-wasserfilme-an-der-marsoberflaeche-hin",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Sauerstoffisotope deuten auf dünne Wasserfilme an der Marsoberfläche hin",
+        "url": "https://www.scinexx.de/news/kosmos/sauerstoffisotope-deuten-auf-duenne-wasserfilme-an-der-marsoberflaeche-hin",
+        "text": "Curiosity misst seit 2012 jahreszeitliche Schwankungen des Sauerstoff-18 im Mars-CO₂",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/kosmos/sauerstoffisotope-deuten-auf-duenne-wasserfilme-an-der-marsoberflaeche-hin",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Planetologie des Mars, kein Bezug zu irdischen Fossilien oder Dinosauriern."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/alte-lavastroeme-zeigen-moegliche-huerden-fuer-die-co%e2%82%82-speicherung",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Alte Lavaströme zeigen mögliche Hürden für die CO₂-Speicherung",
+        "url": "https://www.scinexx.de/news/geowissen/alte-lavastroeme-zeigen-moegliche-huerden-fuer-die-co%e2%82%82-speicherung",
+        "text": "Poröse und geklüftete Bereiche könnten Fließwege für CO₂-haltiges Wasser bilden",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/alte-lavastroeme-zeigen-moegliche-huerden-fuer-die-co%e2%82%82-speicherung",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologie und CO₂-Speicherung, kein Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/schwangerschaft-was-das-immunsystem-von-babys-beeinflusst/2338377",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Infografik: Das Immunsystem in den ersten 1000 Tagen",
+        "url": "https://www.spektrum.de/news/schwangerschaft-was-das-immunsystem-von-babys-beeinflusst/2338377",
+        "text": "Schon vor der Geburt bildet das Kind Abwehrzellen, beeinflusst von Signalen der Mutter. Danach formen Mikroben, Ernährung, Impfungen und Umweltfaktoren das kindliche Immunsystem.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/schwangerschaft-was-das-immunsystem-von-babys-beeinflusst/2338377",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Medizin und Immunologie, nicht relevant für Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/die-fransenfledermaus-ist-tier-des-jahres-2027/2354834",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Fledermaus im Rampenlicht: Die Fransenfledermaus ist Tier des Jahres 2027",
+        "url": "https://www.spektrum.de/news/die-fransenfledermaus-ist-tier-des-jahres-2027/2354834",
+        "text": "Mit einer fransigen Flughaut sammelt die Fledermaus Spinnen, Asseln und Käfer von Blättern und Wänden. Was macht die eher unbekannte Art besonders?",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/die-fransenfledermaus-ist-tier-des-jahres-2027/2354834",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Säugetiere, keine fossilen Organismen oder Dinosaurier."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/neue-hera-bilder-vom-asteroiden-didymos/2354817",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hera-Mission: Neue Bilder vom Asteroiden Didymos",
+        "url": "https://www.spektrum.de/news/neue-hera-bilder-vom-asteroiden-didymos/2354817",
+        "text": "Die ESA hat am 17. November 2026 weitere Bilder der Raumsonde Hera vom Asteroiden Didymos präsentiert, darunter auch Aufnahmen im Infraroten.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/neue-hera-bilder-vom-asteroiden-didymos/2354817",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie und Asteroidenforschung, kein Bezug zu Paläontologie oder Dinosauriern."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/voyager-1-einen-lichttag-von-uns-entfernt/2354462",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Voyager 1: Einen Lichttag voraus",
+        "url": "https://www.spektrum.de/news/voyager-1-einen-lichttag-von-uns-entfernt/2354462",
+        "text": "Was bleibt von uns, wenn es die Erde nicht mehr gibt? Die Raumsonde Voyager 1 trägt eine Botschaft der Menschheit hinaus ins All. Nun erreicht sie eine historische Wegmarke.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/voyager-1-einen-lichttag-von-uns-entfernt/2354462",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrt und Weltraumerkundung, nicht relevant für Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-die-insekten-europas/2354688",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Was kriecht und fliegt denn da?",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-die-insekten-europas/2354688",
+        "text": "Mit diesem Naturführer lassen sich 3000 europäische Insektenarten bestimmen. Ein umfangreicher und zugleich übersichtlicher Wegweiser durch die Welt der Insekten. Eine Rezension",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-die-insekten-europas/2354688",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Insektenkunde, nicht relevant gemäß Policy (ausgeschlossene Insekten)."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/wie-der-petersdom-martin-luther-auf-den-plan-rief/2345595",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "400. Weihetag der Vatikankirche: Wie der Petersdom Martin Luther auf den Plan rief",
+        "url": "https://www.spektrum.de/news/wie-der-petersdom-martin-luther-auf-den-plan-rief/2345595",
+        "text": "Großprojekte laufen öfter mal aus dem Ruder. So auch der Bau des Petersdoms, für den die katholische Kirche einen besonders hohen Preis zahlte: die Spaltung der Christenheit.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/wie-der-petersdom-martin-luther-auf-den-plan-rief/2345595",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kunstgeschichte und Religionsgeschichte, kein Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-kann-hier-ein-spiegelsymmetrisches-muster-entstehen/2340841",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie kann hier ein spiegelsymmetrisches Muster entstehen?",
+        "url": "https://www.spektrum.de/raetsel/wie-kann-hier-ein-spiegelsymmetrisches-muster-entstehen/2340841",
+        "text": "Wie kann aus den beiden Figuren ein spiegelsymmetrisches Muster gebildet werden?",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-kann-hier-ein-spiegelsymmetrisches-muster-entstehen/2340841",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Geometrierätsel, nicht relevant für Paläontologie."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/mission-energiewende-wie-uebers-klima-reden-bei-socialmedia/2354589",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie über’s Klima reden bei Socialmedia?",
+        "url": "https://www.spektrum.de/podcast/mission-energiewende-wie-uebers-klima-reden-bei-socialmedia/2354589",
+        "text": "Wie ein komplexes Thema wie die Klimakrise auf die winzigen Kacheln in sozialen Medien wie Instagram passt, darum geht es in der Folge des Podcasts »Forschungsquartett«. 🎙️",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/mission-energiewende-wie-uebers-klima-reden-bei-socialmedia/2354589",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimakommunikation und Social Media, kein Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/neue-entdeckungsmethode-mit-gravitationswellen-exoplaneten-finden/2354597",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Neue Entdeckungsmethode: Mit Gravitationswellen Exoplaneten finden",
+        "url": "https://www.spektrum.de/news/neue-entdeckungsmethode-mit-gravitationswellen-exoplaneten-finden/2354597",
+        "text": "Planeten hinterlassen winzige Spuren in Gravitationswellen von Doppelsystemen aus zwei Weißen Zwergen und könnten so künftig mit dem Weltraumobservatorium LISA entdeckt werden.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/neue-entdeckungsmethode-mit-gravitationswellen-exoplaneten-finden/2354597",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und Exoplanetenforschung, nicht relevant für fossile Organismen."
+      },
+      "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.spektrum.de/news/mini-lichtquelle-rekordkleiner-laser-stoesst-an-die-grenzen-der-physik/2354643",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Mini-Lichtquelle: Rekordkleiner Laser stößt an die Grenzen der Physik",
+        "url": "https://www.spektrum.de/news/mini-lichtquelle-rekordkleiner-laser-stoesst-an-die-grenzen-der-physik/2354643",
+        "text": "Wie kompakt kann ein Laser werden? Mit einem nur rund 100 Nanometer kleinen Bauteil tasten sich Forscher an ein fundamentales Limit der Miniaturisierung heran.",
+        "news_datum": "2026-11-17"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-18",
+      "decision": {
+        "url": "https://www.spektrum.de/news/mini-lichtquelle-rekordkleiner-laser-stoesst-an-die-grenzen-der-physik/2354643",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Physik und Nanotechnologie, kein Paläontologiebezug."
+      },
+      "last_attempt": "2026-11-18"
     }
   ],
   "last_run": {
-    "date": "2026-11-17",
-    "ready": 1,
-    "excluded": 21,
-    "pending": 3
+    "date": "2026-11-18",
+    "ready": 0,
+    "excluded": 19,
+    "pending": 2
   }
 }
