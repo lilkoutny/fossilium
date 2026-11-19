@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 23,
+      "attempts": 24,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-18",
+      "last_attempt": "2026-11-19",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 15,
+      "attempts": 16,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-18",
+      "last_attempt": "2026-11-19",
       "error": "article:HTTPError"
     },
     {
@@ -7053,12 +7053,575 @@
         "reason": "Physik und Nanotechnologie, kein Paläontologiebezug."
       },
       "last_attempt": "2026-11-18"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "This 6-million-year-old whale may have had the most crooked face in mammal history",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+        "text": "A bizarre whale that lived roughly 6 million years ago had a face so dramatically crooked that scientists believe it may have been the most asymmetrical of any mammal. Discovered in Peru, the extinct pygmy sperm whale Scaphokogia huachafo had an enormous downward-curving snout and a skull so distorted that researchers initially thought it had been damaged after death. Instead, its strange anatomy appears to have been an extraordinary evolutionary adaptation for hunting along the seafloor.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von einem ausgestorbenen Wal (Säugetier). Meeressäugetiere sind nicht im Fokus von Fossilium; nur ausgestorbene Meeresreptilien sind relevant."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261117033928.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "This strange creature lived 309 million years ago, long before the dinosaurs",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261117033928.htm",
+        "text": "More than 300 million years ago, long before dinosaurs roamed Earth, the Chicago area was a steamy, swampy landscape teeming with bizarre creatures. Now, scientists at the Field Museum have identified a previously unrecognized species of ancient amphibian ancestor, revealing new clues about the evolution of frogs and salamanders.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261117033928.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt amphibische Vorfahren aus dem Karbon (vor Dinosauriern). Amphibien sind ausgeschlossen, auch wenn sie zeitlich vor Dinosauriern lebten."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Stonehenge’s six-ton mystery deepens as scientists narrow their search",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm",
+        "text": "A major new investigation into Stonehenge’s mysterious six-ton Altar Stone has uncovered fresh clues while ruling out several suspected sources. Once thought to have originated in Wales, the massive sandstone slab is now believed to have come from northeastern Scotland, although researchers have yet to find an exact match.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Stonehenge ist ein archäologisches Objekt ohne Bezug zu Dinosauriern, Flugsauriern oder Meeresreptilien."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/energie/im-eu-emissionshandel-ist-mehr-co%e2%82%82-einsparung-moeglich-als-bisher-angenommen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Im EU-Emissionshandel ist mehr CO₂-Einsparung möglich als bisher angenommen",
+        "url": "https://www.scinexx.de/news/energie/im-eu-emissionshandel-ist-mehr-co%e2%82%82-einsparung-moeglich-als-bisher-angenommen",
+        "text": "Für 2040 reichen die Szenarien von 159 bis 231 Millionen Tonnen CO₂",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/energie/im-eu-emissionshandel-ist-mehr-co%e2%82%82-einsparung-moeglich-als-bisher-angenommen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "CO₂-Emissionshandel ist ein klimapolitisches Thema ohne Bezug zu Paläontologie oder Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/oelabbauende-bakterien-waren-vor-der-deepwater-horizon-katastrophe-kaum-nachweisbar",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Ölabbauende Bakterien waren vor der Deepwater-Horizon-Katastrophe kaum nachweisbar",
+        "url": "https://www.scinexx.de/news/biowissen/oelabbauende-bakterien-waren-vor-der-deepwater-horizon-katastrophe-kaum-nachweisbar",
+        "text": "Gefrorene Wasserproben von 2009 liefern einen genetischen Blick auf die Tiefsee vor dem Unfall",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/oelabbauende-bakterien-waren-vor-der-deepwater-horizon-katastrophe-kaum-nachweisbar",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt Bakterien und Ölabbau nach einer Umweltkatastrophe. Allgemeine Biologie und Bakterien sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/satellitendaten-im-minutentakt-koennen-taifun-prognosen-verbessern",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Satellitendaten im Minutentakt können Taifun-Prognosen verbessern",
+        "url": "https://www.scinexx.de/news/geowissen/satellitendaten-im-minutentakt-koennen-taifun-prognosen-verbessern",
+        "text": "Der Prognosefehler sank im linearen Modell mit dem neuen Wirbelwert um 4,8 Prozent",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/satellitendaten-im-minutentakt-koennen-taifun-prognosen-verbessern",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Meteorologische Prognosen und Satellitentechnik haben keinen Bezug zu Fossilium-Themen."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/geowissen/unterseeische-erdrutsche-koennen-verheerende-tsunamis-ausloesen",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Unterseeische Erdrutsche können verheerende Tsunamis auslösen",
+        "url": "https://www.scinexx.de/news/geowissen/unterseeische-erdrutsche-koennen-verheerende-tsunamis-ausloesen",
+        "text": "An Japans Küsten könnten Wasserstände bis zu 16,8 Meter über dem Meeresspiegel erreichen",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/geowissen/unterseeische-erdrutsche-koennen-verheerende-tsunamis-ausloesen",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologie und Naturgefahren ohne Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/biowissen/schockfrosten-schuetzt-vitamin-c-kostet-aber-viele-antioxidantien",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Schockfrosten schützt Vitamin C, kostet aber viele Antioxidantien",
+        "url": "https://www.scinexx.de/news/biowissen/schockfrosten-schuetzt-vitamin-c-kostet-aber-viele-antioxidantien",
+        "text": "Der Gesamtgehalt an phenolischen Pflanzenstoffen sank um rund 40 Prozent",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/biowissen/schockfrosten-schuetzt-vitamin-c-kostet-aber-viele-antioxidantien",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Lebensmittelverarbeitung und Ernährungswissenschaft sind allgemeine Biologie, nicht Paläontologie."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/medizin/regenerierter-knochen-reift-weiter-nachdem-seine-form-wiederhergestellt-ist",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Regenerierter Knochen reift weiter, nachdem seine Form wiederhergestellt ist",
+        "url": "https://www.scinexx.de/news/medizin/regenerierter-knochen-reift-weiter-nachdem-seine-form-wiederhergestellt-ist",
+        "text": "Nach 21 Tagen war die grobe Knochenstruktur zurück, die Spitze aber noch deutlich nachgiebiger",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/medizin/regenerierter-knochen-reift-weiter-nachdem-seine-form-wiederhergestellt-ist",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Forschung zu modernem Knochenwachstum ohne paläontologischen Bezug."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.scinexx.de/news/physik/koennen-quantenkorrelationen-den-thermodynamischen-zeitpfeil-erklaeren",
+      "candidate": {
+        "quelle": "scinexx",
+        "titel": "Können Quantenkorrelationen den thermodynamischen Zeitpfeil erklären?",
+        "url": "https://www.scinexx.de/news/physik/koennen-quantenkorrelationen-den-thermodynamischen-zeitpfeil-erklaeren",
+        "text": "Die Entropie von Teilsystemen kann steigen, obwohl die Gesamtentropie konstant bleibt",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.scinexx.de/news/physik/koennen-quantenkorrelationen-den-thermodynamischen-zeitpfeil-erklaeren",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Theoretische Physik und Quantenmechanik haben keinen Bezug zu Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/mathematik-und-sprache-eine-hirnregion-fuer-beides/2354923",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Neurowissenschaften: Sprache und Mathe – vereint in einer Hirnregion?",
+        "url": "https://www.spektrum.de/news/mathematik-und-sprache-eine-hirnregion-fuer-beides/2354923",
+        "text": "Wieviel Mathematik steckt in der Sprache – und umgekehrt? Hirnforscher rätseln schon lange, ob und wie stark sich beide Fähigkeiten neuronal überschneiden.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/mathematik-und-sprache-eine-hirnregion-fuer-beides/2354923",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Neurowissenschaften ohne Bezug zu Dinosauriern oder ausgestorbenen Arten."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/rki-bericht-6-millionen-akute-atemwegserkrankung-moderates-niveau/2355067",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "RKI-Bericht: 6 Millionen akute Atemwegserkrankung – »moderates Niveau«",
+        "url": "https://www.spektrum.de/news/rki-bericht-6-millionen-akute-atemwegserkrankung-moderates-niveau/2355067",
+        "text": "Jeder kennt vermutlich jemanden, der gerade krank im Bett liegt – oder ist selbst betroffen. Die Erkältungssaison ist in vollem Gange.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/rki-bericht-6-millionen-akute-atemwegserkrankung-moderates-niveau/2355067",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Epidemiologie und moderne Gesundheit sind nicht relevant für Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/vorlesetag-was-lesen-im-gehirn-bewegt-und-warum-vorlesen-wichtig-ist/2355053",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bundesweiter Vorlesetag: Was Lesen im Gehirn bewegt – und warum Vorlesen wichtig ist",
+        "url": "https://www.spektrum.de/news/vorlesetag-was-lesen-im-gehirn-bewegt-und-warum-vorlesen-wichtig-ist/2355053",
+        "text": "Buch auf, Handy aus: Lesen fordert das Gehirn und verändert es. Zwei Forschende erklären, was dabei im Kopf passiert, warum Übung zählt und weshalb Vorlesen wichtig ist.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/vorlesetag-was-lesen-im-gehirn-bewegt-und-warum-vorlesen-wichtig-ist/2355053",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Pädagogik und Neurowissenschaften ohne paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/montage-im-all-roboter-soll-riesige-strukturen-im-orbit-bauen/2354932",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Montage im All: Roboter soll riesige Strukturen im Orbit bauen",
+        "url": "https://www.spektrum.de/news/montage-im-all-roboter-soll-riesige-strukturen-im-orbit-bauen/2354932",
+        "text": "Kann ein Roboter im Weltall kilometergroße Bauwerke errichten, indem er einzelne Streben zusammensetzt? Die Technologie wurde nun – im kleinen Maßstab – erstmals im Orbit erprobt.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/montage-im-all-roboter-soll-riesige-strukturen-im-orbit-bauen/2354932",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrttechnik hat keinen Bezug zu Fossilium-Themen."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/video/christian-spannagel-element-oder-teilmenge/2354838",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Element oder Teilmenge?",
+        "url": "https://www.spektrum.de/video/christian-spannagel-element-oder-teilmenge/2354838",
+        "text": "Heutiges Thema im »Christian Spannagel«-Video: Mengenlehre.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/video/christian-spannagel-element-oder-teilmenge/2354838",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Mengenlehre sind nicht relevant für Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/voyager-1-hat-kommunikationsprobleme/2355066",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Jenseits des Sonnensystems: Voyager 1 hat Kommunikationsprobleme",
+        "url": "https://www.spektrum.de/news/voyager-1-hat-kommunikationsprobleme/2355066",
+        "text": "Pünktlich zur Feier des neuen Entfernungsrekords von einem Lichttag zur Erde hat die Raumsonde Voyager 1 Probleme mit ihrer Funkverbindung zur Erde und sendet nur die Trägerwelle.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/voyager-1-hat-kommunikationsprobleme/2355066",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumsondentechnik und Weltraumerkundung haben keinen Bezug zu Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-scrabble/2354827",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Scrabble",
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-scrabble/2354827",
+        "text": "In dieser Folge des Podcasts »Geschichten aus der Geschichte« geht es um eine Geschichte über das beliebteste Kreuzwortspiel der Welt. 🎙️",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-scrabble/2354827",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Spielgeschichte ist nicht relevant für Paläontologie oder Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/investitionen-in-junge-menschen-zahlen-sich-fuer-den-staat-aus/2355039",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Jugendproteste: Investitionen in junge Menschen lohnen sich für den Staat",
+        "url": "https://www.spektrum.de/news/investitionen-in-junge-menschen-zahlen-sich-fuer-den-staat-aus/2355039",
+        "text": "Laut einer Auswertung am DIW bringen die meisten Maßnahmen für Kinder und Jugendliche langfristig mehr ökonomischen Nutzen, als sie kosten.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/investitionen-in-junge-menschen-zahlen-sich-fuer-den-staat-aus/2355039",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Wirtschaftspolitik und Sozialwissenschaften sind nicht Fossilium-Themen."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-was-kommt-nach-bio/2354960",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Pragmatismus statt Ideologie",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-was-kommt-nach-bio/2354960",
+        "text": "Urs Niggli kritisiert die »Zertifizierungsindustrie« und plädiert für eine pragmatische Agrarökologie. Auch Genomeditierung und KI will er nicht ausschließen. Eine Rezension",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-was-kommt-nach-bio/2354960",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Agrarökologie und Landwirtschaft sind allgemeine Biologie ohne paläontologischen Bezug."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/alzheimer-wie-das-immunsystem-demenz-foerdert/2344524",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Neuroimmunologie: Alzheimer im Visier der Immunforschung",
+        "url": "https://www.spektrum.de/news/alzheimer-wie-das-immunsystem-demenz-foerdert/2344524",
+        "text": "Von kleinen Entzündungen im Gehirn bis hin zu entzündlichen Reaktionen im gesamten Körper – sie alle könnten zu Alzheimer beitragen. Lässt sich mit dem Wissen das Risiko senken?",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/alzheimer-wie-das-immunsystem-demenz-foerdert/2344524",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Neurowissenschaften und medizinische Forschung zu modernen Erkrankungen sind nicht relevant für Fossilium."
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-gross-ist-der-flaecheninhalt/2340835",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie groß ist der rote Flächeninhalt?",
+        "url": "https://www.spektrum.de/raetsel/wie-gross-ist-der-flaecheninhalt/2340835",
+        "text": "Wie lässt sich der Inhalt der roten Fläche ermitteln?",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-gross-ist-der-flaecheninhalt/2340835",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel ohne Bezug zu Paläontologie oder Fossilienforschung"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/ach-mensch-der-menstruationszyklus-und-die-mentale-gesundheit/2354810",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie der Menstruationszyklus unsere mentale Gesundheit beeinflusst",
+        "url": "https://www.spektrum.de/podcast/ach-mensch-der-menstruationszyklus-und-die-mentale-gesundheit/2354810",
+        "text": "Viele Frauen kennen Stimmungsschwankungen vor der Periode. Bei der prämenstruellen dysphorischen Störung (PMDS) können die psychischen Beschwerden sehr stark werden. 🎙️",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/ach-mensch-der-menstruationszyklus-und-die-mentale-gesundheit/2354810",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinisches Thema zur menschlichen Physiologie, kein Bezug zu Fossilien oder Paläontologie"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/physik-der-eisglaette-reibung-macht-eis-rutschiger/2354510",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Physik der Eisglätte: Reibung macht Eis rutschiger",
+        "url": "https://www.spektrum.de/news/physik-der-eisglaette-reibung-macht-eis-rutschiger/2354510",
+        "text": "Die Frage, was Eis glitschig macht, ist überraschend umstritten. Neue Simulationen bringen verschiedene physikalische Erklärungsansätze zusammen.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/physik-der-eisglaette-reibung-macht-eis-rutschiger/2354510",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Physikalisches Phänomen der Eisreibung, kein paläontologischer Bezug"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/news/weltraumschrott-die-orbitale-muellabfuhr-kommt/2262354",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Weltraumschrott: Aufräumen im All",
+        "url": "https://www.spektrum.de/news/weltraumschrott-die-orbitale-muellabfuhr-kommt/2262354",
+        "text": "Spezielle Satelliten sollen noch in diesem Jahrzehnt große Schrottteile aktiv aus dem Weltraum entfernen. Und bald darauf andere Raumfahrzeuge volltanken und reparieren.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/news/weltraumschrott-die-orbitale-muellabfuhr-kommt/2262354",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Weltraumtechnik und Orbital-Debris-Management, keine Verbindung zu Paläontologie"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/alias/bilder-der-woche/neu-entdeckte-froschart-ueberrascht-mit-ungewoehnlicher-brutpflege/2354908",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilder der Woche: Neu entdeckte Froschart überrascht mit ungewöhnlicher Brutpflege",
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/neu-entdeckte-froschart-ueberrascht-mit-ungewoehnlicher-brutpflege/2354908",
+        "text": "Ein bislang unbekannter Flugfrosch bettet seine Eier in eine gallertartige Masse ein, in der sich die Kaulquappen geschützt entwickeln.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/neu-entdeckte-froschart-ueberrascht-mit-ungewoehnlicher-brutpflege/2354908",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Amphibiologie (rezente Froscharten), Amphibien sind ausgeschlossen"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sofja-kowalewskaja-und-die-formel-fuer-das-unmoegliche/2354807",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sofja Kowalewskaja und die Formel für das Unmögliche",
+        "url": "https://www.spektrum.de/podcast/sofja-kowalewskaja-und-die-formel-fuer-das-unmoegliche/2354807",
+        "text": "Sofja Kowalewskaja wächst Mitte des 19. Jahrhunderts auf und trotzt den Umständen ihrer Zeit: Gegen großen Widerstand wird sie Professorin für Mathematik. Wie schafft sie das?  🎙️",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sofja-kowalewskaja-und-die-formel-fuer-das-unmoegliche/2354807",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Wissenschaftsgeschichte und Mathematik-Biographie, kein Bezug zu Fossilien"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/human-ist-das-wort-des-jahres-die-kuriose-definition-dahinter/2354829",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Kurioser Göttervergleich: Das Wort des Jahres ist »human« und bedeutet … was?",
+        "url": "https://www.spektrum.de/kolumne/human-ist-das-wort-des-jahres-die-kuriose-definition-dahinter/2354829",
+        "text": "Die Wahl des Cambridge Dictionary ist nachvollziehbar. Doch wie das englische Wörterbuch »menschlich« definiert, wirkt seltsam aus der Zeit gefallen.",
+        "news_datum": "2026-11-18"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/human-ist-das-wort-des-jahres-die-kuriose-definition-dahinter/2354829",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Linguistische Kolumne zur Wortbedeutung, keine Relevanz für Paläontologie"
+      },
+      "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag181",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "A new bi-polar deep-sea genus of Isopoda\n                    <i>Bathyjaera</i>\n                    gen. nov. (Asellota: Janiridae), including the description of a new species from the Jøtul vent field in the Arctic Ocean",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag181",
+        "text": "A new bi-polar deep-sea genus of Isopoda\n                    <i>Bathyjaera</i>\n                    gen. nov. (Asellota: Janiridae), including the description of a new species from the Jøtul vent field in the Arctic Ocean",
+        "news_datum": "2026-11-19",
+        "study_datum": "2026-11-19",
+        "doi": "10.1093/zoolinnean/zlag181",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-19",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag181",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Tiefseisopoden (Krebstiere) aus der rezenten Fauna, keine fossile oder paläontologische Relevanz"
+      },
+      "last_attempt": "2026-11-19"
     }
   ],
   "last_run": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "ready": 0,
-    "excluded": 19,
+    "excluded": 28,
     "pending": 2
   }
 }
