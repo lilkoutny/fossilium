@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 24,
+      "attempts": 25,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-19",
+      "last_attempt": "2026-11-20",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 16,
+      "attempts": 17,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-19",
+      "last_attempt": "2026-11-20",
       "error": "article:HTTPError"
     },
     {
@@ -7616,12 +7616,275 @@
         "reason": "Moderne Tiefseisopoden (Krebstiere) aus der rezenten Fauna, keine fossile oder paläontologische Relevanz"
       },
       "last_attempt": "2026-11-19"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "A 3-million-year-old child just made human evolution far more complicated",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
+        "text": "A groundbreaking study of the 3-million-year-old Taung Child fossil suggests that several ancient human ancestors once thought to belong to the same species may actually represent different branches of our evolutionary family tree. The discovery challenges a century of assumptions and reveals how dramatic climate changes helped shape a surprisingly complex story of human origins.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von menschlicher Evolution und dem Taung Child (Australopithecus africanus). Affen/Säugetiere sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/waldenburg-der-schatz-von-walbrzych/2353377",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wałbrzych: Und auf einmal war da ein Keller hinter der Wand",
+        "url": "https://www.spektrum.de/news/waldenburg-der-schatz-von-walbrzych/2353377",
+        "text": "1945 verstecken die Bewohner eines Hauses alle Habseligkeiten in einem getarnten Keller. Dann verlassen sie Schlesien für immer. 80 Jahre später erhält eine von ihnen einen Anruf.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/news/waldenburg-der-schatz-von-walbrzych/2353377",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Historischer Artikel über einen versteckten Keller aus dem Jahr 1945. Kein Bezug zu Paläontologie oder fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/quantencomputer-die-quantenphysik-ist-einfacher-als-befuerchtet/2326484",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie komplex sind Quantensysteme?: Die Quantenphysik ist einfacher als befürchtet",
+        "url": "https://www.spektrum.de/news/quantencomputer-die-quantenphysik-ist-einfacher-als-befuerchtet/2326484",
+        "text": "Um Quantensysteme zu beschreiben, sind Quantencomputer nötig, so die Überzeugung. Doch offenbar lassen sich deutlich mehr Probleme als gedacht mit herkömmlichen Rechnern lösen.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/news/quantencomputer-die-quantenphysik-ist-einfacher-als-befuerchtet/2326484",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von Quantenphysik und Quantencomputern. Kein Bezug zu Dinosauriern oder fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/naturphaenomen-der-lange-marsch-der-roten-hat-begonnen/2355377",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Naturphänomen: Der lange Marsch der Roten hat begonnen",
+        "url": "https://www.spektrum.de/news/naturphaenomen-der-lange-marsch-der-roten-hat-begonnen/2355377",
+        "text": "Eine kleine Insel im Indischen Ozean beheimatet eines der größten Naturschauspiele der Erde. Die Krabben auf Christmas Island wandern wieder zum Meer.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/news/naturphaenomen-der-lange-marsch-der-roten-hat-begonnen/2355377",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Beschreibt die Krabbenwanderung auf Christmas Island. Modernes Naturschauspiel ohne paläontologischen Bezug."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/hugging-face-vorfall-wie-gefaehrlich-ist-ki/2355295",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Was uns der Hugging-Face-Vorfall über KI-Sicherheit verrät",
+        "url": "https://www.spektrum.de/podcast/hugging-face-vorfall-wie-gefaehrlich-ist-ki/2355295",
+        "text": "Wie sicher ist KI? Das diskutieren Politik, Tech-Branche und Wissenschaft immer heftiger. Ein Grund: der Hugging-Face-Vorfall. Was steckt dahinter? 🎙️",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/hugging-face-vorfall-wie-gefaehrlich-ist-ki/2355295",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von künstlicher Intelligenz und KI-Sicherheit. Kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gedankenkarussel-wer-zum-gruebeln-neigt-denkt-auch-sonst-anders/2354017",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Gedankenketten: Wer viel grübelt, denkt auch sonst anders",
+        "url": "https://www.spektrum.de/news/gedankenkarussel-wer-zum-gruebeln-neigt-denkt-auch-sonst-anders/2354017",
+        "text": "Immer wieder dieselben negativen Gedanken: Das ist typisch für das depressive Gedankenkarussell. Diese Grübelneigung zeigt sich offenbar auch in spontanen Assoziationsketten.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gedankenkarussel-wer-zum-gruebeln-neigt-denkt-auch-sonst-anders/2354017",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologische Studie zu Grübelneigung und depressiven Gedanken. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/welche-zahl-wird-gesucht/2340542",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Für welche Ziffern stehen diese Buchstaben?",
+        "url": "https://www.spektrum.de/raetsel/welche-zahl-wird-gesucht/2340542",
+        "text": "Für welche Ziffern stehen diese Buchstaben?",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/welche-zahl-wird-gesucht/2340542",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel. Kein Bezug zu Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/laerm-und-chemikalien-immunsystem-aus-dem-gleichgewicht/2317439",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Lärm, PFAS, Pestizide: Wie Umweltbelastungen das Immunsystem stören",
+        "url": "https://www.spektrum.de/news/laerm-und-chemikalien-immunsystem-aus-dem-gleichgewicht/2317439",
+        "text": "Chemikalien, aber auch Lärm können das Immunsystem empfindlich aus dem Gleichgewicht bringen. Mögliche Folgen: Autoimmunerkrankungen, Herzinfarkte und sogar Krebs.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/news/laerm-und-chemikalien-immunsystem-aus-dem-gleichgewicht/2317439",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von Umweltbelastungen und Auswirkungen auf das Immunsystem. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/forschungsquartett-kinder-mit-adipositas-und-diabetes/2355058",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Warum immer mehr Kinder unter Adipositas und Diabetes leiden",
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-kinder-mit-adipositas-und-diabetes/2355058",
+        "text": "Immer mehr Kinder und Jugendliche leiden heute unter Adipositas und Typ-II-Diabetes. Neue Forschung zeigt, dass bereits im Kita-Alter die Weichen dafür gestellt werden. 🎙️",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-kinder-mit-adipositas-und-diabetes/2355058",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinische Studie zu Adipositas und Diabetes bei Kindern. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/alias/bilder-der-woche/sternengeburt-im-nebelkessel-es-brodelt-in-den-magellanschen-wolken/2354912",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilder der Woche: Es brodelt in der Großen Magellanschen Wolke",
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/sternengeburt-im-nebelkessel-es-brodelt-in-den-magellanschen-wolken/2354912",
+        "text": "Die Infrarotaufnahme des James-Webb-Weltraumteleskops zeigt das Sternentstehungsgebiet N159 mit ausgedehnten Gaswolken und filigranen Strukturen, in denen sich neue Sterne bilden.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/sternengeburt-im-nebelkessel-es-brodelt-in-den-magellanschen-wolken/2354912",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomischer Artikel über Sternengeburt in der Magellanschen Wolke. Kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/super-timing-fuer-eine-supernova-sternexplosion-in-flagranti-erwischt/2354907",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Super Timing: Supernova in flagranti erwischt",
+        "url": "https://www.spektrum.de/news/super-timing-fuer-eine-supernova-sternexplosion-in-flagranti-erwischt/2354907",
+        "text": "Die Supernova SN 2026ahvu wurde nur einen Tag nach ihrem Aufleuchten entdeckt und bietet damit die seltene Gelegenheit, eine Sternexplosion von Beginn an zu verfolgen.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/news/super-timing-fuer-eine-supernova-sternexplosion-in-flagranti-erwischt/2354907",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomischer Artikel über eine Supernova. Kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/eine-prise-chemie-das-durchdringende-aroma-des-sauerkrauts/2304960",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Eine Prise Chemie: Das durchdringende Aroma des Sauerkrauts",
+        "url": "https://www.spektrum.de/kolumne/eine-prise-chemie-das-durchdringende-aroma-des-sauerkrauts/2304960",
+        "text": "Schon seit Jahrhunderten machen Menschen Sauerkraut ein. Einige der wichtigen Prozesse bei dieser Fermentation wurden erst in den letzten Jahren aufgeklärt.",
+        "news_datum": "2026-11-19"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/eine-prise-chemie-das-durchdringende-aroma-des-sauerkrauts/2304960",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Chemie-Kolumne über die Fermentation von Sauerkraut. Kein Bezug zu fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag186",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Big time: synchronous convergent evolution of giant body size in European earthworms (Crassiclitellata: Lumbricidae, Hormogastridae) and putative evolutionary pressures",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag186",
+        "text": "Big time: synchronous convergent evolution of giant body size in European earthworms (Crassiclitellata: Lumbricidae, Hormogastridae) and putative evolutionary pressures",
+        "news_datum": "2026-11-19",
+        "study_datum": "2026-11-19",
+        "doi": "10.1093/zoolinnean/zlag186",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-20",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag186",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Phylogenetische Studie zur konvergenten Evolution von Riesenwürmern (Regenwürmer). Invertebrata/Würmer sind ausgeschlossen, keine Verbindung zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-20"
     }
   ],
   "last_run": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "ready": 0,
-    "excluded": 28,
+    "excluded": 13,
     "pending": 2
   }
 }
