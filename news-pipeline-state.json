@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 25,
+      "attempts": 26,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-20",
+      "last_attempt": "2026-11-21",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 17,
+      "attempts": 18,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-20",
+      "last_attempt": "2026-11-21",
       "error": "article:HTTPError"
     },
     {
@@ -7879,12 +7879,232 @@
         "reason": "Phylogenetische Studie zur konvergenten Evolution von Riesenwürmern (Regenwürmer). Invertebrata/Würmer sind ausgeschlossen, keine Verbindung zu Dinosauriern oder ausgestorbenen Reptilien."
       },
       "last_attempt": "2026-11-20"
+    },
+    {
+      "url": "https://www.spektrum.de/news/tektonik-das-erste-riesengebirge-der-erde-entdeckt/2355425",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Tektonik: Ein Riesengebirge der Urzeit entdeckt?",
+        "url": "https://www.spektrum.de/news/tektonik-das-erste-riesengebirge-der-erde-entdeckt/2355425",
+        "text": "Das Eis der Antarktis verbirgt auch große Strukturen. Die Überreste von einem Gebirge deuten auf einen Bergstock mit enormen Höhen aus der Gondwana-Zeit hin.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/news/tektonik-das-erste-riesengebirge-der-erde-entdeckt/2355425",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Tektonik und Gebirgsbildung in der Gondwana-Zeit sind allgemeine Geologie ohne zentralen Bezug zu Dinosauriern, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/news/was-sagt-die-wissenschaft-leben-wir-in-einer-simulation/2353540",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Debatten um die Simulationshypothese: Leben wir in einer Computersimulation?",
+        "url": "https://www.spektrum.de/news/was-sagt-die-wissenschaft-leben-wir-in-einer-simulation/2353540",
+        "text": "Was die Wissenschaft über eine Idee sagt, die von Science-Fiction ins Silicon Valley gelangte. Und warum ein Leben in der Simulation weniger beunruhigend wäre, als es klingt.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/news/was-sagt-die-wissenschaft-leben-wir-in-einer-simulation/2353540",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Simulationshypothese und Philosophie haben keinen Bezug zu fossilen Organismen oder prähistorischem Leben."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/news/taeuferreich-als-muenster-zum-gottesstaat-wurde/2230585",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Täuferreich: Als religiöse Fanatiker ganz Münster in einen Gottesstaat verwandelten",
+        "url": "https://www.spektrum.de/news/taeuferreich-als-muenster-zum-gottesstaat-wurde/2230585",
+        "text": "In einer Zeit voller Umbrüche prophezeiten die Wiedertäufer das Ende der Welt. Und stellten dann vor fast 500 Jahren in Münster das Leben der Menschen radikal auf den Kopf.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/news/taeuferreich-als-muenster-zum-gottesstaat-wurde/2230585",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Religiöse Geschichte des 16. Jahrhunderts ohne jeglichen Bezug zu Paläontologie oder fossilen Organismen."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/als-ob-effekt-bestellt-denkfalle-43/2349418",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vorsicht, Denkfalle!: Das Dankbarkeits-Paradox",
+        "url": "https://www.spektrum.de/kolumne/als-ob-effekt-bestellt-denkfalle-43/2349418",
+        "text": "Wer dankbar ist, sagt »Danke«. Es könnte aber auch andersherum funktionieren, erklärt unser Psychologiekolumnist.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/als-ob-effekt-bestellt-denkfalle-43/2349418",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologische Kolumne über Dankbarkeit ohne Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/laesst-sich-die-vermutung-beweisen/2292019",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Sind die blauen Dreiecke in jedem Trapez stets gleich groß?",
+        "url": "https://www.spektrum.de/raetsel/laesst-sich-die-vermutung-beweisen/2292019",
+        "text": "Gilt diese Vermutung für jedes Trapez?",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/laesst-sich-die-vermutung-beweisen/2292019",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel über Trapeze ohne Bezug zu Fossilien oder prähistorischem Leben."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-stuerme-mit-ueber-10-000-km-h/2355306",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Stürme mit über 10.000 km/h – Extreme Winde auf Exoplaneten",
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-stuerme-mit-ueber-10-000-km-h/2355306",
+        "text": "Wie sich Winde auf Planeten messen lassen, die Hunderte Lichtjahre von uns entfernt sind, erklärt Fabio Lesjak in diesem Video.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/video/urknall-weltall-und-das-leben-stuerme-mit-ueber-10-000-km-h/2355306",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Exoplaneten und ihre Atmosphären sind astronomische Themen ohne Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/sternengeschichten-themis-der-verschwundene-mond/2355303",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Themis, der verschwundene Mond",
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-themis-der-verschwundene-mond/2355303",
+        "text": "Jahrelang war Themis der zehnte Mond des Saturn. Heute ist er das nicht mehr und wieso dieser Mond verschwunden ist, erfahren Sie in der neuen Folge der »Sternengeschichten«. 🎙️",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/sternengeschichten-themis-der-verschwundene-mond/2355303",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mondforschung und Astronomie ohne Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/nerds-at-work-null-null-nerd/2355297",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Null Null Nerd",
+        "url": "https://www.spektrum.de/podcast/nerds-at-work-null-null-nerd/2355297",
+        "text": "In dieser Folge sprechen Jens und Christian über ein Rätsel, Spieltheorien, die Zahl Null und Löcher in unterschiedlichen Objekten. 🎙️",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/nerds-at-work-null-null-nerd/2355297",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeines Science-Podcast-Format über Rätsel und Mathematik ohne Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/news/anthropic-ki-claude-beweist-riemannsche-vermutung/2355427",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Riemannsche Vermutung bewiesen: KI löst offenbar wichtigstes Problem der Mathematik",
+        "url": "https://www.spektrum.de/news/anthropic-ki-claude-beweist-riemannsche-vermutung/2355427",
+        "text": "Mehr als 160 Jahre lang widerstand die riemannsche Vermutung allen Beweisversuchen. Nun hat Levent Alpöge eine Lösung präsentiert. Das Problem: Nicht einmal er versteht den Beweis.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/news/anthropic-ki-claude-beweist-riemannsche-vermutung/2355427",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematischer Beweis und künstliche Intelligenz ohne Bezug zur Paläontologie."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/news/nordsee-jagten-hier-riesige-schwertwale-andere-wale/2355412",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Nordsee: Jagten hier riesige Schwertwale andere Wale?",
+        "url": "https://www.spektrum.de/news/nordsee-jagten-hier-riesige-schwertwale-andere-wale/2355412",
+        "text": "Heute sichtet man in der südlichen Nordsee nur sehr selten Schwertwale. Doch vor zwei Millionen Jahren war das anders: Eine besonders große Art jagte hier.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/news/nordsee-jagten-hier-riesige-schwertwale-andere-wale/2355412",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Schwertwale sind moderne Meeressäugetiere; fossile Meeressäugetiere fallen nicht unter die Policy. Keine Behandlung ausgestorbener Cetaceen als Meeresreptilien."
+      },
+      "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.spektrum.de/news/rodhals-mann-nach-ihm-der-ackerbau/2355396",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Rødhals-Mann: Nach ihm der Ackerbau",
+        "url": "https://www.spektrum.de/news/rodhals-mann-nach-ihm-der-ackerbau/2355396",
+        "text": "Der »Rødhals-Mann« erlebte wohl persönlich den Einzug der Landwirtschaft im heutigen Dänemark: An seinen Knochen lässt sich ablesen, wie die Zeit der Jäger und Sammler endete.",
+        "news_datum": "2026-11-20"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-21",
+      "decision": {
+        "url": "https://www.spektrum.de/news/rodhals-mann-nach-ihm-der-ackerbau/2355396",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologie des Holozäns und frühe menschliche Landwirtschaft ohne Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-21"
     }
   ],
   "last_run": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "ready": 0,
-    "excluded": 13,
+    "excluded": 11,
     "pending": 2
   }
 }
