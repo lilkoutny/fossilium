@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 26,
+      "attempts": 27,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-21",
+      "last_attempt": "2026-11-22",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 18,
+      "attempts": 19,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-21",
+      "last_attempt": "2026-11-22",
       "error": "article:HTTPError"
     },
     {
@@ -8099,12 +8099,112 @@
         "reason": "Archäologie des Holozäns und frühe menschliche Landwirtschaft ohne Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
       },
       "last_attempt": "2026-11-21"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118074039.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Scientists say the human family tree may need a radical rewrite",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261118074039.htm",
+        "text": "The human family tree may need a major overhaul. New research from Monash University challenges the traditional classification of our ancient ancestors, arguing that species such as Australopithecus and Paranthropus should be grouped within our own genus, Homo. As scientists uncover more fossils and analyze evolutionary relationships, the boundaries that once separated these ancient relatives are becoming increasingly difficult to defend.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-22",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261118074039.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt die Evolution von Homininen (Australopithecus, Paranthropus, Homo). Dies fällt unter Primatologie und Säugetierevolution, nicht unter Dinosaurier, frühe Vögel, Flugsaurier oder Meeresreptilien. Außerhalb des Fokus von Fossilium."
+      },
+      "last_attempt": "2026-11-22"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/freistetters-formelwelt-die-evolvente/2352057",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Freistetters Formelwelt: Fairer laufen mit der Evolvente",
+        "url": "https://www.spektrum.de/kolumne/freistetters-formelwelt-die-evolvente/2352057",
+        "text": "In der Leichtathletik muss man schnell und fit sein – Mathematik spielt da keine Rolle. Wenn die Wettkämpfe aber auch fair ablaufen sollen, kommt man ohne diese Formel nicht aus.",
+        "news_datum": "2026-11-22"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-22",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/freistetters-formelwelt-die-evolvente/2352057",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und Leichtathletik. Kein Bezug zu Paläontologie, Dinosauriern oder den relevanten Tiergruppen."
+      },
+      "last_attempt": "2026-11-22"
+    },
+    {
+      "url": "https://www.spektrum.de/news/was-ist-leben-forscherin-petra-schwille-baut-es-im-labor-nach/2351192",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die großen Fragen der Wissenschaft: »Es könnte einen Verlauf von Lebendigkeit geben«",
+        "url": "https://www.spektrum.de/news/was-ist-leben-forscherin-petra-schwille-baut-es-im-labor-nach/2351192",
+        "text": "Ein Baum gilt als lebendig, ein Stein nicht. Was unterscheidet sie? Die Biophysikerin Petra Schwille versucht, diese Frage zu beantworten, indem sie künstliche Zellen erschafft.",
+        "news_datum": "2026-11-22"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-22",
+      "decision": {
+        "url": "https://www.spektrum.de/news/was-ist-leben-forscherin-petra-schwille-baut-es-im-labor-nach/2351192",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Biophysik und künstliche Zellen. Keine Bezüge zu Dinosauriern, fossilen Vögeln, Flugsauriern oder Meeresreptilien."
+      },
+      "last_attempt": "2026-11-22"
+    },
+    {
+      "url": "https://www.spektrum.de/news/infografik-wie-mitochondrien-unser-verhalten-beeinflussen/2345254",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Infografik: Wie Mitochondrien unser Verhalten beeinflussen",
+        "url": "https://www.spektrum.de/news/infografik-wie-mitochondrien-unser-verhalten-beeinflussen/2345254",
+        "text": "Mitochondrien liefern dem energiehungrigen Organ nicht nur die Power, sondern modulieren auch neuronale Netzwerke. Schwächeln sie, leiden Motivation und Gefühlsleben.",
+        "news_datum": "2026-11-22"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-22",
+      "decision": {
+        "url": "https://www.spektrum.de/news/infografik-wie-mitochondrien-unser-verhalten-beeinflussen/2345254",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Zellbiologie und Neurowissenschaften (Mitochondrien, neuronale Netzwerke). Allgemeine biologische Forschung außerhalb des Fokus."
+      },
+      "last_attempt": "2026-11-22"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-viele-moeglichkeiten-gibt-es/2264914",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie viele Möglichkeiten gibt es?",
+        "url": "https://www.spektrum.de/raetsel/wie-viele-moeglichkeiten-gibt-es/2264914",
+        "text": "Wie viele verschiedene Möglichkeiten gibt es, fünf verschiedene Zahlen mit dieser Voraussetzung auszuwählen?",
+        "news_datum": "2026-11-22"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-22",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-viele-moeglichkeiten-gibt-es/2264914",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel. Kein Bezug zu Paläontologie oder den relevanten Themen."
+      },
+      "last_attempt": "2026-11-22"
     }
   ],
   "last_run": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "ready": 0,
-    "excluded": 11,
+    "excluded": 5,
     "pending": 2
   }
 }
