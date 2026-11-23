@@ -32,7 +32,7 @@ class ProductionTests(unittest.TestCase):
                 p.model(self.db,p.load(self.db,self.jid),'test',{})
             post.assert_not_called()
     def test_daily_reservation_survives_provider_failure(self):
-        with patch.dict(os.environ,{'PIPELINE_ALLOW_PAID_CALLS':'1','ANTHROPIC_API_KEY':'test','PIPELINE_MAX_CALLS_PER_DAY':'1'}),patch.object(p.requests,'post',side_effect=RuntimeError('timeout')) as post:
+        with patch.object(p.budget,'prices_current'), patch.dict(os.environ,{'PIPELINE_ALLOW_PAID_CALLS':'1','ANTHROPIC_API_KEY':'test','PIPELINE_MAX_CALLS_PER_DAY':'1'}),patch.object(p.requests,'post',side_effect=RuntimeError('timeout')) as post:
             with self.assertRaises(RuntimeError): p.model(self.db,p.load(self.db,self.jid),'test',{})
             with self.assertRaisesRegex(p.Blocked,'daily_call_limit'): p.model(self.db,p.load(self.db,self.jid),'test',{})
             self.assertEqual(post.call_count,1)
