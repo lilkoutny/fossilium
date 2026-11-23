@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 27,
+      "attempts": 28,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-22",
+      "last_attempt": "2026-11-23",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 19,
+      "attempts": 20,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-22",
+      "last_attempt": "2026-11-23",
       "error": "article:HTTPError"
     },
     {
@@ -8199,12 +8199,233 @@
         "reason": "Mathematisches Rätsel. Kein Bezug zu Paläontologie oder den relevanten Themen."
       },
       "last_attempt": "2026-11-22"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "Archaeologists reveal a powerful Iron Age king may have been a woman",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+        "text": "Archaeologists have uncovered evidence that Verica, the Iron Age ruler whose exile helped trigger Rome’s invasion of Britain in AD 43, was actually a woman. The discovery challenges centuries of historical assumptions and suggests that a largely forgotten female leader may have changed the course of British history.",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Archäologie und Eisenzeit-Geschichte haben keinen Bezug zu Dinosauriern, frühen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/news/endliche-einfache-gruppen-ki-findet-fehler-im-laengsten-beweis/2355329",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "10 000 Seiten Mathematik: KI findet Fehler im längsten Beweis der Welt",
+        "url": "https://www.spektrum.de/news/endliche-einfache-gruppen-ki-findet-fehler-im-laengsten-beweis/2355329",
+        "text": "KI-Agenten haben den längsten Beweis der Mathematik vollständig geprüft und dabei Lücken geschlossen. Die wichtigste Frage bleibt aber offen.",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/news/endliche-einfache-gruppen-ki-findet-fehler-im-laengsten-beweis/2355329",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik und KI-Verifikation von Beweisen sind nicht relevant für Paläontologie oder die definierten Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/news/neue-umfrage-mehr-menschen-haben-angst-vor-krankheit/2355604",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Neue Umfrage in Deutschland: Mehr Angst vor Krankheiten, gesünderer Lebensstil",
+        "url": "https://www.spektrum.de/news/neue-umfrage-mehr-menschen-haben-angst-vor-krankheit/2355604",
+        "text": "Die Menschen in Deutschland befürchten zunehmend, beispielsweise an Krebs oder Demenz zu erkranken. Zugleich treiben sie eher Sport, essen gesünder und lassen sich impfen.",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/news/neue-umfrage-mehr-menschen-haben-angst-vor-krankheit/2355604",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Umfrage zu Gesundheitsangst und Lebensstil hat keinen Bezug zu Dinosauriern oder ausgestorbenen Reptilien."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/news/widerstand-warum-menschen-veraenderungen-ablehnen/2354507",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Widerstand: Zwölf Gründe, warum Menschen Veränderungen ablehnen",
+        "url": "https://www.spektrum.de/news/widerstand-warum-menschen-veraenderungen-ablehnen/2354507",
+        "text": "Ein neues Messinstrument erfasst, weshalb wir lieber alles beim Alten lassen: von der Angst vor dem Unbekannten bis zum Wunsch nach Selbstbestimmung.",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/news/widerstand-warum-menschen-veraenderungen-ablehnen/2354507",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologische Untersuchung zu Veränderungswiderstand ist nicht relevant für Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-liebe-krieg-und-diplomatie/2355583",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Die Geschichte eines Sensationsfundes",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-liebe-krieg-und-diplomatie/2355583",
+        "text": "Eheanbahnungen, streitende Könige und jede Menge Gold: Anhand der berühmten, 1887 gefundenen Amarna-Briefe beleuchtet Eric H. Cline die Welt der Spätbronzezeit. Eine Rezension",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-liebe-krieg-und-diplomatie/2355583",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Spätbronzezeit-Geschichte und Amarna-Briefe gehören zur Archäologie und sind nicht relevant für die definierten Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/alias/bilder-der-woche/im-schatten-der-giganten-der-marsvulkan-tharsis-tholus/2355385",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilder der Woche: Der Marsvulkan Tharsis Tholus",
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/im-schatten-der-giganten-der-marsvulkan-tharsis-tholus/2355385",
+        "text": "Der mittelgroße Marsvulkan Tharsis Tholus hat eine interessante geologische Geschichte, die auf eine bewegte Vergangenheit hinweist.",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/im-schatten-der-giganten-der-marsvulkan-tharsis-tholus/2355385",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geologie des Mars hat keinen Bezug zu Dinosauriern, frühen Vögeln, Flugsauriern oder Meeresreptilien."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/welches-zahlenpaar-ist-gesucht/2340114",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Welches Zahlenpaar ist gesucht?",
+        "url": "https://www.spektrum.de/raetsel/welches-zahlenpaar-ist-gesucht/2340114",
+        "text": "Welches ist das erste Zahlenpaar der Folge, dessen Quadratepaar diese Bedingung nicht mehr erfüllt?",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/welches-zahlenpaar-ist-gesucht/2340114",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel ist nicht relevant für Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/news/voegel-die-ueberlebenden-dinosaurier/2319520",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vögel: Welche Dinosaurier leben noch heute – und warum?",
+        "url": "https://www.spektrum.de/news/voegel-die-ueberlebenden-dinosaurier/2319520",
+        "text": "Vor 66 Millionen Jahren überstanden einige wenige Vögel den Asteroideneinschlag am Ende der Kreidezeit. Wie schafften sie das?",
+        "news_datum": "2026-11-23"
+      },
+      "status": "pending",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/news/voegel-die-ueberlebenden-dinosaurier/2319520",
+        "relevant": true,
+        "category": "early_bird",
+        "reason": "Artikel behandelt die Evolution von Vögeln aus Dinosauriern und deren Überstehen des Asteroideneinschlags - direkte Behandlung der Dinosaurier-Vogel-Evolution als zentrales Thema."
+      },
+      "last_attempt": "2026-11-23",
+      "error": "article:HTTPError"
+    },
+    {
+      "url": "https://www.spektrum.de/news/merkursonde-bepicolombo-erreicht-ihr-ziel/2355564",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Merkursonde: Merkursonde BepiColombo erreicht ihr Ziel",
+        "url": "https://www.spektrum.de/news/merkursonde-bepicolombo-erreicht-ihr-ziel/2355564",
+        "text": "Zehn Milliarden Kilometer hat die Raumsonde BepiColombo zurückgelegt und ist endlich am Ziel angekommen: dem Merkur. Im April 2027 sollen die wissenschaftlichen Messungen beginnen.",
+        "news_datum": "2026-11-23"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/news/merkursonde-bepicolombo-erreicht-ihr-ziel/2355564",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Raumfahrtmission zum Merkur ist nicht relevant für Paläontologie oder die definierten Fossiliengruppen."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/cop31-gescheiterte-konferenz-einer-zerbrechenden-welt/2352664",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "COP31 und das Ende des Multilateralismus: Gescheiterte Konferenz einer zerbrechenden Welt",
+        "url": "https://www.spektrum.de/kolumne/cop31-gescheiterte-konferenz-einer-zerbrechenden-welt/2352664",
+        "text": "Der Weltklimagipfel COP31 endet ohne einen Beschlusstext in einem Eklat. Die internationale Ordnung droht, an ihrer größten Herausforderung zu scheitern, kommentiert Mike Zeitz.",
+        "news_datum": "2026-11-22"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/cop31-gescheiterte-konferenz-einer-zerbrechenden-welt/2352664",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Klimapolitik und internationales Verhandlungsversagen haben keinen Bezug zu Dinosauriern oder Fossilien."
+      },
+      "last_attempt": "2026-11-23"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/vorsicht-denkfalle-das-dankbarkeits-paradox/2349418",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vorsicht, Denkfalle!: Das Dankbarkeits-Paradox",
+        "url": "https://www.spektrum.de/kolumne/vorsicht-denkfalle-das-dankbarkeits-paradox/2349418",
+        "text": "Wer dankbar ist, sagt »Danke«. Es könnte aber auch andersherum funktionieren, erklärt unser Psychologiekolumnist.",
+        "news_datum": "2026-11-21"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-23",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/vorsicht-denkfalle-das-dankbarkeits-paradox/2349418",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologische Kolumne zu Dankbarkeit ist nicht relevant für Paläontologie oder Fossilien."
+      },
+      "last_attempt": "2026-11-23"
     }
   ],
   "last_run": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "ready": 0,
-    "excluded": 5,
-    "pending": 2
+    "excluded": 10,
+    "pending": 3
   }
 }
