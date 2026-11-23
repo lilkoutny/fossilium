@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-18T13:38:07.964124+00:00",
+  "updated": "2026-11-23T16:29:28.113389+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "352fe91ba519eb76ca3f0b39e598daea",
+      "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+      "title": "Sauriervielfalt am Sambesi: Simbabwes frühe Dinosaurier waren keine südafrikanischen Ableger",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-23T16:29:28.111292+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "0cd2d795f5a9b126809672eb0b85ed0b",
       "url": "https://phys.org/news/2026-10-flexible-tails-boost-ancient-sea.html",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.850229+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "352fe91ba519eb76ca3f0b39e598daea",
-      "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
-      "title": "Sauriervielfalt am Sambesi: Simbabwes frühe Dinosaurier waren keine südafrikanischen Ableger",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.848313+00:00",
       "sources": [],
       "score": null,
       "script": null,
