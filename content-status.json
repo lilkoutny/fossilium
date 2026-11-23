@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-23T16:29:28.113389+00:00",
+  "updated": "2026-11-23T16:30:10.608861+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "d7596a6ac55e45d1fa71c19cccb76415",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
+      "title": "Außergewöhnlich erhaltenes Meeresreptil aus China gibt Einblick in ältestes bekanntes Verdauungssystem",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-23T16:30:10.607020+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "352fe91ba519eb76ca3f0b39e598daea",
       "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.851593+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "d7596a6ac55e45d1fa71c19cccb76415",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
-      "title": "Außergewöhnlich erhaltenes Meeresreptil aus China gibt Einblick in ältestes bekanntes Verdauungssystem",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.850229+00:00",
       "sources": [],
       "score": null,
       "script": null,
