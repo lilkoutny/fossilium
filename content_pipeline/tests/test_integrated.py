@@ -23,7 +23,7 @@ class IntegratedTests(unittest.TestCase):
   d=tempfile.mkdtemp()
   db=production.database(str(Path(d)/'state.sqlite')); jid=production.ingest(db,'https://example.org/model','Model'); row=production.load(db,jid); row['stage']='scoring'; production.save(db,row,'queued'); payload={'stop_reason':'end_turn','usage':{'input_tokens':100,'output_tokens':20},'content':[{'type':'text','text':'{"ok":true}'}]}
   env={'PIPELINE_ALLOW_PAID_CALLS':'1','ANTHROPIC_API_KEY':'x','FOSSILIUM_PAID_TEST_AUTHORIZED':'1','GITHUB_ACTIONS':'false','PIPELINE_UNATTENDED':'0'}
-  with patch.dict(os.environ,env),patch.object(production.requests,'post',return_value=type('R',(),{'raise_for_status':lambda s:None,'json':lambda s:payload})()) as post,patch.object(production,'now',return_value='2026-10-19T00:00:00+00:00'):
+  with patch.object(production.budget,'prices_current'),patch.dict(os.environ,env),patch.object(production.requests,'post',return_value=type('R',(),{'raise_for_status':lambda s:None,'json':lambda s:payload})()) as post,patch.object(production,'now',return_value='2026-10-19T00:00:00+00:00'):
    first=production.model(db,row,'same',{'x':1}); self.assertEqual(first,{'ok':True}); post.assert_called_once()
   with patch.object(production.requests,'post') as post,patch.object(production,'now',return_value='2026-10-20T00:00:00+00:00'):
    self.assertEqual(production.model(db,row,'same',{'x':1}),{'ok':True}); post.assert_not_called()
