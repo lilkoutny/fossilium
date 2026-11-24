@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-23T16:30:10.608861+00:00",
+  "updated": "2026-11-24T15:29:02.769737+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "ec33f808815213da7a0471ac630b7a1c",
+      "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
+      "title": "Meeresalgen als Nahrungsquelle: Dinosaurier an der Küste der Kreidezeit",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-24T15:29:02.767855+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "d7596a6ac55e45d1fa71c19cccb76415",
       "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.853197+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "ec33f808815213da7a0471ac630b7a1c",
-      "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
-      "title": "Meeresalgen als Nahrungsquelle: Dinosaurier an der Küste der Kreidezeit",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.851593+00:00",
       "sources": [],
       "score": null,
       "script": null,
