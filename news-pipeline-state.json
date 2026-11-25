@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 29,
+      "attempts": 30,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-24",
+      "last_attempt": "2026-11-25",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 21,
+      "attempts": 22,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-24",
+      "last_attempt": "2026-11-25",
       "error": "article:HTTPError"
     },
     {
@@ -8350,7 +8350,7 @@
         "news_datum": "2026-11-23"
       },
       "status": "pending",
-      "attempts": 2,
+      "attempts": 3,
       "first_seen": "2026-11-23",
       "decision": {
         "url": "https://www.spektrum.de/news/voegel-die-ueberlebenden-dinosaurier/2319520",
@@ -8358,7 +8358,7 @@
         "category": "early_bird",
         "reason": "Artikel behandelt die Evolution von Vögeln aus Dinosauriern und deren Überstehen des Asteroideneinschlags - direkte Behandlung der Dinosaurier-Vogel-Evolution als zentrales Thema."
       },
-      "last_attempt": "2026-11-24",
+      "last_attempt": "2026-11-25",
       "error": "article:HTTPError"
     },
     {
@@ -8720,12 +8720,275 @@
         "reason": "Literatur und Bergbaugeschichte - nicht relevant für Paläontologie oder Fossilien."
       },
       "last_attempt": "2026-11-24"
+    },
+    {
+      "url": "https://www.spektrum.de/alias/bilder-der-woche/vulkan-neues-land-vor-historischem-schlachtfeld/2356063",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Bilder der Woche: Vulkan formt historisches Schlachtfeld um",
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/vulkan-neues-land-vor-historischem-schlachtfeld/2356063",
+        "text": "Am 19. Februar 1945 begann hier eine mehrwöchige, blutige Schlacht um eine winzige Insel. Nun schuf ein Vulkan neues Land an historischer Stätte - vorübergehend.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/alias/bilder-der-woche/vulkan-neues-land-vor-historischem-schlachtfeld/2356063",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Handelt von Vulkangeologie und historischen Schlachtfeldern, kein Bezug zu Dinosauriern oder prähistorischem Leben."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/quantum-act-eu-will-die-quantenrevolution-nicht-verpassen/2356089",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Quantum Act: EU will Quantentechnologien mit 50 Milliarden Euro fördern",
+        "url": "https://www.spektrum.de/news/quantum-act-eu-will-die-quantenrevolution-nicht-verpassen/2356089",
+        "text": "Quantencomputer und -sensoren gelten als Schlüsseltechnologien. Mit viel Geld und einem neuen Gesetzesvorhaben soll Europas Industrie gestärkt und Abhängigkeiten verringert werden.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/quantum-act-eu-will-die-quantenrevolution-nicht-verpassen/2356089",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Quantentechnologie und EU-Förderpolitik, völlig außerhalb des paläontologischen Fokus."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/hemmer-und-messner-erzaehlen-vom-gesandten-hasekura/2335422",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Hemmer und Meßner erzählen: Kleine Geschichte eines Samurais, der römischer Bürger wurde",
+        "url": "https://www.spektrum.de/kolumne/hemmer-und-messner-erzaehlen-vom-gesandten-hasekura/2335422",
+        "text": "Im Jahr 1613 überquerte ein japanischer Gesandter den Pazifik in heikler Mission. Warum er sie bereits durch seine bloße Abfahrt zum Scheitern brachte, erzählen unsere Kolumnisten.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/hemmer-und-messner-erzaehlen-vom-gesandten-hasekura/2335422",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Historische Episode aus dem 17. Jahrhundert, kein wissenschaftlicher oder paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/leidenfrost-effekt-das-geheimnis-der-schwebenden-tropfen/2351900",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Leidenfrost-Effekt: Das Geheimnis der schwebenden Tropfen",
+        "url": "https://www.spektrum.de/news/leidenfrost-effekt-das-geheimnis-der-schwebenden-tropfen/2351900",
+        "text": "Auf einer heißen Platte beginnt ein Wassertropfen zu schweben. Dieser Leidenfrost-Effekt fasziniert nicht nur Physiker, sondern betrifft die Sicherheit von Reaktoren.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/leidenfrost-effekt-das-geheimnis-der-schwebenden-tropfen/2351900",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Physikalisches Phänomen, keine Verbindung zu Paläontologie oder ausgestorbenen Arten."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/warum-viele-baeume-diese-jahr-ihre-blaetter-ungewoehnlich-spaet-verlieren/2355997",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Goldener November: Warum viele Bäume ihre Blätter ungewöhnlich spät verlieren",
+        "url": "https://www.spektrum.de/news/warum-viele-baeume-diese-jahr-ihre-blaetter-ungewoehnlich-spaet-verlieren/2355997",
+        "text": "Rotbuchen, Stieleichen und Apfelbäume haben sich in diesem Jahr deutlich später verfärbt. Auch der Laubfall verzögert sich. Teilweise zeichnen sich Rekordwerte ab.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/warum-viele-baeume-diese-jahr-ihre-blaetter-ungewoehnlich-spaet-verlieren/2355997",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Botanisches Phänomen moderner Bäume, nicht relevant für fossile Organismen."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/junge-menschen-haben-zunehmend-weniger-sex/2355994",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Flaute im Bett: Junge Menschen haben zunehmend weniger Sex",
+        "url": "https://www.spektrum.de/news/junge-menschen-haben-zunehmend-weniger-sex/2355994",
+        "text": "Noch nie war Sexualität so präsent wie heute. Trotzdem werden junge Erwachsene immer seltener miteinander intim. Forschende sehen dahinter einen gesellschaftlichen Wandel.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/junge-menschen-haben-zunehmend-weniger-sex/2355994",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Biologie und Verhaltensforschung moderner Menschen, nicht paläontologisch relevant."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/aus-zwei-mach-eins-ein-stern-in-andromeda-schluckt-seinen-begleiter/2355148",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Aus zwei mach eins: Ein Stern in Andromeda verschlingt seinen Begleiter",
+        "url": "https://www.spektrum.de/news/aus-zwei-mach-eins-ein-stern-in-andromeda-schluckt-seinen-begleiter/2355148",
+        "text": "In der Andromedagalaxie konnte eine spektakuläre Verschmelzung rekonstruiert werden: Ein masseärmerer Stern stürzte in einen aufgeblähten Überriesen und verschmolz mit dessen Kern.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/aus-zwei-mach-eins-ein-stern-in-andromeda-schluckt-seinen-begleiter/2355148",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astrophysik und Sternendynamik, kein Bezug zu fossiler Paläontologie."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/seltene-erde/2355903",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Vom außergewöhnlichen Glück der Erde",
+        "url": "https://www.spektrum.de/rezension/seltene-erde/2355903",
+        "text": "Gibt es Leben auf anderen Planeten? Wenn ja: Was bedeutet das für unseren Umgang mit der Erde? Martin Gorke verbindet astrophysikalische mit ethischen Überlegungen. Eine Rezension",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/seltene-erde/2355903",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Philosophisch-astrophysikalische Betrachtung über extraterrestrisches Leben, nicht auf fossile Organismen fokussiert."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/raetsel/wie-viele-der-zahlen-sind-nullen/2340287",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Wie viele der Zahlen sind Nullen?",
+        "url": "https://www.spektrum.de/raetsel/wie-viele-der-zahlen-sind-nullen/2340287",
+        "text": "Bei wie vielen der Zahlen auf einem Blatt Papier handelt es sich mindestens um Nullen?",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/raetsel/wie-viele-der-zahlen-sind-nullen/2340287",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematisches Rätsel ohne wissenschaftlichen oder paläontologischen Inhalt."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/mission-energiewende-erneuerbare-wind-sonne-sicherheit/2355794",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Erneuerbare: Wind, Sonne, Sicherheit?",
+        "url": "https://www.spektrum.de/podcast/mission-energiewende-erneuerbare-wind-sonne-sicherheit/2355794",
+        "text": "Klima- und Sicherheitspolitik müssen stärker als vor ein paar Jahren zusammen gedacht werden, sagen Fachleute. Aber wie? Hören Sie die Podcast-Folge von »Mission Energiewende«. 🎙️",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/mission-energiewende-erneuerbare-wind-sonne-sicherheit/2355794",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Energiewirtschaft und Klimapolitik, kein Bezug zu Paläontologie oder Evolutionsbiologie."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/gesellige-delfine-leben-offenbar-laenger/2355654",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Freundschaften: Gesellige Delfine leben offenbar länger",
+        "url": "https://www.spektrum.de/news/gesellige-delfine-leben-offenbar-laenger/2355654",
+        "text": "Das Sozialleben von Delfinen verändert sich mit dem Alter und hängt auch mit der Lebensdauer zusammen. Besonders langlebig sind gesellige Tiere mit beständigen sozialen Mustern.",
+        "news_datum": "2026-11-24"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/gesellige-delfine-leben-offenbar-laenger/2355654",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Verhaltensforschung moderner Meeressäugetiere, nicht paläontologisch relevant."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.spektrum.de/news/dies-seltsamen-panzer-baertierchen-vom-tiefseeberg/2355893",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Biologische Vielfalt: Die seltsamen Panzer-Bärtierchen vom Tiefseeberg",
+        "url": "https://www.spektrum.de/news/dies-seltsamen-panzer-baertierchen-vom-tiefseeberg/2355893",
+        "text": "Rätselhafte Genitalstacheln und Verkindlichung: Zwei neu entdeckte Bärtierchen-Arten von einem untermeerischen Gipfel haben eigenwillige Merkmale.",
+        "news_datum": "2026-11-24"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://www.spektrum.de/news/dies-seltsamen-panzer-baertierchen-vom-tiefseeberg/2355893",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Bärtierchen und Zoologie, nicht fossil und nicht im paläontologischen Fokus."
+      },
+      "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag144",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "Total-evidence phylogeny and morphological character performance in tube-snouted electric fishes (Gymnotiformes:\n                    <i>Sternarchorhynchus</i>\n                    ): systematics and historical biogeography of the Guianas",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag144",
+        "text": "Total-evidence phylogeny and morphological character performance in tube-snouted electric fishes (Gymnotiformes:\n                    <i>Sternarchorhynchus</i>\n                    ): systematics and historical biogeography of the Guianas",
+        "news_datum": "2026-11-25",
+        "study_datum": "2026-11-25",
+        "doi": "10.1093/zoolinnean/zlag144",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-25",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag144",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Phylogenetische Studie moderner Süßwasserfische (Gymnotiformes), keine fossilen Organismen oder prähistorische Themen."
+      },
+      "last_attempt": "2026-11-25"
     }
   ],
   "last_run": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "ready": 0,
-    "excluded": 15,
+    "excluded": 13,
     "pending": 3
   }
 }
