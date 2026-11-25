@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-24T15:29:02.769737+00:00",
+  "updated": "2026-11-25T15:15:07.818182+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "49081c54bdce42249d94d267e68d08e7",
+      "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
+      "title": "Fossiler Speiballen: Wie Plesiosaurier ihren Verdauungsabfall an der Küste hinterließen",
+      "state": "failed",
+      "stage": "research",
+      "reason": "technical_error",
+      "updated": "2026-11-25T15:15:07.815429+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "ec33f808815213da7a0471ac630b7a1c",
       "url": "https://phys.org/news/2026-09-dinosaur-snacked-seaweed-north-american.html",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.854909+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "49081c54bdce42249d94d267e68d08e7",
-      "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
-      "title": "Fossiler Speiballen: Wie Plesiosaurier ihren Verdauungsabfall an der Küste hinterließen",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.853197+00:00",
       "sources": [],
       "score": null,
       "script": null,
