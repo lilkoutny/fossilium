@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-25T15:15:07.818182+00:00",
+  "updated": "2026-11-26T14:40:04.894946+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "e74808e109724ae680a82687d34e6d0d",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
+      "title": "Geheilte Rippenfraktur aus dem bekanntesten T.-rex-Skelett bewahrt 66 Millionen Jahre alte Blutgefäße",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-26T14:40:04.893198+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "49081c54bdce42249d94d267e68d08e7",
       "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.856386+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "e74808e109724ae680a82687d34e6d0d",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
-      "title": "Geheilte Rippenfraktur aus dem bekanntesten T.-rex-Skelett bewahrt 66 Millionen Jahre alte Blutgefäße",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.854909+00:00",
       "sources": [],
       "score": null,
       "script": null,
