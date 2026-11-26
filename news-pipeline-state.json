@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 30,
+      "attempts": 31,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-25",
+      "last_attempt": "2026-11-26",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 22,
+      "attempts": 23,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-25",
+      "last_attempt": "2026-11-26",
       "error": "article:HTTPError"
     },
     {
@@ -8350,7 +8350,7 @@
         "news_datum": "2026-11-23"
       },
       "status": "pending",
-      "attempts": 3,
+      "attempts": 4,
       "first_seen": "2026-11-23",
       "decision": {
         "url": "https://www.spektrum.de/news/voegel-die-ueberlebenden-dinosaurier/2319520",
@@ -8358,7 +8358,7 @@
         "category": "early_bird",
         "reason": "Artikel behandelt die Evolution von Vögeln aus Dinosauriern und deren Überstehen des Asteroideneinschlags - direkte Behandlung der Dinosaurier-Vogel-Evolution als zentrales Thema."
       },
-      "last_attempt": "2026-11-25",
+      "last_attempt": "2026-11-26",
       "error": "article:HTTPError"
     },
     {
@@ -8983,10 +8983,273 @@
         "reason": "Phylogenetische Studie moderner Süßwasserfische (Gymnotiformes), keine fossilen Organismen oder prähistorische Themen."
       },
       "last_attempt": "2026-11-25"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "This 345-million-year-old fossil had scientists fooled for decades",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+        "text": "A famous 345-million-year-old fossil has turned out to be something entirely different from what scientists believed for decades. Advanced X-ray imaging revealed hidden gills and thousands of tiny teeth, exposing a primitive aquatic or amphibious creature rather than an early reptile. The discovery suggests that several adaptations associated with life on land actually evolved in animals still dependent on water.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt ein primitives aquatisches/amphibisches Tier aus dem Karbon mit Kiemen und Zähnen. Dies ist eine frühe aquatische oder amphibische Kreatur, keine Dinosaurier, frühe Vögel, Flugsaurier oder ausgestorbenen Meeresreptilien gemäß Fossilium-Politik. Amphibien sind explizit ausgeschlossen."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/news/was-ist-intelligenz-menschliches-denken-kuenstliche-intelligenz/2347617",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Kognition: Was ist Intelligenz?",
+        "url": "https://www.spektrum.de/news/was-ist-intelligenz-menschliches-denken-kuenstliche-intelligenz/2347617",
+        "text": "Was macht Intelligenz aus? Vier Experten aus Tierkognition, Neurobiologie, Psychologie und KI-Forschung beleuchten diese Frage aus unterschiedlichen Blickwinkeln.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/news/was-ist-intelligenz-menschliches-denken-kuenstliche-intelligenz/2347617",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Allgemeine Kognitions- und KI-Forschung ohne Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder Meeresreptilien."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/video/christian-spannagel-mengenpuzzle/2356060",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Mengenpuzzle",
+        "url": "https://www.spektrum.de/video/christian-spannagel-mengenpuzzle/2356060",
+        "text": "Heutiges Thema im »Christian Spannagel«-Video: Mengenlehre.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/video/christian-spannagel-mengenpuzzle/2356060",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Mathematik-Video über Mengenlehre. Keine Relevanz für Paläontologie oder die definierten Themengebiete."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/news/morbus-crohn-welche-ernaehrung-in-der-jugend-das-risiko-erhoeht/2356142",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Morbus Crohn: Schädigen salzige Snacks in jungen Jahren den Darm?",
+        "url": "https://www.spektrum.de/news/morbus-crohn-welche-ernaehrung-in-der-jugend-das-risiko-erhoeht/2356142",
+        "text": "Die bei Jugendlichen so beliebten Chips, Flips und Cracker erhöhen das Risiko für chronisch-entzündliche Darmerkrankungen… vielleicht. Besser belegt ist der Schutzeffekt von Obst.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/news/morbus-crohn-welche-ernaehrung-in-der-jugend-das-risiko-erhoeht/2356142",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinischer Artikel über chronisch-entzündliche Darmerkrankungen und Ernährung. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/kolumne/satelliten-ein-fiebertraum-vom-rechenzentrum-im-weltall/2308328",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Gigantische Satelliten: Ein Fiebertraum namens orbitales Rechenzentrum",
+        "url": "https://www.spektrum.de/kolumne/satelliten-ein-fiebertraum-vom-rechenzentrum-im-weltall/2308328",
+        "text": "KI-Rechenzentren im Weltall – das könnte machbar sein. Aber zu welchem Preis? Und welches Motiv steckt eigentlich dahinter? Ein Kommentar von Thomas Siebel.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/kolumne/satelliten-ein-fiebertraum-vom-rechenzentrum-im-weltall/2308328",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Kommentar über KI-Rechenzentren im Weltall. Keine Verbindung zu Dinosauriern oder fossilen Organismen."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/news/ki-sprachmodell-matrizen-multiplizieren-ist-komplexer-als-gedacht/2356079",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Multiplikation von Matrizen: KI widerlegt eine der großen Hoffnungen der Informatik",
+        "url": "https://www.spektrum.de/news/ki-sprachmodell-matrizen-multiplizieren-ist-komplexer-als-gedacht/2356079",
+        "text": "Eine KI hat offenbar bewiesen, dass die Multiplikation von Matrizen aufwändiger ist als vermutet. Damit wäre erstmals eine mathematisch unüberwindbare Grenze gefunden.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/news/ki-sprachmodell-matrizen-multiplizieren-ist-komplexer-als-gedacht/2356079",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "KI und Informatik-Artikel über Matrizenmultiplikation. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/rezension/buchkritik-zu-der-letzte-akt/2356139",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Der Pilger, der Geschichte schrieb",
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-der-letzte-akt/2356139",
+        "text": "Antony Beevor zeigt Rasputin als schillernde Persönlichkeit ebenso wie als historischen Faktor beim Untergang des russischen Zarenreichs. Faszinierend. Eine Rezension",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/rezension/buchkritik-zu-der-letzte-akt/2356139",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Buchrezension über Rasputin und russische Geschichte. Keine Verbindung zu Paläontologie oder Fossilienforschung."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/news/vortragsabend-carl-sagan-heidelberg/2356024",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Astro-Veranstaltung in Heidelberg: Wissenschaftsabend zu Ehren von Carl Sagan",
+        "url": "https://www.spektrum.de/news/vortragsabend-carl-sagan-heidelberg/2356024",
+        "text": "Vor 30 Jahren starb Carl Sagan. Am 8. Dezember findet zu Ehren des US-Forschers und Kommunikators ein öffentlicher Abend mit drei astronomischen Kurzvorträgen in Heidelberg statt.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/news/vortragsabend-carl-sagan-heidelberg/2356024",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Ankündigung eines astronomischen Vortragsabends zu Ehren von Carl Sagan. Keine Verbindung zu Dinosauriern oder fossilen Organismen."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/wissen/fakt-oder-mythos-sind-koffein-pouches-gefaehrlich/2347436",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Fakt oder Mythos?: Sind Koffein-Pouches gefährlicher als Kaffee oder Energy-Drinks?",
+        "url": "https://www.spektrum.de/wissen/fakt-oder-mythos-sind-koffein-pouches-gefaehrlich/2347436",
+        "text": "Vor einer langen Partynacht noch schnell einen Beutel unter die Oberlippe: Koffein-Pouches sollen schneller wach machen als Kaffee. Aber stimmt das auch? Was die Wissenschaft sagt.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/wissen/fakt-oder-mythos-sind-koffein-pouches-gefaehrlich/2347436",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Artikel über Koffein-Pouches und deren Gesundheitsauswirkungen. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-eine-explosive-folge/2356010",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Eine explosive Folge",
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-eine-explosive-folge/2356010",
+        "text": "In dieser Folge des Podcasts »Geschichten aus der Geschichte« geht es um eine Geschichte über die Nobels, Sprengöl und Dynamit. 🎙️",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/geschichten-aus-der-geschichte-eine-explosive-folge/2356010",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Podcast-Folge über die Nobels, Sprengöl und Dynamit. Keine Verbindung zu Dinosauriern oder Fossilienforschung."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/hoergang-oesterreichs-neuer-lipid-konsensus/2356007",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Österreichs neuer Lipid-Konsensus",
+        "url": "https://www.spektrum.de/podcast/hoergang-oesterreichs-neuer-lipid-konsensus/2356007",
+        "text": "DL-C, Lipoprotein(a) und Statine – was sich für Prävention und Therapie in Österreich ändert, erfahren Sie in dieser Podcast-Folge von »Hörgang«. 🎙️",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/hoergang-oesterreichs-neuer-lipid-konsensus/2356007",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Medizinischer Podcast über Lipide und Statine. Keine paläontologische Relevanz."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.spektrum.de/news/spuren-des-einschlags-hera-entdeckt-riesigen-krater-auf-dimorphos/2356073",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Spuren des Einschlags der DART-Mission: Hera-Sonde entdeckt riesigen Krater auf Dimorphos",
+        "url": "https://www.spektrum.de/news/spuren-des-einschlags-hera-entdeckt-riesigen-krater-auf-dimorphos/2356073",
+        "text": "Am Abend des 25. November 2026 stellte die ESA neue Bilder der Hera-Sonde vor. Sie zeigen den riesigen Krater, den die NASA-Sonde DART auf Dimorphos hinterlassen hat.",
+        "news_datum": "2026-11-25"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://www.spektrum.de/news/spuren-des-einschlags-hera-entdeckt-riesigen-krater-auf-dimorphos/2356073",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomischer Artikel über die Hera-Sonde und einen Krater auf dem Asteroiden Dimorphos. Obwohl Asteroideneinschläge mit dem Dinosaurier-Aussterben verbunden sind, behandelt dieser Artikel nur die aktuelle DART/Hera-Mission ohne Fokus auf Dinosaurier oder das Aussterben."
+      },
+      "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://doi.org/10.1093/zoolinnean/zlag107",
+      "candidate": {
+        "quelle": "Zoological Journal of the Linnean Society",
+        "titel": "African\n                    <i>Milnesium</i>\n                    (Eutardigrada: Apochela) with descriptions of 15 new species from a southern biodiversity hotspot",
+        "url": "https://doi.org/10.1093/zoolinnean/zlag107",
+        "text": "African\n                    <i>Milnesium</i>\n                    (Eutardigrada: Apochela) with descriptions of 15 new species from a southern biodiversity hotspot",
+        "news_datum": "2026-11-25",
+        "study_datum": "2026-11-25",
+        "doi": "10.1093/zoolinnean/zlag107",
+        "journal_abstract": true
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-26",
+      "decision": {
+        "url": "https://doi.org/10.1093/zoolinnean/zlag107",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Zoologisches Journal-Artikel über afrikanische Tardigraden (Bärtierchen) mit 15 neuen Arten. Tardigraden sind moderne Mikrofauna und nicht Teil der definierten Fossiliengruppen. Insekten und allgemeine moderne Biologie sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-26"
     }
   ],
   "last_run": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "ready": 0,
     "excluded": 13,
     "pending": 3
