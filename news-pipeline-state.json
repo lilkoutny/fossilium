@@ -828,7 +828,7 @@
         "news_datum": "2026-11-02"
       },
       "status": "pending",
-      "attempts": 31,
+      "attempts": 32,
       "first_seen": "2026-11-03",
       "decision": {
         "url": "https://www.spektrum.de/news/dinosaurierknochen-enthaelt-noch-blut/2352350",
@@ -836,7 +836,7 @@
         "category": "dinosaur",
         "reason": "Zentrale Thematik: Chemische Analyse von versteinerten Strukturen in Dinosaurierknochen, möglicherweise erhaltene Blutspuren – direkter Fokus auf Dinosaurierforschung."
       },
-      "last_attempt": "2026-11-26",
+      "last_attempt": "2026-11-27",
       "error": "article:HTTPError"
     },
     {
@@ -1649,7 +1649,7 @@
         "news_datum": "2026-11-04"
       },
       "status": "pending",
-      "attempts": 23,
+      "attempts": 24,
       "first_seen": "2026-11-05",
       "decision": {
         "url": "https://www.spektrum.de/news/vogelfossil-wann-wurden-eulen-nachtaktiv/2352672",
@@ -1657,7 +1657,7 @@
         "category": "early_bird",
         "reason": "Fossiler Vogel aus der Grube Messel (47 Millionen Jahre alt) mit direktem Bezug zur Evolution früher Vögel und ihrer Ökologie. Das zentrale Thema ist die Evolutionsgeschichte eines fossilen Vogels."
       },
-      "last_attempt": "2026-11-26",
+      "last_attempt": "2026-11-27",
       "error": "article:HTTPError"
     },
     {
@@ -8350,7 +8350,7 @@
         "news_datum": "2026-11-23"
       },
       "status": "pending",
-      "attempts": 4,
+      "attempts": 5,
       "first_seen": "2026-11-23",
       "decision": {
         "url": "https://www.spektrum.de/news/voegel-die-ueberlebenden-dinosaurier/2319520",
@@ -8358,7 +8358,7 @@
         "category": "early_bird",
         "reason": "Artikel behandelt die Evolution von Vögeln aus Dinosauriern und deren Überstehen des Asteroideneinschlags - direkte Behandlung der Dinosaurier-Vogel-Evolution als zentrales Thema."
       },
-      "last_attempt": "2026-11-26",
+      "last_attempt": "2026-11-27",
       "error": "article:HTTPError"
     },
     {
@@ -9246,12 +9246,212 @@
         "reason": "Zoologisches Journal-Artikel über afrikanische Tardigraden (Bärtierchen) mit 15 neuen Arten. Tardigraden sind moderne Mikrofauna und nicht Teil der definierten Fossiliengruppen. Insekten und allgemeine moderne Biologie sind ausgeschlossen."
       },
       "last_attempt": "2026-11-26"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+      "candidate": {
+        "quelle": "ScienceDaily",
+        "titel": "These bizarre prehistoric mammals may have been misunderstood for 150 years",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+        "text": "Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. The discovery challenges a classic example of sexual dimorphism and raises questions about how historical biases have shaped our understanding of extinct animals.",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Behandelt prähistorische Säugetiere nach dem Dinosaurieraussterben. Beiläufige Erwähnung der Dinosaurierzeit reicht nicht; Säugetiere sind ausgeschlossen."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/news/kometen-im-dezember-2026-aktivitaet-von-10p-tempel-ist-aussergewoehnlich/2335135",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Kometen im Dezember 2026: Die Aktivität von 10P/Tempel ist außergewöhnlich",
+        "url": "https://www.spektrum.de/news/kometen-im-dezember-2026-aktivitaet-von-10p-tempel-ist-aussergewoehnlich/2335135",
+        "text": "Der Komet 10P/Tempel zeigte dieses Jahr eine ungewöhnlich starke Aktivität. Nun stellt sich die Frage, wie sich der Komet weiterentwickeln wird – und ob er zerfällt.",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/news/kometen-im-dezember-2026-aktivitaet-von-10p-tempel-ist-aussergewoehnlich/2335135",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomie/Kometenforschung, kein Bezug zu Dinosauriern, fossilen Vögeln, Flugsauriern oder ausgestorbenen Meeresreptilien."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/wtf-talk-tradwives/2356232",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Tradwives",
+        "url": "https://www.spektrum.de/podcast/wtf-talk-tradwives/2356232",
+        "text": "Sozialpädagogin und Therapeutin Ruth Habeland sowie die Expertin für Konsumkultur Rebecca Wismeg-Kammerlan über das Thema »Tradwives«. 🎙️",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/wtf-talk-tradwives/2356232",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Gesellschaftspolitisches Podcast-Thema, kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/forschungsquartett-ein-schluessel-fuer-die-energiewende/2356229",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Warum ein Schlüssel für die Energiewende tief im Boden liegt",
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-ein-schluessel-fuer-die-energiewende/2356229",
+        "text": "Von Geothermie bis zur sicheren CO₂-Speicherung liefert Geowissenschaft unverzichtbare Bausteine für ein nachhaltiges Klima. Hören Sie diese Podcast-Folge von »Forschungsquartett«. 🎙️",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/forschungsquartett-ein-schluessel-fuer-die-energiewende/2356229",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Geothermie und Energiewende, kein Bezug zur Paläontologie oder fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/news/flugroboter-fliegendes-roboter-insekt-steuert-sich-selbst/2356352",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Autonomer Flugroboter: Fliegendes Roboter-Insekt steuert sich selbst",
+        "url": "https://www.spektrum.de/news/flugroboter-fliegendes-roboter-insekt-steuert-sich-selbst/2356352",
+        "text": "Ein winziger Flugroboter kann selbstständig seine Position bestimmen und Ziele ansteuern – ganz ohne Kamera. So könnte er künftig Blüten bestäuben, wo es keine Bienen mehr gibt.",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/news/flugroboter-fliegendes-roboter-insekt-steuert-sich-selbst/2356352",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Robotik und künstliche Insekten, kein Bezug zu Dinosauriern oder ausgestorbenen Tieren."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/news/autismus-hirnaktivitaet-deutet-auf-zwei-subtypen-hin/2329655",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Neurowissenschaft: Hirnscans liefern Hinweise auf zwei verschiedene Formen von Autismus",
+        "url": "https://www.spektrum.de/news/autismus-hirnaktivitaet-deutet-auf-zwei-subtypen-hin/2329655",
+        "text": "Schon länger fahnden Forscher nach charakteristischen Signaturen im Gehirn von Autisten. Nun stießen sie anhand der Hirnaktivität auf zwei Subtypen – und es könnte noch mehr geben.",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/news/autismus-hirnaktivitaet-deutet-auf-zwei-subtypen-hin/2329655",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Neurowissenschaft und medizinisches Thema, kein paläontologischer Bezug."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/news/smartphone-und-essstoerungen-risiko-fuer-jugendliche-erhoeht/2355395",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Medienkonsum: Wer mit zwölf ein Handy hat, zeigt häufiger Anzeichen von Essstörungen",
+        "url": "https://www.spektrum.de/news/smartphone-und-essstoerungen-risiko-fuer-jugendliche-erhoeht/2355395",
+        "text": "Eine Langzeitstudie mit fast 9000 Jugendlichen findet einen Zusammenhang zwischen frühem Smartphonebesitz und Essstörungssymptomen.",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/news/smartphone-und-essstoerungen-risiko-fuer-jugendliche-erhoeht/2355395",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Psychologie und Medienkonsum, kein Bezug zu Paläontologie."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/news/skandal-im-18-jahrhundert-der-herr-geheimagent-war-eine-dame/2331164",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Skandal im 18. Jahrhundert: Der Herr Geheimagent war eine Dame",
+        "url": "https://www.spektrum.de/news/skandal-im-18-jahrhundert-der-herr-geheimagent-war-eine-dame/2331164",
+        "text": "Und plötzlich war aus Charles d’Éon Charlotte geworden. Warum wechselte der französische Diplomat vor mehr als 250 Jahren seine Identität? War alles nur ein Trick?",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/news/skandal-im-18-jahrhundert-der-herr-geheimagent-war-eine-dame/2331164",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Historische Biografie, kein Bezug zu fossilen Organismen."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/podcast/astrogeo-als-das-universum-juenger-als-die-erde-war/2356208",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Als das Universum jünger als die Erde war",
+        "url": "https://www.spektrum.de/podcast/astrogeo-als-das-universum-juenger-als-die-erde-war/2356208",
+        "text": "Als Astronomen im Jahr 1948 das neue, größte Teleskop der Welt in Betrieb nahmen, ahnten sie nicht, was es als Erstes entdecken würde. 🎙️",
+        "news_datum": "2026-11-27"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/podcast/astrogeo-als-das-universum-juenger-als-die-erde-war/2356208",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Astronomiegeschichte, kein Bezug zu Dinosauriern oder fossilen Reptilien."
+      },
+      "last_attempt": "2026-11-27"
+    },
+    {
+      "url": "https://www.spektrum.de/news/birding-in-vice-city-auch-vogelbeobachter-haben-ihren-spass-an-gta-vi/2356211",
+      "candidate": {
+        "quelle": "Spektrum der Wissenschaft",
+        "titel": "Birding in Vice City: Auch Vogelbeobachter haben ihren Spaß an GTA VI",
+        "url": "https://www.spektrum.de/news/birding-in-vice-city-auch-vogelbeobachter-haben-ihren-spass-an-gta-vi/2356211",
+        "text": "Mitten in der virtuellen Gangsterwelt lässt sich eine erstaunlich realistische Vogelbeobachtungstour unternehmen. Birder prüfen, wie wirklichkeitsnah die digitale Vogelwelt ist.",
+        "news_datum": "2026-11-26"
+      },
+      "status": "excluded",
+      "attempts": 1,
+      "first_seen": "2026-11-27",
+      "decision": {
+        "url": "https://www.spektrum.de/news/birding-in-vice-city-auch-vogelbeobachter-haben-ihren-spass-an-gta-vi/2356211",
+        "relevant": false,
+        "category": "excluded",
+        "reason": "Moderne Vögel und Videospiele, kein Bezug zu fossilen Vögeln oder Dinosauriern."
+      },
+      "last_attempt": "2026-11-27"
     }
   ],
   "last_run": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "ready": 0,
-    "excluded": 13,
+    "excluded": 10,
     "pending": 3
   }
 }
