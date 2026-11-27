@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-26T14:40:04.894946+00:00",
+  "updated": "2026-11-27T14:36:56.724984+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "968d461a027afd606f56a6e8c82ac6bb",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
+      "title": "Körpertemperatur von T. rex erstmals direkt gemessen",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-27T14:36:56.722641+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "e74808e109724ae680a82687d34e6d0d",
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "",
       "updated": "2026-11-03T16:40:25.857713+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "968d461a027afd606f56a6e8c82ac6bb",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
-      "title": "Körpertemperatur von T. rex erstmals direkt gemessen",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.856386+00:00",
       "sources": [],
       "score": null,
       "script": null,
