@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "updated": "2026-11-27T14:36:56.724984+00:00",
+  "updated": "2026-11-28T13:49:20.148105+00:00",
   "mode": "research_script",
   "automatic_video": false,
   "jobs": [
+    {
+      "id": "c8d44fb9725ae48be8fcf712e769a165",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
+      "title": "Diplodocus erstmals außerhalb Nordamerikas in Spanien nachgewiesen",
+      "state": "blocked",
+      "stage": "research",
+      "reason": "api_not_enabled",
+      "updated": "2026-11-28T13:49:20.146514+00:00",
+      "sources": [],
+      "score": null,
+      "script": null,
+      "review": null
+    },
     {
       "id": "968d461a027afd606f56a6e8c82ac6bb",
       "url": "https://www.sciencedaily.com/releases/2026/09/260919031020.htm",
@@ -383,19 +396,6 @@
       "stage": "research",
       "reason": "technical_error",
       "updated": "2026-11-03T16:40:26.079715+00:00",
-      "sources": [],
-      "score": null,
-      "script": null,
-      "review": null
-    },
-    {
-      "id": "c8d44fb9725ae48be8fcf712e769a165",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260918024807.htm",
-      "title": "Diplodocus erstmals außerhalb Nordamerikas in Spanien nachgewiesen",
-      "state": "queued",
-      "stage": "research",
-      "reason": "",
-      "updated": "2026-11-03T16:40:25.857713+00:00",
       "sources": [],
       "score": null,
       "script": null,
